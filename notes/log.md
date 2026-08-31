@@ -157,3 +157,38 @@ scalars (`photoAlt: >-`) throughout.
 
 Verified at 1920×1080 and 390×844 — grid and a detail page, both viewports,
 0 elements outside the viewport at 390. `pnpm check` green (7 tests).
+
+## Lectures: all twelve panels stood up
+
+Created `src/content/lectures/week-03.md` … `week-12.md` and rewrote the
+frontmatter of the two starter entries, so the lectures listing now renders
+twelve cards in week order instead of two. Titles and one-line descriptions
+come straight from PLAN.md §3 — theory named, then the mechanic it maps onto.
+
+**Panels only, deliberately.** Each body is a one-line placeholder behind a
+`STARTER_CONTENT` marker. That keeps `pnpm check:evidence` red until the
+lectures are actually written, which is the honest state: the schedule exists,
+the content does not. `pnpm check` is green (7 tests, 29 pages) because the
+evidence gate is a separate, ship-time check.
+
+Dates are the twelve Mondays from `2027-02-22`, so Week 12 lands `2027-05-10`
+— inside the `endDate` of `2027-05-28` that `data-integrity` asserts against.
+
+Teaching assignments follow what each staff page already claims as its remit,
+rather than round-robin: Marisol Quaye (convenor) takes 1, 3, 4, 11, 12; Idris
+Fenn the mobility weeks 2, 5, 6; Nadia Ilkhom infrastructure and resilience,
+7 and 10; Tobias Wren budget and public realm, 8 and 9. Sunniva Marek is a
+guest juror whose page says they appear at pin-ups only, so they lecture in no
+week.
+
+Moved the `assessments/assignment-1` related edge off Week 2 and onto Week 4,
+where PLAN.md actually has that assessment due. Week 2 keeps its session edge.
+
+Two things left as-is and worth naming: the `slides:` deck is still on Week 1
+while PLAN.md §3 wants the real deck in Week 7 (moving it means moving
+`src/decks/week-01.deck.mdx`, not just the frontmatter), and the prose at the
+top of `src/pages/lectures/index.mdx` is still starter copy.
+
+Verified at 1920×1080 and 390×844 in Chrome via device emulation: 12 cards
+both times, two columns on desktop, one on mobile, 0 elements outside the
+390px viewport.

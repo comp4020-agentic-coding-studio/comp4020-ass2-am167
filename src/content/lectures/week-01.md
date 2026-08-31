@@ -1,8 +1,9 @@
 ---
-title: Opening lecture
-description:
-  The first lecture — what the course is, why it is shaped this way, and what
-  happens in week 1
+title: "Site Analysis and the Blank Map"
+description: >-
+  Terrain, climate and constraint as the first design move — reading a site
+  before a single road goes down, and naming the three metrics the studio is
+  marked against all semester.
 week: 1
 date: 2027-02-22
 teachers:
@@ -14,17 +15,6 @@ related:
 
 <!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
 
-Replace this page. A lecture entry says what was covered and links to the pages
-that own the detail, so the lecture stays short and nothing is explained twice.
-
-The `related:` ref above is a graph edge: it renders on this page and on the
-session's, so declare a connection once, on whichever side is convenient.
-
-The page renders its `slides:` link automatically. Decks are markdown too,
-under `src/decks/`; the path is part of the lecture's API metadata.
-
-## Outline
-
-- what the course is for
-- how the weeks are shaped
-- what to do before the first session
+Scheduled but not yet written. Week 1 of the studio covers Site Analysis and
+the Blank Map; the lecture body, its mapped simulation mechanic and its
+related edges land when the week is written up.
