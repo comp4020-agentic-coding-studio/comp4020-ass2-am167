@@ -4,7 +4,7 @@ description: >-
   Land value capture and the service-funding tradeoff — what a district can
   actually afford, and what it gives up in order to afford it.
 week: 8
-date: 2027-04-12
+date: 2027-04-26
 teachers:
   - tobias-wren
 ---

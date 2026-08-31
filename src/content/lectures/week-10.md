@@ -5,7 +5,7 @@ description: >-
   planning for the conditions a district meets once and remembers for a
   decade.
 week: 10
-date: 2027-04-26
+date: 2027-05-10
 teachers:
   - nadia-ilkhom
 ---

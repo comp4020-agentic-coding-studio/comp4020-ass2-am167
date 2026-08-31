@@ -192,3 +192,24 @@ top of `src/pages/lectures/index.mdx` is still starter copy.
 Verified at 1920×1080 and 390×844 in Chrome via device emulation: 12 cards
 both times, two columns on desktop, one on mobile, 0 elements outside the
 390px viewport.
+
+## Mid-semester break folded into the calendar
+
+Teaching breaks for two weeks after Week 6, so Weeks 7–12 moved back fourteen
+days: Week 7 is now `2027-04-19` and Week 12 `2027-05-24`, still inside the
+`2027-05-28` `endDate` that `data-integrity` guards.
+
+Added `spec/calendar.test.ts` rather than just editing six dates. The break is
+invisible from any single page — it only exists as the relationship between
+twelve dates — which is exactly the kind of thing that drifts silently when
+sessions and assessments get written against the same weeks later. Three
+assertions: every week 1–12 present exactly once, every lecture on a Monday,
+and exactly one gap that isn't seven days, positioned after Week 6 and lasting
+twenty-one.
+
+Checked it actually bites by putting Week 7 back to `04-05` and rebuilding:
+`expected [ 'week 7 → 21 days' ] to deeply equal [ 'week 6 → 21 days' ]` — the
+failure names the week the break moved to, not just "a date is wrong". Restored
+and green: 10 tests across 4 files.
+
+Calendar recorded in PLAN.md §3 so the sessions and assessments inherit it.

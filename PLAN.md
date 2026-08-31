@@ -73,6 +73,11 @@ crit." (draft — will land in range once finalised)
 
 ## 3. The twelve weeks
 
+**Calendar.** Teaching runs Mondays from `2027-02-22`, interrupted by a
+two-week mid-semester break after Week 6. So Weeks 1–6 are `02-22` … `03-29`,
+and Weeks 7–12 resume `04-19` … `05-24`. Sessions and assessments use the same
+calendar as their week's lecture. `spec/calendar.test.ts` asserts this shape.
+
 Each week pairs a lecture (the theory + its mapped mechanic) with a studio
 session (the build, critique, or stress-test). Twelve of each clears
 "twelve dated teaching weeks" and the ~20-page target well on its own.

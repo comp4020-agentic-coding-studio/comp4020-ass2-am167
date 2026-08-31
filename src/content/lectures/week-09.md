@@ -4,7 +4,7 @@ description: >-
   Jacobs on eyes-on-the-street, and the third place — what public space is
   doing when it works, and how to read a plaza that does not.
 week: 9
-date: 2027-04-19
+date: 2027-05-03
 teachers:
   - tobias-wren
 ---

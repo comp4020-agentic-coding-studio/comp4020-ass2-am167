@@ -4,7 +4,7 @@ description: >-
   Water, sewage and power as capacity-constrained networks — where headroom
   runs out, and how one quiet failure cascades into the next.
 week: 7
-date: 2027-04-05
+date: 2027-04-19
 teachers:
   - nadia-ilkhom
 ---

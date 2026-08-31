@@ -5,7 +5,7 @@ description: >-
   things the simulation abstracts away, and why knowing your model's edges is
   design literacy.
 week: 11
-date: 2027-05-03
+date: 2027-05-17
 teachers:
   - marisol-quaye
 ---

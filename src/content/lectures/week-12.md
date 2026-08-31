@@ -4,7 +4,7 @@ description: >-
   The comprehensive plan as an argument — drawing twelve weeks of district
   decisions into one whole a jury can be walked through and can push back on.
 week: 12
-date: 2027-05-10
+date: 2027-05-24
 teachers:
   - marisol-quaye
 ---
