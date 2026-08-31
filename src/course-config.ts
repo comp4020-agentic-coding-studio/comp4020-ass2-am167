@@ -52,7 +52,7 @@ export const courseMeta = slopCourseMetaSchema.parse({
   title: "Course Title Goes Here",
   session: "Semester 1",
   year: 2027,
-  level: 1,
+  level: 2,
   startDate: "2027-02-22",
   endDate: "2027-05-28",
   description:
