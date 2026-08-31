@@ -213,3 +213,44 @@ failure names the week the break moved to, not just "a date is wrong". Restored
 and green: 10 tests across 4 files.
 
 Calendar recorded in PLAN.md §3 so the sessions and assessments inherit it.
+
+## Studios: all twelve panels, paired to their lectures
+
+Twelve entries in `src/content/sessions/`, one per teaching week, titled and
+described from PLAN.md §3's studio column. Bodies are one-line placeholders
+behind `STARTER_CONTENT`, same as the lectures — the schedule is real, the
+content is not, and `check:evidence` should keep saying so.
+
+**Test first, this time properly.** Extended `spec/calendar.test.ts` with a
+pairing assertion before writing any studio, and watched it fail with
+`expected [ 1, 2 ] to deeply equal [ 1, 2, 3, … ]` — the two starter sessions
+against the twelve weeks the lectures already claim. The assertion is that
+each week has both a lecture and a studio *on the same date*, so the two
+collections are checked against each other rather than each being internally
+consistent on its own. A week that teaches a lecture and never runs the studio
+is a week the course claims and does not deliver, and nothing else in the
+suite would have caught it.
+
+**Renamed the two starter sessions** (`01-getting-started`, `02-first-review`)
+to `01-site-selection` and `02-block-pattern`, because the slug is in the URL
+and "getting started" is not what week 1 of this studio does. That meant
+repointing the `related:` refs in the week 1 and 2 lectures — `reference()`
+validates those at build time, so a stale ref is a build failure rather than a
+silent 404, which is the right trade.
+
+**Graph edges declared from the studio side** for weeks 3–12; weeks 1–2 keep
+theirs on the lecture, which was already committed. Edges are undirected, so
+declaring both ends would duplicate. 14 edges, 32 nodes.
+
+**Sunniva Marek is on weeks 4, 6, 9 and 12 only** — their people page says
+their feedback arrives at the jury in exactly those weeks, so the assessed
+pin-ups list them alongside the week's tutor and no other studio does. Checked
+the week 4 detail page renders both, plus the edge to the week 4 lecture.
+
+Verified at 1920×1080 and 390×844: 12 cards both, 0 elements outside the 390px
+viewport. `pnpm check` green — 11 tests, 39 pages.
+
+**Tooling note:** `astro preview stop` reported "No preview server is running"
+while a detached `astro preview` was still holding port 4323. Had to find it
+with `lsof -nP -iTCP:4323 -sTCP:LISTEN` and kill the pid directly. Worth
+checking the port, not the command's word for it.

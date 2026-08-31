@@ -10,7 +10,7 @@ teachers:
   - marisol-quaye
 slides: /decks/week-01/
 related:
-  - sessions/01-getting-started
+  - sessions/01-site-selection
 ---
 
 <!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->

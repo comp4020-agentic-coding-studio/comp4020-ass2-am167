@@ -58,6 +58,10 @@ say what they are for.
   it, and prints the port it actually bound. Read the port out of the
   command's own output, and sanity-check page identity (e.g. `curl -s <url> |
   grep '<title>'`) before screenshotting.
+- **`astro preview stop` can lie about having stopped.** A preview started
+  detached in the background may keep holding its port after the stop command
+  reports no server running. Confirm with `lsof -nP -iTCP:<port> -sTCP:LISTEN`
+  and kill the pid directly, or the next preview silently binds elsewhere.
 - **Set the marked viewports by device emulation, not window resizing.** Chrome
   will not shrink a window below its own minimum, so asking for 390×844 by
   resizing silently yields something wider and every measurement taken in it is
