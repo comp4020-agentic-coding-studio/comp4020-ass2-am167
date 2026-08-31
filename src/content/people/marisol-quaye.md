@@ -1,21 +1,30 @@
 ---
 title: Marisol Quaye
 description:
-  The founding convenor, responsible for the course's shape and its weekly
-  teaching programme.
-affiliation: Slop University School of Invented Disciplines
+  Convenes the studio, writes the weekly briefs, and chairs every jury from the
+  first pin-up to the final review.
+affiliation: Slop University School of Urban Design
 role: convenor
 email: marisol.quaye@slop.university
-contact: Email for course-level questions; use the weekly session for feedback on work.
-photo: ./marisol-quaye.avif
-photoAlt: A stylised portrait of a person in three-quarter view, flat gold and black shapes on warm cream, in a two-ink risograph print
+contact:
+  Desk crits Tuesdays 13:00–16:00 in Studio 2.14. Briefs, marks, extensions and
+  adjustments come to me and to nobody else.
 ---
 
-<!-- STARTER_CONTENT: replace this person entry, then remove this comment. -->
+Marisol spent eight years in the strategic planning unit of a regional authority
+before coming to teaching, most of it at the unglamorous end of the work:
+rate-base modelling, developer contribution schedules, the arithmetic of who
+pays for a road. Their research is on land-value capture — specifically, on what
+happens to a council's balance sheet in the decade after it upzones a corridor,
+which turns out to be a less cheerful story than the corridor's brochures
+suggested.
 
-Replace this entry. A people page carries a short bio and whatever a student
-needs in order to contact the right person for the right thing --- and nothing
-that will be stale by week 3.
+They started running the studio inside a simulation after a decade of marking
+neighbourhood plans that could not have worked. "You can draw a transit spine
+with a ruler in an afternoon," they say. "What you cannot draw is anybody
+choosing to ride it. The model will not let you skip that, and I have never
+found a crit that could."
 
-Consultation hours, contact preferences and the escalation path (who to ask
-first, who to ask when that does not work) are the parts students actually read.
+They take the Week 1–3 lectures — site analysis, block pattern, zoning — and
+chair the Week 12 capstone review. Expect to be asked which of the three metrics
+you traded, and to keep being asked until you name it.

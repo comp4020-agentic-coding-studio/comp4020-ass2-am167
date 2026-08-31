@@ -8,6 +8,19 @@ export const sessionLabels = {
   plural: "Studios",
 } as const;
 
+// The people collection's role values, in the studio's own language. Both the
+// people grid and the individual person pages read this, so a label only ever
+// has to change in one place --- and `guest` reads as the visiting critic the
+// policies page tells students to expect at assessed juries.
+export const roleLabels = {
+  convenor: "Course convenor",
+  tutor: "Studio tutor",
+  guest: "Visiting critic",
+  other: "",
+} as const;
+
+export const roleOrder = ["convenor", "tutor", "guest", "other"] as const;
+
 export const graphCollections = ["sessions", "assessments", "lectures", "people"];
 
 export const courseApiCollections = [

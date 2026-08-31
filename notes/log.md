@@ -55,3 +55,61 @@ page needs rewriting to match before this is coherent to a marker.
 
 (Initial draft said "Studio Director" throughout; changed to "Course Convenor"
 on request mid-task.)
+
+## 2026-08-31 — Teaching team
+
+Fleshed out `/people/`: rewrote the two starter entries as real people and added
+three more, so the cast is a convenor, three tutors and a visiting critic.
+
+- **Marisol Quaye** — Course convenor. Land-value capture research, ex-strategic
+  planning unit. Weeks 1–3 and the Week 12 capstone review.
+- **Idris Fenn** — Studio tutor, mobility. Transport modelling background;
+  Weeks 5–6 and the peak-load stress test.
+- **Nadia Ilkhom** — Studio tutor, infrastructure. Water engineer; owns Week 7,
+  which is the one week with a real deck.
+- **Tobias Wren** — Studio tutor, fiscal and public realm. Weeks 8–9.
+- **Sunniva Marek** — Visiting critic, external practice. Juries only.
+
+Each tutor owns a named stretch of the semester rather than being
+interchangeable staff, so the people page and the twelve-week arc corroborate
+each other instead of just coexisting. Bios reference the three metrics and the
+weekly deliverable format, which keeps the studio thesis present on a page that
+would otherwise be a staff directory.
+
+Every bio uses they/them. Assigning gendered pronouns to invented staff off the
+back of invented names is a guess with no upside, and a course site is exactly
+the register where the neutral default reads as normal rather than as a
+statement.
+
+**Closes the coherence gap flagged in the policies entry.** The policies page
+sends students to a "Course Convenor" and warns that the "Visiting Critic" does
+not take student email; both roles now exist and say the same thing. The people
+index links into `/policies/#where-to-ask-what` so the routing table is one
+click away, and the visiting critic's contact line matches the policy verbatim.
+
+Two supporting changes:
+
+- **`roleLabels` moved into `src/site-config.ts`.** `PeopleGrid.astro` and
+  `people/[slug].astro` each carried their own copy of the same map, which is
+  how a grid and a detail page drift apart. Both now import it, along with
+  `roleOrder`. The labels are also now the studio's own words — `guest` renders
+  as "Visiting critic", not the theme's "Guest lecturer".
+- **`people/index.mdx` gained an intro.** A bare grid does not tell a student
+  who to go to for what; two sentences and a link to the routing table do.
+
+TDD again: `spec/people.test.ts` written first, red on two of three. Contracts:
+every role the policies page sends students to is actually filled (matched on
+the rendered label, which is what a student reads, not the machine role);
+every person has a contact line, since the home page promises "how to reach
+them"; no person page still carries a starter marker or placeholder prose.
+
+Verified in Chrome at 1920×1080 and 390×844 — grid, a person page, and the
+mobile single-column stack. 0 elements outside the viewport at 390.
+`pnpm check` green (7 tests).
+
+**Blocked:** `src/content/people/marisol-quaye.avif` and `idris-fenn.avif` are
+starter artwork and `pnpm check:evidence` fails on both. The entries no longer
+reference them, so they are orphaned files on disk. They need deleting (the
+evidence check explicitly allows a deleted file, and an image-free treatment is
+what PLAN §5 proposed) or replacing with commissioned portraits. Deletion was
+blocked by the permission classifier — raised with the user.
