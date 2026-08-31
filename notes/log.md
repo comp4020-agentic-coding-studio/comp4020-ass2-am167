@@ -345,3 +345,24 @@ Verified at 1920×1080 and 390×844: 3 cards, 0 elements outside the viewport.
 Checked a brief's detail page at 390 too, since the marking table is the thing
 most likely to overflow there — right edge 372 of 390, criteria intact.
 `pnpm check` green: 14 tests, 40 pages.
+
+## Outstanding state written down (PLAN.md §11)
+
+Ran `pnpm check:evidence` to enumerate what is unfinished rather than listing
+it from memory, and wrote the result into PLAN.md as a new §11, split by
+whether an item blocks the published spec or is only a plan item. Also fixed
+PLAN's stale header ("Nothing in this plan has been implemented yet") and
+resolved §10's open questions against what actually got built, leaving only
+the artwork one open.
+
+The gate's output turned up two things I would not have listed unprompted:
+`PROCESS.md` cites two commit hashes (`a1b2c3d`, `e4f5a6b`) that do not exist
+in this repo, and `src/decks/week-01.deck.mdx` is still the starter deck —
+which is spec-blocking, not merely untidy, since the spec requires one real
+deck linked from a lecture page. The link is real and the deck behind it is
+not, which is exactly the kind of gap a green `pnpm check` will never show.
+
+Also confirmed `src/assets/images/` is gone entirely: the hero and social card
+were deleted rather than replaced. The evidence check accepts a deleted starter
+image, so this passes — but it means the site currently ships with no hero and
+no social card, which should be a decision rather than a leftover.

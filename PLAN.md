@@ -1,6 +1,8 @@
 # PLAN: SLOP2418 — Urban Design Studio: Foundations of the Good City
 
-Status: draft for review. Nothing in this plan has been implemented yet.
+Status: partly built. The teaching calendar, the cast and the assessment
+structure are in place; every page body is still a placeholder. See §11 for
+what is outstanding.
 
 ## 1. Concept
 
@@ -196,15 +198,52 @@ rather than just asserted.
 - **Hero/card imagery is a real production task**, not just copy — flagged
   in §6.
 
-## 10. Open questions before implementation
+## 10. Open questions (answered as built)
 
-1. Happy with `SLOP2418` / undergraduate studio register, or prefer a
-   different level?
-2. Keep the no-photo treatment for staff (§5), or source/generate portraits
-   — studios conventionally show faculty?
-3. Any of the twelve week topics you want swapped, reordered, or cut?
-4. Any objection to the assessment split (15/20/25/40), titles, or the
-   three named grading metrics (fiscal performance / mobility performance /
-   livability)?
-5. Hero/card image direction (§6) — isometric city-grid artwork, or
-   something else?
+1. ~~`SLOP2418` / undergraduate studio register?~~ **Kept.**
+2. ~~No-photo staff treatment, or portraits?~~ **Portraits**, hand-authored
+   SVG rasterised to AVIF (`scripts/make-portraits.ts`).
+3. ~~Any of the twelve week topics to swap, reorder or cut?~~ **Kept as
+   planned**, plus a two-week mid-semester break after Week 6.
+4. ~~The assessment split (15/20/25/40)?~~ **Changed to three at 25/25/50** —
+   see §4. The metrics are unchanged.
+5. **Still open:** hero and social-card artwork (§6). Both starter files were
+   deleted rather than replaced, which the evidence check accepts, so the site
+   currently ships with no hero and no social card. Confirm that is the
+   intended treatment or commission the isometric city-grid artwork.
+
+## 11. Outstanding
+
+State as at the last commit. `pnpm check` is green (14 tests, 40 pages);
+`pnpm check:evidence`, the ship gate, is red — deliberately, and for the
+reasons below.
+
+### Blocks the published spec
+
+- **Every page body is a placeholder.** Twelve lectures, twelve studios and
+  three briefs carry frontmatter, dates, teachers, weights and graph edges,
+  but each body is one line behind a `STARTER_CONTENT` marker. This is the
+  bulk of the remaining work.
+- **No real deck.** `src/decks/week-01.deck.mdx` is still the starter deck,
+  and the spec requires at least one lecture to carry a real one, linked from
+  its page. The link exists; the deck behind it does not.
+- **`PROCESS.md` is still template boilerplate**, and cites two commit hashes
+  (`a1b2c3d`, `e4f5a6b`) that do not exist in this repo.
+
+### Planned but not done
+
+- **The deck is on Week 1, not Week 7.** §3 puts the one real deck on
+  Infrastructure, which is the week with genuinely slide-shaped content.
+  Moving it means moving the deck file and the `slides:` frontmatter together.
+- **Two listing pages still render template instructions as body copy** —
+  `src/pages/lectures/index.mdx` ("A course decides how many lectures it
+  needs") and `src/pages/sessions/index.astro` ("The internal collection and
+  URL stay `sessions`"). The assessment index has already been rewritten;
+  these two have not.
+- **No `spec:` on any studio or brief.** `SpecList` renders nothing when the
+  field is absent, so the pages are not broken — but for an assessment the
+  spec is the fixed half of the contract, and right now no brief states one.
+
+### Decisions to confirm
+
+- **Hero and social-card artwork** — see §10.5.
