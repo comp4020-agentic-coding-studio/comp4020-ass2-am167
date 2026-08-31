@@ -8,7 +8,7 @@ date: 2027-03-15
 teachers:
   - marisol-quaye
 related:
-  - assessments/assignment-1
+  - assessments/01-neighbourhood-unit-plan
 ---
 
 <!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->

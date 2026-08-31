@@ -302,3 +302,46 @@ content file is what the site renders, so one of the two has to move.
 
 Plans only. No deck built, no lecture body written, `STARTER_CONTENT` markers
 all still in place. `pnpm check` green (39 pages, 11 tests).
+
+## Assessment: three briefs, and the metrics thesis made checkable
+
+Checked the published spec before building rather than working from PLAN.md.
+This repo is `comp4020-ass2`, and that deliverable's only assessment line is
+"assessment that adds up to 100%" — no count is mandated. So three (two plans
+plus a large capstone) is a design choice, not a requirement, and PLAN.md §4's
+original four became three at 25/25/50.
+
+**Wrote the failing test first.** `spec/assessment.test.ts` asserts the spec
+line (weights sum to exactly 100) plus two coherence claims the build cannot
+see. The metrics one failed as intended against the starter content:
+`assessments/assignment-1 is not marked on fiscal performance — its criteria
+are: response to the brief, quality of execution`. That is the assertion worth
+having: the site claims all semester that design trades livability against
+fiscal and mobility performance, and *says students are marked on exactly
+those three*. Without the test that claim is decoration — the schema only
+checks criteria sum to 100, not what they are named. Third test: no assessment
+falls due in a week that runs no studio, because a pin-up needs a room.
+
+**Dropping the Week 6 Mobility Plan had consequences elsewhere**, which is the
+real cost of a content change in a linked site. The Week 6 studio still said
+"Assessed pin-up: the mobility work of the last two weeks", and Sunniva
+Marek's people page still promised jury feedback in "Weeks 4, 6, 9 and 12".
+Both fixed. Nothing mechanical would have caught either — they are prose
+claims about a fact that moved.
+
+Slugs are the deliverables (`01-neighbourhood-unit-plan`, …), not
+`assignment-1`/`final-project`, so the URL says what the thing is. Repointed
+the Week 4 lecture's ref. Assessments declare their own edge to the studio
+they pin up at; 16 edges now.
+
+Also replaced the assessment index's body copy, which was still the template's
+instruction to its own reader ("Weights should sum to 100.") rendering as
+visible page text.
+
+Due times: `+11:00` for the March brief and `+10:00` for the May ones — DST
+ends 4 April 2027, and the starter's own timestamps used that convention.
+
+Verified at 1920×1080 and 390×844: 3 cards, 0 elements outside the viewport.
+Checked a brief's detail page at 390 too, since the marking table is the thing
+most likely to overflow there — right edge 372 of 390, criteria intact.
+`pnpm check` green: 14 tests, 40 pages.

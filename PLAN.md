@@ -112,12 +112,20 @@ Each weighted assessment is graded against the same three named metrics
 established in Week 1 — so the "competing tradeoffs" thesis is literally
 what students are marked against, not just a lecture topic.
 
+**Revised to three, from the four originally planned:** two plans and one
+large capstone. The published spec only requires that assessment sums to 100%,
+so the count is a design choice; three keeps each piece substantial and leaves
+Week 6 free to be a working stress-test rather than a pin-up.
+
 | # | Title | Week / due | Weight | Marking |
 |---|---|---|---|---|
-| 1 | Neighbourhood Unit Plan | Wk 4 | 15% | weighted — fiscal performance 30 / mobility performance 30 / livability 40 |
-| 2 | Mobility Plan | Wk 6 | 20% | weighted — mobility performance 50 / fiscal performance 25 / livability 25 |
-| 3 | Public Realm & Infrastructure Plan | Wk 9 | 25% | weighted — livability 45 / fiscal performance 30 / mobility performance 25 |
-| 4 | Comprehensive City Plan (capstone) | Wk 12 | 40% | holistic — judged as a whole against all three metrics plus resilience, per Week 10–11 |
+| 1 | Neighbourhood Unit Plan | Wk 4 | 25% | weighted — livability 40 / fiscal performance 30 / mobility performance 30 |
+| 2 | Public Realm and Infrastructure Plan | Wk 9 | 25% | weighted — livability 45 / fiscal performance 30 / mobility performance 25 |
+| 3 | Comprehensive City Plan (capstone) | Wk 12 | 50% | holistic — judged as a whole against all three metrics plus resilience, per Week 10–11 |
+
+The dropped Mobility Plan's content is not lost: mobility performance is a
+marked criterion in both remaining plans, and Week 6 still stress-tests the
+network — it is just no longer assessed on the day.
 
 Each brief poses the problem as a blockquote, names the deliverable format
 (a set of in-simulation screenshots + a short defence memo, in the spirit of

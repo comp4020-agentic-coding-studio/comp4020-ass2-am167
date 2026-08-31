@@ -6,8 +6,8 @@ description:
 affiliation: Kesselring & Marek, urban design practice
 role: guest
 contact:
-  Does not take student email. Their feedback arrives at the jury — Weeks 4, 6, 9
-  and 12.
+  Does not take student email. Their feedback arrives at the jury — Weeks 4, 9 and
+  12.
 photo: ./sunniva-marek.avif
 photoAlt: >-
   A two-ink portrait in flat gold and black on cream: an angular bust with

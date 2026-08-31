@@ -1,13 +1,12 @@
 ---
 title: "Peak-Load Stress Test"
 description: >-
-  Drive the road network to peak load and watch where it gives way. Assessed
-  pin-up: the mobility work of the last two weeks, defended at the jury.
+  Drive the road network to peak load and watch where it gives way, then argue
+  the fix: a wider road, a better line, or fewer trips needing to be made.
 week: 6
 date: 2027-03-29
 teachers:
   - idris-fenn
-  - sunniva-marek
 related:
   - lectures/week-06
 ---
