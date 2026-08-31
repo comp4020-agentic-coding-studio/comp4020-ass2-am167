@@ -254,3 +254,51 @@ viewport. `pnpm check` green — 11 tests, 39 pages.
 while a detached `astro preview` was still holding port 4323. Had to find it
 with `lsof -nP -iTCP:4323 -sTCP:LISTEN` and kill the pid directly. Worth
 checking the port, not the command's word for it.
+
+## 2026-09-01 — Lecture slide plans, all twelve weeks
+
+Wrote `notes/lecture-plans.md`: one detailed plan per lecture, specified so a
+future agent can build a deck without re-deriving the course. 191 slides
+planned across twelve weeks (14–18 each), Week 7 deepest at 18 since it is the
+semester's one real deck.
+
+Each week fixes: the argument in one sentence, 3–4 checkable outcomes, theory
+anchors with real citations, a theory→mechanic mapping table, the week's
+tradeoff named in two of the three studio metrics, the slide-by-slide content
+(actual bullet text, actual table rows, diagrams described tightly enough to
+draw in the two-ink palette, speaker notes), the studio hand-off, assessment
+hooks, and open questions left to the deck writer.
+
+**Ran four subagents in parallel**, three weeks each, against a shared brief
+(`/tmp/slop-plans/_BRIEF.md`) carrying the register rules, the teaching team,
+the calendar, the assessments and the output template. Parallelism was worth it
+— four × ~90k tokens of drafting in the wall-clock of one — but it costs
+coherence, and the reconciliation was real work, not a formality:
+
+- Three agents independently invented a name for the same low-lying south-east
+  district: Ombersley Flats (wks 1, 3), Dunnett Flats (wk 7), Brayfoot Flats
+  (wks 10, 12). Same referent in all three — Week 7 even says "Dunnett Flats
+  was rezoned for growth in Week 3", which is Week 3's Ombersley. Normalised to
+  Ombersley Flats, the Week 1 canon-setter. Two escaped the first pass because
+  the name straddled an 80-column line break; caught with a multiline `perl
+  -0pi`, not `sed`.
+- Currency drifted: weeks 7–9 write `₡6,800/month`, everyone else gives bare
+  figures. Left the figures alone and recorded `₡` as the convention in the
+  canon section, since rewriting numbers risks breaking arithmetic that the
+  plans work out on the slide.
+- Geography otherwise converged rather than collided, because the brief happened
+  to seed "Halstead Reach" and "the Kerrow corridor". Cheap insurance; worth
+  seeding proper nouns deliberately next time rather than by accident.
+
+Added a header and a **Shared canon** section on top of the twelve: how to use
+the file, the non-negotiable register, the three metrics and where each is read,
+the calendar, the deck mechanics astromotion actually supports, and the Kerrow
+Basin gazetteer that the twelve weeks now agree on.
+
+**Surfaced, not fixed:** `src/content/assessments/final-project.md` is still the
+starter brief — 60%, due 2027-05-28 — while PLAN.md §4 and every plan here
+assume the capstone is 40% and due Week 12. Flagged in the canon section; the
+content file is what the site renders, so one of the two has to move.
+
+Plans only. No deck built, no lecture body written, `STARTER_CONTENT` markers
+all still in place. `pnpm check` green (39 pages, 11 tests).
