@@ -8,6 +8,11 @@ role: guest
 contact:
   Does not take student email. Their feedback arrives at the jury — Weeks 4, 6, 9
   and 12.
+photo: ./sunniva-marek.avif
+photoAlt: >-
+  A two-ink portrait in flat gold and black on cream: an angular bust with
+  hair tied back in a low bun, one side of the face in a halftone gold
+  shadow, against a gold panel
 ---
 
 Sunniva is a principal at Kesselring & Marek, where they have spent fifteen

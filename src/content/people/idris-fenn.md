@@ -9,6 +9,11 @@ email: idris.fenn@slop.university
 contact:
   In the studio Wednesdays and Fridays, 10:00–13:00. Bring the save file, not a
   screenshot of the save file.
+photo: ./idris-fenn.avif
+photoAlt: >-
+  A two-ink portrait in flat gold and black on cream: an angular bust with
+  closely cropped hair, one side of the face in a halftone gold shadow,
+  against a gold panel
 ---
 
 Idris came out of transport modelling: six years at a consultancy building

@@ -9,6 +9,11 @@ email: marisol.quaye@slop.university
 contact:
   Desk crits Tuesdays 13:00–16:00 in Studio 2.14. Briefs, marks, extensions and
   adjustments come to me and to nobody else.
+photo: ./marisol-quaye.avif
+photoAlt: >-
+  A two-ink portrait in flat gold and black on cream: an angular bust with
+  full swept-back hair and rectangular glasses, one side of the face in a
+  halftone gold shadow, against a gold panel
 ---
 
 Marisol spent eight years in the strategic planning unit of a regional authority

@@ -9,6 +9,11 @@ email: tobias.wren@slop.university
 contact:
   Studio Mondays. Budget questions go better if you arrive with the fiscal
   readout already open.
+photo: ./tobias-wren.avif
+photoAlt: >-
+  A two-ink portrait in flat gold and black on cream: an angular bust with
+  side-swept hair, one side of the face in a halftone gold shadow, against a
+  gold panel
 ---
 
 Tobias spent six years modelling municipal budgets and now mostly thinks about

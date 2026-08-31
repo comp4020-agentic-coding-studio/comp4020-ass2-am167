@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { render } from "astro:content";
 import { getPublishedCollection } from "astro-course-university/content";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
@@ -24,45 +25,72 @@ const photoAlt = typeof rawPhotoAlt === "string" ? rawPhotoAlt : "";
 const description = person.data.description;
 ---
 
-<ContentLayout
-  title={person.data.title}
-  description={description}
-  heroImage={person.data.photo ?? undefined}
-  heroImageAlt={photoAlt}
-  {...siteConfig}
->
-  <dl>
-    {roleLabel && (
-      <>
-        <dt>Role</dt>
-        <dd>{roleLabel}</dd>
-      </>
+{/*
+  The portrait is square and the theme's heroImage is a wide full-bleed band, so
+  passing one to the other crops the face out entirely and leaves a strip of
+  collar under a dark scrim. It runs inline beside the details instead, at the
+  size it was drawn for.
+*/}
+<ContentLayout title={person.data.title} description={description} {...siteConfig}>
+  <div class="person-head">
+    {person.data.photo && (
+      <Image class="person-photo" src={person.data.photo} alt={photoAlt} width={440} height={440} />
     )}
-    {person.data.affiliation && (
-      <>
-        <dt>Affiliation</dt>
-        <dd>{person.data.affiliation}</dd>
-      </>
-    )}
-    {person.data.email && (
-      <>
-        <dt>Email</dt>
-        <dd>
-          <a href={`mailto:${person.data.email}`}>{person.data.email}</a>
-        </dd>
-      </>
-    )}
-    {person.data.url && (
-      <>
-        <dt>Web</dt>
-        <dd>
-          <a href={person.data.url}>{person.data.url}</a>
-        </dd>
-      </>
-    )}
-    <dt>Contact</dt>
-    <dd>{person.data.contact}</dd>
-  </dl>
+    <dl>
+      {roleLabel && (
+        <>
+          <dt>Role</dt>
+          <dd>{roleLabel}</dd>
+        </>
+      )}
+      {person.data.affiliation && (
+        <>
+          <dt>Affiliation</dt>
+          <dd>{person.data.affiliation}</dd>
+        </>
+      )}
+      {person.data.email && (
+        <>
+          <dt>Email</dt>
+          <dd>
+            <a href={`mailto:${person.data.email}`}>{person.data.email}</a>
+          </dd>
+        </>
+      )}
+      {person.data.url && (
+        <>
+          <dt>Web</dt>
+          <dd>
+            <a href={person.data.url}>{person.data.url}</a>
+          </dd>
+        </>
+      )}
+      <dt>Contact</dt>
+      <dd>{person.data.contact}</dd>
+    </dl>
+  </div>
 
   <Content />
 </ContentLayout>
+
+<style>
+  .person-head {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem 2rem;
+    align-items: start;
+    margin-block-end: 2rem;
+  }
+
+  .person-head :global(.person-photo) {
+    flex: 0 0 auto;
+    width: 220px;
+    height: auto;
+    border: 1px solid var(--at-border, rgb(0 0 0 / 0.12));
+  }
+
+  .person-head dl {
+    flex: 1 1 18rem;
+    margin: 0;
+  }
+</style>

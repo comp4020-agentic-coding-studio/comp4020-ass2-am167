@@ -9,6 +9,11 @@ email: nadia.ilkhom@slop.university
 contact:
   Studio Thursdays, plus the utilities clinic in Week 7. Email if a network is
   failing and you genuinely cannot see why.
+photo: ./nadia-ilkhom.avif
+photoAlt: >-
+  A two-ink portrait in flat gold and black on cream: an angular bust with a
+  chin-length bob and rectangular glasses, one side of the face in a
+  halftone gold shadow, against a gold panel
 ---
 
 Nadia is a water engineer by training and still thinks like one: everything in

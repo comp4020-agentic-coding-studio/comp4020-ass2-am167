@@ -113,3 +113,47 @@ reference them, so they are orphaned files on disk. They need deleting (the
 evidence check explicitly allows a deleted file, and an image-free treatment is
 what PLAN §5 proposed) or replacing with commissioned portraits. Deletion was
 blocked by the permission classifier — raised with the user.
+
+## 2026-08-31 — Portraits
+
+Replaced the starter portraits with five made for this site, one per person.
+`pnpm check:evidence` no longer flags any people artwork.
+
+**Tried a text-to-image model first and rejected it.** Pollinations needs no key,
+which is why it was the first stop, but its only available model is `sana`, and
+across three prompt framings it returned painterly output with gradients, paper
+borders, off-palette red lips and dark backgrounds — and it collapsed to
+substantially the same face on every seed. Five of those would have been
+off-brand *and* would have read as exactly the AI slop the brief penalises.
+
+**Hand-authored SVG instead, rasterised to AVIF** (`scripts/make-portraits.ts`,
+committed so the artwork is reproducible rather than a mystery binary). The
+brand is three flat colours and a halftone, which vector shapes hit exactly and
+a diffusion model does not. Palette sampled off the starter artwork so the new
+portraits sit in the same print: paper `#f6eedd`, gold `#c69f57`, ink `#17150f`.
+
+Construction is one template — angular ten-sided head, gold shadow plane down
+one half, halftone in the shadow, backdrop block — varied per person by hair
+silhouette (cropped / bob / volume / tied / swept), glasses, which way the
+shadow falls, and where the backdrop block sits. The point is that the grid
+reads as one commissioned set rather than five unrelated images.
+
+Two iterations against the rendered output rather than the source:
+1. The nose ran from y=300 down the centre seam and read as a scar across the
+   cheek. Moved it below the brow line and onto the shadow side.
+2. The "tied" bun polygon collided with the ear. Bun is now a circle drawn
+   *behind* the head, and that variant drops the ear.
+
+**Also had to change the person page layout.** The theme's `heroImage` is a wide
+full-bleed band with a dark scrim; handed a square portrait it cropped the face
+out entirely and left a strip of collar. Portraits now render inline at 220px
+beside the details list, which is the size they were drawn for. Flex-wrapped, so
+it stacks on mobile.
+
+One YAML trap: the alt text contains a colon ("A two-ink portrait in flat gold
+and black on cream: an angular bust…"), which a plain scalar reads as a mapping.
+Build failed with "a multiline key may not be an implicit key". Folded block
+scalars (`photoAlt: >-`) throughout.
+
+Verified at 1920×1080 and 390×844 — grid and a detail page, both viewports,
+0 elements outside the viewport at 390. `pnpm check` green (7 tests).
