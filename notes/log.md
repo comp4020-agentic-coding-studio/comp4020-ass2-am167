@@ -544,3 +544,11 @@ replaced with more invented numbers; they require a pinned game version and a
 reproducible save or a redesigned teaching premise.
 
 `pnpm check` green (14 tests, 40 pages; zero errors, warnings or hints).
+
+## 2026-09-01 — Drop subagents from the harness
+
+Removed the Parallel implementation section from `CLAUDE.md` (and the matching
+`AGENTS.md` copy). Subagents were stalling, so the harness now says to avoid
+spawning them unless we're doing adversarial review. Independent pieces get
+done in-session; the adversarial-review pass still fans out to fresh reviewer
+agents.
