@@ -51,9 +51,9 @@ Named in Week 1 and returned to every week after, in these words:
 
 | Metric | What it measures | Where it is read |
 |---|---|---|
-| **fiscal performance** | whether the district pays for the services it demands | budget panel, per-district income and outlay |
-| **mobility performance** | whether people can get where they are going, at the times they go | traffic and transit info-views, travel-time readouts |
-| **livability** | whether the place is worth being in once you have arrived | happiness, land value, service coverage, pollution overlays |
+| **fiscal performance** | whether the district pays for the services it demands | the city budget panel plus the issued allocation worksheet; the worksheet allocates citywide service costs to the district and is never described as a native district budget |
+| **mobility performance** | whether people can get where they are going, at the times they go | traffic flow and volume, transport-line passenger and usage panels, and the issued route-timing / observation protocol; calculated mode shares are labelled as calculations, not UI readouts |
+| **livability** | whether the place is worth being in once you have arrived | happiness and service readings, pollution overlays, and the issued land-value sampling sheet; the normalised 0–100 score is a course calculation, not a native index |
 
 They are also the marking criteria for every weighted assessment, so a session
 that forces a tradeoff between two of them is forcing something a student will
@@ -121,13 +121,41 @@ breaks eleven other weeks, so treat this as fixed.
 
 **Standing conventions**, set in Week 1 and assumed by every later week:
 
-- Readings are trends, not moments. Every reading is taken at **in-game 08:00**
-  and the memo says so.
+- A number is labelled at the point of use as **live UI**, **manual observation**,
+  **worksheet calculation**, or **reference-scenario value**. The four labels
+  are not interchangeable. Travel time is a timed route; mode share and
+  district cost are worksheet calculations; the game is never said to expose a
+  panel that it does not expose.
+- Live readings are trends, not convenient moments. Unless an exercise defines
+  a timed observation window, readings are taken at **in-game 08:00** and the
+  memo says so.
 - **A plan claiming all three metrics improved has not been read carefully.**
-- Saves are `<student ID>-w<NN>`, one per week, one off-machine copy.
+- Assessed saves are `<student ID>-w<NN>`, one per week, one off-machine copy.
+  A disposable experiment is suffixed `-test` or `-pre`, is never submitted,
+  and is closed before the assessed save is continued.
 - Currency is **₡** throughout (`₡6,800/month`). Never a bare figure, never `$`.
-- Land value is the **land value index, 0–100**, district mean unless a
-  sub-area is named.
+- Land value is the **normalised land-value score, 0–100**, calculated on the
+  issued sampling sheet from fixed overlay locations. It is a course comparison
+  measure, not a native *Cities: Skylines II* readout; the district mean is used
+  unless a sub-area is named.
+
+### The Kerrow evidence pack — required before production
+
+The exact figures below belong to an **instructor reference scenario**, not to
+every student's save. Before any session page is published, the course team
+must issue one evidence pack carrying: the recorded game build; the Kerrow map;
+reference checkpoints `kerrow-ref-w01` to `kerrow-ref-w12`; the route-timing,
+land-value sampling, mode-share and district-cost worksheets; and a source
+label for every number. The pack is piloted on the design-lab build and its
+wall-clock run times are recorded. A missing checkpoint or source label blocks
+publication of the week that depends on it.
+
+Students take and defend their own readings. The values below are the worked
+reference row used to teach the method and to recover a student whose save is
+unusable; they are not targets and matching them earns no credit. Where the
+live simulation cannot reach a comparison state within the scheduled block,
+students load the issued checkpoint rather than pretending that weeks of game
+time elapsed during class.
 
 ## Canon introduced by the session plans
 
@@ -154,13 +182,14 @@ the definition of record.
 Weeks 6, 9 and 11 coin nothing and run entirely on existing canon. Week 10's own
 section re-defines the Pellow cells; Week 3 is where they are introduced.
 
-## The metric spine — fixed readings, weeks 1–12
+## The metric spine — instructor reference scenario, weeks 1–12
 
-**This table is canon.** Every session plan and every session body quotes from
-it rather than coining figures. It is the studio's single save file read twelve
-times. Note that the arc is deliberate: fiscal performance is bought in Week 1
-by siting on the Reach, and the rest of the semester pays for that in livability
-and mobility, week by week.
+**This table is the reference row, not an answer key.** Every session plan and
+session body may use it only when it says *reference scenario* and names the
+instrument from the evidence pack. It is one instructor save read twelve times;
+students' saves legitimately diverge. The arc is deliberate: fiscal performance
+is bought in Week 1 by siting on the Reach, and the reference scenario pays for
+that in livability and mobility, week by week.
 
 | Wk | Population / households | Fiscal — monthly balance | Mobility — 08:00 travel time, transit share | Livability — happiness, land value index | What moved, and why |
 |---|---|---|---|---|---|
@@ -201,10 +230,13 @@ which one it deferred.
 The morning lecture is at 10:00 the same day, so this is the one week where
 almost nothing can be carried in from prior work. What has to be true by 13:00:
 
-- *Cities: Skylines II* installed and running on the machine you will use all
-  semester, on the studio settings: no simulation-altering mods, no unlimited
-  money, no unlock-all. The metrics are comparative and only compare across
-  identical ground.
+- A machine you can use for the semester, either your own capable machine or a
+  design-lab machine booked for this session. The lab machines already have
+  *Cities: Skylines II* and the standard map installed; if you are using one,
+  the booking is the thing you bring, not an installation you cannot perform
+  before the room opens. The studio settings are fixed: no simulation-altering
+  mods, no unlimited money, no unlock-all. The metrics are comparative and only
+  compare across identical ground.
 - The **Kerrow Basin** standard map loaded in a new save. Not regenerated —
   the map is issued, not rolled. If you regenerated it, you are on a different
   site from everybody else and every reading you take this semester is
@@ -230,7 +262,7 @@ today is the document Assessment 1 gets read against in Week 4.
 | Time | Segment | What happens | Who runs it |
 |---|---|---|---|
 | 13:00–13:15 | Studio opening | The semester's shape in ten minutes: one save, one district, twelve weeks. The rule that today produces no roads, and why. | Quaye |
-| 13:15–13:30 | Machine check | Everyone loads the standard map together. Settings verified at the desk. Anyone with a regenerated map restarts here. | Quaye |
+| 13:15–13:30 | Machine check | Everyone loads the standard map together. Settings and lab-machine bookings are verified at the desk. Anyone with a regenerated map restarts here. | Quaye |
 | 13:30–14:20 | Overlay walk-through, layers 1–3 | Natural resources, then water, then wind. One view at a time, view closed before the next opens. One screenshot and one written sentence per layer. | Quaye |
 | 14:20–14:55 | Overlay walk-through, layers 4–5 | Terrain and contour, then outside connections. Same protocol. | Quaye |
 | 14:55–15:00 | The stack | Five layers put together on the board. Two candidate sites emerge and are named: Halstead Reach, Ludworth Bench. | Quaye |
@@ -260,8 +292,10 @@ on the map.
 
 **The round of the room at 15:40** is one sentence each and Quaye will cut you
 off at two. The form is fixed: *"I am siting on X. I am buying Y and paying with
-Z."* Twenty-odd students, forty seconds each. The point is that the sentence is
-said in front of witnesses in Week 1 and quoted back at you in Week 4.
+Z."* The sixteen students get forty seconds each. A registered access adjustment
+can use a written or recorded equivalent and is arranged with Quaye before the
+round. The point is that the sentence is said in front of witnesses in Week 1
+and quoted back at you in Week 4.
 
 ### The exercise
 
@@ -348,12 +382,12 @@ whole semester — Weeks 4, 8 and 11 are all, in different ways, the invoice.
 
 Nothing moved the wrong way this week, because nothing has moved at all. Week 1
 sets the zero, and the entry on the site report against every metric is the
-value above with the note *baseline, 08:00, unimproved*. The two distances and
-the two land-value figures are the four numbers this session exists to fix: they
-are quoted in Week 2's upkeep argument, in Week 3's commute table, and in Week
-11's land-value curve, where the district mean is read as a movement from
-**14** and not from anywhere else. Write them down correctly today or spend Week
-11 arguing from a number you cannot source.
+value above with the note *baseline, 08:00, unimproved*. The four site readings
+and the separate fiscal baseline are the five numbers this session exists to
+fix: they are quoted in Week 2's upkeep argument, in Week 3's commute table,
+and in Week 11's land-value curve, where the district mean is read as a movement
+from **14** and not from anywhere else. Write them down correctly today or spend
+Week 11 arguing from a number you cannot source.
 
 ### The tradeoff the session forces
 
@@ -430,15 +464,17 @@ a survey that rules nothing out has not been done.
 
 - **The save**, named `<student ID>-w01`, with the standard map loaded, the
   settlement area chosen, and **no roads placed and confirmed**. One copy on the
-  machine, one copy off it. Both before you leave the building.
+  machine, one copy off it. Both before you leave the building. This is the
+  untouched Week 1 archive; the preparation for Week 2 happens in a working
+  copy, so the zero-state save remains available for later comparison.
 - **The site report**, one page: five screenshots in the session's order —
   natural resources, water, wind, terrain, outside connections — each with one
   sentence saying what that layer rules out. Not what it shows. What it rules
   out.
-- **The four baseline figures**, recorded on the report with the note *taken at
-  08:00, unimproved*: monthly balance −₡2,400/mo against the ₡75,000 grant;
+- **The five baseline readings**, recorded on the report with the note *taken at
+  08:00, unimproved*: fiscal balance −₡2,400/mo against the ₡75,000 grant;
   Reach → Dunthorpe 1.2 km at 1.8%; Ludworth Bench → Dunthorpe 4.1 km at 6.2%;
-  unimproved land value Reach 14, Ridge 22.
+  unimproved land value Reach 14 and Ridge 22.
 - **The settlement sentence**, written on the report in the form said aloud at
   15:40: the site, the metric bought, the metric paid with.
 - **The two conventions**, written down: saves are `<student ID>-w<NN>`, one per
@@ -450,11 +486,26 @@ not uploaded and not marked. It is cited in the Assessment 1 defence memo in
 Week 4, so a report written carelessly today costs its author in three weeks
 rather than this one.
 
+### Between this session and Week 2
+
+After the room closes, make a working copy of `<student ID>-w01`; do not
+overwrite the untouched archive. In that copy, place the 1.2 km Sallow Head–
+Dunthorpe spur and lay out the unzoned Brayhurst quarter at one chosen block
+dimension. Run it at in-game 08:00, record the volume on every link, and make a
+second disposable branch for the close-one-link test: delete the busiest link,
+read the same links at 08:00 the following in-game day, then discard the branch
+and restore the working copy. Bring the working copy, the untouched archive,
+the before-and-after link table and the road-length measurement to Week 2. Do
+not calculate metres per dwelling yet: the quarter is deliberately unzoned, so
+there are no occupied dwellings until the 14:15 zoning segment. Students using
+the design lab book a machine before leaving today; the tutor records a booked
+slot for anyone who cannot work on a capable machine outside studio hours.
+
 ### `spec:` lines
 
 ```yaml
 spec:
-  - "Cities: Skylines II is installed on the machine you will use all semester, with no simulation-altering mods, no unlimited money and no unlock-all."
+  - "You have either a capable machine or a booked design-lab machine with Cities: Skylines II and the standard map installed; use no simulation-altering mods, no unlimited money and no unlock-all."
   - "The Kerrow Basin standard map is loaded in a new save, not regenerated, with no roads placed."
   - "You can name the three metrics — fiscal performance, mobility performance, livability — and say which panel each one is read in."
   - "You have somewhere off this machine to put a save file, and you can put one there today."
@@ -486,7 +537,7 @@ Target 450–700 words. Suggested split in brackets.
    off-machine copy, the 08:00 reading convention, and the studio rule that a
    plan claiming all three metrics improved has not been read carefully.
 6. **## What you leave with** [~60 words] — the save, the one-page report, the
-   four baseline figures, the settlement sentence. Due at the desk in Week 2.
+   five baseline readings, the settlement sentence. Due at the desk in Week 2.
 
 Do not restate the title, date, tutor or related links — the page renders all
 four. Do not restate the `spec:` list in the body; `SpecList` renders it beneath
@@ -507,13 +558,15 @@ the body with its own preamble.
 
 ### Hand-off
 
-Week 2 receives a settlement area on Halstead Reach, a save at `<student
-ID>-w01` with no roads confirmed, and the four baseline figures every later
-reading is compared against. Idris Fenn's session cannot start without the
-settlement area fixed, because the block pattern is laid inside it and the road
-upkeep argument is made against the 1.2 km spur from Sallow Head to Dunthorpe.
-The 08:00 convention set at 15:55 today is what makes Week 2's before-and-after
-volume readings comparable at all.
+Week 2 receives the untouched `<student ID>-w01` archive, a prepared working
+copy of it with the 1.2 km spur and an unzoned Brayhurst quarter, and the four
+site baselines plus the separate fiscal baseline every later reading is
+compared against. Idris Fenn's session cannot start without the settlement
+area and prepared network fixed, because the block pattern is laid inside it
+and the road-upkeep argument is made against the spur from Sallow Head to
+Dunthorpe. The disposable link-test branch and its before-and-after table are
+evidence only; the prepared network arrives with the link restored. The 08:00
+convention set at 15:55 today is what makes Week 2's readings comparable at all.
 
 Toward **Assessment 1, the Neighbourhood Unit Plan** (Wk 4, 2027-03-15 12:00,
 25%): nothing is assessed this week, but the site report is the evidence the
@@ -567,14 +620,15 @@ them.
 
 ### What students arrive with
 
-- **The save**, carried in as `<student ID>-w01`, opened and continued rather
-  than restarted. The settlement area on Halstead Reach fixed. The 1.2 km spur
-  from **Sallow Head** to the **Dunthorpe interchange** may be placed by now;
-  nothing else.
+- **The untouched archive and prepared working copy**, carried in as
+  `<student ID>-w01` and opened and continued rather than restarted. The
+  settlement area on Halstead Reach is fixed. The working copy has the 1.2 km
+  Sallow Head–Dunthorpe spur and one unzoned Brayhurst quarter; the archive has
+  neither. Nothing is zoned yet.
 - **The Week 1 site report**, printed or on screen, with the five layer
-  screenshots and the four baseline figures on it: −₡2,400/mo against the
-  ₡75,000 grant, Reach → Dunthorpe 1.2 km at 1.8%, unimproved land value Reach
-  **14**, Ridge **22**.
+  screenshots and the five baseline readings on it: fiscal balance −₡2,400/mo
+  against the ₡75,000 grant, Reach → Dunthorpe 1.2 km at 1.8%, Ludworth Bench →
+  Dunthorpe 4.1 km at 6.2%, and unimproved land value Reach **14**, Ridge **22**.
 - **One residential quarter laid out, unzoned**, at one block dimension you have
   chosen and can state in metres. Not a sketch and not a mood — a road network
   placed in the save with a number attached to it.
@@ -582,36 +636,42 @@ them.
   simulation run, volume overlay read at 08:00. This is the space-syntax test
   from the lecture and it works precisely because nothing has been zoned into
   the network yet.
-- **The close-one-link before-and-after**, run at home: volume on every link at
-  08:00, busiest link deleted, volume read again at 08:00 the following in-game
-  day. Both readings, as numbers.
-- **The road upkeep line** from the economy panel, and the road metres per
-  dwelling you have derived from it. Fenn's standing instruction: bring the save
-  file, not a screenshot of the save file, and bring the figures, not a
-  description of the figures.
+- **The close-one-link before-and-after**, run in a disposable branch of the
+  prepared working copy: volume on every link at 08:00, busiest link deleted,
+  volume read again at 08:00 the following in-game day, then the branch
+  discarded and the prepared network restored. Both readings, as numbers.
+- **The road-length measurement** from the working copy and the economy panel
+  ready for the road-upkeep reading. The occupied-dwelling count is taken after
+  the 14:15 residential run; then divide road length by that count to derive
+  road metres per dwelling. Fenn's standing instruction: bring the save file,
+  not a screenshot of the save file, and bring the figures, not a description
+  of the figures.
 
-A student arriving without the before-and-after numbers is sent to get them and
-loses the first desk crit rotation. This is announced in Week 1 and it is not a
-threat.
+A student arriving without the before-and-after numbers is sent to the prepared
+working copy to get them and loses the first desk crit rotation. This is
+announced in Week 1 and it is not a threat; anyone unable to access a machine
+outside studio hours uses the booked design-lab slot recorded in Week 1.
 
 ### Run sheet
 
 | Time | Segment | What happens | Who runs it |
 |---|---|---|---|
 | 13:00–13:10 | Studio opening | The week's one question stated: what is it actually like to walk here. The rule that the answer is a number. | Fenn |
-| 13:10–13:45 | Two-minute pin-ups | Every student, unzoned layout plus 08:00 volume overlay, two minutes, standing. Block dimension in metres, and the one decision you are least sure about. | Fenn |
-| 13:45–14:15 | Close-one-link, run live | The redundancy test repeated in the room on three volunteered layouts, projected. Before-and-after volume read at 08:00 both times. | Fenn |
+| 13:10–13:45 | Two-minute pin-ups | Each of the sixteen students, unzoned layout plus 08:00 volume overlay, two minutes, seated or standing. Block dimension in metres, and the one decision you are least sure about. | Fenn |
+| 13:45–14:15 | Close-one-link, run live | The redundancy test repeated in the room on three volunteered disposable branches, projected. Before-and-after volume read at 08:00 both times, then each branch is closed without changing the prepared layouts. | Fenn |
 | 14:15–14:50 | Zone the quarter | Low-density residential painted to the layout, simulation run forward, first population and walk-share readings taken. | students, at the desk |
 | 14:50–15:10 | The paired test, in sandbox | The same tested block re-laid at 160 m in a sandbox save and zoned identically. Walk share read on both. | students, at the desk |
-| 15:10–15:45 | Walkability desk crit | Rotating, four desks at a time. One question, asked of every layout: what is it actually like to walk here. | Fenn |
+| 15:10–15:45 | Walkability desk crit | Four sequential desk groups of up to four students. Fenn leads one group; the others use the same prompt in pairs and record their numbers, then rotate. One question for every layout: what is it actually like to walk here. | Fenn |
 | 15:45–15:55 | Numbers on the board | Every student's walk share, road metres per dwelling and upkeep delta written up in one table. The cohort sees its own spread. | Fenn |
 | 15:55–16:00 | Wash-up | Block dimension committed in metres and written into the save's notes. Week 3 zones into it. | Fenn |
 
 **The two-minute pin-ups (13:10–13:45)** are timed and Fenn ends them at two
 minutes mid-sentence. You show the layout and the 08:00 volume overlay, you say
 the block dimension in metres, and you name the one decision you are least sure
-about. That last item is not modesty theatre — it is what the desk crit
-rotation gets organised around at 15:10.
+about. The sixteen places are seated or standing by choice; a registered access
+adjustment can use a written or recorded equivalent arranged with Fenn. That
+last item is not modesty theatre — it is what the desk crit rotation gets
+organised around at 15:10.
 
 **Zoning the quarter (14:15–14:50)** is the segment that surprises students who
 read the lecture's pre-work as "zone nothing". Zone nothing was the instruction
@@ -658,15 +718,17 @@ reason the studio measures a layout before it zones into it. Screenshot it. The
 links carrying volume on an empty network are the links that will be carrying
 your commute in Week 3 and failing in Week 6.
 
-**Close one link.** Note volume on every link at 08:00. Delete the busiest one.
-Read the overlay again at 08:00 the following in-game day. On a fine grid the
-trips redistribute across three or four parallel routes and volume rises
-modestly on several links. On a superblock they go nowhere: the trips that used
-the deleted link are re-routed to the remaining collector mouths, a queue forms
-at the mouth and it does not clear. This is Alexander's tree-versus-semilattice
-diagram made operational on your own save, and it is the single most useful
-thing in the session, because the link you lose in Week 8 to a budget cut or in
-Week 10 to a flood is a link nobody chose to lose.
+**Close one link.** Note volume on every link at 08:00 in a disposable branch of
+the prepared network. Delete the busiest one and read the overlay again at 08:00
+the following in-game day. On a fine grid the trips redistribute across three or
+four parallel routes and volume rises modestly on several links. On a superblock
+they go nowhere: the trips that used the deleted link are re-routed to the
+remaining collector mouths, a queue forms at the mouth and it does not clear.
+This is Alexander's tree-versus-semilattice diagram made operational on your own
+save, and it is the single most useful thing in the session, because the link
+you lose in Week 8 to a budget cut or in Week 10 to a flood is a link nobody
+chose to lose. Close the branch and reopen the prepared working copy before
+zoning; the deletion is evidence, never the Week 3 network.
 
 **The paired test, at Hessel Row.** The controlled comparison the week turns on.
 One 480 × 480 m block, laid twice, zoned identically, run to the same
@@ -682,11 +744,12 @@ not to walk. The layout decides for them.
 
 **The price.** The fine grid lays close to double the road length per dwelling,
 and road upkeep is charged by length, every month, from the month it is placed.
-Read it off the economy panel and normalise it: the 80 m grid costs **₡310/mo
-more per 1,000 residents in road upkeep** than the 160 m superblock. That figure
-is the whole fiscal content of the week and it is the one students should be
-able to produce without looking it up, because Week 8 imposes a budget cut on a
-district carrying it.
+Read the road length and occupied-dwelling count separately, divide to get road
+metres per dwelling, then read the upkeep line and normalise it: the 80 m grid
+costs **₡310/mo more per 1,000 residents in road upkeep** than the 160 m
+superblock. That figure is the whole fiscal content of the week and it is the
+one students should be able to produce without looking it up, because Week 8
+imposes a budget cut on a district carrying it.
 
 **The district readings.** With the quarter zoned low-density residential and
 run forward, the district reads **1,180 residents in 460 households**, an 08:00
@@ -763,8 +826,10 @@ with livability stop measuring. Name it, place it, move on.
 
 ### At the crit
 
-The walkability desk crit runs 15:10–15:45, four desks at a time, and Fenn asks
-one question in nine different ways:
+The walkability desk crit runs 15:10–15:45 in four sequential groups of up to
+four students. Fenn asks one question in nine different ways; while one group is
+with Fenn, the other groups run the same prompt in pairs and record their own
+numbers:
 
 - What is it actually like to walk here? Not the layout — the walk. Pick a front
   door and walk it.
@@ -774,8 +839,9 @@ one question in nine different ways:
   much? Give me the volume on the three links that took the load.
 - Your walk share in the tested block is 38% at 80 m. What did the same block
   read at 160 m, and what did the difference cost you in the upkeep line?
-- Road metres per dwelling, off the economy panel. Not estimated — derived. Show
-  me the two figures you divided.
+- Road metres per dwelling, derived from the road-length readout divided by the
+  occupied-dwelling count. Show me the two figures you divided; the upkeep line
+  is a separate monetary reading.
 - You are converting that to one-way to fix the queue. Bring me the
   before-and-after volume, or don't do it.
 - Where is the dead core in this layout, and how many cells is the zoning tool
@@ -798,15 +864,23 @@ and the conversation ends there until the numbers exist.
 
 ### What leaves the room
 
-- **The save**, `<student ID>-w02`, with the Brayhurst quarter laid out at the
-  committed dimension and zoned low-density residential. One off-machine copy.
+- **The save**, `<student ID>-w02`, with the restored working-copy network,
+  Brayhurst quarter laid out at the committed dimension and zoned low-density
+  residential. One off-machine copy; retain the untouched Week 1 archive.
 - **The sandbox save**, kept but never submitted, carrying the 160 m version of
   the Hessel Row block. Keep it — Week 6 wants a comparison network and rebuilding
   it costs an hour.
 - **The block dimension, in metres**, written into the save notes and into the
   record sheet. This is the artefact Week 3 cannot start without.
 - **The close-one-link before-and-after**, both volume readings at 08:00, as
-  numbers on the record sheet.
+  numbers on the record sheet, with the deleted link named and the disposable
+  branch identified. The assessed network has the link restored.
+- **The road-length / occupied-dwelling division**, in metres per dwelling, and
+  the road-upkeep line recorded separately.
+- **The frontage inventory**, with the count of road-reachable cells and the
+  method used to count them.
+- **One named dwelling address** in the Brayhurst quarter, written into the
+  save notes and record sheet for Week 3's commute measurement.
 - **The paired-test pair**: walk share 38% at 80 m, 24% at 160 m, in the tested
   block on Hessel Row, with the ₡310/mo per 1,000 residents upkeep delta beside
   them.
@@ -815,7 +889,8 @@ and the conversation ends there until the numbers exist.
   share 31%, happiness 68%, land value 17.
 - **Three screenshots at the agreed views**: unzoned traffic volume at 08:00,
   post-deletion traffic volume at 08:00, and the zoned quarter with the land
-  value overlay on.
+  value overlay on. The post-deletion image is from the disposable branch; the
+  assessed save remains restored.
 
 Everything above is due at the desk at the start of Week 3. Nothing is uploaded
 and nothing is marked.
@@ -827,8 +902,9 @@ spec:
   - "One residential quarter is laid out in your Week 1 save at a block dimension you can state in metres."
   - "You bring the traffic volume overlay at in-game 08:00 for that layout with nothing zoned into it."
   - "You bring the close-one-link readings as two numbers: volume at 08:00 before the busiest link was deleted, and volume at 08:00 the following day after it was."
-  - "You bring the road upkeep figure from the economy panel and the road metres per dwelling you derived from it, with both figures you divided."
+  - "You bring the road length and occupied-dwelling count you divided to derive road metres per dwelling, plus the road upkeep figure from the economy panel as a separate reading."
   - "You can state the block dimension you chose in metres and say what you were trying to buy with that number."
+  - "You bring a frontage inventory with the count of road-reachable cells and its counting method, and one named dwelling address for Week 3."
 ```
 
 ### Page body plan
@@ -906,12 +982,10 @@ walkability" is not.
 
 ### Open questions for the writer
 
-- The lecture's Slide 8 and Slide 10 test the superblock at **240 m**; the spine
-  fixes the paired test at **160 m**. The session plan above uses 160 m because
-  the spine is canon. Whether the page acknowledges the discrepancy — "the
-  lecture's 240 m fragment does not fit inside the tested block, so the studio
-  runs 160 m" — or silently uses 160 m is a real choice, and the lecture deck is
-  unwritten, so it could also be fixed there instead.
+- The lecture's Slide 8 and Slide 10 use **240 m** as an illustrative fragment;
+  the **160 m** version is the canonical studio comparator because it fits the
+  480 m Hessel Row test block. The page must name 160 m as the assessed test and
+  must not ask students to reproduce the 240 m lecture fragment.
 - Whether the page tells students to zone in the session or lets it happen.
   The lecture's pre-work says zone nothing, which is correct for the unzoned
   redundancy test and wrong for the rest of the afternoon. If the page does not
@@ -938,7 +1012,8 @@ walkability" is not.
 You will paint a use onto every cell of the block pattern you committed to last
 week, build the separated and the adjacent scheme side by side, and put land
 value against commute distance for one named front door until you can say which
-of the two costs your district is better able to carry.
+of the two costs your district is better able to carry. Scheme A is the assessed
+branch; Scheme B is a comparison branch and is never committed over it.
 
 ### What students arrive with
 
@@ -960,6 +1035,8 @@ of the two costs your district is better able to carry.
   produce the direction, the pollution comparison is meaningless and the first
   fifteen minutes go on recovering it instead of on zoning.
 - **A sandbox save** ready to branch. The second scheme is built in it.
+- **Scheme A identified as the assessed branch.** The working save remains the
+  separated scheme after the comparison; Scheme B is disposable evidence only.
 - **One named dwelling** in the Brayhurst quarter, chosen before you arrive. An
   address, not an average. Every commute figure this week is measured from that
   front door.
@@ -970,27 +1047,32 @@ of the two costs your district is better able to carry.
 |---|---|---|---|
 | 13:00–13:15 | Opening — the palette | The zoning palette walked through as what it is: a use-based code with one mixed-use exception. Every cell you can paint names a use. | Quaye |
 | 13:15–13:55 | Scheme A, in the assessed save | Residential on the terrace, commercial strip on the Brayhurst collector, industry in the Pellow cells. Run forward. | students, at the desk |
-| 13:55–14:25 | Scheme B, in sandbox | Same block layout, same population: mixed housing on the two main frontages, corner cells, industry on the eastern edge of the Reach at 0.8 km. | students, at the desk |
-| 14:25–14:50 | Utilities pass | Water, sewage and power placed far enough to service the district at its current size. Costed off the economy panel. Not designed — Week 7's clinic does that. | students, at the desk |
-| 14:50–15:05 | Overlay round | Ground, air and noise pollution read on both schemes at 08:00, then traffic volume on both at 08:00. Four screenshots. | Quaye |
+| 13:55–14:25 | Scheme B, in sandbox | Same block layout and same 3,600-resident / 1,410-household population target: mixed housing on the two main frontages, corner cells, industry on the eastern edge of the Reach at 0.8 km. | students, at the desk |
+| 14:25–14:50 | Utilities pass | Water, sewage and power placed in Scheme A and copied to Scheme B at identical positions, then costed once. Neither branch receives a utility redesign. | students, at the desk |
+| 14:50–15:05 | Overlay round | Ground, air and noise pollution, then traffic volume, read on both schemes at 08:00. Eight screenshots: four views for each branch. | Quaye |
 | 15:05–15:35 | Land value against commute | The board table built live: land value index and home-to-work distance from one named dwelling, both schemes, every desk contributing a row. | Quaye |
-| 15:35–15:50 | Commit, and the round of the room | One scheme committed to the assessed save. Each student, one sentence: which metric was traded. | Quaye |
+| 15:35–15:50 | Commit, and the round of the room | Scheme A is committed to the assessed save; Scheme B remains sandbox evidence. Each student, one sentence: which metric was traded. | Quaye |
 | 15:50–16:00 | Assessment 1 issued | The Neighbourhood Unit Plan brief handed out and read in the room. Due Week 4, 2027-03-15, 12:00. 25%. | Quaye |
 
-**The two schemes (13:15–14:25)** are both built and both read, and the studio
-does not indicate a preference before 15:05. Scheme A is the separated scheme
-and it goes in the assessed save because it is the one most of the room will
-commit to; Scheme B is the adjacent scheme and it goes in a sandbox. Sandbox
-saves are never marked. Building both is forty minutes of work and it is the
-only way the 15:05 table has two columns in it.
+**The two schemes (13:15–14:25)** are both built and both read. Scheme A is the
+separated scheme and it is the assessed branch; Scheme B is the adjacent scheme
+and it goes in a sandbox. The comparison does not ask students to guess which
+one the tutor prefers, but the branch status is not ambiguous: return to Scheme
+A after the overlay round and commit it before 15:35. Sandbox saves are never
+marked. Building both is forty minutes of work and it is the only way the 15:05
+table has two columns in it.
 
-**The utilities pass (14:25–14:50)** is deliberately short. The district needs a
-water source, a sewage outflow and power, and it needs them at the scale it is
-at now — 3,600 residents, not 25,000. Place them, read the monthly cost off the
-economy panel, and move on. The full treatment of water, waste and their
-capacities is the Week 7 utilities clinic with Nadia Ilkhom, and anyone who
-spends half an hour here optimising a pumping arrangement is doing Week 7's
-exercise four weeks early and will not have a scheme to commit at 15:35.
+**The utilities pass (14:25–14:50)** is deliberately short and branch-specific.
+In Scheme A, place a water source, sewage outflow and power at the scale the
+district is at now — 3,600 residents, not 25,000 — and read their monthly cost
+off the economy panel. The fixed intake/outflow arrangement is a disclosed
+Week 7 stress-test condition, not a siting choice to solve today: record it,
+do not move it, and attach no Assessment 1 credit or penalty to it. Scheme B
+receives no utility work, so its pollution and traffic comparison does not imply
+a second hidden infrastructure design. The full treatment of water, waste and
+their capacities is the Week 7 utilities clinic with Nadia Ilkhom; anyone who
+spends half an hour optimising a pumping arrangement is doing that exercise four
+weeks early and will not have a scheme to commit at 15:35.
 
 **The board table (15:05–15:35)** is the session's actual content. Two columns,
 Scheme A and Scheme B, and four rows: land value index at the district mean,
@@ -1027,27 +1109,29 @@ exists. Build it, price the crossing off the economy panel, and note the figure.
 the two main frontages of the quarter with commerce beneath the dwellings, plus
 corner cells where two blocks meet. Industry on the eastern edge of the Reach,
 0.8 km from the nearest dwelling, no crossing. The commute collapses and the
-walk share holds. Then open the ground pollution overlay and read the footprint
-on the eastern blocks you zoned last week, and open the air overlay and watch a
-plume of exactly the same size as the Ombersley plume sit on housing instead of
-leaving the map. The plumes are the same size. The difference is siting relative
-to wind and flow, which is the entire content of Howard's ring drawn on this
-map.
+walk share holds. Then open the ground, air and noise pollution overlays and
+read the footprint on the eastern blocks you zoned last week; finish with the
+traffic volume overlay. The air plume is exactly the same size as the Ombersley
+plume but sits on housing instead of leaving the map. The ground footprint,
+noise exposure and traffic concentration are the evidence, not decoration. The
+difference is siting relative to wind and flow, which is the entire content of
+Howard's ring drawn on this map.
 
 **The utilities.** With the district at 3,600 residents the water and sewage
 requirement is straightforward and the placement is a cost exercise rather than
-a design one. The outflow goes on the Kerrow below the Works — the shortest
-possible run from the industrial area and the treatment plant, on ground the
-district has already bought. The district intake goes on the river below the
-Flats, and the main runs back to the district inside the arterial alignment
-Scheme A has just paid for: no new easement, no second river crossing, no trench
-the district has not already dug. Utilities in a corridor you have already
-bought is the cheapest infrastructure decision available in the session, and at
-a monthly balance that has only just crossed into surplus it is the only one
-that does not need arguing for. Power comes off the existing
-connection. Read the monthly cost, note it on the record sheet, and leave the
-capacities alone — Week 7's clinic takes water and waste properly, with the
-loads a district four times this size actually generates.
+a design one. In Scheme A, place the outflow on the Kerrow below the Works and
+the intake on the river below the Flats, with the main running back to the
+district inside the arterial alignment Scheme A has just paid for: no new
+easement, no second river crossing, no trench the district has not already dug.
+Power comes off the existing connection. Read the monthly cost once on Scheme A,
+copy the exact positions into Scheme B, note the figure on the record sheet, and
+leave the capacities alone — Week 7's clinic takes water and waste properly,
+with the loads a district four times this size actually generates. This
+intake/outflow relationship is a disclosed Week 7 stress-test condition, not a
+student siting choice: record it, do not move it, and attach no Assessment 1
+credit or penalty to it. Identical utility baselines keep the pollution and
+traffic comparison about zoning rather than an unannounced infrastructure
+difference.
 
 **The named dwelling.** Pick one front door in the Brayhurst quarter, by
 address, and measure home-to-work from it under both schemes. Under Scheme A it
@@ -1158,18 +1242,22 @@ therefore cannot be argued with, which makes it useless at a crit.
 
 ### What leaves the room
 
-- **The save**, `<student ID>-w03`, with one scheme committed, the district
-  zoned, and the utilities placed and costed. One off-machine copy.
+- **The save**, `<student ID>-w03`, with Scheme A committed, the district zoned,
+  and the fixed utilities placed and costed. One off-machine copy.
 - **The sandbox save** carrying the uncommitted scheme. Keep it. Week 4's
   amenity core argument is easier to make against a version of the district that
   did the opposite thing.
-- **Four screenshots at 08:00**: ground pollution and traffic volume, for each
-  scheme.
+- **Eight screenshots at 08:00**: ground, air and noise pollution plus traffic
+  volume, for each scheme. Label each image with Scheme A or Scheme B and the
+  view name; the utility baseline is identical in both branches.
 - **The named dwelling's two commute figures** — one address, both schemes,
   distance and route count.
 - **This week's readings** on the record sheet, every one noted as taken at
   in-game 08:00: 3,600 / 1,410, +₡900/mo, 6.8 min, transit 0%, walk share 22%,
   happiness 72%, land value 24.
+- **The fixed utility baseline cost**, read once on Scheme A and copied to Scheme
+  B, with the intake and outflow positions recorded as supplied Week 7
+  stress-test conditions.
 - **A one-line statement of which scheme was committed and which metric it
   traded**, written on the record sheet in the same form as Week 1's settlement
   sentence.
@@ -1184,7 +1272,7 @@ spec:
   - "Your Week 2 save opens with the Brayhurst quarter built at a committed block dimension and zoned low-density residential."
   - "You can open the wind info view and state the map's prevailing wind direction without looking it up."
   - "You have chosen one dwelling by address in your quarter, and every commute distance you quote this week is measured from it."
-  - "You build both the separated and the adjacent zoning scheme, the second one in a sandbox save, and read ground pollution and traffic volume on each at in-game 08:00."
+  - "You build Scheme A (separated) in the assessed save and Scheme B (adjacent) in a sandbox, then read ground, air and noise pollution plus traffic volume on each at in-game 08:00."
   - "You bring a sandbox save you are willing to build a second, uncommitted zoning scheme in."
 ```
 
@@ -1196,23 +1284,20 @@ Target 450–700 words. Suggested split in brackets.
    the committed dimension, the wind direction, a sandbox save, and one dwelling
    chosen by address.
 2. **## What happens in the room** [~130 words] — the palette walked through,
-   both schemes built, the utilities pass, the overlay round, the board table,
-   the commit, the brief issued at 15:50.
+   both schemes built, the identical-utilities pass, the four-view overlay
+   round, the board table, the commit, the brief issued at 15:50.
 3. **## The two schemes** [~150 words] — Scheme A separated, industry in
    the Pellow cells, 3.2 km and one crossing, no pollution at the dwellings.
    Scheme B adjacent, 0.8 km and several routes, a measurable footprint on the
    eastern blocks. Both plumes the same size; the difference is siting relative
    to wind and flow.
-4. **## The utilities pass** [~60 words] — water, sewage and power placed to
-   service the district at its current size and costed off the economy panel.
-   Outflow below the Works; intake below the Flats, with its main running inside
-   the arterial alignment Scheme A already paid for — no new easement, no second
-   crossing. Do not use "shortest pipe run" as the reason; on this map it is not
-   true and a careful reader will check. State it as the cost exercise it is and
-   pass straight to the next section. **The body places both, prices both, and comments on neither.**
-   No character raises the question and gets waved off; nothing is flagged,
-   deferred or reassured about. The one forward reference permitted is the
-   ordinary scheduling note that Week 7's clinic takes utilities properly.
+4. **## The utilities pass** [~60 words] — water, sewage and power are placed in
+   Scheme A to service the district at its current size, copied to Scheme B at
+   identical positions, and costed once off the economy panel. Outflow below the
+   Works; intake below the Flats, with its main inside the arterial alignment
+   Scheme A already paid for — no new easement, no second crossing. Identify
+   this as a fixed Week 7 stress-test condition, not a siting choice or an
+   Assessment 1 claim. Pass straight to the next section.
 5. **## What the readings said** [~110 words] — 3,600 / 1,410, +₡900/mo first
    surplus, 6.8 min, walk share 22%, happiness 72%, land value 24. Then
    **Mobility down**, and the studio rule quoted verbatim.
@@ -1232,8 +1317,8 @@ body is written and add the `spec:` array above. Do not touch `title`,
 
 ### Hand-off
 
-Week 4 receives a district of 3,600 in 1,410 households, one zoning scheme
-committed, a first surplus of ₡900/mo to spend, and a walk share of 22% that
+Week 4 receives a district of 3,600 in 1,410 households, Scheme A (the separated
+zoning scheme) committed, a first surplus of ₡900/mo to spend, and a walk share of 22% that
 somebody has to get back. Quaye's Week 4 session upzones the amenity core at
 Pelling Street with Sunniva Marek in the room, and it is buying back exactly
 what this week gave away: the 6.8-minute travel time recovers to 5.9 and walk
@@ -1254,14 +1339,14 @@ upkeep delta) and the code (this week's scheme and the nine points of walk share
 it cost).
 
 Two things placed this week are picked up later and the writer should know it
-even though the page must not say it. The district intake sits downstream of the
-Ombersley outflow, which is the Week 7 cascade — the utilities clinic finds the
-water intake below the outflow, Farrant Row goes on a boil notice, and happiness
-falls to 61%. And the low blocks at the Pellow cells sit inside Tuckwell Bend,
-which is the Week 10 flood envelope. Both are consequences of a zoning decision
-made this week for cost reasons that were correct at the time, on a checklist
-that measured pollution at the dwellings and distance to work, and found both
-acceptable.
+even though the page must not say it. The district intake deliberately sits
+downstream of the Ombersley outflow as a disclosed Week 7 stress-test condition,
+not as a hidden student error; the utilities clinic finds the water intake below
+the outflow, Farrant Row goes on a boil notice, and happiness falls to 61%. And
+the low blocks at the Pellow cells sit inside Tuckwell Bend, which is the Week
+10 flood envelope. The flood consequence belongs to the Scheme A zoning choice;
+the later water failure is a supplied scenario that students record but do not
+claim to have designed.
 
 ### New canon introduced
 
@@ -1274,10 +1359,8 @@ acceptable.
 
 ### Open questions for the writer
 
-- Whether the district intake is named on the page or described by position
-  ("on the river below the Flats"). Unnamed is safer for the register — a named
-  intake invites a reader to look at it — and Week 7's writer owns Wensley Bank
-  and may want to name it themselves.
+- The district intake stays described by position (on the river below the Flats),
+  not given a new name. Week 7 owns the later named service components.
 - Whether Scheme A's river crossing is given as a costed figure or left for
   students to price in the economy panel. Pricing it live is better studio
   practice and makes the board table at 15:05 slower to reach; the spine fixes
@@ -1288,17 +1371,16 @@ acceptable.
   cross-reference is probably right; restating the weighting on the session page
   risks the two drifting apart, and `notes/lecture-plans.md` is already stale on
   exactly that.
-- How to write the utilities pass so it reads as short because it is
-  unimportant, rather than short because something is being withheld. The
-  register does not wink, and the sentence "Week 7's clinic takes utilities
-  properly" is doing the entire job — it has to sound like a timetable, not a
-  promise.
+- The utilities pass is short because this week's task is to record a fixed,
+  disclosed Week 7 stress-test condition, not to design capacity. Place the
+  fixed arrangement in Scheme A, copy it to Scheme B, and cost it once so the
+  branches remain comparable.
 
 ---
 ## Week 4 — Upzoning the Amenity Core
 
 **Date:** 2027-03-15 · **Studio:** 13:00–16:00, Studio 2.14 ·
-**Tutor(s):** Marisol Quaye (chair), Sunniva Marek (visiting critic) · **Paired lecture:** Density and the 15-Minute City · **Assessment:** A1 — Neighbourhood Unit Plan, 25%, uploaded 12:00, pinned up 13:00, defended at this session
+**Tutor(s):** Marisol Quaye (chair), Sunniva Marek (visiting critic) · **Paired lecture:** Density and the 15-Minute City · **Assessment:** A1 — Neighbourhood Unit Plan, 25%, uploaded 12:00, pinned up 13:00, defended from 14:00 under the studio pin-up policy
 
 ### What the session is for, in one sentence
 
@@ -1329,6 +1411,12 @@ get it.
 - The Week 3 decisions the plan is acting on: strict Euclidean separation of
   uses across Halstead Reach, and industry sited on Ombersley Flats — downwind,
   downstream and cheap. Both are still in the save. Neither is reopened today.
+- **The three-cell clinic scaffold**, issued with the brief: your Perry cell at
+  the centre of the Kerrow corridor, plus two adjacent Perry cells with the
+  standard current service loads. It is a disposable comparison branch; do not
+  overwrite `<student ID>-w03` or alter the two neighbouring cells. The
+  inside-cell and shared-corridor clinic branches are both made from this same
+  scaffold, so the centre cell is the only result you report.
 - Two figures written on the front of the memo where a juror can find them
   without reading it: what the cell costs per month, and what the cell returns
   per month. Both come off the budget panel's per-district income and outlay.
@@ -1338,12 +1426,13 @@ get it.
 | Time | Segment | What happens | Who runs it |
 |---|---|---|---|
 | 13:00–13:15 | Hanging and the charge | Work goes up on the long wall in submission order. The chair reads the charge: the marking criteria, the six-minute clock, and the rule about work that is not on the wall. | Quaye |
-| 13:15–14:05 | Jury round one | Eight plans, six minutes each, held to the clock. Two minutes standing, four minutes of questions. | Quaye, Marek |
-| 14:05–14:15 | Recess; jury confers at the wall | The room leaves. The jurors walk the eight and agree what the wall has in common, which becomes the visiting critic's round. | Quaye, Marek |
-| 14:15–15:05 | Jury round two | The remaining eight plans, same clock, same shape. | Quaye, Marek |
-| 15:05–15:25 | The visiting critic's round | Marek addresses the wall as one wall rather than as sixteen plans, and asks what sixteen people did identically without deciding to. | Marek |
-| 15:25–15:45 | The metric round | Every student, in turn, names the two metrics their plan traded and points at where on their sheet that trade is visible. One sentence each. | Quaye |
-| 15:45–16:00 | Wash-up and hand-off | The core-versus-edge land value split is read off the wall as a cohort result. What Week 5 receives. Marks return in ten working days. | Quaye |
+| 13:15–14:00 | Jury setup and quiet reading | The chair checks the wall and the sixteen students load their saves and clinic branches. No defence starts before the policy's 14:00 defence time. | Quaye, Marek |
+| 14:00–14:24 | Jury round one, two concurrent bays | Eight plans, six minutes each: Quaye and Marek each hear four plans, two minutes standing and four minutes of questions. | Quaye, Marek |
+| 14:24–14:48 | Jury round two, two concurrent bays | The remaining eight plans, same clock and same allocation. All sixteen defences finish before the recess. | Quaye, Marek |
+| 14:48–14:58 | Recess; jury confers at the wall | The room leaves. The jurors agree what the wall has in common, which becomes the visiting critic's round. | Quaye, Marek |
+| 14:58–15:18 | The visiting critic's round | Marek addresses the wall as one wall rather than as sixteen plans, and asks what sixteen people did identically without deciding to. | Marek |
+| 15:18–15:38 | The metric round | Every student, in turn, names the two metrics their plan traded and points at where on their sheet that trade is visible. One sentence each. | Quaye |
+| 15:38–16:00 | Wash-up and hand-off | The core-versus-edge land value split is read off the wall as a cohort result. What Week 5 receives. Marks return in ten working days. | Quaye |
 
 **Hanging, 13:00–13:15.** The wall is hung in submission order, not by
 preference, so nobody chooses to go last. Each plan gets a 1.2 m bay: the A3
@@ -1356,21 +1445,28 @@ questions that would have moved it out of the middle band are not asked, because
 there is nobody at the bay to answer them. This is not a penalty clause. It is
 a description of what a jury can and cannot do.
 
-**The six-minute clock.** Two minutes standing, then four minutes of questions,
-and the chair calls time mid-sentence if the two minutes runs long. Two minutes
-is enough for three things and not four: what the cell is, what the shortfall
-was, and which move you used to close it. Students who spend the two minutes
-describing the plan get four minutes of questions about the parts they did not
-reach. The clock is not adversarial; it is the same two minutes a plan gets when
-it is presented anywhere outside a school, and the lecture said so at 10:00.
+**The six-minute clock.** Two minutes presenting (seated or standing), then four
+minutes of questions, and the chair calls time mid-sentence if the two minutes
+runs long. Two minutes is enough for three things and not four: what the cell is,
+what the shortfall was, and which move you used to close it. Students who spend
+the two minutes describing the plan get four minutes of questions about the
+parts they did not reach. A registered access adjustment can use a written,
+recorded, or seated equivalent arranged with the chair; the evidence and clock
+do not change. The clock is not adversarial; it is the same two minutes a plan
+gets when it is presented anywhere outside a school, and the lecture said so at
+10:00.
 
-**The metric round, 15:25–15:45.** Sixteen sentences in twenty minutes. This is
+**The metric round, 15:18–15:38.** Sixteen sentences in twenty minutes. This is
 the segment students think is a formality and it is the one the chair schedules
 first. A student who can say *I traded livability against fiscal performance,
 and it is visible in the clinic siting on the Kerrow corridor* has done the
 thing the marking criteria are for. A student who says *I balanced all three*
 is asked again, and asked again after that, and the transcript of that exchange
 is what the chair reads when the mark is close to a band boundary.
+
+The sentence may be spoken, written, recorded, or given privately to Quaye when
+a registered access adjustment requires it. The evidence and the time limit do
+not change; the channel does.
 
 ### The exercise
 
@@ -1402,15 +1498,19 @@ will show you cims routing round the gradient rather than up it. Record where
 the western arc actually falls. It is not where your compass put it, and the
 gap between the two is the most useful thing on your sheet.
 
-**The clinic, which is the decision.** Sited inside the cell, the clinic sits an
-eleven-minute walk from the furthest dwelling and the cell carries its whole
-upkeep. Moved onto the Kerrow corridor as a catchment shared between three
-cells, the cell's share of that upkeep falls by about two-thirds and the
-deficit closes — and the eleven-minute walk becomes a twenty-four-minute walk,
-which is to say it becomes a car trip. Build it both ways. Advance twelve
-in-game months on each. Bring both monthly balance figures to the wall. The
-jury does not care which one you chose; it cares whether you can say what the
-other one would have cost.
+**The clinic, which is the decision.** Start from the issued three-cell scaffold,
+with your Perry cell in the centre and the two adjacent cells held unchanged.
+Save one branch as `<student ID>-w04-clinic-in` with the clinic inside the
+centre cell; save the other as `<student ID>-w04-clinic-shared` with one clinic
+on the Kerrow corridor at the shared boundary of all three cells. Sited inside
+the cell, the clinic sits an eleven-minute walk from the furthest dwelling and
+the cell carries its whole upkeep. Shared across the three cells, the centre
+cell's share of that upkeep falls by about two-thirds and the deficit closes —
+and the eleven-minute walk becomes a twenty-four-minute walk, which is to say it
+becomes a car trip. Do not redraw the neighbouring cells or add a second clinic.
+Advance twelve in-game months on each branch at 08:00, and bring both centre-cell
+monthly balance figures to the wall. The jury does not care which one you chose;
+it cares whether you can say what the other one would have cost.
 
 **The noise overlay, which is where the week turns.** After the frontage
 upzoning has settled, open the noise pollution overlay across the Pelling Cross
@@ -1526,7 +1626,7 @@ metres: the balance is positive, the mean land value is up, the views are all
 hung. It falls apart on the second question, because the two figures on the card
 were transcribed from the panel rather than reasoned to, and the student cannot
 say what the alternative siting would have cost. A beautiful bay with an unnamed
-tradeoff marks in the middle band and no higher, and the metric round at 15:25
+tradeoff marks in the middle band and no higher, and the metric round at 15:18
 is the last chance the studio gives anyone to move out of it.
 
 ### What leaves the room
@@ -1540,8 +1640,11 @@ is the last chance the studio gives anyone to move out of it.
 - The nine readings above, recorded on the standard sheet, with the core and
   edge land value entered as separate rows. A sheet with one land value row is
   returned to the student to complete before they leave.
-- The three required views, taken down from the wall and re-uploaded if any was
-  reprinted or corrected during the session, by 17:00 the same day.
+- The three required views, taken down from the wall after the defence. If a
+  print is corrected for display during the session, label it **display-only**;
+  the 12:00 upload remains the final artefact. There is no re-upload or mark-
+  changing submission after the deadline; an extension must be arranged under
+  the studio policy.
 - One line, written on your readings sheet at the wall during the metric round
   and initialled by the chair: the two metrics you traded, and the element of
   the plan where the trade is visible.
@@ -1557,6 +1660,7 @@ spec:
   - "Your hung set includes the Land Value info view over the cell, the coverage radius of every service building you sited, and the traffic volume layer along the Kerrow corridor boundary."
   - "The card at the bottom of your bay states what the cell costs per month and what it returns per month, as two figures in ₡."
   - "You name, out loud at the jury, which two of the three metrics your plan traded and the element of the plan where that trade is visible."
+  - "You use the issued three-cell scaffold to make inside-cell and shared-corridor clinic branches, without overwriting the submitted Week 3 save or altering the two neighbouring cells."
 ```
 
 ### Page body plan
@@ -1565,10 +1669,10 @@ Target 450–700 words. The page already renders the title, the date, the spec
 list, the teaching team and the related links, so the body opens on the room and
 never restates any of those.
 
-1. **`## The jury`** (~120 words) — what kind of room this is: sixteen bays, six
-   minutes each, two rounds, a visiting critic who has not seen the work before
-   and a chair who has seen all of it. One sentence on the recess and why the
-   room leaves.
+1. **`## The jury`** (~120 words) — what kind of room this is: sixteen bays,
+   two concurrent jury bays, six minutes per plan, two rounds of eight, a
+   visiting critic who has not seen the work before and a chair who has seen all
+   of it. One sentence on the recess and why the room leaves.
 2. **`## Before 13:00`** (~90 words) — the upload closes at 12:00 and the wall
    is hung by 13:00; what goes in the bay and in what order; the rule about work
    that is not on the wall, stated plainly and without threat.
@@ -1576,15 +1680,15 @@ never restates any of those.
    housing and the blocks behind to medium density, the radius read off the
    selected building rather than drawn with a compass, and the western arc that
    is not where the compass put it. The clinic comparison as the decision.
-4. **`## The readings`** (~110 words) — the six or seven readings a student takes
-   today, with the core-and-edge land value split called out as two rows rather
-   than one, and the sentence naming livability as the metric that moved the
-   wrong way.
+4. **`## The readings`** (~110 words) — the nine readings a student takes today,
+   with the core-and-edge land value split called out as two rows rather than
+   one, and the sentence naming livability as the metric that moved the wrong
+   way.
 5. **`## The tradeoff`** (~100 words) — livability against fiscal performance,
    the clinic as the mechanism, and the studio rule quoted once in full.
 6. **`## What you leave with`** (~70 words) — the save, the branch saves, the
-   initialled line about the traded pair, the 17:00 re-upload if anything was
-   corrected, and the ten working days.
+   initialled line about the traded pair, the display-only correction rule, and
+   the ten working days.
 
 ### Frontmatter deltas
 
@@ -1612,8 +1716,9 @@ at Pelling Cross and 19 at the edge. That gradient is the density profile the
 transit spine will be routed through, and it is why the alignment question next
 week is not symmetrical: one end of the line has 48-index frontage and 34% walk
 share, and the other end does not. Students also carry the coverage radii read
-off the selected service buildings, because the 400 m stop catchments in Week 5
-are drawn against those, not against fresh circles.
+off the selected service buildings. Those service radii are context only; Week 5
+measures its own **400 m** stop catchments from each transit stop and must not
+reuse a service-building radius as transit geometry.
 
 To the brief, the direction is unusual and worth stating: **this session does
 not feed Assessment 1, it defends it.** The plan closed at 12:00 and nothing
@@ -1632,11 +1737,11 @@ undefended one, and that is the whole of its contribution.
 
 ### Open questions for the writer
 
-- The run sheet assumes a cohort of sixteen and two rounds of eight at six
-  minutes. Confirm against the actual enrolment before writing the page: at
-  twenty the rounds do not fit inside three hours, and either the visiting
-  critic's round at 15:05 or the metric round at 15:25 has to be cut. Cut the
-  critic's round if you must; the metric round is load-bearing for the mark.
+- The plan fixes a cohort of sixteen: two concurrent jury bays hear four plans
+  per tutor in each six-minute round, so both rounds finish before the recess.
+  The roster must be checked before publication; if it is not sixteen, Quaye
+  must reallocate bays and preserve the 14:00 defence start rather than silently
+  dropping a student's defence or the metric round.
 - `notes/lecture-plans.md` slide 15 says Assessment 1 pins up "Friday at 12:00".
   It does not. `src/content/assessments/01-neighbourhood-unit-plan.md` gives
   `due: 2027-03-15T12:00:00+11:00`, which is the Monday, and the studio runs
@@ -1677,11 +1782,11 @@ sheet paid for it.
   19**. The 48 and the 19 are the two numbers the alignment argument is about.
 - The coverage radii read off the selected service buildings last week. The 400 m
   stop catchments today are drawn against those, not against fresh circles.
-- **Two candidate alignments for the same corridor, drawn before you arrive** —
-  on tracing over the A3 plan, or as two saved transit-line drafts. Each needs a
-  round-trip running time including layover, and a stop count. One line is not
-  two alignments, and a student with one spends the charrette drawing the second
-  instead of testing either.
+- **The canonical straight bus alignment and one loop comparator, drawn before
+  you arrive** — on tracing over the A3 plan. Each needs a manually timed
+  round-trip including layover and a stop count. The loop is costed and rejected
+  in the charrette; every student builds the straight bus so Week 6 inherits one
+  comparable service.
 - The lecture's formula, which you will be asked for from memory: **vehicles
   required = round-trip time ÷ headway, rounded up.**
 - Assessment 1 is with the markers. Nothing in it is reopened this week, and no
@@ -1695,9 +1800,9 @@ sheet paid for it.
 | 13:00–13:10 | Reading-in | The Week 4 close is read off each machine and written on the sheet before anything is drawn. Nobody draws a line in the first ten minutes. | Fenn |
 | 13:10–13:35 | Chalk talk at the board | Round-trip time, headway, fleet, average wait, monthly operating cost. Five quantities, one formula, worked live on two students' alignments. | Fenn |
 | 13:35–14:20 | Alignment charrette | The two alignments are pinned side by side and costed against each other: round trip, fleet at a common headway, residents inside 400 m, riders per vehicle-hour. | Fenn |
-| 14:20–15:05 | Build and run | One alignment is drawn in the save with the transit line tool, the fleet set, and three in-game months advanced with the Transportation Overview open. | students, Fenn roving |
-| 15:05–15:35 | Desk crit in pairs | Pairs swap machines and read each other's Overview aloud: fleet, passengers, operating cost, waiting count per stop. | Fenn |
-| 15:35–15:50 | Coverage round | The 400 m overlay goes up across the district and the cohort answers one question together: who is outside it. | Fenn |
+| 14:20–15:05 | Build and checkpoint | Every student builds the canonical straight bus, assigns four vehicles, then loads the issued `kerrow-ref-w05-settled` checkpoint for the settled comparison rather than simulating three months in class. | students, Fenn roving |
+| 15:05–15:35 | Desk crit in pairs | Pairs swap evidence sheets and audit each other's line panel and calculations: vehicles, passengers, line usage, calculated headway, allocated operating cost and the fixed 08:00–08:10 queue count at Pelling Cross. | Fenn |
+| 15:35–15:50 | Coverage round | The issued network-distance sheet goes up across the district and the cohort answers one question together: which sampled addresses are beyond 400 m walking distance. | Fenn |
 | 15:50–16:00 | Wash-up | The traded pair named out loud, one sentence each. What Week 6 needs from today's save. | Fenn |
 
 **The chalk talk, 13:10–13:35.** No slides; it is done at the board on two
@@ -1721,12 +1826,13 @@ Denton Hill at 38 minutes and eleven — and both columns are defensible. The
 charrette's job is to make each student say which of the four numbers decided
 it for them. "Both, a bit" is not an answer and Idris will ask for the number.
 
-**Build and run, 14:20–15:05.** Forty-five minutes is enough for one alignment
-built properly and three in-game months, and it is not enough for two. Choose
-before 14:20. The alignment you do not build stays on tracing, gets
-photographed, and comes to the desk crit as an exhibit — Idris asks for its
-round trip and its fleet, and a student who abandoned it without costing it has
-made a decision they cannot describe.
+**Build and checkpoint, 14:20–15:05.** Forty-five minutes is enough to build and
+inspect one line; it is not three simulated months. Every student builds the
+straight alignment. The loop stays on tracing, gets photographed, and comes to
+the desk crit as a costed rejected option. Once the live construction check is
+complete, load `kerrow-ref-w05-settled` for the common settled reference row.
+Personal saves keep the line students actually built and produce personal
+readings later; the checkpoint supplies the in-class longitudinal comparison.
 
 ### The exercise
 
@@ -1740,11 +1846,14 @@ ground, **Marle Row**, **Pelling Cross**, **Halstead**, **Wickstead**, and
 foot of the hill and not on it. That is the ridership alignment, and it is a
 choice with a cost that the coverage round at 15:35 will make you look at.
 
-**Setting the headway.** The round trip including layover is 24 minutes. At a
-**6-minute headway** the formula gives 24 ÷ 6 = **four vehicles**, and the
-Transportation Overview books the line at **₡4,800/mo** to operate. Against
-that, fares recover **₡1,100/mo** — a recovery ratio of about 23%, and a net
-subsidy of ₡3,700/mo carried by a district that had ₡2,100 of monthly headroom.
+**Setting the headway.** This is a **bus** line. The manually timed round trip
+including layover is 24 minutes. At a calculated **6-minute headway** the
+formula gives 24 ÷ 6 = **four vehicles**. The issued district-cost worksheet
+allocates **₡4,800/mo** of the citywide transport budget to those four buses;
+the reference revenue worksheet assigns **₡1,100/mo** in fares — a recovery
+ratio of about 23%, and a net subsidy of ₡3,700/mo carried by a district that
+had ₡2,100 of monthly headroom. Neither figure is claimed as a line-detail UI
+field.
 Six minutes is not a comfortable number. It is chosen because the lecture's
 threshold is real: below about a 12-minute headway riders stop consulting a
 timetable and start turning up, and that behavioural change is worth more than
@@ -1759,18 +1868,18 @@ density; step down to low density towards the 600 m edge. Then watch, in the
 building level-up thresholds, **where** the buildings level up. If they level up
 nearest the Kerrow corridor rather than nearest the stop, the stop is not the
 thing organising the land and you have built a bus shelter inside a road
-frontage. Note the two radii the studio uses and do not confuse them: **600 m is
-the zoning band** and **400 m is the coverage reading** — five minutes on foot at
-80 m per minute, which is what the district reports as "within reach of a stop".
+frontage. Note the two distances and do not confuse them: **600 m is the
+straight-line zoning band** drawn on the plan; **400 m is walking distance along
+the street network**, measured from the issued sample addresses. It is a course
+rule of thumb, not a transit coverage overlay produced by the game.
 
-**Reading the Overview honestly.** Open the Transportation Overview and read
-four things per line: vehicles assigned, passengers carried, monthly operating
-cost, and waiting passengers per stop. The fourth is the one that lies. A long
-queue at Pelling Cross looks like success on a projector and is a fleet shortage
-in the balance sheet — the demand is real, the service is not meeting it, and
-the operating cost does not move either way. A queue that never clears between
-08:00 and 09:00 is not evidence the line is popular. It is evidence you set the
-headway from the budget rather than from the round trip.
+**Reading the line honestly.** The line panel supplies vehicles, passengers and
+line usage. Headway is calculated from a manually timed round trip divided by
+vehicles; cost and fare allocation come from the issued worksheet. At Pelling
+Cross, count people waiting at 08:00 and again at 08:10 from the same camera.
+A queue that grows across that fixed observation is not a native "waiting per
+stop" readout and is not automatically success; it is evidence that demand is
+arriving faster than the assigned fleet clears it.
 
 **Marle Row, and why stop spacing cannot be settled stop by stop.** Marle Row
 serves the northern blocks and boards about forty riders in the peak hour, while
@@ -1797,13 +1906,13 @@ saved out as `<student ID>-w05`.
 | Reading | Where it is read | This week's value | Against last week |
 |---|---|---|---|
 | Population / households | city information panel | 9,400 / 3,600 | 6,900 / 2,650 |
-| Monthly balance | budget panel, per-district income and outlay | **+₡400/mo** | +₡2,100/mo |
-| Line operating cost | Transportation Overview, line detail | **₡4,800/mo** | no line |
-| Fare revenue | Transportation Overview, line detail | **₡1,100/mo** | no line |
-| Headway | Transportation Overview, line detail | **6 min** | no line |
-| Travel time, 08:00 | travel-time readout, city information panel | **5.4 min** | 5.9 min |
-| Transit share | Transportation Overview, mode split | **11%** | 0% |
-| Residents within 400 m of a stop | 400 m stop-catchment overlay | **62%** | 0% |
+| Monthly balance | live UI city budget plus district-cost worksheet | **+₡400/mo reference** | +₡2,100/mo reference |
+| Allocated line operating cost | worksheet, from citywide transport budget and four assigned buses | **₡4,800/mo reference** | no line |
+| Allocated fare revenue | worksheet, from the reference passenger record | **₡1,100/mo reference** | no line |
+| Calculated headway | manual 24-minute round trip ÷ four vehicles | **6 min reference** | no line |
+| Travel time, 08:00 | manual timed route, fixed origin/destination | **5.4 min reference** | 5.9 min reference |
+| Transit share | worksheet calculation from the issued observation sample | **11% reference** | 0% |
+| Sampled residents within 400 m walking distance | issued address-and-network-distance sheet | **62% reference** | 0% |
 | Happiness | happiness overlay, district | **73%** | 69% |
 | Land value index, district mean | Land Value info view | **34** | 31 |
 
@@ -1825,11 +1934,11 @@ name because it is a single line in the budget panel with the line's name on it.
 **Mobility performance against fiscal performance.** Every vehicle added to the
 Denton Hill–Barrow Fields spine buys every rider on it a reduction in average
 wait, and commits the district to that vehicle's upkeep for as long as the line
-runs. The arithmetic is brutally simple and that is what makes it a tradeoff
-rather than an optimisation: halving the wait always doubles the fleet, because
-the fleet is the round trip divided by the headway. There is no alignment, no
-stop spacing and no clever geometry that breaks that ratio. Legibility is free;
-frequency is not.
+runs. The arithmetic is simple and that is what makes it a tradeoff rather than
+an optimisation: a shorter target headway may require another whole vehicle,
+but ceiling arithmetic means the fleet changes in steps. Halving the target
+headway doubles the unrounded requirement; it does not necessarily double an
+already rounded fleet. Legibility is free; frequency is not.
 
 The mechanism, without the moral: the operating cost is indifferent to whether
 the service works. It is charged per vehicle per month whether the vehicle
@@ -1855,8 +1964,9 @@ find out on 29 March that they decided it without meaning to.
 
 - Round-trip time, headway, fleet. Three numbers, in that order, before you say
   anything else about the line.
-- Your headway is six minutes. What was the average wait before the line existed
-  and what is it now? Minutes. Not "better".
+- Your calculated headway is six minutes. Before the line the wait was **not
+  applicable: no service**. What is the scheduled-wait proxy now, and what does
+  the 08:00–08:10 queue observation add that half-headway does not?
 - ₡4,800 out and ₡1,100 in. Give me the recovery ratio, and then give me what
   the district's monthly balance read the week before you drew this.
 - 62% of residents within 400 metres. Who is the 38%? And did you decide that,
@@ -1914,10 +2024,10 @@ and not the one that prices it.
 ```yaml
 spec:
   - "You arrive with the save `<student ID>-w04` loaded and advanced to in-game 08:00, not a screenshot of it."
-  - "You bring two candidate alignments for the Denton Hill–Barrow Fields spine, each with its round-trip running time and its stop count."
+  - "You bring the canonical straight bus alignment and one loop comparator, each with its manually timed round trip and stop count; the straight alignment is the line every student builds."
   - "The headway you set is stated together with the arithmetic that produced it: round-trip time divided by headway, rounded up to whole vehicles."
-  - "You record the line's monthly operating cost and its fare revenue as two separate figures in ₡, read off the Transportation Overview."
-  - "You can say what share of residents falls within 400 m of a stop, and name which residents do not."
+  - "You record allocated operating cost and fare revenue as separate worksheet figures alongside the live line-panel fields, without describing worksheet values as native readouts."
+  - "You calculate which issued sample addresses fall within 400 m walking distance along the street network, and name those that do not."
 ```
 
 ### Page body plan
@@ -1991,27 +2101,16 @@ they can price.
   nine hundred carried past it, and is the worked example for why stop spacing
   cannot be settled stop by stop.
 
-### Open questions for the writer
+### Production decisions settled
 
-- The spine table gives the line's operating cost as **₡4,800/mo** and the
-  lecture's slide 8 costs a vehicle at ₡1,150/mo, which does not multiply to
-  ₡4,800 at four vehicles. Do not silently resolve this to ₡1,200. Either the
-  lecture's per-vehicle figure is a tram figure from an earlier and smaller
-  save, or the ₡4,800 includes depot overhead the per-vehicle rate does not.
-  Decide which, say it once on the page if it needs saying, and take ₡4,800 as
-  the reading either way — the spine is canon and the slide is not.
-- The lecture leaves the mode undecided (tram or bus) and flags that every figure
-  in its slide 8 and slide 12 tables changes with it. The session page has to
-  commit, because "vehicles assigned" reads differently for a tram than for a
-  bus and students will be at the machine. Pick one and use it in every sentence.
-- The ~₡2,000/mo of growth revenue used above to reconcile +₡2,100 to +₡400 is an
-  estimate from the population delta, not a spine reading. Either sanity-check it
-  against the budget panel on the shared save and quote it, or drop the figure
-  and say only that growth partly offset the subsidy.
-- Whether the coverage round at 15:35 states the 38% as a cohort result or lets
-  each student find their own. The cohort version lands harder and takes four
-  minutes; the individual version is better teaching and takes fifteen, which is
-  the whole segment.
+- The line is a **bus**, Denton Hill–Barrow Fields, on the straight six-stop
+  alignment. The loop is a costed comparator only.
+- ₡4,800/mo is an allocation from the course district-cost worksheet, not a
+  per-vehicle UI value; the page does not repeat the stale lecture estimate.
+- Growth is described only as partly offsetting the subsidy unless the evidence
+  pack supplies a sourced revenue row.
+- The 62/38 coverage split is the reference scenario. Each student also records
+  the result for the issued sample addresses against their own street network.
 
 ---
 
@@ -2048,6 +2147,10 @@ on, widen it, and stay in the room long enough to watch the relief disappear.
   four rows (spatial, temporal, modal, land use), a vehicles-per-hour column, and
   a column for which info view each row is read in. Ruling it up during the
   session costs you the relief window.
+- The raw Wickstead observation needed to reconstruct the capacity claim:
+  vehicles counted from 08:00–09:00, lane count, the standard saturation-flow
+  assumption supplied on the sheet, and the observed green-time fraction. A
+  percentage without these inputs is not evidence.
 - Nothing to hand in. Assessment 1 is marked and returned or returning;
   Assessment 2 is not due until Week 9. Arrive with the save and the log, and
   arrive on time, because the 08:00 hold starts at 13:10 and it is not repeated.
@@ -2058,9 +2161,9 @@ on, widen it, and stay in the room long enough to watch the relief disappear.
 |---|---|---|---|
 | 13:00–13:10 | Reading-in | The before-figures are written on the sheet with nothing touched: 08:00 peak travel time, off-peak travel time, volume-to-capacity at Wickstead, the line's daily passengers, volume on Hessel Row. Pens down after ten minutes. | Fenn |
 | 13:10–13:30 | The 08:00 hold | Every machine advances to in-game 08:00 and holds. Nobody builds. The room watches the corridor load for twenty minutes of wall-clock time and describes what it sees. | Fenn |
-| 13:30–14:00 | Failure-point walk-through | One save goes on the projector and the Traffic info view is walked north to south along the Kerrow corridor, junction by junction, while the other fifteen follow the same walk on their own machines, until the cohort agrees where the queue originates rather than where it is longest. | Fenn |
+| 13:30–14:00 | Failure-point walk-through | One save goes on the projector and the Traffic info view is walked north to south along the Kerrow corridor. Students work in eight pairs on seven lab machines plus the projected station, so the fifteen-machine room serves all sixteen students. | Fenn |
 | 14:00–14:20 | The widening | The pre-widening district is saved off first. Then Wickstead's corridor approaches go from two lanes to four, on the save every student carries forward. The first-morning reading is taken immediately. | students, Fenn roving |
-| 14:20–15:00 | Six in-game weeks | Three in-game weeks advanced and read, then three more advanced and read. The same reading, three times, on the same junction. | students, Fenn roving |
+| 14:20–15:00 | Three-state comparison | Students read the immediate widened state, then load the issued three-week and six-week reference checkpoints. The same route timing and junction count are repeated on all three states; no claim is made that six weeks elapse in forty minutes. | students, Fenn roving |
 | 15:00–15:30 | The argument round | Four groups of four, one row of the decomposition each, then all four rows to the board as one table: a figure against each and the view it was read in. Contested rows are re-read live on a group member's machine. | Fenn |
 | 15:30–15:45 | The instrument menu | The lecture's four instruments go back up with their costs. Every student writes the one they will argue for and the single number that would tell them it worked; a show of hands sorts the room and Idris takes one named defence per instrument. | Fenn |
 | 15:45–16:00 | Wash-up and the break protocol | The 150-word position statements go on the wall as students reach it. Sixteen traded-pair sentences, thirty seconds apiece. Then the break protocol, issued on one page and walked through. | Fenn |
@@ -2100,12 +2203,11 @@ short of the elasticity the save lands is the finding, not a discrepancy to be
 closed. The prediction is more useful for having been wrong than for having been
 skipped.
 
-**Six in-game weeks, 14:20–15:00.** Three in-game weeks, read, then three more,
-read. Forty minutes of wall-clock time for six weeks of simulated time, which is
-tight and is meant to be: the relief window is roughly three in-game weeks wide
-and a student who advances six weeks in one go will find the refill and never see
-the relief, which is a worse lesson because it looks like the widening simply
-failed. It did not fail. It worked, and then the network noticed.
+**Three states, 14:20–15:00.** Read the immediate widened state, then load
+`kerrow-ref-w06-3w` and `kerrow-ref-w06-6w`. The evidence pack records the game
+build, dates and uninterrupted run used to make both checkpoints. Repeat the
+same manual route timing and junction count on each. The sequence preserves the
+relief window without pretending six in-game weeks fit inside forty minutes.
 
 **The argument round, 15:00–15:30.** There is one table to build and sixteen
 people to build it with, so the room splits into four groups of four and each
@@ -2180,9 +2282,10 @@ measured on the studio's own save, inside one session, and it is the only time i
 the semester the studio gets to watch a mechanism it will spend the rest of the
 year arguing about.
 
-**Then decompose it.** The refill has four sources and every one of them is
-independently observable, which is why the argument round at 15:00 is an argument
-rather than a lecture. *Spatial:* the Brayhurst quarter's back-street route,
+**Then test a decomposition hypothesis.** The worksheet proposes four sources;
+none is independently identified as a causal quantity by the game. The argument
+round asks which observations are consistent with each mechanism and where
+conversion assumptions enter. *Spatial:* the Brayhurst quarter's back-street route,
 Hessel Row chief among it, empties within about three simulated days of the wider
 approaches opening — read the traffic volume layer on Hessel Row, not on the
 corridor. *Modal:* the Denton Hill–Barrow Fields spine loses riders to the road
@@ -2193,9 +2296,10 @@ volume by hour across 07:00–09:00 and watch the 07:00–08:00 band fall while 
 08:00–09:00 band rises. *Land use:* households take up sites further out once the
 commute cost falls; read the residential demand bars and new occupancy at the
 Denton Hill edge, which is where the 38% who are outside 400 m of a stop live.
-Four rows, a figure against each, and they sum to roughly what the elasticity
-literature predicts. Students who want to dispute the conclusion have to dispute
-a row, and at the board they are invited to.
+Four rows, an estimated vehicles-per-hour contribution or *not estimable*
+against each, the observation used, and the conversion assumption. They are not
+forced to sum to the elasticity forecast. A residual is a result, not an error
+to hide.
 
 **The one-way "fix", which someone will propose.** Every year at about 15:10 a
 student proposes converting the corridor and Hessel Row into a one-way pair,
@@ -2236,17 +2340,17 @@ in as `<student ID>-w05` and saved out as `<student ID>-w06`.
 | Reading | Where it is read | This week's value | Against last week |
 |---|---|---|---|
 | Population / households | city information panel | 12,800 / 4,900 | 9,400 / 3,600 |
-| Monthly balance | budget panel, per-district income and outlay | **+₡1,800/mo** | +₡400/mo |
-| Travel time, 08:00 peak | travel-time readout, city information panel | **11.2 min** | 5.4 min |
-| Travel time, off-peak | same readout, held off-peak | **5.6 min** | not separated |
-| Kerrow corridor at Wickstead, volume ÷ capacity | Traffic info view, traffic volume layer | **118% capacity** | not recorded |
+| Monthly balance | live UI city budget plus district-cost worksheet | **+₡1,800/mo reference** | +₡400/mo reference |
+| Travel time, 08:00 peak | manual timed route, fixed origin/destination | **11.2 min reference** | 5.4 min reference |
+| Travel time, off-peak | same manual route timing, fixed off-peak window | **5.6 min reference** | not separated |
+| Wickstead observed demand ÷ assumed effective capacity | hourly count ÷ (supplied saturation flow × observed green fraction × lanes) | **118% reference** | not recorded |
 | Failure point | Traffic info view, walked junction by junction | **Wickstead junction** | none identified |
-| Transit share | Transportation Overview, mode split | **14%** | 11% |
+| Transit share | worksheet calculation from issued observation sample | **14% reference** | 11% reference |
 | Happiness | happiness overlay, district | **66%** | 73% |
 | Land value index, district mean | Land Value info view | **33** | 34 |
-| Peak after widening, first morning | travel-time readout, on the widened save | **8.9 min** | — |
-| Peak after three in-game weeks | travel-time readout, on the widened save | **8.9 min**, holding | — |
-| Peak after the refill | travel-time readout, on the widened save | **10.7 min** | — |
+| Peak after widening, first morning | manual route timing on live widened save | **8.9 min reference** | — |
+| Peak after three in-game weeks | same timing on `kerrow-ref-w06-3w` | **8.9 min reference**, holding | — |
+| Peak after the refill | same timing on `kerrow-ref-w06-6w` | **10.7 min reference** | — |
 
 **Livability is the metric that moved the wrong way.** Happiness fell from 73%
 to **66%** and the land value index went **34 to 33**, which is flat — and flat,
@@ -2381,22 +2485,17 @@ for a fortnight:
 3. The instrument named at 15:30, written down with the single number that would
    tell you it worked.
 
-**What is done over the break.** All of it is Week 7's pre-session work, none of
-it is optional, and it is set going now rather than on 19 April because the
-failure Nadia's clinic opens on has to have already happened before the room sits
-down:
+**What is done over the break.** No unattended simulation is required and no
+student loses access because they rely on a lab machine. The preparation is
+paper-based; Week 7 supplies the common failure checkpoint:
 
-4. Open `<student ID>-w06` and, **before you unpause**, write down the water,
-   sewage and electricity headroom as three percentages of installed capacity,
-   read off the production-versus-consumption bar in each info view. On paper.
-5. Then let the district run **six in-game days at 1× without touching a single
-   tool**, and save that state as `<student ID>-w07-pre`. That is the save Week 7
-   opens and the save its readings come off. Do not intervene during the run,
-   however alarming it gets. Note, at the moment you notice it and not
-   reconstructed afterwards, the in-game day you first thought something was
-   wrong; if nothing struck you as wrong, write *"nothing"*, which is a
-   legitimate answer and one the room needs to be honest.
-6. Re-read and print your Week 3 zoning memo at A4 — the paragraph in which you
+4. Copy the Week 6 water, sewage and electricity production-versus-consumption
+   values from the issued evidence sheet. These are citywide availability
+   readings, not pressure or per-pipe capacity.
+5. Read the one-page Week 7 failure chronology without the diagnosis column and
+   mark the first entry at which you would investigate. *Nothing yet* is a
+   legitimate answer. The concealed diagnosis is opened in the clinic.
+6. Re-read and bring your Week 3 zoning memo — the paragraph in which you
    sent industry to Ombersley Flats. You will be asked to read your own sentence
    back on 19 April.
 
@@ -2414,9 +2513,9 @@ has just spent an afternoon at the top of one.
 ```yaml
 spec:
   - "You arrive with the save `<student ID>-w05` loaded and the Transportation Overview open, not a screenshot of either."
-  - "Before you change anything, you record the 08:00 peak travel time, the off-peak travel time, and the volume-to-capacity ratio at the Wickstead junction."
-  - "The widening's peak travel time is on your readings sheet as three rows — the first morning, three in-game weeks on, and after the refill — each labelled with the in-game date it was taken."
-  - "Your decomposition table names the four sources of the traffic that refilled the widened junction, with a vehicles-per-hour figure against each and the info view it was read in."
+  - "Before you change anything, you record the raw peak count, lane count, supplied saturation-flow assumption and observed green fraction used to calculate Wickstead demand divided by assumed capacity."
+  - "The widening's route timing is on your sheet for three states — the first morning, the issued three-week checkpoint and the issued six-week checkpoint — each labelled with its source save and date."
+  - "Your decomposition table treats the four proposed refill sources as hypotheses, recording an estimate or `not estimable`, the observation used and every conversion assumption."
   - "You leave a position statement of no more than 150 words on the wall and an off-machine copy of `<student ID>-w06`."
 ```
 
@@ -2568,34 +2667,25 @@ Infrastructure Plan, 25%) is due Week 9 and its fiscal argument starts here
 
 ### What the session is for, in one sentence
 
-You will find the failure that has been sitting in your save file since Week 3,
-say out loud which in-game day you first noticed it and which in-game day the
-capacity bar had already gone red, and buy back the water without buying back
-the water quality.
+You will compare the first visible service complaint with the citywide
+production-versus-consumption record, identify which facility is the reverse
+salient, and decide whether to buy water-supply or sewage-treatment headroom
+first without inventing pressure or contamination states the game does not
+model.
 
 ### What students arrive with
 
-- **The Week 6 save, restored, unrepaired.** `<student ID>-w06`, taken at the
-  end of the Week 6 session and copied off-machine as the policies page
-  requires. Restore it from the off-machine copy if the machine has been
-  reimaged over the break. Nothing built, demolished, rezoned or re-sliderd
-  during the two weeks off. The clinic does not work on a district that was
-  quietly tidied.
-- **The pre-run save, `<student ID>-w07-pre`.** Before the session, open
-  `-w06`, unpause at 1× speed, and let the district run **six in-game days**
-  without touching a single tool. Save at the end of day six. This is the save
-  you open at 13:00 and it is the save the readings come off. Do not intervene
-  during the run, however alarming it gets. What happens during those six days
-  is the session.
-- **The three headroom percentages, written down before the run.** Water,
-  sewage and electricity, each as a percentage of installed capacity, read off
-  the production-versus-consumption bar in each info-view **before** you unpause.
-  The Week 7 lecture's four bands of headroom are the scale you write them
-  against. Bring them on paper.
-- **A one-line note of the in-game day you first noticed something wrong**,
-  written during the six-day run, at the moment you noticed and not
-  reconstructed afterwards. If nothing struck you as wrong, write *"nothing"* —
-  that is a legitimate and common answer and the room needs it to be honest.
+- **The Week 6 save, restored and unmodified**, `<student ID>-w06`, plus its
+  off-machine copy. No between-session simulation is required.
+- **The issued failure checkpoint**, `kerrow-ref-w07-overload`, recorded on the
+  design-lab build. It carries water consumption above production and sewage
+  processing above treatment capacity. Everyone diagnoses this one state before
+  returning to their personal save.
+- **The failure chronology**, supplied without its diagnosis column. Mark the
+  first entry at which you would investigate and the live UI field that would
+  trigger you. This replaces the inaccessible unattended six-day run.
+- **The three availability figures** for water, sewage and electricity copied
+  from the evidence pack and labelled *reference-scenario live UI*.
 - **Week 6's readings, re-read.** Peak travel time 11.2 min, off-peak 5.6, the
   Kerrow corridor at 118% capacity with Wickstead junction as the failure
   point, transit share 14%, happiness 66%, land value index 33, balance
@@ -2605,10 +2695,8 @@ the water quality.
   justified sending industry to Ombersley Flats. The words *downwind*,
   *downstream* and *cheap* are in most of them. Bring it printed at A4; you
   will read your own sentence back at the crit.
-- **The Week 7 lecture's slide 9 figure**, printed or open on a second screen —
-  the Kerrow corridor drawn as a network, with the Farrant Row outfall upstream
-  of the Kerrow intake. The clinic assumes you have that figure in front of you
-  and does not redraw it.
+- **The utility network figure**, printed on the session evidence sheet. The
+  clinic never depends on an unbuilt lecture slide.
 - Headphones off, notification feed visible, water and sewage info-views open
   at 13:00. Nadia starts the room on time.
 
@@ -2616,22 +2704,19 @@ the water quality.
 
 | Time | Segment | What happens | Who runs it |
 |---|---|---|---|
-| 13:00–13:20 | Opening round: the day you noticed | Every student states two in-game days out loud — the day they first noticed something wrong, and the day the water capacity bar first went red. Nadia writes both columns on the board. The gap is the lecture's whole argument, measured on the room's own saves. | Nadia Ilkhom |
-| 13:20–13:55 | Cascade walk-through | One volunteered save on the projector, water info-view and water-pollution overlay both open. The eight steps of the lecture's cascade run live, paused at each, with the room asked what the readout showed and on which day. | Nadia Ilkhom |
-| 13:55–14:35 | Clinic round one — booked slots | Students work their own networks at their own machines. Nadia takes booked eight-minute slots in roster order, one machine at a time, and the task at each is the same: find your reverse salient and say what you thought the network was doing. | Nadia Ilkhom, at each machine in turn |
-| 14:35–14:45 | Break | Machines stay unpaused where students have set them running; nobody builds during the break. | — |
-| 14:45–15:15 | The upgrade | The second pumping unit goes in at Wensley Bank. Run six more in-game days. Take the week's readings at in-game 08:00 on the sixth day and enter them on the readings sheet. | Students, at their own machines |
-| 15:15–15:40 | Clinic round two — the plant | The restored load arrives at the Farrant Row treatment plant, which is now over capacity. Nadia walks the room through what the sewage info-view and the water-pollution overlay are showing. **Nothing is fixed.** The over-capacity plant is costed, recorded and left running. | Nadia Ilkhom |
+| 13:00–13:20 | Opening round: when would you investigate? | Every student names the chronology entry they marked and the UI field that would trigger them. Nadia writes *noticed* and *available capacity* on the board; nobody invents an in-game day they did not observe. | Nadia Ilkhom |
+| 13:20–13:55 | Overload walk-through | The issued checkpoint goes on the projector with water and sewage info views open. The room distinguishes citywide water shortfall, sewage-treatment overload and river pollution exposure. | Nadia Ilkhom |
+| 13:55–14:35 | Group clinic | Four groups of four receive ten minutes each with Nadia. Each group presents one diagnostic tree; all sixteen students have a named role and leave with feedback. | Nadia Ilkhom |
+| 14:35–14:45 | Break | All machines are paused. | — |
+| 14:45–15:15 | Compare the increments | On disposable branches, groups compare the issued water-upgrade and sewage-upgrade checkpoints against the same overload baseline. No multi-day run is attempted in class. | Students, in pairs |
+| 15:15–15:40 | Clinic round two — the choice | Nadia walks the room through what each facility fixes and what it cannot fix. Students cost both increments and choose an order. | Nadia Ilkhom |
 | 15:40–15:52 | Reverse-salient cards | Each student fills in and signs a reverse-salient card: the one component holding their district's water capacity, its installed number, its current load, and the monthly cost of the next increment. | Students |
 | 15:52–16:00 | Wash-up and hand-off | Saves taken as `<student ID>-w07`, cards handed in, off-machine copies confirmed. Nadia states what Week 8 will do to the number on the card. | Nadia Ilkhom |
 
-**The opening round is the session's argument and it takes twenty minutes
-because it has to be unhurried.** The two columns Nadia writes on the board are
-headed *noticed* and *red*. In most cohorts the median gap is three to four
-in-game days and a third of the room writes *nothing* in the first column. Do
-not soften this and do not let students revise their answer once they hear
-somebody else's. The board stays up for the rest of the session and the crit
-questions point at it.
+**The opening round is the session's argument.** The board separates the first
+visible complaint from the first availability reading that warrants an
+investigation. Both come from the issued chronology. Students may mark *not
+yet*; they may not back-fill a remembered day from a simulation they never ran.
 
 **The cascade walk-through needs a volunteer, and the volunteer needs telling
 in advance.** Nadia asks at the end of the Week 6 session and confirms by email
@@ -2642,102 +2727,84 @@ read is the capacity bar. Pause at each of the eight steps and ask the same two
 questions: *what does the readout say, and what would you have done if you were
 watching this one?*
 
-**Clinic round one is a clinic, not a desk crit, and the difference matters.**
-Students are working at their machines the whole forty minutes. Nadia arrives
-at each in turn, sits down, and does not look at the plan — only at the
-production-versus-consumption bars and the pipe graph. Slots are booked on the
-sheet at the door in eight-minute blocks and run to the clock. A student who is
-not ready when their slot comes round loses it to the next name; there is no
-second pass. Book the slot even if nothing on your network looks broken. That
-is when the eight minutes is worth most, and it is the standing advice on
-Nadia's page.
+**The group clinic serves the cohort it claims to serve.** Four groups of four
+rotate through ten-minute slots. One student opens the panels, one reads the
+chronology, one challenges the causal claim and one records Nadia's correction;
+roles rotate in the second round. The clinic looks only at supported
+production, consumption, treatment and pollution fields—not pipe pressure.
 
 ### The exercise
 
-Open `<student ID>-w07-pre`. Before anything else, open the **water info-view**
-and read the production-versus-consumption bar. It is red, and it has been red
-since a medium-density residential block completed on the eastern edge of
-**Ombersley Flats** during the six-day run. District draw crossed the **Wensley
-Bank pumping station**'s installed capacity on that frame. Nothing about the
-map changed, no notification fired for four days, and the bar has been the only
-honest readout in the file the whole time.
+Open `kerrow-ref-w07-overload`. In the **water info view**, city consumption
+exceeds production; in the **sewage info view**, sewage production exceeds
+treatment capacity. These are citywide availability failures. The plan does not
+infer hydraulic pressure, per-pipe capacity or a far-end-first outage from them.
 
-Trace the trunk main outward from Wensley Bank with the water info-view's pipe
-overlay on. Delivered pressure holds through **Halstead Reach** and **Ockley
-Green**, tapers across Ombersley Flats, and reaches zero short of **Farrant
-Row** — which added no demand at all and is simply furthest along the graph.
-This is the shape the lecture drew on slide 12 and it is worth looking at on
-your own save rather than accepting from the deck: the blocks that lose water
-are not the blocks that caused the shortfall.
+Trace the network with the pipe overlay only to confirm connectivity and flow
+direction. It cannot show pressure loss. The reverse salient is the facility
+whose production or treatment ceiling is below current city demand, identified
+from the availability bars and the evidence-pack facility table.
 
-Now switch to the **sewage info-view** and then to the **water-pollution
-overlay**, and follow the water backwards rather than forwards. The **Farrant
-Row treatment plant** is receiving more than it can treat and is discharging
-partially treated effluent at the **Farrant Row outfall**, which sits on the
-Kerrow upstream of the **Kerrow intake** that Wensley Bank draws from. Sewage
-has backed up at **Tuckwell Bend**, where the low-lying Ombersley blocks sit
-inside the river bend and the gradient runs the wrong way. Six in-game days of
-contaminated supply are already behind you. **Farrant Row is on a boil notice.**
+Now switch to the pollution overlay. The **Farrant Row treatment plant** is
+overloaded and the **Farrant Row outfall** creates a pollution exposure on the
+Kerrow. The overlay supports a claim about polluted receiving water; it does
+not support a native boil notice or a claim that partially treated water has
+re-entered every connected tap.
 
-The causal chain you are asked to write down, in this order, is not a chain
-about pipes. Industry went to Ombersley Flats in **Week 3** because it was
-downwind, downstream and cheap. Downstream of what was never asked. The
-outfall that serves it discharges above the intake, and the pumping station's
-capacity was never revisited against the zoning envelope that rezoning
-implied. That decision is four weeks old, it was invisible in every readout a
-student habitually checks, and it was legible in the capacity bar from the day
-it was made.
+The causal chain is split rather than laundered into one story. Week 3's
+industry siting increased service demand and placed exposed land beside polluted
+water. The instructor supplied the intake/outfall arrangement as a declared
+stress-test condition; it is not blamed on the student. Growth then exceeded
+water production and sewage treatment. Students must name which link is a
+design decision, which is an instructor fault injection and which is an
+observed capacity shortfall.
 
-**The upgrade.** At 14:45, place the second pumping unit at Wensley Bank. It
-costs **₡6,800 a month** and it is the single largest new line the district has
-taken on all semester. Run six more in-game days at 1× and take the week's
-readings at in-game **08:00** on the sixth day, per the studio's standing
-convention. Water pressure is restored along the whole trunk main. Farrant Row
-has water again.
+**Compare the upgrades.** Load the two issued disposable checkpoints. The
+Wensley Bank increment costs an allocated **₡6,800 a month** and restores water
+production headroom; it does not add sewage treatment. The Farrant Row treatment
+increment costs **₡5,100 a month** and restores sewage-treatment headroom; it
+does not add water production. The evidence pack records both checkpoint dates
+and budget allocations.
 
-**Farrant Row's boil notice does not lift, and this is the part of the session
-that people misread.** The pump fixed pressure. Pressure was never the quality
-problem. The intake is still downstream of the outfall, the plant is still over
-capacity, and restoring full flow to the districts has restored full load to
-the plant — so the discharge is now worse than it was while Farrant Row was
-dry. The correct engineering move made the receiving water worse, on the same
-afternoon, on your own save. Record the plant's load against its capacity, and
-record that the boil notice is still in force at the 08:00 reading.
+The comparison is deliberately non-substitutable: the water upgrade fixes the
+water availability bar while the sewage bar remains overloaded; the treatment
+upgrade does the inverse. Record both. Do not invent a quality notification to
+make the distinction more dramatic than the supported evidence.
 
-**What you do not do this week.** You do not upgrade the Farrant Row treatment
-plant. It would cost **₡5,100 a month** on top of the pump and the district is
-carrying +₡900 a month. You do not rezone Ombersley Flats, you do not demolish
-the industry, and you do not move the intake. You cost the plant upgrade, you
-write it on the reverse-salient card as the next increment, and you leave the
-ground exactly as damaged as you found it. Week 8 will decide whether that
-₡5,100 is ever funded, and Week 10 will visit the same bend of the river.
+**What you commit.** Return to the personal save and add neither facility in
+class. The reverse-salient card records both costed increments and chooses an
+order with one sentence of justification. Week 8 tests whether that order
+survives a citywide budget cut. No student's continuing save is forced into a
+fictional contamination state.
 
 ### Readings taken this week
 
-All readings at in-game **08:00** on the sixth day after the pump goes in,
-against the Week 6 session's readings.
+All reference readings come from the two dated comparison checkpoints. Personal
+readings come from the student's unmodified Week 6 save and are labelled
+separately.
 
 | Reading | Where it is read | This week's value | Against last week |
 |---|---|---|---|
 | Population / households | district information panel | 16,100 / 6,200 | 12,800 / 4,900 |
-| Monthly balance | budget panel, per-district income and outlay | **+₡900/mo** | +₡1,800/mo — down ₡900 |
-| Wensley Bank pumping station, monthly upkeep | budget panel, water and sewage line | **₡6,800/mo** | new line — did not exist in Week 6 |
+| Monthly balance | live UI city budget plus district-cost worksheet | **+₡900/mo reference** | +₡1,800/mo reference |
+| Wensley Bank water-production increment | district-cost worksheet | **₡6,800/mo allocated** | candidate increment |
 | Farrant Row treatment plant upgrade | costed, not placed | ₡5,100/mo if funded | not costed in Week 6 |
-| Peak travel time | traffic info-view, travel-time readout | 10.9 min | 11.2 min — improved by 0.3 |
-| Transit share | transit info-view | 15% | 14% — up 1 point |
+| Peak travel time | manual timed route | 10.9 min reference | 11.2 min reference |
+| Transit share | issued observation worksheet | 15% reference | 14% reference |
 | Happiness, district mean | happiness readout | **61%** | 66% — down 5 points |
 | Land value index, district mean | land value info-view | 34 | 33 — up 1 point |
 | Land value index, **Ombersley Flats** | land value info-view, sub-area selection | **11 — collapsed** | not read as a sub-area in Week 6; this is the first week it is recorded separately |
-| Water supply, Farrant Row | water info-view and notification log | **boil notice, in force** | none in Week 6 |
-| Contaminated supply | water-pollution overlay, notification log | six in-game days | none in Week 6 |
-| Treatment plant load against capacity | sewage info-view, production-versus-consumption bar | over capacity, discharging | within capacity in Week 6 |
+| Water availability | water info view | production below consumption at baseline; restored only in water-upgrade checkpoint | within capacity in Week 6 reference |
+| Sewage availability | sewage info view | treatment below sewage production at baseline; restored only in treatment-upgrade checkpoint | within capacity in Week 6 reference |
+| River pollution exposure | pollution overlay | present below the Farrant Row outfall | exposure recorded; no inferred tap-water state |
 
 **A plan claiming all three metrics improved has not been read carefully.**
 This week two moved the wrong way. **Livability** moved the wrong way hardest:
 happiness fell five points to 61% and Ombersley Flats' land value collapsed to
 11. **Fiscal performance** moved the wrong way as well, from +₡1,800 to +₡900,
-because the pump's ₡6,800 a month is a permanent line taken on to buy back
-something the district already had in Week 6.
+in the reference water-upgrade branch because ₡6,800 a month is allocated to
+buying back production headroom. The treatment-first branch has a different
+fiscal row; students compare it rather than being assigned the same outcome.
 
 **Mobility performance is the metric this week does not touch**, and that is
 worth stating rather than fudging into the tradeoff. Peak travel time improved
@@ -2765,12 +2832,10 @@ entire period during which buying headroom looks like waste. There is no point
 on the curve at which the readout tells you to spend the money and the district
 still looks fine.
 
-You are paying ₡6,800 a month this week for capacity you could have had in
-Week 3 at the same monthly cost and no boil notice, no six days of
-contaminated supply, no collapsed sub-area. The money is identical; what
-differs is that the district now also carries the livability damage. That is
-what deferral bought: nothing, at full price, plus interest paid in a metric
-that is not fiscal.
+The reference water-first branch pays ₡6,800 a month for production headroom;
+the treatment-first branch pays ₡5,100 for sewage headroom. Neither repairs the
+other bar. Deferral is therefore discussed through the observable service
+shortfall and exposure overlay, not through a fabricated boil notice.
 
 **The choice cannot be deferred again, and this is the part students argue
 with.** The plant upgrade is ₡5,100 a month against a balance of +₡900. It is
@@ -2801,10 +2866,10 @@ doing.
   of what?
 - Farrant Row added nothing to the load and lost water first. What did you think
   the trunk main was doing between Ockley Green and Farrant Row?
-- The pump is in and Farrant Row still has a boil notice. What did you expect
-  the pump to fix, and where did that expectation come from?
-- Your treatment plant went over capacity the moment you restored pressure.
-  Did you predict that before you placed the pump, or after you read the bar?
+- In the water-upgrade checkpoint, which availability field changes and which
+  one does not? Show both panels.
+- In the treatment-upgrade checkpoint, what remains short and why is that not a
+  contradiction?
 - If I hand you ₡5,100 a month right now, what do you buy, and how do you know
   it is the right increment rather than the visible one?
 - What is the next component that will do this to you, and what is its
@@ -2823,26 +2888,18 @@ under load.
 
 ### What leaves the room
 
-- **The save**, `<student ID>-w07`, taken at 15:52 with the second pumping unit
-  in and the treatment plant left over capacity. One off-machine copy before
-  you leave the building, per the save discipline on the policies page. Do not
-  repair the plant at home; Week 8 assumes this state and Week 10 assumes what
-  Week 8 does to it.
-- **The pre-run save**, `<student ID>-w07-pre`, kept as well and not
-  overwritten. It is the only file that holds the district mid-cascade and
-  Week 11 will want it.
-- **The readings sheet** for Week 7, all twelve rows filled, taken at in-game
-  08:00 on the sixth day, with the district-mean and Ombersley Flats land value
-  entered as two separate rows.
+- **The save**, `<student ID>-w07`, copied from the unmodified personal Week 6
+  state. The two instructor checkpoints are evidence, not states to overwrite
+  into the student's city.
+- **The readings sheet** for Week 7, with the baseline, water-upgrade and
+  treatment-upgrade columns labelled by source checkpoint.
 - **The reverse-salient card**, signed, handed to Nadia before you leave:
   component, installed capacity, current load, headroom as a percentage, and
   the monthly cost of the next increment. Nadia photographs the set and returns
   them at the start of Week 8.
-- **Four screenshots**, captioned with the in-game day and the words *08:00*:
-  the water info-view showing the production-versus-consumption bar; the
-  water-pollution overlay showing the plume between the outfall and the intake;
-  the land value info-view with Ombersley Flats selected, reading 11; the
-  budget panel showing the ₡6,800 line.
+- **Four screenshots**: baseline water availability, baseline sewage
+  availability, the river-pollution overlay, and the side-by-side facility-cost
+  worksheet. Each is labelled live UI, overlay or worksheet.
 - **One written line, unfunded**, in the form: *"The Farrant Row treatment
   plant upgrade costs ₡5,100 a month. I have not funded it, and the metric that
   is paying for that is livability."* This line is carried into Week 8 and is
@@ -2855,11 +2912,11 @@ nothing a week later; the point is that it was recorded on the day it was read.
 
 ```yaml
 spec:
-  - "You arrive with your Week 6 save restored unmodified and a second save taken after six unattended in-game days of run-on, named `<student ID>-w07-pre`."
-  - "You bring water, sewage and electricity headroom written down as three percentages of installed capacity, read before you unpaused the run."
-  - "You can name the single component that sets your district's water capacity, and give its installed capacity and its current load as numbers."
-  - "You leave with the Wensley Bank second pumping unit placed, the Week 7 readings taken at in-game 08:00, and Ombersley Flats' land value recorded separately from the district mean."
-  - "You leave one written line naming the Farrant Row treatment plant upgrade, its monthly cost, and the fact that you have not funded it."
+  - "You arrive with your Week 6 save unmodified, the issued overload checkpoint and the failure chronology marked at the first entry that would make you investigate."
+  - "You distinguish water production shortfall, sewage-treatment overload and river-pollution exposure using their actual panels, without claiming pipe pressure or a boil-notice state."
+  - "Your group clinic gives every student a named diagnostic role and compares the same baseline, water-upgrade and treatment-upgrade checkpoints."
+  - "You leave with both facility increments costed, a chosen order on the reverse-salient card, and your personal save preserved rather than overwritten by the reference scenario."
+  - "Every reading is labelled live UI, overlay, worksheet calculation or reference-scenario value."
 ```
 
 ### Page body plan
@@ -2868,24 +2925,19 @@ The page already renders the title, the date, the spec list, the teaching team
 and the related content, so the body must not repeat any of them. Target
 **450–700 words**.
 
-1. **`## Before you come`** — roughly 140 words. The two saves: `-w06` restored
-   unmodified, and the six-day unattended run-on saved as `-w07-pre`. The three
-   headroom percentages written down before unpausing. The one-line note of the
-   day you noticed, written during the run. The Week 3 memo printed.
+1. **`## Before you come`** — roughly 140 words. The unmodified `-w06`, issued
+   overload checkpoint, marked chronology, three availability figures and Week
+   3 memo.
 2. **`## What has already happened`** — roughly 120 words. Stated in the past
-   tense as fact, not as a scenario: the block completed, draw crossed capacity,
-   pressure fell at the far end of the main, Farrant Row is on a boil notice,
-   six in-game days of contaminated supply, the outfall is upstream of the
-   intake, and the zoning decision behind it is four weeks old.
+   tense as a supplied reference scenario: water demand exceeds production,
+   sewage exceeds treatment, and polluted receiving water is visible. Separate
+   student choice, instructor fault injection and observed shortfall.
 3. **`## In the room`** — roughly 160 words. The opening round and the two
-   columns on the board. The cascade on the projector. Clinic slots booked in
-   eight-minute blocks and run to the clock, with the standing advice to book
-   even when nothing looks broken.
-4. **`## What you build`** — roughly 130 words. The second pumping unit at
-   Wensley Bank, ₡6,800 a month, six days of run-on, readings at 08:00. Then
-   the flat statement that the boil notice does not lift and why, and the
-   explicit instruction not to touch the treatment plant, the zoning or the
-   intake.
+   columns on the board, the checkpoint on the projector, and four ten-minute
+   group clinics serving all sixteen students.
+4. **`## What you compare`** — roughly 130 words. Water-production and
+   sewage-treatment checkpoints, their allocated costs, what each repairs and
+   what it leaves short. No multi-day run and no native quality notice.
 5. **`## What you take away`** — roughly 90 words. Save, readings sheet,
    reverse-salient card, four captioned screenshots, the unfunded line, 21:00.
 
@@ -2903,21 +2955,17 @@ replacing the `STARTER_CONTENT` body, removing the comment, and adding the
 
 ### Hand-off
 
-Week 8 receives a district carrying a brand-new ₡6,800 a month against a
-balance of +₡900, a treatment plant running over capacity, a boil notice still
-in force at Farrant Row, a sub-area reading of 11 at Ombersley, and one written
-line naming a ₡5,100 a month upgrade that nobody has funded. That line is the
-first item on Week 8's agenda and the first entry on the corridor budget sheet,
-because the cheapest cut available to a student under next week's imposed
-cutback is to reverse or defer exactly what was bought this afternoon. Week 8
-opens by refusing it, on the record, and the refusal only means something
-because this week's readings are in the file.
+Week 8 receives an unmodified personal save plus a costed choice between
+₡6,800/month of water-production headroom and ₡5,100/month of sewage-treatment
+headroom. The reverse-salient card states which comes first and what remains
+short. Week 8 tests that choice inside a citywide service-budget constraint;
+it does not inherit a fictional contamination state.
 
 Toward **Assessment 2 — Public Realm and Infrastructure Plan (25%, due Week 9)**:
 this session produces the infrastructure half of that title. The reverse-salient
-card, the ₡6,800 line, the ₡5,100 unfunded line and the plume screenshot are the
-evidence that brief's **fiscal 30** criterion is marked on, and the boil notice
-and the Ombersley sub-area reading are what its **livability 45** criterion has
+card, the two cost allocations and the pollution screenshot are the evidence
+that brief's **fiscal 30** criterion is marked on, and the documented service
+shortfall and Ombersley sub-area reading are what its **livability 45** criterion has
 to account for. This week hands the brief a costed, unresolved infrastructure
 position. It does not hand it a solution, and the brief does not ask for one.
 
@@ -2934,27 +2982,13 @@ Kerrow Basin canon table: **Farrant Row treatment plant**, **Farrant Row
 outfall**, **Kerrow intake**. All three are compounds on canon place names and
 are used unchanged.
 
-### Open questions for the writer
+### Production decisions settled
 
-- The six-day unattended run-on is set as pre-session work, which assumes every
-  student has the game on a machine they control during the break. If the
-  studio has to accommodate lab-only access, the alternative is that Nadia
-  issues the advanced state and the room loses the *noticed / red* board, which
-  is the best twenty minutes of the session. Decide before the page is written,
-  because the "Before you come" section changes completely.
-- **₡5,100 a month for the Farrant Row treatment plant upgrade is the one cost
-  figure this arc adds beyond the metric spine.** It is not a metric reading and
-  it never enters the balance, because it is never funded — but it recurs in
-  Weeks 8, 9 and 10 and should be checked against whatever the other weeks
-  coin before the pages are written.
-- The Week 7 lecture plan prices deferring the pump upgrade at ₡4,500 a month on
-  its slide 12, which contradicts the spine's ₡6,800. The session plan uses
-  ₡6,800 throughout. Either the lecture's slide is corrected or the session
-  page should avoid citing the lecture's figure at all.
-- Whether the boil notice at Farrant Row is a discrete simulation state the page
-  can name as a readout, or a studio convention layered over the water-pollution
-  overlay. The plan treats it as a readout in the notification log; if it is a
-  convention, say so once in Week 7 and it holds for Weeks 8 to 10.
+- The overload and comparison states are instructor checkpoints; no student
+  needs break-time machine access.
+- ₡6,800 and ₡5,100 are labelled allocations in the district-cost worksheet.
+- The studio uses documented availability and pollution fields only. There is
+  no pressure gradient, pipe-capacity reading or boil-notice convention.
 
 ---
 
@@ -2968,23 +3002,18 @@ this afternoon
 
 ### What the session is for, in one sentence
 
-This afternoon you will make your district's fiscal performance the best it has
-been all semester by making it a worse place to live and harder to get around,
-and before you leave you will stand at your own machine and say out loud, in a
-form of words the room writes down, what you have chosen not to fund.
+This afternoon you will close a 22% gap in an allocated district-service
+worksheet, test your composition against one of three issued whole-city budget
+checkpoints, and put on the record what you chose not to fund.
 
 ### What students arrive with
 
-- **The Week 7 save, `<student ID>-w07`, unrepaired.** Second pumping unit in
-  at Wensley Bank, ₡6,800 a month on the water and sewage line, Farrant Row
-  treatment plant still over capacity and discharging, boil notice still in
-  force. If you upgraded the plant over the week, you are not in this session's
-  starting state and the readings will not compare with the room's.
-- **The unfunded line from Week 7**, written out: *"The Farrant Row treatment
-  plant upgrade costs ₡5,100 a month. I have not funded it, and the metric that
-  is paying for that is livability."* Bring it on paper. It is entered on the
-  corridor budget sheet in the first fifteen minutes and it does not come off
-  again this semester.
+- **The unmodified Week 7 personal save** and the three issued Week 8 reference
+  branches: transit-heavy, coverage-heavy and balanced. Personal saves are not
+  forced to reproduce reference outcomes.
+- **The Week 7 reverse-salient choice**, with water and treatment increments
+  costed and ordered. It is protected at line zero; the plan does not assume
+  either upgrade was already built.
 - **The reverse-salient card**, returned to you by Nadia at the start of the
   session, with your district's water headroom on it as of last Monday.
 - **Week 7's readings**, all twelve rows: balance +₡900/mo, peak 10.9 min,
@@ -2994,12 +3023,11 @@ form of words the room writes down, what you have chosen not to fund.
   is Tobias's standing instruction and it is on their page: budget questions in
   this studio go badly otherwise. Second screen if you have one, land value on
   the left.
-- **Your district's full service outlay, itemised, on one page.** Every monthly
-  line: water and sewage, electricity, garbage, healthcare, education, police
-  and fire, parks and recreation, transit operations, road upkeep. Line name and
-  monthly figure, totalled at the bottom. Written before the session, not
-  during it. **You cannot find 22% of a number you have not added up**, and the
-  first twenty-five minutes of the session assume you have.
+- **The issued district allocation worksheet**, which allocates citywide
+  service-category costs to the district and totals the eligible baseline at
+  the bottom. It is a course accounting model, not a native district budget.
+  Twenty-two per cent means 22% of this total eligible baseline, once—not 22%
+  from every line.
 - **One prediction, written and sealed before any slider moves**: which line
   you expect to cut, and which of the three named metrics you expect it to
   cost. The session compares that sentence against the readout at four
@@ -3010,27 +3038,23 @@ form of words the room writes down, what you have chosen not to fund.
 
 | Time | Segment | What happens | Who runs it |
 |---|---|---|---|
-| 13:00–13:10 | The number | Tobias states the cutback: **22% off the district's monthly service outlay**, effective this session, not negotiable, not modelled as a proposal. No discussion of where it came from. | Tobias Wren |
+| 13:00–13:10 | The number | Tobias states the cutback: **22% of the worksheet's total eligible allocated outlay**, effective this session. The denominator is printed on every sheet. | Tobias Wren |
 | 13:10–13:25 | Line zero — the refusal | The room's cheapest available cut is to reverse last week's pump or defer the treatment plant permanently. Both are put on the table properly, costed, and refused out loud. The refusal is the first entry on the corridor budget sheet. | Tobias Wren |
 | 13:25–13:50 | Charrette — find the 22% on paper | In pairs, at the table, sliders untouched. Each student builds a closure on paper from their own itemised outlay and names the metric each line lands on. | Students, in pairs |
-| 13:50–14:30 | At the machines | Apply the closure. Run four in-game weeks at 1×. Do not adjust anything during the run. | Students |
-| 14:30–14:40 | Break | Machines left running; nothing built. | — |
-| 14:40–15:05 | Desk crit round — prediction against readout | Eight machines drawn from the roster, three minutes each, in front of whoever is standing there. The sealed prediction is opened and read against what the readout actually did. The other eight do the same exercise in pairs, out loud, and Tobias takes the other half next week. | Tobias Wren |
-| 15:05–15:40 | **On the record** | The roster round. Each student stands at their own machine and states their unfunded line aloud in the set form. Tobias enters it on the corridor budget sheet as they speak. No discussion, no response from the room. | Tobias Wren |
+| 13:50–14:30 | Test the composition | Each student maps their closure to the nearest issued branch and loads its dated settled checkpoint. They compare actual citywide category controls with the worksheet allocation and record where the model cannot implement their proposal exactly. | Students |
+| 14:30–14:40 | Break | Machines paused. | — |
+| 14:40–15:05 | Desk crit round — prediction against branch | Eight pairs, three minutes each. Each pair opens both predictions and audits them against the selected checkpoint and worksheet; Tobias samples one disputed pair from each branch. | Tobias Wren |
+| 15:05–15:40 | **On the record** | The roster round. Each student speaks, submits the same sentence in writing, or uses an agreed recorded/seated equivalent. Tobias enters it on the corridor budget sheet. | Tobias Wren |
 | 15:40–15:52 | The sheet, read back | Tobias reads the whole corridor's unfunded lines back to the room in one continuous pass, without comment. | Tobias Wren |
 | 15:52–16:00 | Wash-up and hand-off | Saves as `<student ID>-w08`, unfunded lists signed and photographed, and the one instruction that matters for next Monday: the pin-up is funded from this sheet. | Tobias Wren |
 
 **Line zero is the session's spine and it is deliberately taken first.** Every
 student's spreadsheet will, within about four minutes, arrive at the same
-answer: the cheapest 22% in the district is to switch the new Wensley Bank unit
-down and never fund the ₡5,100 plant upgrade. Tobias does not dismiss it. It is
-costed on the board — the saving is real, it is immediate, and it is the
-largest single number available. Then the room is walked back through last
-Monday's readings: six in-game days of contaminated supply, a boil notice, a
-sub-area at 11. The refusal is stated in the form *"We are not paying for this
-cut with the water"*, and it goes on the corridor budget sheet above every
-other line, dated, before a single student touches a slider. Everything after
-that is a choice made inside a fence.
+  answer: defer both utility increments. Tobias does not dismiss it. Both
+allocations are costed, then the room reads the Week 7 availability and
+pollution evidence. The refusal is stated as *"We are not paying for this cut
+with water production or sewage treatment"* and goes above every other line on
+the corridor budget sheet. Everything after that is a choice inside that fence.
 
 **The charrette is on paper because sliders are faster than thought.** Twenty-five
 minutes at the table, in pairs, with the itemised outlay and a pen. Each pair
@@ -3048,12 +3072,12 @@ roster order, and the room stays silent throughout.
 ### The exercise
 
 **The cut is 22% and the cut is not yours.** Tobias states it at 13:00 as a
-fact about the district's circumstances, in the same register a real studio
+fact about the district's allocated service budget, in the same register a real studio
 uses to tell a room that the client has lost the site: it has happened, the
 reasons are not the afternoon's business, and the work now is what you do about
-it. Nobody in the room voted for it, nobody can argue it down, and it does not
-scale to how well your district has been performing. Twenty-two per cent off
-your total monthly service outlay, in force by the end of the session.
+it. Nobody in the room voted for it or can argue it down. Twenty-two per cent of
+the **total eligible allocated outlay printed on the worksheet**, once. The
+denominator excludes taxes and capital works and is identical across the room.
 
 **What is imposed is the amount. What is chosen is the composition, and that is
 the whole design problem.** This distinction has to be held clearly or the
@@ -3065,24 +3089,18 @@ they are decisions of exactly the kind the studio marks.
 Work from your itemised outlay. The lines the room converges on, and the two
 the readings record, are these.
 
-**The transit spine.** The Denton Hill–Barrow Fields spine has run at a
-six-minute headway since Week 5. Stretching it to **ten minutes saves ₡1,900 a
-month** in operating cost and is the single largest cut available that does not
-touch the water. Open the transit line panel, set the headway, and watch what
-follows over the four-week run: transit share falls from 15% to **11%**, the
-trips that leave the bus arrive on the Kerrow corridor as cars, and peak travel
-time goes from 10.9 minutes to **11.8**. The corridor was already the failure
-point in Week 6. It has not been widened again; it has simply been given the
-traffic back.
+**The transit spine.** Reduce assigned buses from four to the branch's tested
+fleet. The manually timed round trip and vehicle count imply a calculated
+headway of about ten minutes; headway is not set directly. The worksheet
+allocates a **₡1,900/month** saving. The transit-heavy reference branch records
+the resulting observation sample; it is not presented as every student's
+inevitable outcome.
 
-**Ockley Green.** Park maintenance goes to **60%**. This is the cheap-looking
-cut, and the funding-response curve from the lecture is the reason it is not:
-below roughly 85% of default funding a maintenance slider is not a discount but
-a threshold device, and the attractiveness contribution falls well before
-anything in the park looks different. Take a street-level screenshot of Ockley
-Green today, at 60%, and keep it. Next Monday you will be arguing about a plaza
-in this park, and the argument has to start from a park the district stopped
-maintaining.
+**Parks and recreation.** The coverage-heavy reference branch sets the
+citywide parks-and-recreation category to **60%**. This is not described as an
+Ockley Green building control. Take the same street-level observation at Ockley
+Green in the baseline and branch checkpoint; the comparison asks what a
+citywide category cut means at one named place.
 
 **Everything else is yours to compose**, within the fence set at line zero.
 Healthcare and education coverage retreating from Farrant Row is available and
@@ -3092,37 +3110,33 @@ residential tax rate is on the panel and it is not a service cut — it does not
 count toward the 22%, and reaching for it is the most common way a student
 spends twenty minutes not doing the exercise.
 
-**Run four in-game weeks and take the readings at in-game 08:00.** Then open
-your sealed prediction. Most students predict correctly which line they will
-cut and incorrectly which metric will move most, because the cut lands on the
-metric they were watching and the revenue effect lands on the one they were
-not. The balance goes to **+₡3,400 a month** — the strongest fiscal performance
-the district has recorded in eight weeks, and a smaller improvement than the
-gross saving, because happiness fell to **58%** and the land value index fell
-to **31**, and three of the district's four revenue lines are functions of land
-value. The cut destroyed some of its own saving on the way through. Do not
-compute that difference as a figure; describe the mechanism in the memo, which
-is what it is for.
+**Load the selected settled checkpoint and take the readings at 08:00.** Then
+open the sealed prediction. The balanced reference branch reads +₡3,400/month,
+happiness 58 and normalised land value 31. Transit-heavy and coverage-heavy
+branches have different mobility and livability rows. Students report their
+branch, not the balanced row as universal fact, and describe associations rather
+than assigning every change to one slider.
 
 ### Readings taken this week
 
-All readings at in-game **08:00**, four simulated weeks after the closure is
-applied, against Week 7.
+All readings are taken from the selected dated branch checkpoint at in-game
+**08:00** and labelled with that branch. The values below are the balanced
+reference branch only.
 
 | Reading | Where it is read | This week's value | Against last week |
 |---|---|---|---|
 | Population / households | district information panel | 18,400 / 7,100 | 16,100 / 6,200 |
-| Monthly balance | budget panel, per-district income and outlay | **+₡3,400/mo** | +₡900/mo — up ₡2,500 |
-| Service-budget cut applied | budget panel, total monthly service outlay | **22%**, imposed | not applicable — imposed this week |
-| Transit headway, Denton Hill–Barrow Fields spine | transit line panel | **10 min** | 6 min — stretched by 4 |
-| Saving from the headway stretch | budget panel, transit operating line | **₡1,900/mo** | new this week |
-| Peak travel time | traffic info-view, travel-time readout | **11.8 min** | 10.9 min — worse by 0.9 |
-| Transit share | transit info-view | **11%** | 15% — down 4 points |
+| Monthly balance | live UI city budget plus district-cost worksheet | **+₡3,400/mo balanced reference** | +₡900/mo reference |
+| Allocated cut | worksheet, total eligible allocated outlay | **22%**, imposed | not applicable |
+| Calculated bus headway | manually timed round trip ÷ assigned vehicles | **about 10 min balanced reference** | 6 min reference |
+| Allocated saving from fleet reduction | district-cost worksheet | **₡1,900/mo reference** | new this week |
+| Peak travel time | manual timed route | **11.8 min balanced reference** | 10.9 min reference |
+| Transit share | issued observation worksheet | **11% balanced reference** | 15% reference |
 | Happiness, district mean | happiness readout | **58%** | 61% — down 3 points |
 | Land value index, district mean | land value info-view | 31 | 34 — down 3 points |
-| Ockley Green park maintenance | parks and recreation budget slider | **60%** | 100% |
+| Parks and recreation category | live UI citywide service-budget slider | **60% in coverage-heavy branch; branch-specific in others** | 100% |
 | Farrant Row treatment plant upgrade | corridor budget sheet, unfunded | ₡5,100/mo, still unfunded | unfunded in Week 7 |
-| Wensley Bank pumping station | budget panel, water and sewage line | ₡6,800/mo, protected at line zero | ₡6,800/mo |
+| Protected utility increments | district-cost worksheet | water ₡6,800/mo and treatment ₡5,100/mo protected at line zero | costed in Week 7 |
 
 **A plan claiming all three metrics improved has not been read carefully.**
 This week two of the three moved the wrong way and they moved the wrong way on
@@ -3156,8 +3170,9 @@ worth waiting for, and every abandoned bus trip reappears as a car on the
 Kerrow corridor at the same hour. Take the whole 22% out of coverage and
 services retreat from Farrant Row, which is the district's furthest edge on
 every graph the studio has drawn this semester, and happiness falls where the
-coverage leaves. **Fiscal performance reads +₡3,400 either way.** That is what
-makes the composition a design decision and not an accounting one.
+coverage leaves. The branch balances differ because the implementable citywide
+controls do not map perfectly to district allocations. That mismatch is part of
+the design argument, not a number to suppress.
 
 **It cannot be deferred because the deferral is the thing that is fenced off.**
 The one closure that would let a student avoid choosing between mobility and
@@ -3188,9 +3203,9 @@ different line.
   how much of it did you buy per ₡100 saved?
 - The balance is up ₡2,500 and your gross saving is larger than that. What
   happened to the difference, and which revenue line is it sitting in?
-- Farrant Row lost coverage. Farrant Row is also on a boil notice and reads 11
-  on the land value overlay at Ombersley next door. What is the cumulative
-  monthly saving you have taken out of that end of the district since Week 7?
+- Farrant Row lost coverage and the Week 7 reference recorded utility
+  shortfalls and river-pollution exposure nearby. What has your selected branch
+  withdrawn from that end of the district, and which row supports the claim?
 - You protected the Wensley Bank line at line zero. What is that protection
   costing you per month, and what is it buying that you can point at on a
   readout today?
@@ -3214,9 +3229,10 @@ improvised.
 **Timing.** 15:05 to 15:40, after the desk crit round, before the wash-up.
 Roughly ninety seconds a student, roster order, no volunteers and no passing.
 
-**Position.** The student stands at their own machine, with the budget panel
-open on screen behind them, facing the room. Not at the front. The room turns
-to face them.
+**Position.** The student may stand or sit at their machine, submit the sentence
+in writing for Tobias to read, use a captioned recording, or give the equivalent
+privately under an agreed adjustment. The budget worksheet—not a fictional
+district panel—is visible behind the statement.
 
 **The form of words is fixed** and Tobias corrects deviations, because the
 whole value of the ritual is that every sentence in the room has the same
@@ -3257,12 +3273,11 @@ that many identical sentences is the argument; adding to it weakens it.
 
 ### What leaves the room
 
-- **The save**, `<student ID>-w08`, with the closure applied and four in-game
-  weeks run. One off-machine copy before you leave. Do not restore anything
-  over the week: next Monday's pin-up is marked against a district running on
-  this budget.
-- **The readings sheet** for Week 8, all twelve rows, taken at in-game 08:00
-  four simulated weeks after the closure.
+- **The personal save**, `<student ID>-w08`, preserved from Week 7, plus the
+  named reference branch used for the budget test. The branch is evidence, not
+  a replacement for the student's city.
+- **The readings sheet** for Week 8, labelled transit-heavy, coverage-heavy or
+  balanced and carrying its checkpoint date.
 - **Your unfunded list**, signed and dated, photographed by Tobias at 15:52 and
   kept by you. It is a standing document; you bring it to every remaining
   session and it is an appendix to the Week 9 memo.
@@ -3273,10 +3288,9 @@ that many identical sentences is the argument; adding to it weakens it.
   This is the paragraph most likely to earn marks in the Week 9 memo's fiscal
   section, because it is evidence of a budget that was reasoned rather than
   found.
-- **Three screenshots**, captioned with the words *08:00*: the budget panel
-  showing the total service outlay after the cut; the transit line panel showing
-  the ten-minute headway; a street-level view of Ockley Green at 60%
-  maintenance, taken today, for comparison next Monday.
+- **Three screenshots**: the citywide service-budget controls in the selected
+  branch; the bus line panel alongside the calculated headway; and the fixed
+  Ockley Green observation. Each caption names the branch and evidence type.
 
 All of it uploaded by **21:00 the same day**. The Assessment 2 brief is due at
 12:00 next Monday and it has to be funded from this sheet, so leaving the
@@ -3286,11 +3300,11 @@ budget half-recorded costs you the weekend.
 
 ```yaml
 spec:
-  - "You arrive with your full monthly service outlay itemised on one page and totalled, written before the session."
+  - "You arrive with the issued district allocation worksheet totalled; it is explicitly a course allocation of citywide costs, not a native district budget."
   - "You arrive with a sealed one-line prediction naming the budget line you expect to cut and the metric you expect it to cost."
-  - "You apply a closure worth 22% of your district's service outlay without reducing the Wensley Bank pumping station line."
-  - "You state your unfunded lines aloud in the set form and enter them on both the corridor budget sheet and your own signed unfunded list."
-  - "You leave with Week 8's readings taken at in-game 08:00 four simulated weeks after the closure, including the ten-minute headway and Ockley Green at 60%."
+  - "You compose a closure worth 22% of the worksheet's total eligible allocated outlay, once, while protecting both Week 7 utility increments."
+  - "You record your unfunded lines in the set form on the corridor budget sheet and signed unfunded list, using a spoken, written, recorded or seated equivalent."
+  - "You test the closure against the nearest issued reference branch, label the branch on every reading, and record where citywide controls cannot implement the district allocation exactly."
 ```
 
 ### Page body plan
@@ -3334,10 +3348,11 @@ the comment, and adding the `spec:` array above.
 
 ### Hand-off
 
-Week 9 receives a district at +₡3,400 a month with a ten-minute headway, a park
-maintained at 60%, happiness at 58% and land value at 31 — the worst livability
-reading of the semester — plus a shared corridor budget sheet that says, in
-every student's own words, what the district stopped paying for. That sheet is
+Week 9 receives each student's chosen closure and named reference branch. The
+balanced worked row is +₡3,400/month, about a ten-minute calculated bus headway,
+happiness 58 and normalised land value 31; the other branches differ. A shared
+corridor budget sheet says, in every student's own words, what the district
+stopped paying for. That sheet is
 the constraint on next Monday's pin-up: every public space proposed in
 Assessment 2 has to carry a monthly figure funded out of the column with that
 student's name on it, and an unfunded plaza loses marks under the brief's
@@ -3364,28 +3379,14 @@ rest of the memo checkable.
   fund and which metric is paying for it. Never edited backwards; an appendix to
   every memo from Assessment 2 on.
 
-### Open questions for the writer
+### Production decisions settled
 
-- The Week 8 lecture plan frames the week as closing an imposed **₡9,000 a
-  month deficit** by choosing among five costed options, several of them tax
-  moves. The studio session's instrument is a **22% service-budget cut** that is
-  imposed rather than chosen. These are not the same exercise, and the ₡9,000
-  figure does not appear anywhere in the metric spine. The session plan uses the
-  22% framing throughout and does not quote ₡9,000; either the lecture plan is
-  reconciled to it or the session page must be written so a student reading both
-  is not left holding two different numbers.
-- Whether the 22% is 22% of the *total* service outlay or 22% off *each* service
-  line. The plan assumes the former, which makes composition the design problem;
-  the latter would be a simpler session and a much duller one, and would make
-  line zero impossible to hold.
-- Whether the on-the-record round is recorded — voice, video, or written only.
-  The plan specifies written on two documents and spoken to the room. If it were
-  recorded, the conduct-at-crit and generative-tools sections of the policies
-  page would both need to be checked before the page says so.
-- How the corridor budget sheet is physically kept: a wall-mounted sheet in
-  Studio 2.14, a shared spreadsheet, or both. It has to be legible to a visiting
-  critic who arrives twenty minutes before the Week 9 jury, which argues for the
-  wall.
+- The studio uses 22% of the total eligible allocated outlay; tax moves are
+  excluded. The stale ₡9,000 lecture exercise is not repeated on the page.
+- The on-record statement has spoken, written, recorded and seated equivalents.
+- Tobias keeps a versioned shared spreadsheet with read-only student access and
+  exports a dated PDF after the round. A printed PDF is pinned for the Week 9
+  critic; the spreadsheet and export are backed up with the session evidence.
 
 ---
 
@@ -3412,8 +3413,9 @@ spent money, and answer what each point of happiness cost you per month.
   points per calendar day, weekends included, and is not marked at all past five
   days. If you can see that coming, what you want is an extension, asked for in
   writing before the deadline, not a penalty.
-- **The printed set, in your hand at 13:00.** The wall is hung from your own
-  prints and the studio does not print for you. Screenshots at A3, captioned,
+- **The display set, ready at 13:00.** Printed A3 sheets are the default; an
+  accessible or on-time digital equivalent is placed on one of the reserved
+  jury displays in the same roster bay and uses the same clock. Screenshots are captioned,
   every caption carrying the in-game day and the words **08:00** except the
   street-level night views, which carry **19:00** and the weather state. Memo
   printed and pinned, not on a screen — the visiting critic reads the wall, not
@@ -3433,9 +3435,9 @@ spent money, and answer what each point of happiness cost you per month.
 - **Week 8's readings** for the *against last week* column: balance +₡3,400/mo,
   peak 11.8 min, transit share 11%, walk share 24%, happiness 58%, land value
   index 31, Ockley Green maintained at 60%.
-- **One 19:00 observation, written before today.** Stand in one existing space
-  in your own district at 19:00 in fine weather, count the people in it, and
-  write the count down at the time. Gehl's separation of necessary from optional
+- **One standard 19:00 observation, written before today.** Use the evidence
+  pack's fine-weather state, fixed camera and one in-game-minute window; count
+  people inside the marked polygon and write the count down at the time. Gehl's separation of necessary from optional
   activity is the reason: the 08:00 count would be the same across a car park.
   A count with no time of day and no weather state attached to it is not
   evidence and the jury will not treat it as evidence.
@@ -3448,7 +3450,7 @@ spent money, and answer what each point of happiness cost you per month.
 |---|---|---|---|
 | 13:00–13:25 | Hanging | The wall opens. Students hang their own sheets in roster order along the long wall, memo at the right-hand end of each set, unfunded list last. **The hang closes at 13:25** and nothing goes up after it. | Students |
 | 13:25–13:45 | Silent read | The whole cohort reads the whole wall, end to end, in silence. No talking, no explaining, no standing next to your own sheets. The jurors read at the same time and take notes. | Tobias Wren |
-| 13:45–14:00 | The jury is framed | Tobias states the afternoon's question in one sentence and puts the cost-per-happiness-point comparison on the board before any student speaks. Sunniva Marek is introduced and states what they have and have not seen. | Tobias Wren, Sunniva Marek |
+| 13:45–14:00 | The jury is framed | Tobias states the afternoon's question and puts the cost-per-associated-happiness-point comparison, with its causal warning, on the board. Sunniva Marek states what they have and have not seen. | Tobias Wren, Sunniva Marek |
 | 14:00–14:32 | Jury round one — the walk, first eight | The jury walks the wall in roster order. **Four minutes a plan**, at its own sheets: ninety seconds for the student's single claim, the rest for the jury. Timed, and the timer is visible. | Tobias Wren, Sunniva Marek |
 | 14:32–14:40 | Recess; the jury confers | The room breaks. The jurors confer at the wall and name **three plans** they will return to, chosen for what they disagree about rather than for quality. | Tobias Wren, Sunniva Marek |
 | 14:40–15:12 | Jury round two — the walk, second eight | The remaining eight, same clock, same shape. A plan is not disadvantaged by being in the second round: the jury has seen more wall by then, and says so. | Tobias Wren, Sunniva Marek |
@@ -3466,11 +3468,10 @@ during it is to say nothing and to stop other people saying things.
 
 **Round one is a walk, not a series of presentations.** The jury moves; the
 cohort follows; the student stands at their own sheets when the jury reaches
-them and sits down when it moves on. Six minutes is short on purpose and the
-timer is visible on purpose. Two minutes to state the plan's single claim — one
-claim, not a tour of the wall — and four minutes of questions. A student who
-spends the ninety seconds describing what is in the screenshots has spent them,
-and the jury will still have two and a half.
+them and sits down when it moves on. Four minutes is short on purpose and the
+timer is visible: ninety seconds to state one claim, then two and a half minutes
+of questions. A student who spends the ninety seconds describing screenshots
+has spent the whole claim period.
 
 **Four minutes, not six, and the reason is arithmetic.** Sixteen plans at six
 minutes is ninety-six minutes of walking, which leaves the afternoon no room
@@ -3493,12 +3494,10 @@ Three different failures, three different consequences, and they are not the
 same failure.
 
 **Uploaded on time, not printed.** The artefact was in by 12:00, so the
-policies page's lateness rule does not apply and no marks are lost to it. But
-the wall is the evidence and the jury reads the wall. A plan that arrives
-without prints is defended at the end of round one from the tutor machine, out
-of order, with the jury reading it cold on a screen for the first time. It
-costs you nothing on paper and roughly ten minutes of a critic's attention in
-practice, which is most of what the twenty-five per cent is.
+policies page's lateness rule does not apply. It is placed on a reserved jury
+display in the student's normal roster bay before the silent read and defended
+in the normal four-minute slot. There is no improvised extra slot and no de
+facto penalty for the presentation medium.
 
 **Not uploaded by 12:00.** The policies page governs: five percentage points
 per calendar day, weekends included, nothing marked past five days. Ask for an
@@ -3531,16 +3530,18 @@ readings and both are on the wall.
 **The Ockley Green plaza.** A shaped, enclosed public square in the park the
 district stopped maintaining eight days ago, built at the frontage rather than
 behind it, level with the footpath and open along it. It costs **₡2,200 a month**
-and it returned **four points of happiness**. It is the thing on your wall that
+and the reference before/after assigns **four of the nine associated happiness
+points** to it. That is an attribution for argument, not an isolated causal
+effect. It is the thing on your wall that
 photographs well, and Alexander's Pattern 61 is the number to check it against
 before you claim it works as a room: much past about eighteen metres across and
 it stops being one. Ockley Green's park maintenance slider is the other half of
 this line and the jury will ask where it is set today.
 
 **The Farrant Row street trees.** Trees along the frontage at the far end of
-the district — the end that lost water first in Week 7, the end that has been on
-a boil notice since, the end coverage retreated from last Monday. They cost
-**₡340 a month** and they returned **three points of happiness**. Nobody
+the district — the end beside Week 7's documented utility shortfalls and
+pollution exposure, the end coverage retreated from last Monday. They cost
+**₡340 a month** and the worksheet assigns **three associated points**. Nobody
 photographs street trees.
 
 **The footpath connections, and the mobility numbers you did not pay for.**
@@ -3556,9 +3557,9 @@ that claims it as a transit decision is claiming something the budget panel
 contradicts.
 
 **What you did not do, and what the jury knows you did not do.** The Farrant Row
-treatment plant is still over capacity. The ₡5,100 a month it needs is still on
-your unfunded list, in your handwriting, dated 26 April. Ombersley Flats still
-reads 11 on the land value overlay. The boil notice is still in force. You found
+treatment increment is still on your unfunded list, in your handwriting, dated
+26 April. Ombersley Flats still reads 11 on the normalised land-value sheet and
+the utility choice remains unresolved. You found
 ₡2,540 a month this week. The visiting critic will have read both documents
 before 14:00 and will ask you about the gap between them, and the honest answers
 to that question are all defensible. The dishonest one — that the plan is about
@@ -3601,14 +3602,15 @@ happiness and five of land value; mobility performance improved on every reading
 the studio takes. Only one number went backwards and it is the one that was
 briefly, uncomfortably, the district's best.
 
-That is the shape of the week and it is the shape of the crit. **Livability was
-bought back with fiscal performance.** Whether it was *bought* or *designed* is
-what the jury is for, and the two are distinguishable: the plaza cost ₡550 a
-month per happiness point and the street trees cost roughly ₡113. Both bought
-points. Only one of them is an argument.
+That is the shape of the week and it is the shape of the crit. **Livability is
+associated with a fiscal spend.** The worksheet reports ₡550 per attributed
+plaza point and roughly ₡113 per attributed tree point. Because plaza, trees,
+paths and maintenance changed together, neither ratio is a marginal causal
+effect; the jury marks whether that limitation is stated.
 
-Note also the two points nobody can account for. The plaza returned four and the
-trees returned three; happiness rose nine. Two points are unattributed. The
+Note also the two points nobody can account for. The worksheet assigns four to
+the plaza and three to the trees; happiness rose nine. Two points are
+unattributed. The
 strongest memos on the wall name them and say where they think they came from —
 restored park maintenance, the footpath links, the water having been back for
 three weeks — and the weakest ones quietly claim all nine for the plaza.
@@ -3629,9 +3631,10 @@ The mechanism is cost per unit, and it is the only mechanism this week. Public
 realm is the cheapest livability on the district's budget, which means it is the
 one place where a small monthly figure moves a metric visibly, which means it is
 the one place where the ratio between money and effect is legible enough to be
-argued about. ₡2,200 a month bought four points at ₡550 each. ₡340 a month
-bought three points at about ₡113 each. The street trees are close to five times
-more efficient per point and they are at the end of the district that has been
+argued about. The worksheet associates ₡2,200/month with four attributed points
+at ₡550 each and ₡340/month with three at about ₡113 each. The tree ratio is
+close to five times lower, but it is not five times more causally effective:
+the interventions were not isolated. The trees are at the end of the district that has been
 losing everything since Week 7. The plaza is in the middle of the district, in a
 park, next to the amenity core, and it is what the wall is full of.
 
@@ -3727,8 +3730,8 @@ spec:
   - "Your screenshots and defence memo are uploaded by 12:00 and your printed set is on the wall before the hang closes at 13:25."
   - "Every public space on your wall carries a monthly upkeep figure funded from your column of the corridor budget sheet."
   - "Your signed unfunded list is pinned as the last sheet of your memo, with the Week 8 lines still on it."
-  - "You can state the cost per happiness point of each space you built, as a division you did rather than a claim you make."
-  - "You bring one pedestrian count taken at 19:00 in fine weather, written down at the time, with the time and weather state recorded next to it."
+  - "You can state the cost per attributed happiness point in the reference worksheet and explain why simultaneous interventions make it an association rather than a causal return."
+  - "You bring one pedestrian count taken at 19:00 using the issued weather state, camera, polygon and one-minute observation window."
 ```
 
 ### Page body plan
