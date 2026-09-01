@@ -113,6 +113,31 @@ say what they are for.
   the built output. Build first when running either file directly so they test
   current output.
 
+## Adversarial review
+
+`pnpm check` and its tests only catch what's mechanical --- structure, links,
+data integrity. They can't tell you whether a lecture is worth attending or a
+studio brief is worth running. That judgment needs a second opinion, so treat
+adversarial review as a testing step for content that mechanical checks can't
+reach.
+
+- **When:** any significant, mostly-unmechanically-testable content ---
+  a new lecture, a studio session plan, a rewritten deck, a brief, a
+  reflection. Not copy edits or small fixes; same bar as Tests above.
+- **How:** once the draft is done, spawn one or more fresh reviewer agents
+  (they must not share the drafting agent's context, or they'll rubber-stamp
+  its assumptions) and have them attack it: factual errors, thin or generic
+  examples, unclear or boring explanations, inconsistency with the rest of
+  the course, missed chances to make it sharper or more interesting for a
+  SLOP-university audience. Tell them explicitly to be adversarial, not
+  encouraging.
+- **Then:** feed their findings back to the agent that produced the work
+  (or act on them directly) and revise. Re-review only if the revision was
+  substantial enough to have introduced new problems.
+- The goal is content someone would actually want to sit through, not
+  content that merely passes the tests. Log what the review found and what
+  changed as a result in `notes/log.md`.
+
 ## Pristine output
 
 Output from any command you run --- `pnpm check`, `pnpm build`, `pnpm dev`,
