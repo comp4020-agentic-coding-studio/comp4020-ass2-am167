@@ -96,6 +96,24 @@ say what they are for.
   mid-interaction, or slow-connection behaviour --- is real work and takes real
   time, so only do it when explicitly asked for.
 
+## Parallel implementation
+
+When a task splits into pieces that are genuinely independent --- separate
+pages, separate components, separate lecture decks --- consider spawning
+multiple subagents to build them in parallel rather than working through them
+one at a time. This has been faster in practice than serial implementation.
+
+- Only parallelize pieces that don't touch the same file, don't depend on
+  each other's output, and won't conflict if written concurrently. If two
+  pieces share a file or one needs the other's result first, do them
+  serially instead.
+- Give each subagent a complete, specific brief --- what to build, where it
+  goes, what it should look like when done --- since a fresh agent has none
+  of the current conversation's context.
+- After they finish, review the combined result yourself and run
+  `pnpm check` once across everything, rather than trusting each subagent's
+  self-report.
+
 ## Tests
 
 - **Use TDD for significant, testable code changes.** For a feature, behavioural
