@@ -428,3 +428,45 @@ coin, so a future writer reuses a name instead of inventing a synonym.
 
 `pnpm check` green (14 tests, 40 pages) — nothing in `src/` changed; this is
 planning material only.
+
+## Cohort-size continuity audit on the three resumed weeks
+
+Weeks 6, 9 and 12 were written by agents that had been killed by an API error
+and resumed from a compressed recap, so I went back to check they were not
+weaker than the nine written in one pass.
+
+On the proxy measures they are not: 6 and 9 are the two longest sections in the
+doc, 12 is mid-pack, and their run sheets are among the best in it. My first
+read — that they were theory-light — was wrong: weeks 8, 10 and 11 were written
+without interruption and cite no theorists either. Session plans in this doc are
+operational; theory lives in `notes/lecture-plans.md`.
+
+The real damage was continuity, and one fact in particular. **Week 4 fixes the
+cohort at sixteen** — two rounds of eight, and a visiting critic who "addresses
+the wall as one wall rather than as sixteen plans" — and my recap never
+mentioned it. Both resumed jury weeks silently halve the cohort: Week 9's jury
+walk fits eight plans, Week 12 holds eight twenty-minute defences. Week 12's
+open questions even asserted that the design lab's fifteen machines were "the
+only cohort bound anywhere in the site", which Week 4 contradicts outright.
+
+Worth recording that this is not purely a resume artefact. Week 8 was written
+without interruption and gives 25 minutes for "each machine in turn for three
+minutes", which is eight machines, not sixteen. Parallel authoring made the
+cohort a fact nobody owned.
+
+Fixed: Week 6 repaired in full (415 → 471 lines, arithmetic now closes for
+sixteen, spine readings unchanged). Week 8's desk crit round rewritten to draw
+eight machines and pair the rest.
+
+Not fixed, and flagged in place: Weeks 9 and 12. Both now carry an "UNRESOLVED,
+AND IT BLOCKS THE PAGE" bullet at the head of their open questions, stating the
+defect, the arithmetic, and the options. Week 12's is a format decision, not a
+tweak — sixteen twenty-minute defences need 160 minutes the block does not
+have — so the bullet costs the four realistic ways out rather than picking one.
+Week 9's points at Week 4's two-rounds-of-eight shape as the likely answer.
+
+The split-and-reassemble method is worth keeping: the doc was split to one file
+per week, the round-trip verified byte-identical before any agent touched it,
+and reassembly was mechanical. Three agents could then edit without racing.
+
+`pnpm check` green (14 tests, 40 pages).

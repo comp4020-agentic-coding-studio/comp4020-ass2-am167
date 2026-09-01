@@ -229,6 +229,10 @@ reasons below.
   metric spine (one row of readings per week) that both the session bodies and
   any later deck must quote rather than re-derive, and supplies a ready-to-paste
   `spec:` block for each session. The three briefs have no equivalent plan yet.
+  **Two known gaps in that doc, flagged in place:** the Week 9 and Week 12 jury
+  run sheets process eight plans against a cohort of sixteen, which Week 4 fixes
+  explicitly. Week 12's is a format decision (sixteen twenty-minute defences do
+  not fit a three-hour block) and blocks writing that page.
 - **No real deck.** `src/decks/week-01.deck.mdx` is still the starter deck,
   and the spec requires at least one lecture to carry a real one, linked from
   its page. The link exists; the deck behind it does not.

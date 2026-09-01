@@ -2058,12 +2058,12 @@ on, widen it, and stay in the room long enough to watch the relief disappear.
 |---|---|---|---|
 | 13:00–13:10 | Reading-in | The before-figures are written on the sheet with nothing touched: 08:00 peak travel time, off-peak travel time, volume-to-capacity at Wickstead, the line's daily passengers, volume on Hessel Row. Pens down after ten minutes. | Fenn |
 | 13:10–13:30 | The 08:00 hold | Every machine advances to in-game 08:00 and holds. Nobody builds. The room watches the corridor load for twenty minutes of wall-clock time and describes what it sees. | Fenn |
-| 13:30–14:00 | Failure-point walk-through | The Traffic info view is walked north to south along the Kerrow corridor, junction by junction, until the cohort agrees where the queue originates rather than where it is longest. | Fenn |
-| 14:00–14:20 | The widening | The save is branched. On the branch, Wickstead's corridor approaches go from two lanes to four. The first-morning reading is taken immediately. | students, Fenn roving |
+| 13:30–14:00 | Failure-point walk-through | One save goes on the projector and the Traffic info view is walked north to south along the Kerrow corridor, junction by junction, while the other fifteen follow the same walk on their own machines, until the cohort agrees where the queue originates rather than where it is longest. | Fenn |
+| 14:00–14:20 | The widening | The pre-widening district is saved off first. Then Wickstead's corridor approaches go from two lanes to four, on the save every student carries forward. The first-morning reading is taken immediately. | students, Fenn roving |
 | 14:20–15:00 | Six in-game weeks | Three in-game weeks advanced and read, then three more advanced and read. The same reading, three times, on the same junction. | students, Fenn roving |
-| 15:00–15:30 | The argument round | At the board, the cohort builds one decomposition of where the extra traffic came from. Four rows, a figure against each, and the view it was read in. Contested rows are re-read live on a student's machine. | Fenn |
-| 15:30–15:45 | The instrument menu | The four instruments and what each costs. Each student names the one they will argue for and the single number that would tell them it worked. | Fenn |
-| 15:45–16:00 | Wash-up and the break protocol | The traded pair named out loud. The 150-word position statement goes on the wall. What crosses the two-week break, and in what form. | Fenn |
+| 15:00–15:30 | The argument round | Four groups of four, one row of the decomposition each, then all four rows to the board as one table: a figure against each and the view it was read in. Contested rows are re-read live on a group member's machine. | Fenn |
+| 15:30–15:45 | The instrument menu | The lecture's four instruments go back up with their costs. Every student writes the one they will argue for and the single number that would tell them it worked; a show of hands sorts the room and Idris takes one named defence per instrument. | Fenn |
+| 15:45–16:00 | Wash-up and the break protocol | The 150-word position statements go on the wall as students reach it. Sixteen traded-pair sentences, thirty seconds apiece. Then the break protocol, issued on one page and walked through. | Fenn |
 
 **The 08:00 hold, 13:10–13:30.** Twenty minutes of wall-clock time with the
 simulation running at in-game 08:00 and the build tools untouched. This is the
@@ -2078,13 +2078,24 @@ cannot tell what a network is doing from a still, and the difference between a
 junction that is over capacity and a junction that is receiving a queue from
 somewhere else is only visible in motion.
 
-**The widening, 14:00–14:20.** The save is branched before anything is built —
-`<student ID>-w06-wickstead` — because the point of the afternoon is the
-comparison, and a district you have already widened cannot be read as a district
-you have not. On the branch, the corridor approaches at Wickstead go from two
-lanes to four. Take the first-morning reading the moment the road opens, before
+**The widening, 14:00–14:20.** The district is saved off before anything is
+built — `<student ID>-w06-pre`, the un-widened state, which is not opened again
+this afternoon — because the point of the afternoon is the comparison, and a
+district you have already widened cannot be read as a district you have not.
+Then, on the working save, the corridor approaches at Wickstead go from two
+lanes to four. **Everybody widens.** The un-widened district is a record, not an
+option: Weeks 7, 8 and 11 are all played on a corridor that was widened on 29
+March, and a student who carries the pre-widening state forward as this week's
+save is reading a different city from the rest of the room for the remaining six
+weeks. Take the first-morning reading the moment the road opens, before
 advancing anything. That number is real and it is also the number every widening
-in the world is justified on, which is the whole of slide 8.
+in the world is justified on, which is the whole of slide 8. Before you advance a
+single in-game day, write down the long-run peak volume the elasticity predicts
+from the capacity you have just added, worked from the volume you measured at the
+reading-in and not from any figure on a slide, and write the volume ÷ capacity
+that goes with it. At 15:00 you will compare that prediction against four rows
+you read off your own save, and the prediction is more useful for having been
+wrong than for having been skipped.
 
 **Six in-game weeks, 14:20–15:00.** Three in-game weeks, read, then three more,
 read. Forty minutes of wall-clock time for six weeks of simulated time, which is
@@ -2092,6 +2103,42 @@ tight and is meant to be: the relief window is roughly three in-game weeks wide
 and a student who advances six weeks in one go will find the refill and never see
 the relief, which is a worse lesson because it looks like the widening simply
 failed. It did not fail. It worked, and then the network noticed.
+
+**The argument round, 15:00–15:30.** There is one table to build and sixteen
+people to build it with, so the room splits into four groups of four and each
+group takes one row — spatial, temporal, modal, land use. Five minutes at the
+machines for each group to pull its figure off its own members' saves, then five
+minutes a row at the board: the figure, the info view it was read in, and the
+number defended against the other twelve. A contested row is re-read live on a
+group member's machine rather than argued about in the abstract. The last five
+minutes are the total, set against the prediction written at 14:20. If the four
+rows sum to much less than the capacity that was added, the honest conclusion is
+that a row is missing rather than that a row is small, and the row that is
+missing is almost always land use.
+
+**The instrument menu, 15:30–15:45.** The lecture's closing menu goes back up
+with its costs against it — retiming the Wickstead signal to raise its effective
+green ratio; reallocating one existing lane to transit; shortening the trips by
+mixing uses in the station areas, which is Week 4's instrument and a zoning
+project rather than a road project; and pricing the peak, which the model cannot
+do. Four instruments, three of them available. Every student writes down the one
+they will argue for and the single number that would tell them it worked, which
+takes three minutes and is theirs to keep. Then a show of hands sorts the room
+by instrument and Idris takes one named defence from each group, so sixteen
+choices are heard in the time four arguments take. Nobody is asked to speak
+twice.
+
+**The statement, and when it is actually written.** The 150-word position
+statement is not written in the last fifteen minutes; it is drafted at the
+machine between 14:20 and 15:00, in the gaps while the in-game weeks advance,
+because the evidence half of it can be written before the instrument is chosen.
+The instrument line goes on at 15:30. Statements go up as students reach the wall
+at 15:45, which takes no segment time at all, and the wash-up then spends its
+first eight minutes on sixteen traded-pair sentences at thirty seconds apiece,
+held to it the way the six-minute clock was held to in Week 4. The break protocol
+is the last four minutes and it is issued on one page rather than dictated: it
+has six items on it and nobody writes down six things correctly in the last
+minutes of the last session before a fortnight off.
 
 ### The exercise
 
@@ -2153,15 +2200,19 @@ putting corridor traffic through the Brayhurst quarter's residential frontage
 permanently. Idris's answer is the one in their bio and it is not rhetorical:
 bring the before-and-after numbers. Volume, capacity, volume ÷ capacity, on both
 streets, before and after, and the frontage land value on Hessel Row alongside.
-The proposal is allowed. It is allowed on the branch, with numbers.
+The proposal is allowed. It is allowed on a save of its own, with numbers.
 
-**What the four lanes cost the frontage.** With the branch settled, open the
+**What the four lanes cost the frontage.** With the widening settled, open the
 noise pollution overlay along the widened frontage and the Land Value info view
 under it. The carriageway is wider by two lanes for good; the pedestrian crossing
 is longer by the same amount for good; the traffic noise is up by a little, and
 "a little" is the point, because noise rises with the logarithm of volume and the
-land value moves anyway. Watch the ground-floor tenancies at the Pelling
-Cross end and whether they hold their level. **Happiness reads 66%**, down from
+land value moves anyway. This is the lecture's second capacity and it is worth
+naming in the room: the corridor's vehicular capacity went up and its
+environmental capacity — the volume above which the street's other functions stop
+working — did not move, because it is a property of the frontage rather than of
+the carriageway. Watch the ground-floor tenancies on the widened frontage and
+whether they hold their level. **Happiness reads 66%**, down from
 73%, and the **land value index reads 33**, flat against 34. That is a livability
 loss that does not come back, sitting next to a mobility gain that already did.
 
@@ -2235,13 +2286,17 @@ pedagogical. The two extra lanes are in the district when the studio breaks for
 two weeks and they are in the district when it comes back. Weeks 7 through 12
 are all played on a corridor that was widened on 29 March. There is no session
 between now and Week 12 that revisits the road hierarchy, so the road hierarchy
-is settled today by whoever was at the machine at 14:00 — and the students who
-keep the branch and the students who keep the un-widened save have made
-different capstones, four weeks before the capstone is mentioned again.
+is settled today by whoever was at the machine at 14:00 — four weeks before the
+capstone is mentioned again, and by a cohort that will spend the next fortnight
+somewhere else.
 
 ### At the crit
 
-**Idris Fenn:**
+**Idris Fenn** asks these while roving, three or four at each machine, which is
+what sixteen machines and the hour from 14:00 to 15:00 allow. The retrospective
+ones — where the peak finally landed, the rule read back, and the instrument you
+are arguing for — are asked at the board and at the instrument menu instead,
+where the whole room hears the answer.
 
 - Peak and off-peak, in minutes, before you touched anything. Two numbers, and
   then tell me what the difference between them rules out.
@@ -2279,13 +2334,14 @@ only one that keeps growing after the studio stops watching.
 
 ### What leaves the room
 
-- The save `<student ID>-w06` — the district as it actually stands, whichever
-  branch you decided to keep — plus the off-machine copy, taken before you leave
-  the machine. This save opens Week 7 after a two-week gap and no reconstruction
-  is possible.
-- The branch `<student ID>-w06-wickstead`, kept whether or not you adopted it. If
-  you kept the un-widened district as `w06`, this branch is the evidence the
-  widening happened at all.
+- The save `<student ID>-w06` — the district as it actually stands, four lanes at
+  Wickstead and the refill in it — plus the off-machine copy, taken before you
+  leave the machine. This save opens Week 7 after a two-week gap and no
+  reconstruction is possible.
+- The pre-widening save `<student ID>-w06-pre`, kept and not overwritten. It is
+  the only file that holds the district at 11.2 minutes on two lanes, it is the
+  counterfactual every claim about the widening is measured against, and Week 11
+  asks for the Week 6 record of this junction by name.
 - The twelve readings above on the standard sheet, with the three peak figures —
   **11.2 / 8.9 / 10.7** — entered as three separate rows and each labelled with
   the in-game date it was taken.
@@ -2305,15 +2361,47 @@ only one that keeps growing after the studio stops watching.
 - One sentence at the wash-up: the two metrics you traded, and the lane count
   where the trade is visible.
 
-**Across the break.** The studio does not meet again until Monday 19 April.
-Three things cross the two weeks and they cross in written form, because nobody
-remembers a travel-time figure for a fortnight: the save under its week name with
-an off-machine copy; the three peak figures and the decomposition in the process
-log; and the named instrument from the 15:30 segment, written down with the
-number that would confirm it. Week 7 opens on a different network — water,
-sewage and power with Nadia Ilkhom — and the connection is genuine rather than
-decorative: congestion and outage are the same capacity curve read at different
-tolerances, and this cohort has just spent an afternoon at the top of one.
+**Across the break.** The studio does not meet again until Monday 19 April, and
+the one-page protocol issued at 15:45 has two halves.
+
+**What crosses**, in written form, because nobody remembers a travel-time figure
+for a fortnight:
+
+1. The save `<student ID>-w06` under its week name, with the off-machine copy,
+   and it comes back **unrepaired** — nothing built, demolished, rezoned or
+   re-sliderd in the two weeks off. Week 7's clinic does not work on a district
+   that has been quietly tidied over the break, and a student who tidies theirs
+   is out of step with every reading the room takes.
+2. The three peak figures and the completed decomposition, in the process log.
+3. The instrument named at 15:30, written down with the single number that would
+   tell you it worked.
+
+**What is done over the break.** All of it is Week 7's pre-session work, none of
+it is optional, and it is set going now rather than on 19 April because the
+failure Nadia's clinic opens on has to have already happened before the room sits
+down:
+
+4. Open `<student ID>-w06` and, **before you unpause**, write down the water,
+   sewage and electricity headroom as three percentages of installed capacity,
+   read off the production-versus-consumption bar in each info view. On paper.
+5. Then let the district run **six in-game days at 1× without touching a single
+   tool**, and save that state as `<student ID>-w07-pre`. That is the save Week 7
+   opens and the save its readings come off. Do not intervene during the run,
+   however alarming it gets. Note, at the moment you notice it and not
+   reconstructed afterwards, the in-game day you first thought something was
+   wrong; if nothing struck you as wrong, write *"nothing"*, which is a
+   legitimate answer and one the room needs to be honest.
+6. Re-read and print your Week 3 zoning memo at A4 — the paragraph in which you
+   sent industry to Ombersley Flats. You will be asked to read your own sentence
+   back on 19 April.
+
+Idris also asks the room before it leaves, on Nadia Ilkhom's behalf, for one
+volunteer to have their save on the projector at 13:20 on 19 April; Nadia
+confirms by email during the break, because a save put up cold wastes ten minutes
+of the room's time. Week 7 opens on a different network — water, sewage and power
+with Nadia — and the connection is genuine rather than decorative: congestion and
+outage are the same capacity curve read at different tolerances, and this cohort
+has just spent an afternoon at the top of one.
 
 ### `spec:` lines
 
@@ -2321,8 +2409,8 @@ tolerances, and this cohort has just spent an afternoon at the top of one.
 spec:
   - "You arrive with the save `<student ID>-w05` loaded and the Transportation Overview open, not a screenshot of either."
   - "Before you change anything, you record the 08:00 peak travel time, the off-peak travel time, and the volume-to-capacity ratio at the Wickstead junction."
-  - "Every network change you make is recorded with its before and after volume, capacity, and volume ÷ capacity, on the branch it was made on."
-  - "You can name the four sources of the traffic that refilled the widened junction and the info view each one is read in."
+  - "The widening's peak travel time is on your readings sheet as three rows — the first morning, three in-game weeks on, and after the refill — each labelled with the in-game date it was taken."
+  - "Your decomposition table names the four sources of the traffic that refilled the widened junction, with a vehicles-per-hour figure against each and the info view it was read in."
   - "You leave a position statement of no more than 150 words on the wall and an off-machine copy of `<student ID>-w06`."
 ```
 
@@ -2339,17 +2427,21 @@ never restates any of those.
 2. **`## Before you touch anything`** (~90 words) — the five before-figures, the
    pens-down rule at 13:10, and the 118% reconstructed from saturation flow and
    green ratio rather than taken on trust.
-3. **`## Widening Wickstead`** (~150 words) — the branch, two lanes to four,
-   8.9 on the first morning, three in-game weeks of relief, then 10.7. The
-   warning about advancing six weeks in one action.
+3. **`## Widening Wickstead`** (~150 words) — the pre-widening save set aside,
+   two lanes to four, everybody widens, 8.9 on the first morning, three in-game
+   weeks of relief, then 10.7. The warning about advancing six weeks in one
+   action.
 4. **`## Where the traffic came from`** (~140 words) — the four rows, named, with
    the view each is read in and Hessel Row as the spatial one. The one-way
    proposal and the numbers it has to arrive with.
-5. **`## The argument round`** (~90 words) — the board, the contested row re-read
-   live, the instrument menu including the one the model cannot support, and the
-   150-word statement as the session's only output.
-6. **`## Across the break`** (~80 words) — the save and its off-machine copy, the
-   three peak figures in the log, the named instrument, and one line on Week 7.
+5. **`## The argument round`** (~80 words) — four groups of four, one row each,
+   the contested row re-read live, the instrument menu including the one the
+   model cannot support, and the 150-word statement as the session's only output.
+6. **`## Across the break`** (~110 words) — the save unrepaired with its
+   off-machine copy, the three peak figures in the log, the named instrument, and
+   then the break work in the order it is done: three headroom percentages
+   written down before unpausing, six unattended in-game days saved as
+   `<student ID>-w07-pre`, the day-you-noticed note, and the Week 3 memo printed.
 
 ### Frontmatter deltas
 
@@ -2375,7 +2467,13 @@ watched a capacity curve behave. The framing carries directly: every network in
 this city has a capacity curve, and the difference between Week 6 and Week 7 is
 only what failure looks like at the top of one. On the road it is a queue, which
 is annoying and self-correcting. On the water network it is an outage, which is
-neither. Week 7 also receives the thing Week 6 could not fix and did not touch:
+neither. It also receives two saves rather than one — `<student ID>-w06`,
+unrepaired, and `<student ID>-w07-pre`, the six unattended in-game days that
+Week 6's break protocol sets going — plus the three headroom percentages read
+before that run was unpaused and the note of the day the student first thought
+something was wrong. Those are Week 7's opening twenty minutes, and they cannot
+be reconstructed on 19 April, which is why they are set on 29 March. Week 7 also
+receives the thing Week 6 could not fix and did not touch:
 the Pellow cells decision from Week 3 is still in the save, downwind and
 downstream, and nothing done to the road hierarchy this afternoon has any bearing
 on it.
@@ -2887,7 +2985,7 @@ form of words the room writes down, what you have chosen not to fund.
 | 13:25–13:50 | Charrette — find the 22% on paper | In pairs, at the table, sliders untouched. Each student builds a closure on paper from their own itemised outlay and names the metric each line lands on. | Students, in pairs |
 | 13:50–14:30 | At the machines | Apply the closure. Run four in-game weeks at 1×. Do not adjust anything during the run. | Students |
 | 14:30–14:40 | Break | Machines left running; nothing built. | — |
-| 14:40–15:05 | Desk crit round — prediction against readout | Tobias takes each machine in turn for three minutes. The sealed prediction is opened and read against what the readout actually did. | Tobias Wren |
+| 14:40–15:05 | Desk crit round — prediction against readout | Eight machines drawn from the roster, three minutes each, in front of whoever is standing there. The sealed prediction is opened and read against what the readout actually did. The other eight do the same exercise in pairs, out loud, and Tobias takes the other half next week. | Tobias Wren |
 | 15:05–15:40 | **On the record** | The roster round. Each student stands at their own machine and states their unfunded line aloud in the set form. Tobias enters it on the corridor budget sheet as they speak. No discussion, no response from the room. | Tobias Wren |
 | 15:40–15:52 | The sheet, read back | Tobias reads the whole corridor's unfunded lines back to the room in one continuous pass, without comment. | Tobias Wren |
 | 15:52–16:00 | Wash-up and hand-off | Saves as `<student ID>-w08`, unfunded lists signed and photographed, and the one instruction that matters for next Monday: the pin-up is funded from this sheet. | Tobias Wren |
@@ -3681,11 +3779,18 @@ separate artefact, and should be written as such.
 
 ### Open questions for the writer
 
-- **Six minutes a plan assumes a cohort that fits 14:00–14:50.** The plan does
-  not fix a cohort size and the site does not state one. If the studio is larger
-  than about eight, either the walk runs into the break or round two loses the
-  three pulled plans, and the second is the worse loss. Fix the cohort size once,
-  somewhere, before three session pages guess at it differently.
+- **UNRESOLVED, AND IT BLOCKS THE PAGE: the run sheet processes eight plans
+  and the cohort is sixteen.** Week 4 fixes the cohort at sixteen and says so
+  three ways — "two rounds of eight, six minutes each", a recess between them,
+  and a visiting critic who "addresses the wall as one wall rather than as
+  sixteen plans". This section was drafted after an interrupted run and lost
+  that fact: "Jury round one — the walk", 14:00–14:50 at six minutes a plan,
+  fits eight. Sixteen needs a hundred minutes at that clock, which the block
+  does not have alongside the silent read, the conference, the three pulled
+  plans and Marek's summing-up. Resolve it before the page is written: adopt
+  Week 4's two-rounds-of-eight shape either side of the 14:50 break, or shorten
+  the walk clock and say what that costs. Do not write the page against a
+  cohort of eight.
 - The Assessment 2 brief at
   `src/content/assessments/02-public-realm-and-infrastructure-plan.md` is still
   `STARTER_CONTENT`. This session names deliverables — captioned screenshots, a
@@ -4800,12 +4905,23 @@ contain. This page says what happens to it in the room.
   extensions section says "one student's fifteen minutes". Twenty is used here
   because it is the figure in the two documents that are about the slot. If
   fifteen is preferred, the run sheet gains four slots or loses eighty minutes.
-- **The cohort size is instantiated, not asserted.** The run sheet is written
-  for eight defences at twenty minutes with one ten-minute conference, which
-  fills 13:05–15:55 exactly. The design lab has fifteen machines, which is the
-  only cohort bound anywhere in the site. If the roll is larger, the
-  arithmetic — not the format — is what changes, and the page should give the
-  slot length and let the order sheet carry the count.
+- **UNRESOLVED, AND IT BLOCKS THE PAGE: the run sheet holds eight defences
+  and the cohort is sixteen.** An earlier draft of this bullet claimed the
+  fifteen machines in the design lab were "the only cohort bound anywhere in
+  the site". That is wrong. Week 4 fixes the cohort at sixteen explicitly, and
+  Week 5's open questions confirm it. This section was drafted after an
+  interrupted run and lost that fact: eight twenty-minute defences fill
+  13:05–15:55 exactly, so sixteen need another 160 minutes that do not exist.
+  This is a format decision, not an arithmetic tweak, and it is the one thing
+  standing between this plan and a writable page. The options worth costing:
+  a shorter slot (ten minutes gets sixteen into the block but is thin for a
+  50% capstone); two parallel juries in separate rooms with Quaye and Marek
+  splitting and reconverging for a joint summing-up, which keeps the slot
+  length but means no juror sees every plan; a shortlist defended at length
+  with the remainder defended briefly, which is real studio practice but has
+  to be announced in advance to be fair; or an extended block or a second
+  session, flagged as such on the page and in the calendar. Whichever is
+  chosen, the visiting critic must plausibly have seen enough to sum up.
 - **The Ombersley industry has one name: the Pellow cells.** Weeks 3, 4–6, 10
   and 12 were drafted in parallel and two of them coined "Ombersley Works" for
   the ground `notes/lecture-plans.md` already calls the Pellow industrial
