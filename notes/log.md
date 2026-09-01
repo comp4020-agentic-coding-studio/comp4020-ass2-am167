@@ -366,3 +366,65 @@ Also confirmed `src/assets/images/` is gone entirely: the hero and social card
 were deleted rather than replaced. The evidence check accepts a deleted starter
 image, so this passes — but it means the site currently ships with no hero and
 no social card, which should be a decision rather than a leftover.
+
+## Studio session plans written (notes/studio-plans.md)
+
+Twelve detailed studio plans, one per session, so the session bodies can be
+written without re-deriving the course. 4,816 lines. Same job for the studios
+that `notes/lecture-plans.md` does for the lectures.
+
+Fanned out to four subagents, three weeks each, grouped by arc and tutor
+(1–3 Quaye; 4–6 Fenn + first pin-up; 7–9 Ilkhom/Wren + second pin-up; 10–12
+resilience/critique/jury). Each wrote its own part file; merged and deduped
+here.
+
+The thing that made parallel work possible was writing the **metric spine**
+first, by hand, before spawning anything. The twelve studios are one save file
+read twelve times — Week 4 upzones the land values Week 3 produced, Week 8's
+cutback bites Week 7's networks, and Week 11's whole content is the
+land-value curve since Week 1. Four agents inventing readings independently
+would have guaranteed Week 11 contradicting Weeks 1–10. So the preamble fixes
+one row per week — population, fiscal balance, mobility, livability, what
+moved — and every agent wrote prose around fixed numbers. Verified afterwards:
+every week cites its own spine value and the previous week's, and Week 11
+benchmarks against Week 9 rather than Week 10, which is the "an event is not a
+trend" rule holding without being policed.
+
+The arc the spine encodes: siting on Halstead Reach in Week 1 buys fiscal
+performance, and Weeks 2–10 pay for it. Each week has one metric moving the
+wrong way. Week 11 is the deliberate exception where all three read as
+improved — which is the week's subject, because the model has no field for
+what that cost.
+
+Each week's plan carries a ready-to-paste `spec:` block (3–5 lines; all twelve
+landed on 5). That closes a PLAN.md §11 item — no studio or brief declares a
+`spec:`, and `SpecList` renders nothing without one, so the gap was invisible
+on the page.
+
+### Two things the merge caught
+
+**A duplicate name for the same ground.** Week 3's agent coined "Ombersley
+Works" for the industry on Ombersley Flats; `notes/lecture-plans.md` already
+calls it the **Pellow industrial cells** in five places. Two names for the
+ground that causes the Week 7 failure and sits in the Week 10 flood envelope
+would have desynced the deck from the studio pages. Resolved to the lecture
+doc's name — 13 replacements — and added to the canon table so it stays
+resolved. Capping each agent at three coined proper nouns and requiring a
+"New canon introduced" section is what made this findable at all; without it
+the collision would have surfaced when someone wrote Week 10's page.
+
+**`notes/lecture-plans.md` is stale on assessments.** It predates the change
+from four assessments (15/20/25/40, with a Mobility Plan in Week 6) to three
+(25/25/50), and its "one discrepancy to resolve" note still points at
+`src/content/assessments/final-project.md`, which does not exist. The stale
+numbers appear in its calendar table and in every per-week *Assessment hooks*
+section. Replaced that note with a correction banner giving the real split and
+saying plainly that the numbers below it are wrong. Did not rewrite the
+per-week sections — the banner is cheaper and the content files remain
+authoritative.
+
+Also added a canon index to the preamble listing every name the twelve plans
+coin, so a future writer reuses a name instead of inventing a synonym.
+
+`pnpm check` green (14 tests, 40 pages) — nothing in `src/` changed; this is
+planning material only.

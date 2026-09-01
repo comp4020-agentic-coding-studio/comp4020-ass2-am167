@@ -91,10 +91,10 @@ session (the build, critique, or stress-test). Twelve of each clears
 | 3 | Zoning and the Myth of Separation — Euclidean zoning's history vs. mixed-use design | Zone the first district; compare land value against commute distance |
 | 4 | Density and the 15-Minute City — transit-oriented density, amenity radius | Upzone around a central amenity — **Assessment 1 (Neighbourhood Unit Plan) due** |
 | 5 | Moving People: Transit-Oriented Design — headways, network legibility, the transfer penalty | Design a transit spine for the district |
-| 6 | Traffic Engineering and Its Discontents — induced demand, the one-way-street "fix" | Stress-test the district's road network under peak load — **Assessment 2 (Mobility Plan) due** |
+| 6 | Traffic Engineering and Its Discontents — induced demand, the one-way-street "fix" | Stress-test the district's road network under peak load (nothing submitted) |
 | 7 | Infrastructure You Don't See — water, sewage, power as capacity-constrained networks | Build/upgrade utility networks; resolve a designed service-failure scenario — **real deck week** |
 | 8 | Fiscal Realism: Taxes, Budgets and the Limits of Growth — land value capture, service funding tradeoffs | Balance a district budget under an imposed service cutback |
-| 9 | Parks, Plazas and the Public Realm — Jacobs's "eyes on the street," the third place | Design the district's public realm — **Assessment 3 (Public Realm & Infrastructure Plan) due** |
+| 9 | Parks, Plazas and the Public Realm — Jacobs's "eyes on the street," the third place | Design the district's public realm — **Assessment 2 (Public Realm & Infrastructure Plan) due** |
 | 10 | Resilience: Hazards, Pollution and Climate | Stress-test the district against a disaster/hazard scenario |
 | 11 | What the Model Can't Show You — land ownership, displacement, informal housing, political contest, all abstracted out of the simulation | Read the district's land-value history since Week 1 against what that curve hides |
 | 12 | Capstone Review: The Comprehensive Plan | Final jury — **Capstone (Comprehensive City Plan) due** |
@@ -223,7 +223,12 @@ reasons below.
 - **Every page body is a placeholder.** Twelve lectures, twelve studios and
   three briefs carry frontmatter, dates, teachers, weights and graph edges,
   but each body is one line behind a `STARTER_CONTENT` marker. This is the
-  bulk of the remaining work.
+  bulk of the remaining work. *Planned in detail, not yet written:*
+  `notes/lecture-plans.md` covers the twelve lectures and
+  `notes/studio-plans.md` the twelve studios — the latter fixes a canonical
+  metric spine (one row of readings per week) that both the session bodies and
+  any later deck must quote rather than re-derive, and supplies a ready-to-paste
+  `spec:` block for each session. The three briefs have no equivalent plan yet.
 - **No real deck.** `src/decks/week-01.deck.mdx` is still the starter deck,
   and the spec requires at least one lecture to carry a real one, linked from
   its page. The link exists; the deck behind it does not.
@@ -243,6 +248,8 @@ reasons below.
 - **No `spec:` on any studio or brief.** `SpecList` renders nothing when the
   field is absent, so the pages are not broken — but for an assessment the
   spec is the fixed half of the contract, and right now no brief states one.
+  The twelve studios' spec lines are now drafted in `notes/studio-plans.md`,
+  five per session, ready to paste; the three briefs' are still unwritten.
 
 ### Decisions to confirm
 

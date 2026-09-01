@@ -114,11 +114,23 @@ read carefully.
 the simulation's own symbol, and mixed notation across a semester reads as an
 error.
 
-**One discrepancy to resolve before Week 12's deck.** These plans assume the
-capstone is 40% and due in Week 12, per `PLAN.md` §4. The repo's
-`src/content/assessments/final-project.md` is still the starter brief: 60%, due
-2027-05-28. The content file is what the site renders, so either it changes or
-the Week 12 plan does. The plans have not guessed which.
+**Assessment numbers in this file are stale — do not quote them.** These plans
+were written against a four-assessment split (15 / 20 / 25 / 40, with a
+Mobility Plan due in Week 6) and against a `final-project.md` that no longer
+exists. The repo now ships **three** assessments and they are authoritative:
+
+| # | Title | Due | Weight | Marking |
+|---|---|---|---|---|
+| 1 | Neighbourhood Unit Plan | Wk 4, 2027-03-15 | **25%** | weighted — livability 40 / fiscal 30 / mobility 30 |
+| 2 | Public Realm and Infrastructure Plan | Wk 9, 2027-05-03 | **25%** | weighted — livability 45 / fiscal 30 / mobility 25 |
+| 3 | Comprehensive City Plan (capstone) | Wk 12, 2027-05-24 | **50%** | holistic |
+
+There is no Mobility Plan. Week 6 still stress-tests the network, but nothing
+is submitted on the day. Every "Assessment 1 (15%)", "Assessment 2 (20%)" and
+"Capstone (40%)" below, including the calendar table above and the per-week
+*Assessment hooks* sections, is wrong on the weight and — for the Mobility
+Plan — on the existence. The weights in `src/content/assessments/*.md` and the
+table in `notes/studio-plans.md` are the ones to use.
 
 ---
 
