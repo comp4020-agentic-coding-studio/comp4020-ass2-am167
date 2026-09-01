@@ -518,3 +518,29 @@ first was the cohort; this one was the state of the save. Both were invisible
 to every mechanical check and only showed up on a cross-week read.
 
 `pnpm check` green (14 tests, 40 pages).
+
+## 2026-09-01 — Adversarial review of all lecture plans
+
+Ran three fresh Luna reviews across Weeks 1–4, 5–8 and 9–12, then checked the
+findings against the full plan, the course canon and current official Cities:
+Skylines II documentation. Review only: no lecture body, studio page, brief,
+policy, people entry or deck was built or edited.
+
+Verdict: the twelve-week theory arc is promising, but the plans are not safe to
+produce. Exact datasets have no versioned reference save; direct readouts,
+derived measures and worked hypotheticals are repeatedly conflated; Week 7's
+capacity-limited water trunk conflicts with the documented no-capacity pipe
+model; and Week 10's flood scenario is not a documented vanilla disaster.
+Week 11's model-limits argument is the strongest plan and also exposes the
+problem in the other eleven: their precision exceeds their evidence.
+
+Recorded the full findings and release gate in
+`notes/lecture-adversarial-review.md`. Revised only
+`notes/lecture-plans.md`: marked it not approved for production, added an
+evidence-labelling rule, corrected 25/25/50 assessment data and Monday
+deadlines, removed the deleted Mobility Plan from Weeks 5–6, and corrected the
+Week 7 deck status. The unresolved mechanics remain visible rather than being
+replaced with more invented numbers; they require a pinned game version and a
+reproducible save or a redesigned teaching premise.
+
+`pnpm check` green (14 tests, 40 pages; zero errors, warnings or hints).

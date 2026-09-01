@@ -7,10 +7,14 @@ turns on, and the slide-by-slide content. Where a plan gives bullet text, table
 rows, a pull-quote or a diagram description, that is the content to use, not a
 suggestion of the kind of content to invent.
 
-**Status.** Plans only. No deck in `src/decks/` has been built from any of them
-yet, and the twelve lecture bodies in `src/content/lectures/` are still
-`STARTER_CONTENT` placeholders. Writing a lecture body and building its deck are
-separate jobs; this file serves both.
+**Status.** Plans only, and **not approved for production after adversarial
+review on 2026-09-01**. No deck in `src/decks/` has been built from these plans,
+and the twelve lecture bodies in `src/content/lectures/` are still
+`STARTER_CONTENT` placeholders. The review found unsupported game mechanics and
+non-reproducible datasets throughout the plans; see
+`notes/lecture-adversarial-review.md` before writing a lecture body or deck.
+Writing a lecture body and building its deck are separate jobs; this file serves
+both once those blockers are resolved.
 
 ## How to use this file
 
@@ -44,9 +48,32 @@ Named in Week 1 and returned to every week after, in these words:
 
 | Metric | What it measures | Where it is read |
 |---|---|---|
-| **fiscal performance** | whether the district pays for the services it demands | budget panel, per-district income and outlay |
-| **mobility performance** | whether people can get where they are going, at the times they go | traffic and transit info-views, travel-time readouts |
+| **fiscal performance** | whether the district pays for the services it demands | citywide budget panel, plus a declared studio allocation where district costs are compared |
+| **mobility performance** | whether people can get where they are going, at the times they go | traffic flow and volume, line passengers and usage, plus declared manual or derived travel-time measures |
 | **livability** | whether the place is worth being in once you have arrived | happiness, land value, service coverage, pollution overlays |
+
+These are **course-defined composites**, not three scores the simulation emits.
+Every lecture must name the component readout it is using; it must never invent
+a single district “livability reading”, a per-district fiscal balance, or an
+average travel-time readout and present it as native UI.
+
+## Evidence rule after adversarial review
+
+The plans below currently mix three kinds of evidence without labelling them.
+Any revision must mark each figure or claim as one of:
+
+- **direct readout** — visible in the current course build's UI;
+- **derived measure** — calculated from named direct readouts, with the working
+  shown;
+- **worked hypothetical** — invented to teach a method and never described as
+  a result the simulation “will” produce.
+
+Exact outcomes require a versioned reference save or a reproducible measurement
+protocol. The repo currently contains neither, so no fixed population, cost,
+headway, travel-time, land-value, household, pollution, capacity or modal-share
+number below is approved as a direct readout. The game must also be pinned to a
+version before a deck is built: its economy and transport systems have changed
+since release.
 
 They are also the marking criteria for every weighted assessment, so a lecture
 that names a tradeoff between two of them is naming something a student will be
@@ -61,19 +88,20 @@ Mondays from 2027-02-22, with a two-week mid-semester break after Week 6.
 | 1 | 2027-02-22 | Site Analysis and the Blank Map | Marisol Quaye | — | |
 | 2 | 2027-03-01 | The Grid vs. the Organic Street | Idris Fenn | — | |
 | 3 | 2027-03-08 | Zoning and the Myth of Separation | Marisol Quaye | — | |
-| 4 | 2027-03-15 | Density and the 15-Minute City | Marisol Quaye | — | Assessment 1 (15%) |
+| 4 | 2027-03-15 | Density and the 15-Minute City | Marisol Quaye | — | Assessment 1 (25%) |
 | 5 | 2027-03-22 | Moving People: Transit-Oriented Design | Idris Fenn | — | |
-| 6 | 2027-03-29 | Traffic Engineering and Its Discontents | Idris Fenn | — | Assessment 2 (20%) |
-| 7 | 2027-04-19 | Infrastructure You Don't See | Nadia Ilkhom | **real deck** | |
+| 6 | 2027-03-29 | Traffic Engineering and Its Discontents | Idris Fenn | — | Nothing submitted |
+| 7 | 2027-04-19 | Infrastructure You Don't See | Nadia Ilkhom | **deck planned, not built** | |
 | 8 | 2027-04-26 | Fiscal Realism | Tobias Wren | — | |
-| 9 | 2027-05-03 | Parks, Plazas and the Public Realm | Tobias Wren | — | Assessment 3 (25%) |
+| 9 | 2027-05-03 | Parks, Plazas and the Public Realm | Tobias Wren | — | Assessment 2 (25%) |
 | 10 | 2027-05-10 | Resilience: Hazards, Pollution and Climate | Nadia Ilkhom | — | |
 | 11 | 2027-05-17 | What the Model Can't Show You | Marisol Quaye | — | |
-| 12 | 2027-05-24 | Capstone Review: The Comprehensive Plan | Marisol Quaye | — | Capstone (40%) |
+| 12 | 2027-05-24 | Capstone Review: The Comprehensive Plan | Marisol Quaye | — | Assessment 3 (50%) |
 
-Only Week 7 gets a real deck. The other eleven lectures run from notes; their
-plans here are still worth having, because the lecture *page* body has to say
-what the lecture covers whether or not slides exist.
+Only Week 7 is intended to get a real deck. It has not been built. The other
+eleven lectures are intended to run from notes; their plans here are still
+worth having, because the lecture *page* body has to say what the lecture covers
+whether or not slides exist.
 
 ## Deck mechanics the plans assume
 
@@ -114,10 +142,8 @@ read carefully.
 the simulation's own symbol, and mixed notation across a semester reads as an
 error.
 
-**Assessment numbers in this file are stale — do not quote them.** These plans
-were written against a four-assessment split (15 / 20 / 25 / 40, with a
-Mobility Plan due in Week 6) and against a `final-project.md` that no longer
-exists. The repo now ships **three** assessments and they are authoritative:
+**Assessment structure.** The repo ships **three** assessments and the files in
+`src/content/assessments/` are authoritative:
 
 | # | Title | Due | Weight | Marking |
 |---|---|---|---|---|
@@ -126,11 +152,9 @@ exists. The repo now ships **three** assessments and they are authoritative:
 | 3 | Comprehensive City Plan (capstone) | Wk 12, 2027-05-24 | **50%** | holistic |
 
 There is no Mobility Plan. Week 6 still stress-tests the network, but nothing
-is submitted on the day. Every "Assessment 1 (15%)", "Assessment 2 (20%)" and
-"Capstone (40%)" below, including the calendar table above and the per-week
-*Assessment hooks* sections, is wrong on the weight and — for the Mobility
-Plan — on the existence. The weights in `src/content/assessments/*.md` and the
-table in `notes/studio-plans.md` are the ones to use.
+is submitted on the day. Public Realm and Infrastructure is Assessment 2;
+Comprehensive City Plan is Assessment 3. The old 15 / 20 / 25 / 40 structure
+has been removed from this plan; if it reappears, treat it as a regression.
 
 ---
 
@@ -230,7 +254,8 @@ that first road.
 
    - One student, one save file, one district, Weeks 1 to 12.
    - Everyone builds on the same site: the standard map issued today.
-   - Twelve lectures, twelve studio sessions, four pin-ups with a jury.
+   - Twelve lectures, twelve studio sessions, three assessed pin-ups with a
+     jury.
    - Every submission is in-simulation screenshots and a short defence memo.
    - The software of record is Cities: Skylines II. No simulation-altering
      mods, no unlimited money, no unlock-all.
@@ -347,10 +372,9 @@ that first road.
 
    | Assessment | Due | Weight | fiscal | mobility | livability |
    | --- | --- | --- | --- | --- | --- |
-   | 1. Neighbourhood Unit Plan | Week 4 | 15% | 30 | 30 | 40 |
-   | ~~2. Mobility Plan~~ *(cut — no such assessment)* | ~~Week 6~~ | ~~20%~~ | — | — | — |
-   | 3. Public Realm & Infrastructure Plan | Week 9 | 25% | 30 | 25 | 45 |
-   | 4. Comprehensive City Plan | Week 12 | 40% | holistic | holistic | holistic |
+   | 1. Neighbourhood Unit Plan | Week 4 | 25% | 30 | 30 | 40 |
+   | 2. Public Realm & Infrastructure Plan | Week 9 | 25% | 30 | 25 | 45 |
+   | 3. Comprehensive City Plan | Week 12 | 50% | holistic | holistic | holistic |
 
    **Notes:** Point out that no assessment weights any metric below 25, so
    there is no assessment in which one of the three can be abandoned — only
@@ -494,12 +518,12 @@ that first road.
 
 ### Assessment hooks
 
-Feeds **Assessment 1, the Neighbourhood Unit Plan** (Week 4, 15%) directly: the
+Feeds **Assessment 1, the Neighbourhood Unit Plan** (Week 4, 25%) directly: the
 settlement area chosen this week is the ground that plan sits on, and the
 site report is the evidence the defence memo will cite when it explains why the
 unit is where it is. More broadly, this lecture defines the three criteria that
 every assessment in the studio is marked against, so its definitions are
-loadbearing for all four. Nothing is submitted this week.
+loadbearing for all three. Nothing is submitted this week.
 
 ### Open questions for the writer
 
@@ -844,12 +868,12 @@ whatever they chose.
 
 ### Assessment hooks
 
-Feeds **Assessment 1, the Neighbourhood Unit Plan** (Week 4, 15%), where the
+Feeds **Assessment 1, the Neighbourhood Unit Plan** (Week 4, 25%), where the
 mobility criterion at 30 marks is read directly off the block structure laid
 down this week, and the fiscal criterion at 30 marks is read off the upkeep it
-generates. Also builds toward **Assessment 2, the Mobility Plan** (Week 6,
-20%), whose peak-load stress test is run against this layout — a network with
-no redundancy fails that test in Week 6 for a decision made in Week 2.
+generates. Also builds toward Week 6's unweighted peak-load stress test, which
+is run against this layout — a network with no redundancy fails that test for a
+decision made in Week 2.
 
 ### Open questions for the writer
 
@@ -1187,7 +1211,7 @@ naming what it cost.
       One dwelling, named, both schemes.
     - Commit to one scheme in your assessed save before Week 4.
     - **The Assessment 1 brief is issued this week.** Neighbourhood Unit Plan,
-      due Week 4, 15% — fiscal 30, mobility 30, livability 40. Read Perry
+      due Week 4, 25% — fiscal 30, mobility 30, livability 40. Read Perry
       again before you read the brief.
     - Save as `<student ID>-w03`. Desk crits Tuesdays 13:00–16:00, Studio 2.14.
 
@@ -1211,12 +1235,12 @@ naming what it cost.
 
 ### Assessment hooks
 
-Feeds **Assessment 1, the Neighbourhood Unit Plan** (Week 4, 15%) directly and
+Feeds **Assessment 1, the Neighbourhood Unit Plan** (Week 4, 25%) directly and
 immediately — the brief is issued in this week's session, the unit is Perry's,
 and the livability criterion at 40 marks is read largely off the pollution and
 service-coverage consequences of the zoning scheme committed to this week. The
 mobility criterion at 30 marks is read off the commute distances the scheme
-generates. Also builds toward **Assessment 3, the Public Realm and
+generates. Also builds toward **Assessment 2, the Public Realm and
 Infrastructure Plan** (Week 9, 25%), where the land-value consequences of the
 zoning pattern become the material of the argument.
 
@@ -1239,7 +1263,7 @@ zoning pattern become the material of the argument.
 
 **Date:** 2027-03-15 · **Lecturer:** Marisol Quaye · **Deck status:** No deck —
 delivered from notes at the lectern, with the studio's shared save file
-projected live. The semester's one built deck is Week 7.
+projected live. The semester's one planned deck is Week 7; it is not built.
 
 ### Argument in one sentence
 
@@ -1317,10 +1341,10 @@ metric they paid with.
    Title, then three lines set small beneath it:
    - Week 4 · SLOP2418 Urban Design Studio
    - Marisol Quaye · 15 March 2027
-   - Assessment 1 pins up Friday
+   - Assessment 1 artefact due today at 12:00; jury at 14:00
    **Notes:** Hold this slide while the room settles. Say only that the
-   assessment is due at the end of the week and that the last twenty minutes
-   of the hour are about the brief.
+   assessment is due at 12:00 today and that the last twenty minutes of the
+   hour are about the brief.
 
 2. **Slide 2 — Where we are** `class: —`
    - Week 1: the site read before a road went down. Three metrics named —
@@ -1498,10 +1522,10 @@ metric they paid with.
     - **Neighbourhood Unit Plan.** One residential cell in Halstead Reach at
       Perry's dimensions, designed to Moreno's proximity standard, sited on
       the studio's shared save.
-    - **Weight:** 15% of the studio.
+    - **Weight:** 25% of the studio.
     - **Submission:** a set of in-simulation screenshots, plus a defence memo
-      of no more than 800 words. Pinned up Friday at 12:00 and defended at the
-      jury that afternoon.
+      of no more than 800 words. Lodged today at 12:00 and defended at the jury
+      at 14:00.
     - **Required in the screenshot set:** the Land Value info view over the
       cell; the coverage radius of every service building you sited; the
       traffic volume layer showing the Kerrow corridor on the boundary.
@@ -1546,7 +1570,7 @@ metric they paid with.
 - The session's exercise is the slide 13 comparison run for real: build both
   options, run twelve in-game months on each, and bring the two monthly
   balance figures to the pin-up.
-- Assessment 1 is submitted at the end of this week, so the session is a
+- Assessment 1 is submitted at 12:00 today, so the session is a
   working session, not a teaching one. Come with the plan mostly made.
 
 ### Assessment hooks
@@ -1557,9 +1581,10 @@ worth 40. The upkeep-against-rate-take arithmetic (slides 12–13) is the fiscal
 criterion, worth 30. The arterial-on-the-boundary material (slides 4–5, and
 the Traffic info view row of the mechanic mapping) is the mobility criterion,
 worth 30, and is deliberately the thinnest of the three here because
-Assessment 2 takes it up properly in Weeks 5 and 6.
+Weeks 5 and 6 take it up properly before it returns as a criterion in the
+remaining two assessments.
 
-Also builds toward **Assessment 4 — Comprehensive City Plan**: the cell is the
+Also builds toward **Assessment 3 — Comprehensive City Plan**: the cell is the
 unit the capstone assembles, and students who cannot defend one cell in Week 4
 will be assembling twelve of them in Week 12.
 
@@ -1570,9 +1595,9 @@ will be assembling twelve of them in Week 12.
   offering before the deck is set — the arithmetic on slide 13 depends on the
   shortfall being close to 1,300, and the slide is worthless if the number is
   visibly wrong on the projector.
-- Slide 15 states a Friday 12:00 deadline and an afternoon jury. Check this
-  against the assessment page's published due time and make the two agree
-  rather than assuming this one is right.
+- The Assessment 1 clock is settled by the current assessment and policies:
+  artefact at 12:00 on Monday 15 March, jury at 14:00. Treat any return of the
+  old Friday wording as a regression.
 - Slide 11's diagram breaks the western arc for gradient. Decide whether to
   draw the terrain contour explicitly or leave the break unexplained until the
   spoken line — the second reads better but only if the lecturer remembers to
@@ -1584,7 +1609,7 @@ will be assembling twelve of them in Week 12.
 
 **Date:** 2027-03-22 · **Lecturer:** Idris Fenn · **Deck status:** No deck —
 delivered from notes, with the Transportation Overview and the studio's shared
-save projected live. The semester's one built deck is Week 7.
+save projected live. The semester's one planned deck is Week 7; it is not built.
 
 ### Argument in one sentence
 
@@ -1610,8 +1635,8 @@ not show.
   the American Dream* (1993).** Transit-oriented development: a mixed-use core
   within roughly a 2,000-foot — about 600 metre — walk of a transit stop, with
   densities stepping down away from it. In this lecture it is the shape
-  Assessment 2 asks students to draw, and the reason the zoning has to change
-  before the line will carry anyone.
+  this week's studio asks students to draw, and the reason the zoning has to
+  change before the line will carry anyone.
 - **Kevin Lynch, *The Image of the City* (1960).** Imageability, built from
   paths, edges, districts, nodes and landmarks. In this lecture it supplies the
   vocabulary for legibility: a network is a thing a rider has to hold in their
@@ -1658,7 +1683,7 @@ Students must set a headway and say which metric they paid.
    Title, then three lines set small beneath it:
    - Week 5 · SLOP2418 Urban Design Studio
    - Idris Fenn · 22 March 2027
-   - Assessment 2 opens this week
+   - Nothing is submitted this week
    **Notes:** Open by saying that Assessment 1 is marked and that nothing in it
    is being revisited. This week starts the mobility half of the semester.
 
@@ -1826,29 +1851,17 @@ Students must set a headway and say which metric they paid.
     third: livability is not the metric under pressure this week, and Week 6
     is where it arrives.
 
-14. **Slide 14 — Assessment 2 opens** `class: —` — **CUT. DO NOT BUILD THIS
-    SLIDE.** There is no Mobility Plan; see the correction banner above. Week 5
-    opens no assessment. Drop the slide and renumber, or replace it with the
-    Week 9 brief if the deck needs a forward pointer.
-    - **Mobility Plan.** A transit network for the Halstead Reach–Barrow Fields
-      corridor, with the zoning changes the network requires, on the studio's
-      shared save.
-    - **Weight:** 20% of the studio. **Due at the end of Week 6.**
-    - **Submission:** in-simulation screenshots plus a defence memo, pinned up
-      and defended at the Week 6 jury.
+14. **Slide 14 — What this work feeds** `class: —`
 
-    | Criterion | Weight |
-    | --- | --- |
-    | Mobility performance | 50 |
-    | Fiscal performance | 25 |
-    | Livability | 25 |
+    - Nothing is submitted in Week 5 or Week 6. These are working weeks.
+    - Keep the before-and-after traffic and transit evidence: mobility
+      performance is marked again in Assessment 2 in Week 9 and in the Week 12
+      capstone.
+    - Assessment 2 is the **Public Realm and Infrastructure Plan**, due Week 9,
+      worth 25%.
 
-    - **Required in the submission:** the Transportation Overview for every
-      line you run, showing fleet, passengers and operating cost; the traffic
-      volume layer before and after every road change you make; the headway you
-      chose and the arithmetic that produced it.
-    **Notes:** Emphasise the before-and-after requirement. It is the single
-    most common omission and it makes the mobility criterion unmarkable.
+    **Notes:** Do not recreate the deleted Mobility Plan. The point of the
+    slide is evidence continuity, not a fourth brief.
 
 15. **Slide 15 — This week's studio, and next week** `class: banner`
     - **Wednesday's session** is the peak-load run. Load the shared save,
@@ -1885,16 +1898,11 @@ Students must set a headway and say which metric they paid.
 
 ### Assessment hooks
 
-Feeds **Assessment 2 — Mobility Plan**, which opens this week and is due at the
-end of Week 6. The headway and fleet arithmetic (slides 8–9) and the
-ridership–coverage routing (slides 11–12) are the mobility criterion, worth 50.
-The operating-cost column running through the same slides is the fiscal
-criterion, worth 25. The livability criterion, worth 25, is barely touched here
-by design — it is Week 6's material, and a Mobility Plan submitted on Week 5's
-lecture alone will lose most of that quarter.
-
-Also builds toward **Assessment 4 — Comprehensive City Plan**: the corridor
-designed this week is the spine the capstone hangs the rest of the city off.
+No assessment is due or opened this week. The headway and fleet exercise and
+the ridership–coverage comparison provide mobility evidence for **Assessment 2
+— Public Realm and Infrastructure Plan** in Week 9 and **Assessment 3 —
+Comprehensive City Plan** in Week 12. The corridor designed this week is the
+spine the capstone hangs the rest of the city off.
 
 ### Open questions for the writer
 
@@ -1920,7 +1928,7 @@ designed this week is the spine the capstone hangs the rest of the city off.
 
 **Date:** 2027-03-29 · **Lecturer:** Idris Fenn · **Deck status:** No deck —
 delivered from notes, with the studio's shared save and the Traffic info view
-projected live. The semester's one built deck is Week 7.
+projected live. The semester's one planned deck is Week 7; it is not built.
 
 ### Argument in one sentence
 
@@ -2003,7 +2011,7 @@ survive the year and the livability loss does.
    Title, then three lines set small beneath it:
    - Week 6 · SLOP2418 Urban Design Studio
    - Idris Fenn · 29 March 2027
-   - Assessment 2 pins up Friday · last week before the break
+   - Nothing submitted · last week before the break
    **Notes:** Do not preface this lecture. Go to slide 2 in under a minute; the
    argument is better made by the numbers than by an introduction to them.
 
@@ -2216,33 +2224,18 @@ survive the year and the livability loss does.
     apologise for. Knowing which arguments a model can and cannot support is
     part of using one, and Week 11 is given over to that question.
 
-16. **Slide 16 — Assessment 2, due Friday** `class: —` — **CUT. DO NOT BUILD
-    THIS SLIDE.** Nothing is submitted in Week 6; see the correction banner
-    above. The stress test is a working session, and the next brief is
-    Assessment 2, the Public Realm and Infrastructure Plan, in Week 9.
-    - **Mobility Plan.** Pinned up Friday at 12:00 and defended at the jury
-      that afternoon. 20% of the studio.
+16. **Slide 16 — A working week, not a submission** `class: —`
 
-    | Criterion | Weight |
-    | --- | --- |
-    | Mobility performance | 50 |
-    | Fiscal performance | 25 |
-    | Livability | 25 |
-
-    - **The memo must contain the before-and-after numbers for every network
-      change you made.** Volume, capacity, and volume ÷ capacity. A change
-      without its numbers is unmarkable against the mobility criterion.
-    - The livability quarter is marked on slide 13's kind of evidence: what the
-      network change did to the frontage it runs past. The Land Value and noise
-      pollution overlays are the expected exhibits.
-    - The jury is chaired by Marisol Quaye. Sunniva Marek, principal at
-      Kesselring & Marek, sits as guest juror and will ask what the plan looks
-      like in the third year.
+    - Nothing is submitted in Week 6. Preserve the before-and-after record for
+      the remaining two assessments.
+    - The next brief is **Assessment 2 — Public Realm and Infrastructure
+      Plan**, due Week 9 and worth 25%.
     - A plan that adds capacity is not penalised. A plan that adds capacity and
-      claims it as a permanent congestion improvement is.
-    **Notes:** Say the last bullet twice. The lecture is not an instruction to
-    stop widening roads; it is an instruction to stop misdescribing what a
-    widening does.
+      describes a short-term observation as a permanent congestion improvement
+      has exceeded its evidence.
+
+    **Notes:** The stress test is evidence for later briefs, not a deleted
+    Mobility Plan in disguise.
 
 17. **Slide 17 — Before the break** `class: banner`
     - Two weeks off. The studio reconvenes Monday 19 April.
@@ -2269,25 +2262,18 @@ survive the year and the livability loss does.
   three instruments, implement each on a separate branch of the save, advance
   twelve simulated months, and record volume ÷ capacity and frontage land value
   for both.
-- Assessment 2 is submitted at the end of this week, so the session doubles as
-  the last working session before the pin-up. Bring the memo in draft.
+- Nothing is submitted at the end of this week. The session closes the first
+  half of semester and preserves evidence for the remaining assessments.
 - The session ends with every student naming, out loud, which two metrics their
   plan trades. This is rehearsal for the jury and it is not optional.
 
 ### Assessment hooks
 
-Feeds **Assessment 2 — Mobility Plan**, due at the end of this week. The
-capacity and elasticity arithmetic (slides 7–9) and the Downs–Thomson material
-(slide 10) are the mobility criterion, worth 50 — specifically, they are the
-standard against which a claimed improvement is judged. The fleet-cut chain in
-slide 10 and the instrument costs in slide 15 are the fiscal criterion, worth
-25. Slides 12–13 are the livability criterion, worth 25, and are the part of
-Assessment 2 most often left out entirely.
-
-Builds toward **Assessment 3 — Public Realm & Infrastructure Plan** (Week 9,
-livability 45), which takes the frontage question in slide 13 as its starting
-point, and toward **Assessment 4 — Comprehensive City Plan**, where the
-corridor decisions made this week are load-bearing and no longer revisable.
+No assessment is submitted this week. The stress-test evidence builds toward
+**Assessment 2 — Public Realm and Infrastructure Plan** (Week 9, 25%), which
+takes the frontage question as a starting point, and toward **Assessment 3 —
+Comprehensive City Plan** (Week 12, 50%), where the corridor decisions made
+this week are load-bearing.
 
 ### Open questions for the writer
 
@@ -2311,10 +2297,11 @@ corridor decisions made this week are load-bearing and no longer revisable.
 
 ## Week 7 — Infrastructure You Don't See
 
-**Date:** 2027-04-19 · **Lecturer:** Nadia Ilkhom · **Deck status:** Real deck —
-`src/decks/week-07.deck.mdx`, 18 slides. This is the only formal deck in the
-semester and the only week where the lecture is delivered from slides rather
-than from the lecture page. Build it from this plan without further research.
+**Date:** 2027-04-19 · **Lecturer:** Nadia Ilkhom · **Deck status:** Planned,
+not built. `src/decks/week-07.deck.mdx` does not exist. This is intended to be
+the only formal deck in the semester, but the adversarial review found that its
+water-network premise conflicts with the documented game mechanics. Rebuild the
+mechanic mapping around a versioned reference save before building the deck.
 
 ### Argument in one sentence
 
@@ -2777,7 +2764,7 @@ in this studio that leaves the road network entirely alone.
     written down as three percentages.
   - **Studio session**: we run the cascade live on one volunteered save. If it
     is yours, you will have found your reverse salient before the room does.
-  - **Assessment 3**, due Week 9 — *Public Realm & Infrastructure Plan*, 25%.
+  - **Assessment 2**, due Week 9 — *Public Realm & Infrastructure Plan*, 25%.
     Fiscal 30, livability 45, mobility 25. The infrastructure half of that
     title is this week, and the headroom argument belongs in the memo.
   - Book the clinic even when nothing is broken. That is when it is useful.
@@ -2801,7 +2788,7 @@ in this studio that leaves the road network entirely alone.
 
 ### Assessment hooks
 
-Feeds **Assessment 3 — Public Realm & Infrastructure Plan** (due Week 9, 25%),
+Feeds **Assessment 2 — Public Realm & Infrastructure Plan** (due Week 9, 25%),
 principally its **fiscal 30** and **livability 45** criteria: the headroom
 decision is a fiscal argument, and the cascade is the reason it is also a
 livability argument. Also builds directly toward **Week 10 — Resilience**,
@@ -3184,7 +3171,7 @@ accounting one.
   - Write down your closure and its cost in one metric before you touch a
     slider. If those two lines contradict what the readout does by Week 4 of the
     run, that contradiction goes in the memo.
-  - **Assessment 3**, due next week — *Public Realm & Infrastructure Plan*, 25%.
+  - **Assessment 2**, due next week — *Public Realm & Infrastructure Plan*, 25%.
     Fiscal 30, livability 45, mobility 25.
   - Next week is the public realm, which is the cheapest livability on the
     budget and the reason the fiscal 30 and the livability 45 are on the same
@@ -3208,7 +3195,7 @@ accounting one.
 
 ### Assessment hooks
 
-Feeds **Assessment 3 — Public Realm & Infrastructure Plan** (due Week 9, 25%),
+Feeds **Assessment 2 — Public Realm & Infrastructure Plan** (due Week 9, 25%),
 principally its **fiscal 30** criterion: the plan is expected to arrive with a
 funded budget, not an aspirational one, and the closure chosen this week is the
 budget it arrives with. Secondary weight on **mobility 25**, since closure A
@@ -3235,7 +3222,7 @@ costed as a whole rather than district by district.
 delivered as a talk from the lecture page, with the attractiveness overlay and
 the day/night cycle running live on the second screen. The running order below
 is the plan of record and would be the basis if a deck is ever built.
-Assessment 3 is due this week, so the lecture runs short by fifteen minutes and
+Assessment 2 is due this week, so the lecture runs short by fifteen minutes and
 the brief walkthrough on slide 3 is not optional.
 
 ### Argument in one sentence
@@ -3252,7 +3239,7 @@ seating and sightlines rather than about area.
   rather than from its plan.
 - Compare one large public space against a distributed set of small ones on
   livability and fiscal performance, with monthly figures for both.
-- Assemble the Assessment 3 pin-up so that each of its three criteria has a
+- Assemble the Assessment 2 pin-up so that each of its three criteria has a
   named piece of evidence attached to it.
 
 ### Theory anchors
@@ -3319,12 +3306,13 @@ recorded against a livability benefit.
   SLOP2418 — Urban Design Studio · Week 9 · 3 May 2027
   Tobias Wren
 
-  **Notes:** Say the due date in the first thirty seconds. Nobody in the room is
-  listening to theory until they have been told what happens on Friday.
+  **Notes:** Say the due time in the first thirty seconds. Nobody in the room is
+  listening to theory until they have been told what happens at 12:00 and
+  14:00 today.
 
-- **Slide 2 — Due Friday** `class: banner`
+- **Slide 2 — Due today** `class: banner`
 
-  ## Assessment 3 is due Friday
+  ## Assessment 2 is due today
 
   *Public Realm & Infrastructure Plan* — 25% of the studio.
   Pinned up before the jury sits: **Marisol Quaye** (chair), **Tobias Wren**,
@@ -3340,12 +3328,12 @@ recorded against a livability benefit.
 
 - **Slide 3 — The brief, walked** `class: —`
 
-  ## Assessment 3, walked
+  ## Assessment 2, walked
 
   | Item | Requirement |
   | --- | --- |
   | Weight | 25% of the studio |
-  | Due | Friday of Week 9, 17:00, pinned up before the jury sits |
+  | Due | Monday of Week 9, 12:00; defended at the jury at 14:00 |
   | Criteria | **livability 45 · fiscal 30 · mobility 25** |
   | Deliverable A | 8–12 in-simulation screenshots, captioned, including at least one attractiveness overlay, one land value overlay, one water or sewage info-view, and one street-level view at night |
   | Deliverable B | defence memo, 1,200 words maximum, structured against the three criteria in that order |
@@ -3634,8 +3622,8 @@ recorded against a livability benefit.
 
   - **Desk crits** run Monday and Tuesday, before the pin-up. Bring the
     attractiveness overlay, the land value overlay, and your Week 8 closure.
-  - **Pin-up** Friday 17:00; jury immediately after. Screenshots printed, memo
-    on the wall, not on a screen.
+  - **Artefact due** today at 12:00; jury at 14:00. Screenshots printed, memo on
+    the wall, not on a screen.
   - Walk your own plaza at 19:00 in fine weather before you photograph it. If
     nobody is in it, that is the finding and it belongs in the memo.
   - Week 10 takes the same corridor under hazard and pollution load, so keep
@@ -3660,7 +3648,7 @@ recorded against a livability benefit.
 
 ### Assessment hooks
 
-Feeds **Assessment 3 — Public Realm & Infrastructure Plan** directly and
+Feeds **Assessment 2 — Public Realm & Infrastructure Plan** directly and
 completely: it is due this week, and slides 3, 14, 15 and 16 are the brief, the
 central decision, the tradeoff and the jury's questions respectively.
 **Livability 45** is carried by slides 5 to 13; **fiscal 30** by the upkeep
@@ -3676,7 +3664,7 @@ expects the public realm argument to be made once at corridor scale.
   against a real student plaza from the previous cohort. The second is better
   teaching and much more work.
 - Whether the 19:00 fine-weather protocol on slide 12 is stated as a
-  requirement in the Assessment 3 brief itself or left as a lecture
+  requirement in the Assessment 2 brief itself or left as a lecture
   recommendation. If it is a requirement, the brief on slide 3 needs a row for
   it.
 - Whether to bring Lynch's *The Image of the City* (1960) in on slide 13 for
@@ -3688,7 +3676,8 @@ expects the public realm argument to be made once at corridor scale.
 ## Week 10 — Resilience: Hazards, Pollution and Climate
 
 **Date:** 2027-05-10 · **Lecturer:** Nadia Ilkhom · **Deck status:** No deck.
-Week 7 holds the semester's only lecture built as a formal slide deck; this
+Week 7 is intended to hold the semester's only formal slide deck; it is not yet
+built. This
 week is delivered from the lectern. The plan below is written so it can be
 spoken as-is, and so that a deck could be compiled from it without further
 research if the studio ever commissions one.
@@ -4108,7 +4097,7 @@ a line in the capstone memo, and the jury will ask for the arithmetic.
 
 ### Assessment hooks
 
-Feeds the **Comprehensive City Plan** (Week 12, 40%, holistic) directly, and
+Feeds the **Comprehensive City Plan** (Week 12, 50%, holistic) directly, and
 retrospectively strengthens **Public Realm & Infrastructure Plan** material
 already submitted in Week 9 — the floodway-as-park move is a livability
 argument and an infrastructure argument in the same drawing, which is the kind
@@ -4140,10 +4129,12 @@ open the overlays.
 ## Week 11 — What the Model Can't Show You
 
 **Date:** 2027-05-17 · **Lecturer:** Marisol Quaye · **Deck status:** No deck.
-Week 7 holds the semester's only lecture built as a formal slide deck; this
+Week 7 is intended to hold the semester's only formal slide deck; it is not yet
+built. This
 week is delivered from the lectern, with the running Halstead Reach save
 projected for slides 5 to 9. The plan below is written to be spoken as-is, and
-to compile into a deck without further research if the studio commissions one.
+to compile into a deck only after its household, rent and land-value evidence
+has been reproduced in the pinned course build.
 
 ### Argument in one sentence
 
@@ -4672,7 +4663,7 @@ way; the unrecorded move is not.
 
 ### Assessment hooks
 
-Feeds the **Comprehensive City Plan** (Week 12, 40%, holistic) directly and is
+Feeds the **Comprehensive City Plan** (Week 12, 50%, holistic) directly and is
 the only week that adds a required section to the memo. Holistic marking means
 there is no line item for the appendix; what it means in practice is that a
 plan whose claims exceed its evidence is marked down across the whole
@@ -4705,7 +4696,8 @@ carry since Week 1.
 ## Week 12 — Capstone Review: The Comprehensive Plan
 
 **Date:** 2027-05-24 · **Lecturer:** Marisol Quaye · **Deck status:** No deck.
-Week 7 holds the semester's only lecture built as a formal slide deck. Week 12
+Week 7 is intended to hold the semester's only formal slide deck; it is not yet
+built. Week 12
 is the shortest lecture of the semester — it runs in the morning of the final
 jury, ahead of the 12:00 artefact deadline — and is delivered from the lectern.
 The plan below is written to be spoken as-is and to compile into a deck without
@@ -4830,7 +4822,7 @@ against the qualifier.
 3. **Slide 3 — Holistic marking, and what it does not mean** `class: —`
 
    Bullets:
-   - The Comprehensive City Plan is 40 per cent of the studio and it is marked
+   - The Comprehensive City Plan is 50 per cent of the studio and it is marked
      holistically. There is no criterion weighting on this one.
    - What that does not mean: that the three metrics stopped applying. They are
      the language the plan is argued in and the language the jury asks in.
@@ -5091,7 +5083,7 @@ against the qualifier.
 
 ### Assessment hooks
 
-Feeds the **Comprehensive City Plan** (Week 12, 40 per cent, holistic) and
+Feeds the **Comprehensive City Plan** (Week 12, 50 per cent, holistic) and
 nothing else, because nothing else is left. Holistic marking has no criterion
 weights, but the three named metrics remain the language the plan is argued and
 questioned in, and slides 5, 6 and 9 are the structures the jury's questions
@@ -5105,11 +5097,12 @@ whole document, and the appendix is what keeps the claims inside the evidence.
 
 - The studio calendar puts Week 12 on Monday 24 May and this plan assumes the
   final pin-up runs that same afternoon, which makes the lecture the morning
-  briefing before the jury. The repo's `src/content/assessments/final-project.md`
-  currently carries a due date of 2027-05-28 and a weight of 60. The shared
-  brief says 40 per cent, due Week 12. Reconcile the assessment file with the
-  brief before this lecture is written up, because slides 1, 2 and 12 all
-  depend on the deadline being the same day.
+  briefing before the jury. `src/content/assessments/03-comprehensive-city-plan.md`
+  is authoritative on the 12:00 due time and 50% weight. The unresolved issue
+  is the defence: this lecture and the policies page say 14:00 in one room,
+  while the detailed Week 12 session plan uses two parallel rooms from 13:00 so
+  sixteen twenty-minute slots fit. Resolve that once across the course before
+  this lecture is written up.
 - Slide 11's semester table is invented and internally consistent. Decide
   whether it is presented as the studio's reference save or explicitly as a
   worked example students rebuild from their own figures — the same decision
@@ -5121,4 +5114,3 @@ whole document, and the appendix is what keeps the claims inside the evidence.
   students to improvise the trim.
 
 ---
-
