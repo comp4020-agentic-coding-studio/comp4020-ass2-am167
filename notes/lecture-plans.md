@@ -348,7 +348,7 @@ that first road.
    | Assessment | Due | Weight | fiscal | mobility | livability |
    | --- | --- | --- | --- | --- | --- |
    | 1. Neighbourhood Unit Plan | Week 4 | 15% | 30 | 30 | 40 |
-   | 2. Mobility Plan | Week 6 | 20% | 25 | 50 | 25 |
+   | ~~2. Mobility Plan~~ *(cut — no such assessment)* | ~~Week 6~~ | ~~20%~~ | — | — | — |
    | 3. Public Realm & Infrastructure Plan | Week 9 | 25% | 30 | 25 | 45 |
    | 4. Comprehensive City Plan | Week 12 | 40% | holistic | holistic | holistic |
 
@@ -1826,7 +1826,10 @@ Students must set a headway and say which metric they paid.
     third: livability is not the metric under pressure this week, and Week 6
     is where it arrives.
 
-14. **Slide 14 — Assessment 2 opens** `class: —`
+14. **Slide 14 — Assessment 2 opens** `class: —` — **CUT. DO NOT BUILD THIS
+    SLIDE.** There is no Mobility Plan; see the correction banner above. Week 5
+    opens no assessment. Drop the slide and renumber, or replace it with the
+    Week 9 brief if the deck needs a forward pointer.
     - **Mobility Plan.** A transit network for the Halstead Reach–Barrow Fields
       corridor, with the zoning changes the network requires, on the studio's
       shared save.
@@ -2213,7 +2216,10 @@ survive the year and the livability loss does.
     apologise for. Knowing which arguments a model can and cannot support is
     part of using one, and Week 11 is given over to that question.
 
-16. **Slide 16 — Assessment 2, due Friday** `class: —`
+16. **Slide 16 — Assessment 2, due Friday** `class: —` — **CUT. DO NOT BUILD
+    THIS SLIDE.** Nothing is submitted in Week 6; see the correction banner
+    above. The stress test is a working session, and the next brief is
+    Assessment 2, the Public Realm and Infrastructure Plan, in Week 9.
     - **Mobility Plan.** Pinned up Friday at 12:00 and defended at the jury
       that afternoon. 20% of the studio.
 
