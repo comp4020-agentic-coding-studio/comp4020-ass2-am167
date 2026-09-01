@@ -470,3 +470,51 @@ per week, the round-trip verified byte-identical before any agent touched it,
 and reassembly was mechanical. Three agents could then edit without racing.
 
 `pnpm check` green (14 tests, 40 pages).
+
+## Weeks 9 and 12 resolved; week 6's finished repair merged
+
+Both jury weeks now process the cohort of sixteen.
+
+**Week 9** takes Week 4's shape — two rounds of eight, either side of the
+recess — with the walk clock cut from six minutes to four. Sixteen at six is
+ninety-six minutes of walking, which would have cost either the three pulled
+plans or Marek's summing-up. Four across two rounds is sixty-four and fits
+inside the 14:00–15:45 the rest of the section already anchors on: the hang
+still closes at 13:25, the jury still sits at 14:00, the wall still comes down
+at 15:45. The three keep their round at six minutes each. What four minutes
+will not carry is a plan that has to be explained before it can be defended,
+which is arguably the point, but the residual squeeze — ninety seconds for the
+student's claim against Week 4's two minutes — is left as the open question.
+
+**Week 12** could not be fixed by arithmetic. Sixteen twenty-minute defences
+need 320 minutes against a block of 180, and twenty minutes is the slot the
+studio has used since Week 4 — the capstone is not the week to shorten it. So
+the final jury splits into two parallel rooms, eight under Quaye in Studio
+2.14 and eight under Marek in 2.16, opening together and closing together.
+
+The cost is real and the section states it rather than hiding it: no single
+juror watches all sixteen defences live. Three things carry the weight — both
+chairs read all sixteen memos before the draw, since they were lodged at 12:00;
+the chairs swap rooms for the last two slots of each set, so every student is
+seen by both; and the close is joint. The alternatives are costed in the open
+questions, including the one that was cleanest and rejected — an extended or
+second session — because it moves the calendar and `spec/calendar.test.ts`
+asserts that shape.
+
+**Week 6's agent finished after I had already merged its interim state**, and
+its final pass caught a continuity defect I had shipped without: Week 6 let
+each student choose whether their `w06` save held the widened corridor, but
+Weeks 7, 8 and 11 all read against a widened one — Week 7 attributes 11.2→10.9
+to the Wickstead widening bedding in, and Week 11 has the whole cohort write an
+objection to it. The branch is now inverted: everybody widens, and
+`<student ID>-w06-pre` holds the un-widened counterfactual. It also rebuilt the
+argument round as four groups of four, made the instrument menu written rather
+than spoken so sixteen choices fit fifteen minutes, and wrote the across-break
+protocol that Week 7's "what students arrive with" had been assuming without
+Week 6 ever setting it up.
+
+That is the second time the two-agent split produced a fact nobody owned. The
+first was the cohort; this one was the state of the save. Both were invisible
+to every mechanical check and only showed up on a cross-week read.
+
+`pnpm check` green (14 tests, 40 pages).

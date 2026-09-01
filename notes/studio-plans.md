@@ -2035,7 +2035,7 @@ on, widen it, and stay in the room long enough to watch the relief disappear.
 - **The transit baseline written into the process log last week**: the Denton
   Hill–Barrow Fields spine's daily passenger count, its fleet of four, and its
   6-minute headway. These are the before-figures for the modal component and they
-  cannot be recovered once the branch has run.
+  cannot be recovered once the widening has run.
 - Week 5's readings on the standard sheet: **+₡400/mo**, **5.4 min** at 08:00,
   transit **11%**, **62%** of residents within 400 m of a stop, happiness
   **73%**, land value **34**. The 5.4 is the number the session is about to
@@ -2093,9 +2093,12 @@ in the world is justified on, which is the whole of slide 8. Before you advance 
 single in-game day, write down the long-run peak volume the elasticity predicts
 from the capacity you have just added, worked from the volume you measured at the
 reading-in and not from any figure on a slide, and write the volume ÷ capacity
-that goes with it. At 15:00 you will compare that prediction against four rows
-you read off your own save, and the prediction is more useful for having been
-wrong than for having been skipped.
+that goes with it. At 15:00 you will set that prediction against four rows read
+off your own save, and it will overshoot: the peak comes back to 10.7 rather than
+to 11.2, so this district refills part of the way and not all of it. How far
+short of the elasticity the save lands is the finding, not a discrepancy to be
+closed. The prediction is more useful for having been wrong than for having been
+skipped.
 
 **Six in-game weeks, 14:20–15:00.** Three in-game weeks, read, then three more,
 read. Forty minutes of wall-clock time for six weeks of simulated time, which is
@@ -2111,10 +2114,13 @@ machines for each group to pull its figure off its own members' saves, then five
 minutes a row at the board: the figure, the info view it was read in, and the
 number defended against the other twelve. A contested row is re-read live on a
 group member's machine rather than argued about in the abstract. The last five
-minutes are the total, set against the prediction written at 14:20. If the four
-rows sum to much less than the capacity that was added, the honest conclusion is
-that a row is missing rather than that a row is small, and the row that is
-missing is almost always land use.
+minutes are the total, set against the prediction written at 14:20. What the four
+rows have to account for is the traffic that came back — the movement from 8.9 to
+10.7 — and not the capacity that was added: the refill on this district is
+partial, and the distance between the prediction and the table is a finding
+rather than an error to be closed. The table to distrust is the one that arrives
+with three rows, because land use is the row students drop and it is the row that
+is still growing after the studio stops watching.
 
 **The instrument menu, 15:30–15:45.** The lecture's closing menu goes back up
 with its costs against it — retiming the Wickstead signal to raise its effective
@@ -2125,8 +2131,8 @@ do. Four instruments, three of them available. Every student writes down the one
 they will argue for and the single number that would tell them it worked, which
 takes three minutes and is theirs to keep. Then a show of hands sorts the room
 by instrument and Idris takes one named defence from each group, so sixteen
-choices are heard in the time four arguments take. Nobody is asked to speak
-twice.
+choices are heard in the time four arguments take, and the fifteen that were not
+defended out loud are still on paper.
 
 **The statement, and when it is actually written.** The 150-word position
 statement is not written in the last fifteen minutes; it is drafted at the
@@ -2163,7 +2169,7 @@ principle is what is actually happening: every agent takes the least-cost route
 available and re-costs it when the network changes, so the queue is an
 equilibrium artefact and the constraint is the throughput at the stop line. Fix
 the queue and you move the queue. Fix the stop line and something else happens,
-which is what the branch is for.
+which is what the next hour is for.
 
 **Widen it.** Two lanes to four on the corridor approaches. On the first morning
 the 08:00 peak drops to **8.9 min** and holds there for about **three in-game
@@ -2212,8 +2218,8 @@ naming in the room: the corridor's vehicular capacity went up and its
 environmental capacity — the volume above which the street's other functions stop
 working — did not move, because it is a property of the frontage rather than of
 the carriageway. Watch the ground-floor tenancies on the widened frontage and
-whether they hold their level. **Happiness reads 66%**, down from
-73%, and the **land value index reads 33**, flat against 34. That is a livability
+whether they hold their level. **Happiness reads 66%**, down from 73%, and the
+**land value index reads 33**, flat against 34. That is a livability
 loss that does not come back, sitting next to a mobility gain that already did.
 
 **The instrument that is not available.** The model has no congestion-pricing
@@ -2238,9 +2244,9 @@ in as `<student ID>-w05` and saved out as `<student ID>-w06`.
 | Transit share | Transportation Overview, mode split | **14%** | 11% |
 | Happiness | happiness overlay, district | **66%** | 73% |
 | Land value index, district mean | Land Value info view | **33** | 34 |
-| Peak after widening, first morning | travel-time readout, on the branch | **8.9 min** | — |
-| Peak after three in-game weeks | travel-time readout, on the branch | **8.9 min**, holding | — |
-| Peak after the refill | travel-time readout, on the branch | **10.7 min** | — |
+| Peak after widening, first morning | travel-time readout, on the widened save | **8.9 min** | — |
+| Peak after three in-game weeks | travel-time readout, on the widened save | **8.9 min**, holding | — |
+| Peak after the refill | travel-time readout, on the widened save | **10.7 min** | — |
 
 **Livability is the metric that moved the wrong way.** Happiness fell from 73%
 to **66%** and the land value index went **34 to 33**, which is flat — and flat,
@@ -2318,7 +2324,7 @@ where the whole room hears the answer.
   because I said in the first week that I would ask.
 - Land value and happiness on the widened frontage, before and after. Now name
   the metric that moved the wrong way.
-- Somebody in this room is about to write a statement saying every metric
+- Somebody in this room is about to pin a statement saying every metric
   improved. Read the rule back to me, and then read your own numbers back to me.
 - Three instruments left, two weeks off. Which one are you arguing for when you
   come back, and what is the single number that would tell you it worked?
@@ -2350,14 +2356,13 @@ only one that keeps growing after the studio stops watching.
 - Three screenshots: the traffic volume layer at 08:00 before and after the
   widening, taken from the same camera position; the noise pollution overlay
   along the widened frontage; the Transportation Overview line detail showing the
-  passenger count after the branch has run.
+  passenger count after the widening has run.
 - **A position statement of no more than 150 words, pinned to the wall at
   15:45 and left there.** It is not marked and it is not collected. It says what
   the room's own evidence supports about adding capacity to this corridor, and
-  which of the four instruments the student will argue for. This is the session's
-  output: nothing is submitted this week, deliberately, because the thing being
-  produced is an argument the cohort holds rather than an artefact the cohort
-  hands over.
+  which instrument the student will argue for. This is the session's output:
+  nothing is submitted this week, deliberately, because the thing being produced
+  is an argument the cohort holds rather than an artefact the cohort hands over.
 - One sentence at the wash-up: the two metrics you traded, and the lane count
   where the trade is visible.
 
@@ -2395,10 +2400,11 @@ down:
    sent industry to Ombersley Flats. You will be asked to read your own sentence
    back on 19 April.
 
-Idris also asks the room before it leaves, on Nadia Ilkhom's behalf, for one
+Idris also asks the room before it leaves, on Nadia Ilkhom's behalf — Nadia is
+not in the room in Week 6, so the request has to come from Idris — for one
 volunteer to have their save on the projector at 13:20 on 19 April; Nadia
-confirms by email during the break, because a save put up cold wastes ten minutes
-of the room's time. Week 7 opens on a different network — water, sewage and power
+confirms it by email during the break, because a save put up cold wastes ten
+minutes of the room's time. Week 7 opens on a different network — water, sewage and power
 with Nadia — and the connection is genuine rather than decorative: congestion and
 outage are the same capacity curve read at different tolerances, and this cohort
 has just spent an afternoon at the top of one.
@@ -2519,10 +2525,34 @@ Week 3's name, used as issued.
   view and keep 118%, 11.2, 8.9 and 10.7 as the only travel-time and capacity
   numbers the page states.
 - The save-naming convention in the shared canon is one save per week,
-  `<student ID>-w<NN>`. This session needs a branch, and the plan uses
-  `<student ID>-w06-wickstead`. Decide whether the suffix is permitted or whether
-  the branch is named some other way, and make Week 4's two clinic branches use
-  the same rule — they currently use the same shape.
+  `<student ID>-w<NN>`. This session needs a second file and the plan uses
+  `<student ID>-w06-pre` for the un-widened state, which is the same shape as
+  Week 4's `-w04-clinic-in` / `-w04-clinic-shared` and the same suffix as Week 7's
+  `<student ID>-w07-pre`. Decide whether the suffix is permitted, and if it is,
+  say so once so all three weeks read as one rule — noting that `-pre` is doing
+  two jobs across the two weeks, a mid-session counterfactual here and the state
+  Week 7 actually opens on there. What is **not** open is which
+  state `w06` holds: it holds the widened district, because Weeks 7, 8 and 11
+  each read against a corridor that was widened this afternoon.
+- The last hour is arithmetic on a cohort of sixteen — four groups of four on the
+  four decomposition rows, four defences at the instrument menu, sixteen
+  traded-pair sentences at thirty seconds. Confirm the enrolment before writing
+  the page. At twenty the groups and the defences still hold; the spoken
+  traded-pair round does not, and the cut is to take it from the four group
+  reporters out loud and the rest in writing on the readings sheet.
+- The lecture's own **Studio session hand-off** section is stale in three ways and
+  this plan supersedes it: it puts the studio on Wednesday rather than the same
+  Monday, it has students bringing an Assessment 2 memo in draft for a pin-up
+  that does not exist, and it sets the exercise as two of slide 15's instruments
+  implemented on separate branches over twelve simulated months. That last one is
+  a good exercise and it is not this one; the widening and its refill are, and
+  slide 15 arrives at 15:30 as a menu to argue from rather than to build. Do not
+  merge the two.
+- The lecture calls the parallel back-street route **Ashgrove** in its mechanic
+  mapping and on slides 6 and 9. The shared canon gives that role to **Hessel
+  Row** at the Brayhurst quarter's eastern edge, and this plan uses Hessel Row
+  throughout. Ashgrove is not in the canon table and must not enter the session
+  page; if the Week 6 deck is ever built, it needs the same correction.
 - Whether the 150-word position statement stays anonymous on the wall or carries
   the student's name. Anonymous gets sharper statements and makes the instrument
   round at 15:30 harder to run, since Idris cannot ask a specific student to
@@ -3419,9 +3449,10 @@ spent money, and answer what each point of happiness cost you per month.
 | 13:00–13:25 | Hanging | The wall opens. Students hang their own sheets in roster order along the long wall, memo at the right-hand end of each set, unfunded list last. **The hang closes at 13:25** and nothing goes up after it. | Students |
 | 13:25–13:45 | Silent read | The whole cohort reads the whole wall, end to end, in silence. No talking, no explaining, no standing next to your own sheets. The jurors read at the same time and take notes. | Tobias Wren |
 | 13:45–14:00 | The jury is framed | Tobias states the afternoon's question in one sentence and puts the cost-per-happiness-point comparison on the board before any student speaks. Sunniva Marek is introduced and states what they have and have not seen. | Tobias Wren, Sunniva Marek |
-| 14:00–14:50 | Jury round one — the walk | The jury walks the wall in order. **Six minutes a plan**, at its own sheets: two minutes for the student's single claim, four for the jury. Timed, and the timer is visible. | Tobias Wren, Sunniva Marek |
-| 14:50–15:00 | Break; the jury confers | The room breaks. The jurors confer at the wall and pull **three plans** for extended defence, chosen for what they disagree about rather than for quality. | Tobias Wren, Sunniva Marek |
-| 15:00–15:30 | Jury round two — the pulled plans | Ten minutes each, in front of the whole cohort, on the three pulled plans. This is where the cost-per-point comparison is worked all the way through on real numbers. | Tobias Wren, Sunniva Marek |
+| 14:00–14:32 | Jury round one — the walk, first eight | The jury walks the wall in roster order. **Four minutes a plan**, at its own sheets: ninety seconds for the student's single claim, the rest for the jury. Timed, and the timer is visible. | Tobias Wren, Sunniva Marek |
+| 14:32–14:40 | Recess; the jury confers | The room breaks. The jurors confer at the wall and name **three plans** they will return to, chosen for what they disagree about rather than for quality. | Tobias Wren, Sunniva Marek |
+| 14:40–15:12 | Jury round two — the walk, second eight | The remaining eight, same clock, same shape. A plan is not disadvantaged by being in the second round: the jury has seen more wall by then, and says so. | Tobias Wren, Sunniva Marek |
+| 15:12–15:30 | The three | Six minutes each, in front of the whole cohort, on the three plans named at the recess. This is where the cost-per-point comparison is worked all the way through on real numbers. | Tobias Wren, Sunniva Marek |
 | 15:30–15:45 | Marek sums up | The visiting critic speaks to the wall as a whole for fifteen minutes, uninterrupted, and does not take questions. | Sunniva Marek |
 | 15:45–15:55 | Wash-up | Readings entered, cost-per-point column added to the corridor budget sheet, the wall comes down and goes home with its owner. | Tobias Wren |
 | 15:55–16:00 | Hand-off | One instruction for next Monday, stated twice: keep the save exactly as submitted. | Tobias Wren |
@@ -3438,11 +3469,18 @@ cohort follows; the student stands at their own sheets when the jury reaches
 them and sits down when it moves on. Six minutes is short on purpose and the
 timer is visible on purpose. Two minutes to state the plan's single claim — one
 claim, not a tour of the wall — and four minutes of questions. A student who
-spends the two minutes describing what is in the screenshots has spent them,
-and the jury will still have four.
+spends the ninety seconds describing what is in the screenshots has spent them,
+and the jury will still have two and a half.
 
-**Round two is the teaching.** Three plans, ten minutes each, in front of
-everybody, chosen because the two jurors disagreed about them at the break. The
+**Four minutes, not six, and the reason is arithmetic.** Sixteen plans at six
+minutes is ninety-six minutes of walking, which leaves the afternoon no room
+for the three or for Marek. Four minutes across two rounds of eight is
+sixty-four, and it is the same shape Week 4 used — the cohort has done it
+before and knows the clock is real. What four minutes will not carry is a plan
+that has to be explained before it can be defended, which is the point.
+
+**The three are the teaching.** Six minutes each, in front of everybody,
+chosen because the two jurors disagreed about them at the recess. The
 cohort is not an audience here: Tobias will put a question from the room to the
 student under crit and expect it answered. This is where the plaza and the
 street trees get compared out loud with the monthly figures on the board, and
@@ -3709,8 +3747,8 @@ any of them. Target **450–700 words**.
    captioned with in-game day and 08:00, the 19:00 street-level views with their
    weather state, the memo pinned not screened, the unfunded list as the last
    sheet, and the monthly figure against every space.
-3. **`## How the jury runs`** — roughly 150 words. Silent read, the walk at six
-   minutes a plan with a visible timer, the three pulled plans at ten minutes,
+3. **`## How the jury runs`** — roughly 150 words. Silent read, two rounds of
+   eight at four minutes a plan with a visible timer, the three at six minutes,
    Marek's fifteen minutes. One line on what the visiting critic has and has not
    seen, since that is the whole reason they are in the room.
 4. **`## The question`** — roughly 130 words. Cost per happiness point, worked
@@ -3779,18 +3817,16 @@ separate artefact, and should be written as such.
 
 ### Open questions for the writer
 
-- **UNRESOLVED, AND IT BLOCKS THE PAGE: the run sheet processes eight plans
-  and the cohort is sixteen.** Week 4 fixes the cohort at sixteen and says so
-  three ways — "two rounds of eight, six minutes each", a recess between them,
-  and a visiting critic who "addresses the wall as one wall rather than as
-  sixteen plans". This section was drafted after an interrupted run and lost
-  that fact: "Jury round one — the walk", 14:00–14:50 at six minutes a plan,
-  fits eight. Sixteen needs a hundred minutes at that clock, which the block
-  does not have alongside the silent read, the conference, the three pulled
-  plans and Marek's summing-up. Resolve it before the page is written: adopt
-  Week 4's two-rounds-of-eight shape either side of the 14:50 break, or shorten
-  the walk clock and say what that costs. Do not write the page against a
-  cohort of eight.
+- **Resolved: the walk is two rounds of eight at four minutes.** An earlier
+  draft ran a single fifty-minute round at six minutes a plan, which fits
+  eight, not the cohort of sixteen that Week 4 fixes. The clock came down to
+  four rather than the afternoon losing the three or Marek's summing-up. The
+  residual question for the writer is whether ninety seconds is enough for a
+  student's single claim — Week 4 gives two minutes inside a six-minute slot,
+  and a reader who knows both weeks will notice the squeeze. If it reads as
+  too tight, the silent read at 13:25–13:45 is the only other twenty minutes
+  in the block that could be spent on it, and losing it costs more than it
+  buys.
 - The Assessment 2 brief at
   `src/content/assessments/02-public-realm-and-infrastructure-plan.md` is still
   `STARTER_CONTENT`. This session names deliverables — captioned screenshots, a
@@ -4582,24 +4618,35 @@ sentence, the Week 10 exposure costed, and the appendix at the front.
 
 | Time | Segment | What happens | Who runs it |
 | --- | --- | --- | --- |
-| 12:15–13:00 | Hanging and machine check | Boards up on the long wall in plan order; presenting machine tested; running order drawn at 12:50 and posted | students; Marisol Quaye |
-| 13:00–13:05 | Chair's opening | The order read, the protocol restated, the fourth question announced as the last question of every slot | Marisol Quaye |
-| 13:05–13:45 | Defences 1–2 | Two twenty-minute slots, back to back, no break between | jury |
-| 13:45–14:25 | Defences 3–4 | As above | jury |
-| 14:25–14:35 | Jury conference | Jury confers; room stays; boards stay up and are read by the cohort | Marisol Quaye, Sunniva Marek |
-| 14:35–15:15 | Defences 5–6 | As above | jury |
-| 15:15–15:55 | Defences 7–8 | As above | jury |
-| 15:55–16:00 | Close of studio | Boards down, saves confirmed lodged, feedback timeline stated | Marisol Quaye |
+| 12:15–12:50 | Hanging and machine check | Boards up in plan order — eight on the long wall in Studio 2.14, eight in 2.16; both presenting machines tested and every save opened on the one it will be defended from | students; Marisol Quaye |
+| 12:50–13:00 | The draw, and both cohorts in one room | The running order is drawn and posted for both rooms. Quaye reads the order, restates the protocol, and announces the fourth question as the last question of every slot, to all sixteen at once | Marisol Quaye |
+| 13:00–14:20 | Defences 1–4, both rooms in parallel | Four twenty-minute slots per room, back to back, no break between. Quaye chairs 2.14, Marek chairs 2.16 | jury, split |
+| 14:20–14:30 | Jury conference | Each room's jury confers about its first four while they are still fresh. The cohort stays and reads the wall; nobody moves rooms | Marisol Quaye, Sunniva Marek |
+| 14:30–15:50 | Defences 5–8, both rooms in parallel | As above. The chairs swap rooms for the last two slots of each set, so every student is seen at least once by the chair who did not sit their first four | jury, split |
+| 15:50–16:00 | Joint close | Both cohorts back in 2.14. Quaye and Marek close to all sixteen together: what the two walls had in common, boards down, saves confirmed lodged, feedback timeline stated | Marisol Quaye, Sunniva Marek |
 
 **The hanging hour is not slack time and it is not optional.** Boards go up on
-the long wall in the order the plans will be presented, so that the cohort reads
-the whole studio's work as one wall before the first defence rather than one
-board at a time from a seat. The running order is drawn at 12:50 and posted; it
-is a draw, not a volunteer list, because a volunteer list produces four
-confident plans at the start and the room stops listening by 14:30. The
-presenting machine is one machine, tested once, and every save is opened on it
-during the hanging hour — a district that will not load at 15:20 is a district
-that is marked from the memo alone.
+the wall in the order the plans will be presented, so that the cohort reads a
+whole wall of the studio's work before the first defence rather than one board
+at a time from a seat. The running order is drawn at 12:50 and posted; it is a
+draw, not a volunteer list, because a volunteer list produces four confident
+plans at the start and the room stops listening by 14:30. Each room has one
+presenting machine, tested once, and every save is opened on the machine it
+will be defended from during the hanging hour — a district that will not load
+at 15:20 is a district that is marked from the memo alone.
+
+**Sixteen defences do not fit one room, so the jury sits in two.** Twenty
+minutes is the slot the studio has used since Week 4 and the capstone is not
+the week to shorten it; sixteen at twenty minutes is 320 minutes and the block
+is 180. The studio therefore runs two juries in parallel — eight in Studio 2.14
+under Quaye, eight in 2.16 under Marek — each joined by the tutors who taught
+the semester, opening together and closing together. The cost is real and the
+page should state it rather than hide it: **no single juror watches all sixteen
+defences live.** Three things carry the weight instead. Every memo was lodged at
+12:00 and both chairs read all sixteen before the draw. The chairs swap rooms
+for the last two slots of each set, so every student is seen by both. And the
+close is joint, to all sixteen at once, because the thing worth saying at the
+end of the semester is about the two walls together.
 
 **Each slot is twenty minutes and it runs to the studio's standing crit
 protocol, unchanged.** Five minutes of uninterrupted walk-through. Then
@@ -4608,10 +4655,10 @@ look at the work properly, not opinions with question marks on them. Then ten
 minutes of critique, addressed to the plan. Then the presenter responds last,
 about three minutes, and is not obliged to agree. Nobody gets a longer slot by
 talking through the clarifying questions, and the chair will say so once, at
-13:05, so that nobody has to be told twice in front of the room.
+12:55, to both cohorts, so that nobody has to be told twice in front of a room.
 
-**The jury conference at 14:25 is ten minutes and the room does not empty.**
-The cohort stays and reads the wall; the jury confers about the first four
+**The jury conference at 14:20 is ten minutes and neither room empties.**
+The cohort stays and reads the wall; each jury confers about its first four
 plans while they are still fresh. Attendance is expected for the whole
 afternoon including the parts where a student is not being marked — a jury with
 no audience is two people looking at a screenshot, and the critique is the
@@ -4886,6 +4933,8 @@ contain. This page says what happens to it in the room.
 
 ### New canon introduced
 
+- **Studio 2.16** — the second studio room, used only on final review day so
+  the sixteen defences can run as two parallel juries alongside Studio 2.14.
 - **Kerrow cross-town link** — the proposed east–west connection from the
   Kerrow corridor to the Pellow cells, the only use for the ₡186,000 reserve
   that touches the Ombersley land value figure. *Carried in from
@@ -4905,23 +4954,18 @@ contain. This page says what happens to it in the room.
   extensions section says "one student's fifteen minutes". Twenty is used here
   because it is the figure in the two documents that are about the slot. If
   fifteen is preferred, the run sheet gains four slots or loses eighty minutes.
-- **UNRESOLVED, AND IT BLOCKS THE PAGE: the run sheet holds eight defences
-  and the cohort is sixteen.** An earlier draft of this bullet claimed the
-  fifteen machines in the design lab were "the only cohort bound anywhere in
-  the site". That is wrong. Week 4 fixes the cohort at sixteen explicitly, and
-  Week 5's open questions confirm it. This section was drafted after an
-  interrupted run and lost that fact: eight twenty-minute defences fill
-  13:05–15:55 exactly, so sixteen need another 160 minutes that do not exist.
-  This is a format decision, not an arithmetic tweak, and it is the one thing
-  standing between this plan and a writable page. The options worth costing:
-  a shorter slot (ten minutes gets sixteen into the block but is thin for a
-  50% capstone); two parallel juries in separate rooms with Quaye and Marek
-  splitting and reconverging for a joint summing-up, which keeps the slot
-  length but means no juror sees every plan; a shortlist defended at length
-  with the remainder defended briefly, which is real studio practice but has
-  to be announced in advance to be fair; or an extended block or a second
-  session, flagged as such on the page and in the calendar. Whichever is
-  chosen, the visiting critic must plausibly have seen enough to sum up.
+- **Resolved, but the resolution has a cost worth re-reading before the page
+  is written.** Sixteen twenty-minute defences need 320 minutes against a block
+  of 180, so the jury splits into two parallel rooms and no juror sees all
+  sixteen live. The alternatives were a ten-minute slot (fits one room, thin
+  for a 50% capstone), a shortlist defended at length with the rest defended
+  briefly (real studio practice, but it has to be announced weeks ahead to be
+  fair), and an extended or second session (cleanest, but it moves the calendar
+  and `spec/calendar.test.ts` asserts the shape). Two rooms was chosen because
+  it preserves the slot, the protocol and the 13:00–16:00 block. If the writer
+  prefers one room, the ten-minute slot is the only option that does not touch
+  the calendar, and Sunniva Marek's bio and the Week 12 lecture plan would both
+  need revising, since both say twenty.
 - **The Ombersley industry has one name: the Pellow cells.** Weeks 3, 4–6, 10
   and 12 were drafted in parallel and two of them coined "Ombersley Works" for
   the ground `notes/lecture-plans.md` already calls the Pellow industrial
