@@ -552,3 +552,9 @@ Removed the Parallel implementation section from `CLAUDE.md` (and the matching
 spawning them unless we're doing adversarial review. Independent pieces get
 done in-session; the adversarial-review pass still fans out to fresh reviewer
 agents.
+
+- Added `spec/course-coherence.test.ts`: the built course graph now checks
+  lecture/studio reciprocity, assessment-to-studio dates, dangling references,
+  and an explicit weekly subject anchor. Added an adversarial prospective-
+  student review protocol to `CLAUDE.md` because enrolment appeal needs human
+  judgement, not a synthetic score.

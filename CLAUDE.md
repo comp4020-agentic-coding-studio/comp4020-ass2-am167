@@ -17,6 +17,27 @@ ship. CI runs the same plus links, secrets and the deploy.
 `spec/README.md`, `PROCESS.md` and `reflections/README.md` are in this repo and
 say what they are for.
 
+## Course coherence harness
+
+The course is one argument carried across many pages, not twelve independent
+content drops. `spec/course-coherence.test.ts` is the executable course
+contract: it protects the weekly lecture/studio graph, assessment dates and
+links, and one explicit subject anchor for every week. When changing the
+course idea, update the `weeklyAnchors` contract first, then make the rendered
+lecture, studio and assessment pages agree with it. Do not weaken the test to
+word counts or repeated boilerplate; those can pass while the curriculum is
+still incoherent.
+
+The harness cannot decide whether a prospective student would want to enrol.
+For every substantial content draft, run an adversarial review before calling
+it done. Ask a fresh reviewer to read the home page, three non-adjacent weeks,
+one assessment, the deck and policies as a student, and attack: (1) the
+through-line, (2) progression and payoff, (3) specificity and voice, (4) the
+reason to take this course, and (5) contradictions or missing prerequisites.
+Record the findings and the resulting changes in `notes/log.md`. A green
+`pnpm check` is necessary backpressure, not evidence that the course is
+interesting.
+
 ## How to work in here
 
 - Keep the dev server running (`pnpm dev`) while working so you see changes as
