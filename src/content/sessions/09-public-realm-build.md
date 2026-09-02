@@ -18,6 +18,12 @@ spec:
   - "You bring one pedestrian count taken at 19:00 using the issued weather state, camera, polygon and one-minute observation window."
 ---
 
+## Before you come
+
+Open `<student ID>-w08` and build forward from it — this session has no issued
+checkpoint to substitute for your own save. Bring your corridor budget column
+and signed unfunded list from last week.
+
 ## The deadline and the wall
 
 The artefact is due at 12:00. Hang in roster order from 13:00; the wall closes
@@ -79,7 +85,8 @@ noticed.
 ## What you take away
 
 Keep `<student ID>-w09` **exactly as submitted** for the Week 10 load case. Take
-the wall home for the final jury, and leave with the 08:00 readings, separate
-19:00 count, cost-per-point column and updated unfunded list. Write what the
+the wall home for the final jury, and leave with the 08:00 travel-time reading
+(11.1 minutes, the continued refill from Week 6’s widening), separate 19:00
+count, cost-per-point column and updated unfunded list. Write what the
 next ₡500/month would buy and what it would return per point. Do not repair the
 submitted district after the crit.

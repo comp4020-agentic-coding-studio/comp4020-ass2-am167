@@ -703,3 +703,41 @@ Removed the template-authoring instructions from the public studio index and
 replaced them with the course's continuous-save premise. Reworded the shared
 spec preamble so it accurately covers preparation, recorded evidence and jury
 defence rather than describing every line as something brought to the room.
+
+## 2026-09-03 — Adversarial review of the twelve studio pages
+
+Ran a fresh, context-isolated adversarial review of all twelve studio session
+pages (not the planning notes) against the flagged handoff issues plus an
+independent pass. Confirmed and fixed the three seeded problems: Week 2 asked
+for an 08:00 traffic-volume overlay and close-one-link volume readings on a
+district with no zoned population, which cannot produce an honest volume
+reading; both spec lines and the "what to bring" section now ask for the
+path-count/frontage evidence the plan actually supports. Week 4's spec had
+students arrive on `-w03` while the body told them to leave with (and already
+have) `-w04`, with no in-room step that would produce it; the spec now matches
+the plan's premise that the upzoning and clinic branches are pre-deadline
+homework, arriving on `-w04`. Weeks 11 and 12 stated the land-value curve,
+four-block uplift, jury land-value figures and the ₡186,000 reserve as flat
+fact with no reference-scenario qualifier, unlike every other week; added the
+same hedge used since Week 2.
+
+The reviewer's independent pass found nine further problems, all fixed:
+Weeks 11 and 12 both cited a "Week 4 Farrant Row household mix," but Week 4
+never established Farrant Row — it upzoned Pelling Cross; Farrant Row is a
+Week 7 utility site. Both references now point at Pelling Cross. Week 12's
+jury guarantees a question about a ₡186,000 fiscal reserve and a proposed
+"Kerrow cross-town link," neither mentioned anywhere in Weeks 1–11; added a
+seed paragraph to Week 8 introducing both, so the capstone question isn't the
+first time either concept appears. Weeks 9 and 12 were missing the save-chain
+instruction naming which save a student arrives with (`w08` and `w11`
+respectively) — added explicit "open this save" lines to both. Week 10 cited
+"Week 9's 11.1-minute trend," a figure Week 9's page never stated; added the
+travel-time reading to Week 9's take-away list. Tightened the Week 7→8
+utility-increment wording so "protecting" the increments reads unambiguously
+as a budget allocation rather than implying they were already built. Week 6
+cited peak/off-peak travel times without naming the off-peak clock time,
+breaking the Week 1 convention that every reading names its observation
+window; both times are now named (08:00 / 14:00). Week 7's evidence-label list
+had drifted from Week 1's four-term taxonomy ("overlay" instead of "manual
+observation"); reverted to the standing wording. `pnpm check` stayed pristine
+throughout (0 errors, 0 warnings, 21/21 spec tests).

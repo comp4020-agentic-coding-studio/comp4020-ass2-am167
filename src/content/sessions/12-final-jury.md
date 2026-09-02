@@ -76,21 +76,23 @@ walk-through says.
 
 The jury asks which of **fiscal performance**, **mobility performance** and
 **livability** you traded, and where that choice is spatially visible. It will
-set the district mean land value of 40 against a core at 66 and Ombersley at 18.
-It will ask whether the ₡186,000 reserve is held for year-fifteen stability or
-spent on the forecast Kerrow cross-town link, and which mobility gap the choice
-accepts.
+set the district mean land value of 40 against a core at 66 and Ombersley at 18
+(reference-scenario figures; cite your own save's readings where they differ).
+It will ask whether the ₡186,000 reserve (reference-scenario) is held for
+year-fifteen stability or spent on the forecast Kerrow cross-town link raised
+in Week 8's budget session, and which mobility gap the choice accepts.
 
 The last question has two halves. Does the district hold under Week 10’s fire
 load case? Answer with `d3` against `recovered`, not with an account of a flood.
 What could the model not show? Answer from the Week 11 appendix, curve and
-Farrant Row trace. Transit share and walk share keep separate observation
+Pelling Cross trace. Transit share and walk share keep separate observation
 denominators and are never added. The reserve/link result is a worksheet
 forecast, not a live UI field.
 
 ## Before you stand up
 
-Pause `<student ID>-w12` at 08:00 and full district extent. Pre-check the views.
+Open `<student ID>-w11` and continue it as `<student ID>-w12`. Pause it at
+08:00 and full district extent. Pre-check the views.
 Keep the memo open with the omissions appendix at the front. Write the claim,
 numeric qualifier and rebuttal where you can see them; use a metric card if it
 helps. Decide the reserve position on the forecast worksheet before noon, and

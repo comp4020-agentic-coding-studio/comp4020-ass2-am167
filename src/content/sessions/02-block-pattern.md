@@ -11,11 +11,11 @@ related:
   - lectures/week-02
 spec:
   - "One residential quarter is laid out in your Week 1 save at a block dimension you can state in metres."
-  - "You bring the traffic volume overlay at in-game 08:00 for that layout with nothing zoned into it."
-  - "You bring the close-one-link readings as two numbers: volume at 08:00 before the busiest link was deleted, and volume at 08:00 the following day after it was."
+  - "You bring the unzoned path-count table for the tested 480 × 480 m block: independent routes between two named corners and the frontage metres the zoning tool can reach — there is no unzoned traffic-volume overlay, because an empty network has no local origins."
+  - "You bring the close-one-link redundancy test as two route counts: independent routes between the same two corners before the busiest topological link is removed on paper, and after."
   - "You bring the road length and occupied-dwelling count you divided to derive road metres per dwelling, plus the road upkeep figure from the economy panel as a separate reading."
   - "You can state the block dimension you chose in metres and say what you were trying to buy with that number."
-  - "You bring a frontage inventory with the count of road-reachable cells and its counting method, and one named dwelling address for Week 3."
+  - "You bring a frontage inventory with the count of road-reachable cells and its counting method, and establish one named dwelling address for Week 3."
 ---
 
 ## What to bring
@@ -24,7 +24,9 @@ Bring the untouched `<student ID>-w01` archive and a working copy with the
 1.2 km Sallow Head–Dunthorpe spur and an unzoned **Brayhurst quarter**. Lay the
 quarter out at either 80 m or 160 m spacing and be able to state that dimension.
 Bring the Hessel Row path-count table, frontage inventory, road-length reading,
-08:00 volume screenshot and the close-one-link before-and-after figures.
+and the close-one-link before-and-after route counts. There is no unzoned
+traffic-volume overlay: an empty network has no local origins, so it has no
+honest volume to show.
 
 Bring the numbers, not a description of the numbers. A student without the
 path-count table starts on paper and misses the first desk-crit rotation.

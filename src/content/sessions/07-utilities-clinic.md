@@ -14,7 +14,7 @@ spec:
   - "You distinguish water production shortfall, sewage-treatment overload and river-pollution exposure using their actual panels, without claiming pipe pressure or a boil-notice state."
   - "Your group clinic gives every student a named diagnostic role and compares the same baseline, water-upgrade and treatment-upgrade checkpoints."
   - "You leave with both facility increments costed, a chosen order on the reverse-salient card, and your personal save preserved rather than overwritten by the reference scenario."
-  - "Every reading is labelled live UI, overlay, worksheet calculation or reference-scenario value."
+  - "Every reading is labelled live UI, manual observation, worksheet calculation or reference-scenario value."
 ---
 
 ## Before you come
@@ -78,6 +78,6 @@ Save `<student ID>-w07` from the unmodified personal district; do not overwrite
 it with a checkpoint. Leave with the three-column readings sheet, the signed
 reverse-salient card, and four captioned pieces of evidence: both availability
 views, the river-pollution overlay and the facility-cost comparison. Add the
-unfunded treatment line in writing. Label every figure as live UI, overlay,
+unfunded treatment line in writing. Label every figure as live UI, manual observation,
 worksheet calculation or reference-scenario value, and upload the session
 record by 21:00 the same day.

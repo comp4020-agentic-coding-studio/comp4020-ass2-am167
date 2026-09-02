@@ -32,9 +32,10 @@ somewhere else.
 
 ## Before you touch anything
 
-Record the 08:00 and off-peak route times, volume at Wickstead, daily passengers
-on the Denton Hill–Barrow Fields spine, and volume on Hessel Row. Pens down at
-13:10. The reference route reads 11.2 minutes at peak and 5.6 off-peak.
+Record the 08:00 (peak) and 14:00 (off-peak) route times, volume at Wickstead,
+daily passengers on the Denton Hill–Barrow Fields spine, and volume on Hessel
+Row. Pens down at 13:10. The reference route reads 11.2 minutes at 08:00 and
+5.6 at 14:00.
 
 Reconstruct the **118% reference capacity claim** from the raw hourly count,
 lane count, supplied saturation-flow assumption and observed green-time

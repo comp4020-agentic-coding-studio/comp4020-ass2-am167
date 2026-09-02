@@ -12,7 +12,7 @@ related:
   - lectures/week-04
 spec:
   - "Your Neighbourhood Unit Plan is uploaded by 12:00 on 15 March and hanging on the wall by 13:00."
-  - "You arrive with the save `<student ID>-w03` loaded and advanced to in-game 08:00, not a screenshot of it."
+  - "You arrive with the save `<student ID>-w04` loaded and advanced to in-game 08:00, not a screenshot of it — the upzoning and clinic branches already done as pre-deadline homework."
   - "Your hung set includes the Land Value info view over the cell, the coverage radius of every service building you sited, and the traffic volume layer along the Kerrow corridor boundary."
   - "The card at the bottom of your bay states what the cell costs per month and what it returns per month, as two figures in ₡."
   - "You name, out loud at the jury, which two of the three metrics your plan traded and the element of the plan where that trade is visible."

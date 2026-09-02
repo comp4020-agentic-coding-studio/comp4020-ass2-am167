@@ -12,7 +12,7 @@ related:
 spec:
   - "You arrive with the issued district allocation worksheet totalled; it is explicitly a course allocation of citywide costs, not a native district budget."
   - "You arrive with a sealed one-line prediction naming the budget line you expect to cut and the metric you expect it to cost."
-  - "You compose a closure worth 22% of the worksheet's total eligible allocated outlay, once, while protecting both Week 7 utility increments."
+  - "You compose a closure worth 22% of the worksheet's total eligible allocated outlay, once, while keeping both Week 7 utility increments funded in the allocation rather than cut."
   - "You record your unfunded lines in the set form on the corridor budget sheet and signed unfunded list, using a spoken, written, recorded or seated equivalent."
   - "You test the closure against the nearest issued reference branch, label the branch on every reading, and record where citywide controls cannot implement the district allocation exactly."
 ---
@@ -43,10 +43,11 @@ and the difference is evidence rather than an error to hide.
 
 ## Line zero
 
-The cheapest closure is to defer both Week 7 utility increments. At 13:10 the
-room costs that option properly, reads the water, sewage and pollution evidence,
-then refuses it. The first entry on the corridor budget sheet protects water
-production and sewage treatment.
+The cheapest closure is to leave both Week 7 utility increments unfunded. At
+13:10 the room costs that option properly, reads the water, sewage and
+pollution evidence, then refuses it. The first entry on the corridor budget
+sheet instead allocates spend to the water-production and sewage-treatment
+increments, protecting them from the cut.
 
 Everything else is chosen inside that fence. Reducing the bus fleet from four
 to three saves an allocated **₡1,200/month** and produces a calculated headway
@@ -82,3 +83,9 @@ column, the opened prediction annotated where it was wrong, and three captioned
 screenshots. Upload by 21:00. Next Monday’s public-realm plan must fund every
 monthly line from this column and keep the ₡5,100 treatment increment visible
 where it remains unfunded.
+
+Any monthly surplus left after the cut accrues toward an uncommitted capital
+reserve rather than spending itself. Note what it is not yet spent on: the
+proposed **Kerrow cross-town link**, an east–west connection from the corridor
+to the Pellow cells, is the standing candidate. That decision is not made this
+week — it returns as a live question at the Week 12 jury.

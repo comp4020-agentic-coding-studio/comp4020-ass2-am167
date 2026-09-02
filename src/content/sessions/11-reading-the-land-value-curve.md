@@ -12,7 +12,7 @@ related:
   - lectures/week-11
 spec:
   - "You arrive with ten weekly saves (`w01`–`w10`) as a recovery path, plus the pre-extracted land-value series; today's save is the eleventh."
-  - "You plot the district land-value curve by hand from the pack (or a reconstructed row), 0–100 scale, with Week 10 left as a gap."
+  - "You plot the district land-value curve by hand from the pack (reference-scenario values, or a reconstructed row from your own save), 0–100 scale, with Week 10 left as a gap."
   - "Every segment of your curve is annotated as a temporal association or hypothesis, or marked as unattributed — not as a proven single cause."
   - "You leave with one written sentence naming what the four-block decision traded, which metric it moved, and which population it moved for."
   - "Your omissions appendix is drafted to all four headings before you leave the room."
@@ -23,19 +23,20 @@ spec:
 Bring `<student ID>-w10` at the recovered state and all ten weekly saves from
 `w01` to `w10`. They are a recovery path, not the default extraction method.
 Bring the evidence pack’s pre-extracted land-value series, the issued Week 4
-Farrant Row checkpoint or your `w04` save, Week 6’s Wickstead file, and Week
+Pelling Cross checkpoint or your `w04` save, Week 6’s Wickstead file, and Week
 10’s fault sheet and exposure statement. Bring squared paper and a pencil.
 
 ## Plotting the curve
 
 Plot the district mean by hand on the sampling sheet’s 0–100 scale:
-**14, 17, 24, 31, 34, 33, 34, 31, 36, —, 39**. Leave Week 10 as a gap and draw
-the Week 9–11 segment dashed. Reconstruct only a missing pack row from its
-matching personal save.
+**14, 17, 24, 31, 34, 33, 34, 31, 36, —, 39** (reference-scenario values from
+the pack; reconstruct a missing row from your own save, not the whole series).
+Leave Week 10 as a gap and draw the Week 9–11 segment dashed.
 
 On the same axes, add the last four blocks at the southern end of the Kerrow
-corridor: **12 in Week 1 and 61 today**. The district mean rose from 14 to 39,
-or 179%; the corridor blocks rose by a factor of five. Today creates
+corridor: **12 in Week 1 and 61 today** (reference-scenario values from the
+pack, or the matching count from your own save). The district mean rose from
+14 to 39, or 179%; the corridor blocks rose by a factor of five. Today creates
 `<student ID>-w11`, the eleventh weekly save.
 
 ## What the curve is associated with
@@ -58,7 +59,7 @@ and rent readouts. The overlay assigns a value to every tile but no owner to any
 of them. The model cannot say who captured the uplift created by the district’s
 investment.
 
-Compare the Week 4 Farrant Row household mix with Week 11. Record the two
+Compare the Week 4 Pelling Cross household mix with Week 11. Record the two
 counts and the difference. The model may show some homelessness, but it does
 not record every household replaced as rent rises, nor exclusionary
 displacement or displacement pressure. A count of the people present now is not
