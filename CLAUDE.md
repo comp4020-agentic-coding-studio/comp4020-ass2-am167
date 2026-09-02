@@ -119,6 +119,10 @@ interesting.
 - **Avoid spawning subagents** unless we're doing adversarial review. They stall.
   Independent pieces still get done one after another here, then `pnpm check`
   once at the end.
+- **Use only cheap subagent models.** When the adversarial-review exception
+  requires subagents, use Luna in Codex (`gpt-5.6-luna`) or Sonnet in Claude
+  Code. Do not spawn any other model. This restriction applies to subagents,
+  not the main agent.
 
 ## Tests
 

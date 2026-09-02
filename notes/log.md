@@ -578,3 +578,8 @@ in `notes/studio-adversarial-review.md`. Review only: no studio plan, session
 body, assessment brief or policy was revised. The plans remain not approved for
 production pending an evidence pack, a coherent save/source chain, authoritative
 assessment briefs and structural repairs to Weeks 2, 4, 7–8, 10 and 12.
+
+## 2026-09-02 — Restrict subagents to cheap models
+
+Updated `CLAUDE.md` so the adversarial-review exception may spawn only Luna in
+Codex or Sonnet in Claude Code. The restriction applies only to subagents.
