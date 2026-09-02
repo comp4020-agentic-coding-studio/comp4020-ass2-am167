@@ -1,0 +1,275 @@
+---
+title: "Week 2: The Grid vs. the Organic Street"
+description: "SLOP2418 Urban Design Studio lecture 2"
+---
+
+import CourseDiagram from "../components/decks/CourseDiagram.astro";
+
+{/* _class: impact */}
+
+# The Grid vs. the Organic Street
+
+SLOP2418 — Urban Design Studio  
+Week 2 · Idris Fenn · 1 March 2027
+
+<p className="evidence-key">direct readout · derived measure · worked hypothetical</p>
+
+```notes
+Open by saying that the first network anybody draws is a diagram
+   of their assumptions rather than a plan, and that this week is about finding
+   out which assumption is expensive.
+```
+
+---
+
+## One question, three answers
+
+The question: **how far apart should two parallel streets be?**
+
+- Hippodamus, at Miletus: regular, equal, and the same everywhere.
+- The medieval street: whatever the ground, the boundary and the traffic of
+  the day produced, adjusted incrementally.
+- Stein and Wright, at Radburn: far enough apart that the interior can be
+  given over to people on foot.
+
+*Every one of those three is a defensible answer, and each
+one costs something different.*
+
+```notes
+Insist that this is a single question with a numeric answer, not
+   a stylistic choice, because students who treat it as style will not measure
+   the result.
+```
+
+---
+
+## The grid was an argument about government
+
+- Hippodamus laid out Miletus and Piraeus on an orthogonal plan in the fifth
+  century BCE; Aristotle discusses his scheme in *Politics*, Book II.
+- The grid's first virtue was equal division: identical plots, allocable
+  without dispute, describable without a map.
+- Its second was legibility to an administrator who had never been there.
+- Traffic was not the argument. Traffic became the argument two and a half
+  thousand years later, and the shape did not change.
+
+```notes
+The historical point matters because students assume the grid is
+   a traffic solution and then feel betrayed when it produces intersections.
+```
+
+---
+
+{/* _class: quote */}
+
+## Jacobs, on short blocks
+
+> Most blocks must be short; that is, streets and opportunities to turn
+> corners must be frequent.
+>
+> — Jane Jacobs, *The Death and Life of Great American Cities* (1961)
+
+*Her argument is about who walks past whose front door.
+Ours will be about how many routes exist. They are the same measurement.*
+
+```notes
+Jacobs makes the case for the fine grid on livability grounds;
+   this lecture takes the same geometry and reads it as a network. Note that
+   the two readings agree here and will not always.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## Radburn: the superblock
+
+<CourseDiagram kind="radburn" />
+
+*Radburn gives the centre to people on foot and funnels every vehicle trip.*
+
+```notes
+The Radburn plan is a complete and serious proposal, not a straw
+   man: it solves the pedestrian problem outright. Its cost is that the gold
+   network and the black network no longer share a geometry, so every vehicle
+   trip is funnelled.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## A city is not a tree
+
+<CourseDiagram kind="tree-web" />
+
+*A tree has one route. A semi-lattice preserves alternatives.*
+
+```notes
+Say the crucial thing directly — a road hierarchy of arterial,
+   collector and local street is a tree, and the traffic AI on a tree has no
+   second option to find. The gold links are the entire subject of the rest of
+   the lecture.
+```
+
+---
+
+## Configuration predicts movement
+
+- Hillier and Hanson's space syntax measures a network's configuration —
+  how connected each link is to every other — and finds that configuration
+  alone predicts a large share of observed movement.
+- The implication for this studio: a layout can be evaluated **before**
+  anything is zoned into it.
+- The test: place the network, place nothing else, run the simulation, and
+  read the traffic volume overlay. Volume will already be uneven.
+
+```notes
+This is the week's methodological gift — students can test a
+   layout in ten minutes without committing to a land use, and most of them
+   will not think to.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## The three patterns at the same scale
+
+<CourseDiagram kind="street-patterns" />
+
+*Same ground, three network assumptions.*
+
+```notes
+Hold on this slide. Ask the room which one they would draw, take
+   two or three answers, and do not comment on them until Slide 12.
+```
+
+---
+
+## What the road tool actually gives you
+
+- Straight, curved and grid modes, with snapping increments that make a
+  regular layout faster to draw than an irregular one.
+- Road types with different widths, capacities and upkeep costs per unit
+  length — small road through to arterial.
+- Elevation and gradient limits, which the terrace tolerates and Verrall
+  Ridge does not.
+- Zoning cells attach to road frontage to a limited depth, so **frontage is
+  the resource the road network is producing**.
+
+```notes
+The last bullet is the one to labour. Road length is not overhead
+   attached to the dwellings; road length is what makes the dwellings possible,
+   which is exactly why the tradeoff is not obvious.
+```
+
+---
+
+## Lane-kilometres per dwelling
+
+All three layouts on the same 480 m by 480 m square of Halstead Reach, all
+zoned low-density residential to the same depth.
+
+| Layout | Road length in the square | Dwellings reachable | Road metres per dwelling | Monthly upkeep, relative |
+| --- | --- | --- | --- | --- |
+| A — fine grid, 80 m | ~5.8 km | high | lowest per dwelling on frontage, highest per hectare | 1.00 |
+| B — organic, contour-led | ~3.4 km | moderate | moderate | 0.59 |
+| C — superblock, 240 m | ~2.4 km | moderate, with a dead core | high, because the core cannot be zoned | 0.41 |
+
+*The upkeep column is charged every month. The layout is
+drawn once.*
+
+```notes
+Make students derive the last column themselves from the road
+    upkeep line in the economy panel rather than trusting the table. The
+    figures here are the shape of the answer, not the answer.
+```
+
+---
+
+## Close one link
+
+The redundancy test, stated as a procedure students run on Tuesday:
+
+1. Build the layout. Zone nothing.
+2. Open the traffic info view and note volume on every link at 08:00.
+3. Delete one link — the busiest one.
+4. Read the volume overlay again at 08:00 the following day.
+
+| Layout | Where the traffic goes | What the overlay shows |
+| --- | --- | --- |
+| A — fine grid | Redistributes across three or four parallel routes | Volume rises modestly on several links |
+| B — organic | Redistributes onto the other through-route | Volume rises sharply on one link |
+| C — superblock | Nowhere. The trips that used it are re-routed to the remaining collector mouths | A queue forms and does not clear |
+
+```notes
+This is Alexander's diagram made operational. A tree has no
+    redundancy, and redundancy is the only thing that makes a network robust to
+    a decision you make in Week 8 without thinking about Week 2.
+```
+
+---
+
+{/* _class: banner */}
+
+## The tradeoff of the week
+
+> **Route redundancy is bought with road length. Road length is charged
+> monthly. The fine grid buys mobility performance and pays for it in
+> fiscal performance.**
+
+- The grid gives four routes and 5.8 km of upkeep per square.
+- The superblock gives one route and 2.4 km of upkeep per square.
+- Neither number improves later. Choose the dimension this week and live
+  with it until Week 12.
+
+```notes
+State that both answers have been defended successfully at this
+    studio's juries and that the failing answer is the one where the student
+    drew a grid because grids look like plans.
+```
+
+---
+
+## Where livability sits in this
+
+- The grid's cost is not only fiscal. A grid with no hierarchy invites
+  through-traffic onto residential frontage, and noise pollution lands on
+  the dwellings that face it.
+- Read it in the noise pollution overlay, then read the land value overlay
+  over the same blocks and watch the two figures move against each other.
+- Radburn's answer was to separate the two networks entirely. Jacobs's
+  answer was that the street traffic is the point.
+- Both answers are on the table in this studio. Week 9 is where the public
+  realm consequences of this week's choice are finally marked.
+
+```notes
+Livability is the third metric in this week's decision and it is
+    deliberately not the headline trade, because students who lead with it stop
+    measuring. Name it, place it, move on.
+```
+
+---
+
+## Before Tuesday
+
+- Lay out the first residential quarter of your settlement area at one
+  chosen block dimension, stated in metres in your notes.
+- Zone nothing yet. Run the layout unzoned and screenshot the traffic
+  volume overlay at 08:00.
+- Run the close-one-link test and bring the before-and-after volume
+  readings. Bring the numbers, not a description of the numbers.
+- Bring the road upkeep figure from the economy panel, and the road metres
+  per dwelling you have derived from it.
+- Save as `<student ID>-w02`, off-machine copy as usual. Studio Wednesdays
+  and Fridays, 10:00–13:00.
+
+```notes
+The before-and-after numbers are non-negotiable at the desk
+    crit; a student who arrives with a one-way conversion as a fix and no
+    figures will be sent to get the figures.
+```
+
+
+

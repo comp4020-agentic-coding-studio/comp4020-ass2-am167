@@ -626,3 +626,80 @@ reserve/link as a worksheet forecast, fourth question on `d3` vs `recovered`.
 Lecture Week 9/12 clocks and Marek’s bio aligned to the briefs. Evidence pack
 still missing (expected). Session pages still STARTER_CONTENT.
 
+## 2026-09-03 — Lecture pages expanded from the reviewed plans
+
+Replaced all twelve lecture placeholders with complete teaching pages drawn
+from the revised lecture plans: argument, learning outcomes, theory anchors,
+simulation mapping, weekly decision, studio hand-off and assessment connection.
+Every page now links its matching Week 01–12 deck route and states the standing
+direct-readout / derived-measure / worked-hypothetical evidence rule beside the
+mechanic mapping, so fixed scenario values cannot silently read as game output.
+
+Added a focused lecture-delivery contract first and confirmed it red against
+the starter state. It requires twelve substantial lecture pages, twelve linked
+and built decks, and the evidence vocabulary in every deck.
+
+## 2026-09-03 — Twelve-deck lecture system
+
+Built every planned lecture as a deck: 194 slides across Weeks 1–12, including
+speaker notes. Replaced the plans' diagram-writing instructions with 24 shared
+inline-vector schematics for the Kerrow Basin, street networks, catchments,
+transit, utility cascades, public realm and land-value history. A single
+component now carries the place names and drawing language across the semester.
+
+The deck theme is a Kerrow Basin drawing board: cream sheet, black built fabric
+and gold site/flow information, with Public Sans for instruction and Roboto
+Mono for evidence labels. Impact, quote and tradeoff slides vary the surface
+without leaving the two-ink register. Dense late-semester tables use a compact
+handbook setting; long reading lists were separated from the teaching claim.
+
+Mechanical browser QA covered all 194 slides at 1920×1080 and 390×844 by
+measuring every visible child against its slide's clipping box. Initial
+overflows in Weeks 4, 10, 11 and 12 were corrected; the repeat audit found zero.
+Lecture pages for Weeks 1, 7 and 12 were also checked at both viewports with no
+horizontal overflow. No adversarial content review was run, as this pass is the
+production pass and the requested review comes later.
+
+## 2026-09-03 — Studio pages, Weeks 1–4
+
+Replaced the first four studio placeholders from the reviewed production plans.
+The pages now establish the Kerrow baseline and evidence labels, commit the
+80/160 m block test, compare the separated and adjacent zoning branches, and
+run Assessment 1 as a jury rather than an afternoon build. Added the plans'
+exact `spec:` contracts and the missing Week 1–2 lecture graph edges.
+
+## 2026-09-03 — Studio pages, Weeks 5–8
+
+Built the transit charrette, induced-demand stress test, utilities clinic and
+cutback studio from their production plans. Preserved the straight six-stop bus,
+the 11.2/8.9/10.7 checkpoint sequence, the production-versus-treatment premise
+without unsupported hydraulic claims, and the corridor budget ritual with its
+exact spoken form. Reference rows and worksheet allocations are labelled at the
+point of use rather than presented as native UI or universal student results.
+
+## 2026-09-03 — Studio pages, Weeks 9–12
+
+Completed the two assessed-jury pages and the fire, model-limits and final-jury
+sequence. The Week 9 wall now exposes the cost-per-associated-point arithmetic;
+Week 10 uses staged forest-fire checkpoints and the event-versus-trend rule;
+Week 11 plots the pre-extracted 0–100 series and drafts the omissions appendix;
+Week 12 gives the two-room 13:00/15-minute jury protocol without duplicating the
+capstone brief. All four pages carry their reviewed `spec:` contracts.
+
+## 2026-09-03 — Studio-page mechanical and viewport verification
+
+Confirmed all twelve studio routes render with their intended titles, full
+bodies and five or six spec lines. `astro check` is pristine, and the six
+established course suites outside the in-progress lecture-deck contract pass
+19/19. Checked every studio route at 1920×1080 and 390×844 in the production
+preview: exact viewports, no horizontal overflow or clipped descendants, and
+clean console/network state on the final mobile jury page. The full `pnpm
+check` remains blocked by the separate lecture work: the new lecture contract
+expects twelve deck routes, while the current build produces none.
+
+## 2026-09-03 — Studio section shell cleanup
+
+Removed the template-authoring instructions from the public studio index and
+replaced them with the course's continuous-save premise. Reworded the shared
+spec preamble so it accurately covers preparation, recorded evidence and jury
+defence rather than describing every line as something brought to the room.

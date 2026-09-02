@@ -1,13 +1,335 @@
-/* The deck stylesheet. It is one import on purpose.
- *
- * astro-theme-university's deck.css derives every colour it uses from the
- * same --at-* brand tokens the site's own styles derive from, and
- * `brandCss: "astro-theme-slop/slop.css"` in astro.config.ts puts the Slop
- * palette behind those tokens. So a deck already matches the site, and
- * restating a colour here is how the two start to disagree.
- *
- * Deck pages are dark surfaces and they don't load the site's stylesheets ---
- * only the brand CSS and this file. Add your own rules below the import: a
- * slide class you reach for (`_class: quote`), a code-heavy layout, a
- * background. */
 @import url("astro-theme-university/styles/deck.css");
+
+/*
+ * Kerrow Basin drawing board.
+ * Cream is the sheet, black is what has been built, and gold is what the site
+ * gives or what moves through a system. The rule is shared by all 12 decks.
+ */
+:root {
+  --kerrow-paper: #f6eedd;
+  --kerrow-ink: #17150f;
+  --kerrow-gold: #b97d1c;
+  --kerrow-gold-soft: #e7d2a7;
+  --kerrow-muted: #6b6154;
+  --r-background-color: var(--kerrow-paper);
+  --r-main-color: var(--kerrow-ink);
+  --r-heading-color: var(--kerrow-ink);
+  --r-main-font: var(--font-public-sans, "Public Sans"), sans-serif;
+  --r-heading-font: var(--font-public-sans, "Public Sans"), sans-serif;
+  --r-code-font: var(--font-roboto-mono, "Roboto Mono"), "SFMono-Regular", monospace;
+  --r-main-font-size: 2rem;
+  --r-heading1-size: 4.2rem;
+  --r-heading2-size: 2.8rem;
+  --at-slide-padding: 3.25rem 4.5rem;
+  --at-divider: rgb(23 21 15 / 18%);
+  --at-text-secondary: var(--kerrow-muted);
+  --at-deck-table-header-bg: var(--kerrow-gold-soft);
+  --at-deck-table-header-text: var(--kerrow-ink);
+  --at-deck-table-header-rule: var(--kerrow-gold);
+  color-scheme: light;
+}
+
+body.reveal-viewport {
+  background: var(--kerrow-paper);
+}
+
+.reveal {
+  color: var(--kerrow-ink);
+}
+
+:where(.reveal .slides) section {
+  background: var(--kerrow-paper);
+  color: var(--kerrow-ink);
+  border-block-start: 0.35rem solid var(--kerrow-ink);
+  box-sizing: border-box;
+}
+
+:where(.reveal .slides) section::before {
+  content: "SLOP2418 · KERROW BASIN";
+  position: absolute;
+  inset: 1.25rem auto auto 4.5rem;
+  font-family: var(--r-code-font);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: var(--kerrow-muted);
+}
+
+:where(.reveal .slides) section :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--kerrow-ink);
+  text-transform: none;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+:where(.reveal .slides) section h1 {
+  background: none;
+  color: var(--kerrow-ink);
+  padding: 0;
+  display: block;
+  font-weight: 700;
+  line-height: 0.98;
+}
+
+:where(.reveal .slides) section h2 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1.25rem;
+  margin-block-end: 1.6rem;
+}
+
+:where(.reveal .slides) section h2::after {
+  content: "";
+  border-block-start: 0.18rem solid var(--kerrow-gold);
+}
+
+:where(.reveal .slides) section :is(p, li) {
+  color: var(--kerrow-ink);
+  font-size: 1.55rem;
+  line-height: 1.35;
+}
+
+:where(.reveal .slides) section li::marker {
+  color: var(--kerrow-gold);
+}
+
+:where(.reveal .slides) section table {
+  color: var(--kerrow-ink);
+  font-size: 1.32rem;
+  line-height: 1.2;
+}
+
+:where(.reveal .slides) section table :is(th, td) {
+  padding: 0.55rem 0.7rem;
+}
+
+:where(.reveal .slides) section blockquote {
+  color: var(--kerrow-ink);
+}
+
+:where(.reveal .slides) section .evidence-key {
+  position: absolute;
+  inset: auto 4.5rem 1.3rem auto;
+  font-family: var(--r-code-font);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: var(--kerrow-muted);
+}
+
+:where(.reveal .slides) section.impact {
+  background: var(--kerrow-gold);
+  color: var(--kerrow-ink);
+  border-color: var(--kerrow-ink);
+  text-align: left;
+}
+
+:where(.reveal .slides) section.impact::before {
+  color: rgb(23 21 15 / 68%);
+}
+
+:where(.reveal .slides) section.impact :is(h1, h2, h3, p, li, strong, em) {
+  color: var(--kerrow-ink);
+}
+
+:where(.reveal .slides) section.impact :is(p, li) {
+  font-size: 2.15rem;
+  line-height: 1.25;
+}
+
+:where(.reveal .slides) section.impact blockquote {
+  margin: 0;
+}
+
+:where(.reveal .slides) section.impact blockquote::before {
+  border-color: var(--kerrow-ink);
+}
+
+:where(.reveal .slides) section.banner {
+  background: var(--kerrow-ink);
+  color: var(--kerrow-paper);
+  border-color: var(--kerrow-gold);
+  place-content: center;
+}
+
+:where(.reveal .slides) section.banner::before {
+  color: var(--kerrow-gold-soft);
+}
+
+:where(.reveal .slides) section.banner :is(h1, h2, h3, p, li, strong, em, blockquote) {
+  color: var(--kerrow-paper);
+}
+
+:where(.reveal .slides) section.banner h2::after {
+  border-color: var(--kerrow-gold);
+}
+
+:where(.reveal .slides) section.quote {
+  text-shadow: none;
+  border-inline-start: 1.1rem solid var(--kerrow-gold);
+}
+
+:where(.reveal .slides) section.quote blockquote {
+  width: 86%;
+  color: var(--kerrow-ink);
+  border-color: var(--kerrow-gold);
+}
+
+:where(.reveal .slides) section.quote blockquote p {
+  color: var(--kerrow-ink);
+}
+
+:where(.reveal .slides) section.centered {
+  place-content: center;
+}
+
+:where(.reveal .slides) section.dense :is(p, li) {
+  font-size: 1.27rem;
+  line-height: 1.24;
+}
+
+:where(.reveal .slides) section.dense table {
+  font-size: 1.05rem;
+}
+
+:where(.reveal .slides) section.dense > * {
+  margin-block-end: 0.85rem;
+}
+
+:where(.reveal .slides) section.very-dense :is(p, li) {
+  font-size: 1.08rem;
+  line-height: 1.18;
+}
+
+:where(.reveal .slides) section.very-dense table {
+  font-size: 0.92rem;
+}
+
+:where(.reveal .slides) section.sources ul {
+  columns: 2;
+  column-gap: 3rem;
+}
+
+:where(.reveal .slides) section.sources li {
+  break-inside: avoid;
+  font-size: 1rem;
+  line-height: 1.18;
+  margin-block-end: 0.35rem;
+}
+
+:where(.reveal .slides) section.diagram-slide {
+  padding-block-end: 2.25rem;
+}
+
+.course-diagram {
+  width: 100%;
+  height: min(68vh, 31rem);
+  margin: 0;
+  color: var(--kerrow-ink);
+}
+
+.course-diagram svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.course-diagram .ink-line,
+.course-diagram .gold-line {
+  fill: none;
+  stroke-linecap: square;
+  stroke-linejoin: round;
+  stroke-width: 4;
+}
+
+.course-diagram .ink-line {
+  stroke: var(--kerrow-ink);
+}
+
+.course-diagram .gold-line {
+  stroke: var(--kerrow-gold);
+}
+
+.course-diagram .heavy {
+  stroke-width: 9;
+}
+
+.course-diagram .thin {
+  stroke-width: 2;
+}
+
+.course-diagram .dash {
+  stroke-dasharray: 12 10;
+}
+
+.course-diagram .rail {
+  stroke-dasharray: 22 8 4 8;
+}
+
+.course-diagram .no-fill {
+  fill: transparent;
+}
+
+.course-diagram .ink-fill {
+  fill: var(--kerrow-ink);
+}
+
+.course-diagram .gold-fill {
+  fill: var(--kerrow-gold);
+}
+
+.course-diagram .gold-fill.soft,
+.course-diagram .gold-fill.hatch {
+  fill: var(--kerrow-gold-soft);
+}
+
+.course-diagram .gold-fill.hatch {
+  fill-opacity: 0.6;
+  stroke: var(--kerrow-gold);
+  stroke-width: 2;
+  stroke-dasharray: 8 6;
+}
+
+.course-diagram text {
+  font-family: var(--r-main-font);
+}
+
+.course-diagram .label,
+.course-diagram .panel-title {
+  fill: var(--kerrow-ink);
+  font-size: 24px;
+  font-weight: 650;
+}
+
+.course-diagram .panel-title {
+  font-size: 29px;
+}
+
+.course-diagram .tiny {
+  fill: var(--kerrow-ink);
+  font-family: var(--r-code-font);
+  font-size: 20px;
+}
+
+.course-diagram .gold-text {
+  fill: var(--kerrow-gold);
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.course-diagram .invert {
+  fill: var(--kerrow-paper);
+}
+
+.course-diagram .rotate {
+  transform: rotate(-90deg);
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .reveal *,
+  .reveal *::before,
+  .reveal *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

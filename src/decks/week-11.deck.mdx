@@ -1,0 +1,484 @@
+---
+title: "Week 11: What the Model Can't Show You"
+description: "SLOP2418 Urban Design Studio lecture 11"
+---
+
+import CourseDiagram from "../components/decks/CourseDiagram.astro";
+
+{/* _class: impact */}
+
+# What the Model Can't Show You
+
+SLOP2418 — Urban Design Studio  
+Week 11 · Marisol Quaye · 17 May 2027
+
+<p className="evidence-key">direct readout · derived measure · worked hypothetical</p>
+
+```notes
+Deliver the subtitle flat. The room expects either an apology for
+   the tool or an attack on it, and this lecture is neither.
+```
+
+---
+
+## Why this lecture sits here
+
+- Three assessments are marked. The capstone is due next Monday. This is the
+  last week in which anything can still be changed.
+- Every week since Week 1 has asked you to make a claim and support it with
+  an output of the model — a ridership figure, a coverage radius, a land
+  value overlay, a budget line.
+- Today asks the other question, which no jury in professional practice will
+  let you skip: what does this evidence not cover, and what did you conclude
+  anyway.
+- This is standing practice in every design discipline that models. A
+  structural engineer knows precisely what their analysis omits and carries
+  the list to the meeting. That list is the subject of slide 3.
+- By the end of the hour you will have written the first draft of your own
+  list. It is a required section of the capstone memo.
+
+```notes
+Anchor the week to the deadline immediately. Students treat a
+   limits lecture as optional if it is not attached to a mark, and this one is.
+```
+
+---
+
+{/* _class: dense */}
+
+## The engineer's omissions list
+
+| A linear-elastic frame analysis does not represent | Why not | What the engineer does instead |
+| --- | --- | --- |
+| Material behaviour past the elastic range | The solution method requires linearity | Capacity checked against code limits outside the model |
+| Creep and long-term deflection | Not a product of the static solve | A separate serviceability calculation |
+| Connection slip and fabrication tolerance | Joints are idealised as rigid or pinned | Detailing rules and factored allowances |
+| Construction sequence and temporary conditions | The model solves the completed structure | A staged analysis, or a method statement |
+| Residual stress from welding | Outside the constitutive assumptions | Fabrication specification and inspection |
+
+Below the table, two lines:
+- The engineer does not stop using the analysis. They use it for what it
+  covers, and they hold the list for everything else.
+- Nobody calls that scepticism. They call it competence.
+
+```notes
+Spend real time here. This table is what keeps the rest of the
+   hour from reading as a complaint, and students who understand it write much
+   better memos.
+```
+
+---
+
+## You cannot verify a model of an open system
+
+- Oreskes, Shrader-Frechette and Belitz, in *Science* (1994), separate three
+  words that get used interchangeably. **Verification**: demonstrating truth.
+  **Validation**: demonstrating internal consistency and absence of known
+  error. **Confirmation**: observing agreement between the model and the
+  world.
+- Their conclusion: numerical models of open natural systems can be
+  confirmed, never verified. Agreement raises confidence. It does not
+  establish that the model is right, and it never establishes that it is
+  right for the reason you think.
+- A city is an open system. So is a district.
+- Practical standard for the capstone: an output of the model is evidence for
+  a claim about the model. It is evidence for a claim about a district only
+  to the extent that the mechanism producing it is one you can name.
+- Which means every figure in your memo needs a mechanism behind it, not
+  just a number.
+
+```notes
+The three-word distinction is the most portable thing in the
+   lecture and worth writing on the board. Students reach for "the model
+   validates my plan" constantly.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## Eleven weeks of the Kerrow corridor
+
+<CourseDiagram kind="value-history" />
+
+*Derived measure: the index is reconstructed from named weekly saves, not emitted by the game.*
+
+```notes
+Read the curve as an achievement first, because it is one. The
+   studio raised it deliberately and every step is defensible. The rest of the
+   lecture takes it apart without taking it back.
+```
+
+---
+
+## What the curve is made of
+
+- In this simulation land value is a computed field over the map. It responds
+  to service coverage, transit access, park and plaza proximity, density,
+  and — negatively — to noise and pollution.
+- Every one of those inputs is something the studio installed with public
+  money: the spine, the trunk upgrades in Week 7, the plaza chain in Week 9,
+  the floodway park in Week 10.
+- So the curve is not a market discovering something. It is a ledger of the
+  capital programme, expressed as a colour.
+- This is a genuinely useful instrument. It is how you tell whether an
+  investment landed, and it is why the fiscal performance argument in your
+  Week 8 memo worked.
+- Note carefully what it is not: it is a value, not a price. Nobody in the
+  model offers it, nobody accepts it, and nobody holds the asset it is a
+  value of.
+
+```notes
+The last bullet is the pivot. Say it slowly and do not gloss it —
+   the next slide depends on the room having heard "nobody holds the asset".
+```
+
+---
+
+{/* _class: dense */}
+
+## 114 points of uplift, accruing to nobody
+
+- The corridor's land value rose 114 index points in eleven weeks, on the
+  back of investment the district's rates paid for.
+- Henry George, *Progress and Poverty* (1879): the increase in land value
+  produced by the growth and investment of the community is not produced by
+  the landholder, and George's argument is that the community should recover
+  it. The whole field of land-value capture — betterment levies, developer
+  contributions, land readjustment — descends from that observation.
+- Outside the model there is always an answer to "who got the 114 points".
+  Someone held the land on the day the spine was announced and someone held
+  it after. That transfer is the single most consequential distributive fact
+  about a corridor upzoning.
+- Inside the model there is no answer, because there is no landholder
+  entity. Land value is an attribute of a tile. It cannot be owned,
+  borrowed against, assembled, optioned, sat on, or sold.
+- Consequence for your plan: the model cannot tell you whether your corridor
+  strategy transferred public investment into private hands, because it has
+  no hands. If your memo claims the corridor was good value for the public,
+  that claim is outside your evidence and has to be argued another way.
+
+```notes
+This is the lecture's strongest single point and it is directly
+   in the convenor's own research area — the rate-base decade after an
+   upzoning. Use the practitioner voice, not the theoretical one.
+```
+
+---
+
+{/* _class: very-dense */}
+
+## What the model does show about who left
+
+Preface line: the model is not silent about households. It is thin about
+them. Here is exactly how thin.
+
+Table, exactly these rows — the Kerrow corridor, Week 1 against Week 11:
+
+| Measure | Week 1 | Week 11 |
+| --- | --- | --- |
+| Land value index | 100 | 214 |
+| Rent index | 100 | 231 |
+| Low-wealth households | 340 | 96 |
+| Medium-wealth households | 210 | 288 |
+| High-wealth households | 40 | 402 |
+| Total households | 590 | 786 |
+| Corridor livability reading | 61 | 78 |
+| District homelessness figure | 0 | 34 |
+
+Two lines beneath:
+- Every figure in that table is an output the simulation will give you today.
+- Two hundred and forty-four low-wealth households are not in the corridor
+  any more. The model recorded thirty-four of them. It has no field for the
+  other two hundred and ten.
+
+```notes
+Let the table sit in silence for a moment before the two lines.
+   Students have all of these overlays and have almost never opened them
+   side by side.
+```
+
+---
+
+## Livability is measured on whoever remains
+
+- The corridor's livability reading went from 61 to 78 across the same
+  eleven weeks. That is a true output and it will be marked as a good
+  result.
+- It is computed over the households present when it is read. The population
+  it describes in Week 11 is substantially not the population it described in
+  Week 1.
+- So a district can raise its livability score by improving conditions, by
+  replacing its residents, or by any mixture of the two, and the metric
+  returns the same number.
+- Susan Fainstein, *The Just City* (2010), proposes three criteria for
+  evaluating an urban plan: equity, diversity and democracy. Set them beside
+  the studio's three — fiscal performance, mobility performance, livability.
+  Two of hers have no counterpart in ours, and the missing one that matters
+  here is equity, because equity is the only one of the six that asks *for
+  whom* a number improved.
+- This studio is not replacing its three metrics in Week 11. It is telling
+  you that they are three metrics, chosen, with known silences, and that
+  naming the silence is part of using them.
+
+```notes
+Do not editorialise. The comparison with Fainstein does the work
+   on its own, and the marking criteria are not changing at this point in the
+   semester.
+```
+
+---
+
+## Displacement has four shapes
+
+Marcuse's four forms, as a table with exactly these rows:
+
+| Form | What it is | Can this model count it? |
+| --- | --- | --- |
+| Direct last-resident | The household in the unit when rent rises or the building goes | Partly — it can show the household leaving, and nothing about the leaving |
+| Direct chain | The households pushed out earlier in the same building's trajectory, before the visible change | No — the model retains no history of who occupied a unit |
+| Exclusionary | The households who would have moved in and now cannot afford to | No — unmet demand is aggregate, and has no household attached |
+| Displacement pressure | The dispossession felt by those who stay as the shops, services and networks around them change | No — there is no concept of a support that can be lost while you remain |
+
+three of the four are invisible in any count of current
+residents, which is the only kind of count this model keeps.
+
+```notes
+Marcuse's point is methodological, not rhetorical: displacement
+    is under-measured everywhere because the measurable form is the rarest one.
+    That is why displacement research is hard in practice too, and it is worth
+    saying so.
+```
+
+---
+
+## The model has one tenure, and it has no term
+
+- In this simulation, a household occupies a unit and pays rent. That is
+  the entire tenure system.
+- Tenure relations it does not distinguish: freehold owner-occupation;
+  mortgaged ownership; a fixed-term tenancy with a notice period; a
+  periodic tenancy; public or social tenancy with allocation rules;
+  leasehold subject to a ground rent; co-operative and community land
+  trust holdings; customary or communal tenure; occupation without
+  documented title; sub-letting; room and boarding arrangements.
+- Nor the instruments attached to them: the lease, the notice, the
+  eviction, the mortgage, the covenant, the easement, the resumption, the
+  compensation payment, the objection, the appeal.
+- Why this matters for reading slide 5: tenure is the switch that decides
+  whether that curve is a household's windfall or a household's notice to
+  leave. The curve is identical in both cases. It contains no information
+  about which one happened.
+- Elinor Ostrom, *Governing the Commons* (1990), is the standard warning
+  against assuming ownership comes in only two kinds. The model assumes it
+  comes in none.
+
+```notes
+The eviction is the absence students find most surprising, and
+    it is worth naming that demolishing an occupied building here produces no
+    notice, no compensation and no objector.
+```
+
+---
+
+{/* _class: dense */}
+
+## The model's hard zero
+
+- Leave land unzoned and unserviced in this simulation and nothing is ever
+  built on it, under any level of demand, for any length of time.
+- That is the omission with the largest number attached to it. A very large
+  share of the world's urban population lives in housing built without the
+  zoning, title or servicing that this model treats as the precondition of
+  a building existing.
+- John F. C. Turner, "Housing as a Verb", in Turner and Fichter, *Freedom
+  to Build* (1972): housing is better understood as a process residents
+  conduct than as a product an authority delivers. The model implements
+  only the product.
+- Ananya Roy (2005): informality is not a zone outside planning but a mode
+  of urbanisation the state produces — through what it zones, what it
+  services, what it tolerates and what it clears. The model has the state's
+  instruments and none of the consequences.
+- Vanessa Watson, "Seeing from the South" (2009), and her earlier account
+  of conflicting rationalities (2003): planning practice built on the
+  northern assumption of a serviced, titled, regulated city misreads most
+  of the urban world, and misreads it in the same direction every time.
+- So: this model cannot be used to reason about housing that arrives
+  without permission. If your capstone's housing argument depends on formal
+  supply meeting all demand, that dependency is an assumption, and it is
+  yours rather than the model's.
+
+```notes
+Keep this at the level of design literacy: the point is what the
+    plan may and may not claim, not a tour of the literature. Two of the three
+    citations can be dropped if time runs short — keep Roy.
+```
+
+---
+
+{/* _class: dense */}
+
+## One decision-maker, no room
+
+- In this simulation, a zoning change takes effect the moment it is drawn.
+  There is no notification period, no submission, no hearing, no vote, no
+  appeal, and no developer with interests of their own.
+- Sherry Arnstein, "A Ladder of Citizen Participation" (1969), arranged
+  participation on eight rungs from manipulation to citizen control. This
+  model is not on the ladder. There is no rung for a process with one
+  participant.
+- Paul Davidoff, "Advocacy and Pluralism in Planning" (1965), argued that
+  the planner is not a neutral technician and that a plan is one interested
+  party's argument among several. The model gives you exactly one plan and
+  no other party.
+- Bent Flyvbjerg, *Rationality and Power* (1998), on how rationality is
+  produced by power rather than the reverse: the plan that gets built is
+  not the one the analysis favoured, it is the one the process could carry.
+- What this costs you in practice: every timeline in your capstone is a
+  timeline with the politics removed. A corridor upzoning that takes four
+  simulated years here would take considerably longer against an objection
+  process, and the sequencing of your plan is the first thing that breaks
+  when it does.
+- So state your sequencing as conditional. "Stage two follows stage one" is
+  a claim about the model. "Stage two requires stage one to have been
+  approved" is a claim about a plan.
+
+```notes
+The sequencing point is the one with the most direct effect on
+    next week's memos, so land it last and land it concretely.
+```
+
+---
+
+{/* _class: dense */}
+
+## Comprehensive models fail by being comprehensive
+
+- Douglass Lee's "Requiem for Large-Scale Models" (1973) reviewed a decade
+  of integrated urban models and listed seven characteristic faults:
+  **hypercomprehensiveness**, **grossness**, **hungriness**,
+  **wrongheadedness**, **complicatedness**, **mechanicalness**,
+  **expensiveness**.
+- His argument was not that modelling is worthless. It was that a model
+  built to represent everything is too coarse at every point to be right
+  anywhere, needs data nobody can supply, and becomes complicated enough to
+  conceal its own assumptions from the people relying on it.
+- Read that list against the model we use. It is a single integrated solve
+  over economy, traffic, services and land value. It is comprehensive by
+  design. Lee's list is not a description of a bad model — it is a
+  description of this kind of model working normally.
+- Theodore Porter, *Trust in Numbers* (1995), supplies the other half:
+  quantification is adopted where trust is thin, because a number travels
+  further than a judgement. That is why your jury asks for figures, and why
+  figures are persuasive out of proportion to what they establish.
+- Which is the reason the omissions list exists. The number will be
+  believed. You are the only person in the room in a position to say what
+  it covers.
+
+```notes
+Fifty-four years old and the list still reads as a specification
+    for the studio's software. State that plainly and move on; the observation
+    does not need help.
+```
+
+---
+
+{/* _class: quote */}
+
+## From eight years of rate-base modelling
+
+> "The rate-base model was never wrong about the revenue. It had no field
+> for the tenants, and I signed the report anyway.
+>
+> Knowing which field is missing is not a criticism of the model. It is the
+> job."
+>
+> — Marisol Quaye
+
+```notes
+Deck-builder: this is the convenor's own line and may be used in
+    quotation marks. Do not put invented wording inside quotation marks against
+    any of the real authors cited in this lecture — paraphrase them in the body
+    text instead, as the other slides do.
+```
+
+---
+
+{/* _class: impact */}
+
+## The tradeoff, named
+
+> # Mobility performance against livability
+>
+> The last four blocks of the Kerrow corridor. Upzone them and the spine
+> hits its ridership target.
+>
+> The simulation will report livability rising as well, because it will be
+> computing livability over the households that are there afterwards.
+>
+> Both numbers go up. The trade still happened. Write it down.
+
+```notes
+This is the one slide from the whole semester that students
+    misquote in memos, so read it aloud verbatim. The instruction is to record
+    a tradeoff the metrics do not display — not to reject the metrics.
+```
+
+---
+
+{/* _class: dense */}
+
+## The omissions appendix, and where to read further
+
+- Required in the capstone defence memo, half a page, four headings. This
+  is not a reflective essay. Each heading takes two or three sentences and
+  a figure where you have one.
+
+1. Who holds the land whose value this plan raised, and what the plan does
+   about it.
+2. Which households present in Week 1 are not present in Week 12, and where
+   the plan assumes they went.
+3. Which of the plan's claims rest on a figure the model computes rather
+   than a behaviour it observes.
+4. What a person who objected to this plan would object to, and what the
+   plan's answer is.
+
+- A memo with an honest appendix is marked better than a memo with a
+  flattering one. The jury has read a great many flattering ones.
+
+---
+
+{/* _class: sources */}
+
+## Where to read further
+
+Further reading, as a plain two-column list:
+- Scott, *Seeing Like a State* (1998)
+- Marcuse, "Gentrification, Abandonment and Displacement" (1985)
+- Glass, *London: Aspects of Change* (1964) — where the word came from
+- Neil Smith, "Toward a Theory of Gentrification" (1979) — the rent gap
+- Hartman, "The Right to Stay Put" (1984)
+- Lees, Slater and Wyly, *Gentrification* (2008)
+- Turner and Fichter, *Freedom to Build* (1972)
+- Roy, "Urban Informality" (2005)
+- Watson, "Seeing from the South" (2009)
+- de Soto, *The Mystery of Capital* (2000), read against Gilbert, "The
+  Return of the Slum: Does Language Matter?" (2007)
+- Ostrom, *Governing the Commons* (1990)
+- Lee, "Requiem for Large-Scale Models" (1973)
+- Oreskes, Shrader-Frechette and Belitz (1994)
+- Porter, *Trust in Numbers* (1995)
+- Merry, *The Seductions of Quantification* (2016)
+- Arnstein, "A Ladder of Citizen Participation" (1969)
+- Davidoff, "Advocacy and Pluralism in Planning" (1965)
+- Flyvbjerg, *Rationality and Power* (1998)
+- George, *Progress and Poverty* (1879)
+- Fainstein, *The Just City* (2010)
+- Lefebvre, *Le Droit à la ville* (1968), and Harvey, "The Right to the
+  City" (2008)
+
+```notes
+Close on the appendix headings, not the reading list. The
+    headings are marked next week and the list is not.
+```
+

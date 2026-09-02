@@ -1,0 +1,336 @@
+---
+title: "Week 7: Infrastructure You Don't See"
+description: "SLOP2418 Urban Design Studio lecture 7"
+---
+
+import CourseDiagram from "../components/decks/CourseDiagram.astro";
+
+{/* _class: impact */}
+
+# Infrastructure You Don't See
+
+SLOP2418 — Urban Design Studio  
+Week 7 · Nadia Ilkhom · 19 April 2027
+
+<p className="evidence-key">direct readout · derived measure · worked hypothetical</p>
+
+```notes
+First week back from the break, so open by naming the turn: the
+  first six weeks were about what a district looks like and how it moves, and
+  from here it is about what it can carry.
+```
+
+---
+
+## Where the studio turns
+
+- Weeks 1–3 were form: the site, the street pattern, the zoning envelope.
+- Weeks 4–6 were movement: density, the transit spine, the traffic that
+  followed.
+- Every one of those weeks assumed the district was serviced.
+- It is not. It has been running on the starter capacity since Week 1, and
+  Ombersley Flats was rezoned for growth in Week 3 that nobody costed the pipes
+  for.
+
+```notes
+Say plainly that the rezoning in Week 3 is the fault at the base
+  of this lecture, and that it has been sitting in every student's save file
+  for four weeks.
+```
+
+---
+
+## Three claims about networks
+
+1. A network's capacity is one number, and it belongs to the smallest
+   component in the chain.
+2. Performance against load is flat until it is not flat, so the readout
+   that matters is capacity, not complaints.
+3. Utilities are tightly coupled to the fiscal and health systems, which
+   means a pipe problem does not stay a pipe problem.
+
+```notes
+These three claims are the spine of the deck; slides 4–8 establish
+  each in turn and slides 11–16 run all three at once.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## The capacity curve
+
+<CourseDiagram kind="capacity-curve" />
+
+*Worked hypothetical: each utility has its own curve; the shared lesson is to watch headroom.*
+
+```notes
+Hold on this slide. The plateau is why students report that
+  everything was fine right up until it was not; the plateau is the whole
+  problem, because nothing on it is a signal.
+```
+
+---
+
+## Four bands of headroom
+
+| Headroom remaining | What the district looks like | What it means | What the studio expects you to do |
+| --- | --- | --- | --- |
+| above 30% | nothing wrong | over-built; you are paying monthly for capacity nobody uses | keep the number and defend it in the memo |
+| 15–30% | nothing wrong | the working band | leave it; check your growth rate, not your pipes |
+| 5–15% | nothing wrong | one completion from the knee | schedule the upgrade now, at this quarter's price |
+| under 5% | nothing wrong | you are already late | upgrade before you place another zone |
+
+```notes
+Point at the second column and read it aloud four times. The
+  district looks identical in all four rows, which is why the capacity bar and
+  not the notification feed is the readout of record.
+```
+
+---
+
+{/* _class: quote */}
+
+## Star on breakdown
+
+> Infrastructure becomes visible upon breakdown.
+
+— Susan Leigh Star, "The Ethnography of Infrastructure", *American
+Behavioral Scientist* 43(3), 1999
+
+```notes
+Star's point is descriptive, not a complaint: the invisibility is
+  what makes infrastructure useful. The studio's job is to build a habit of
+  looking at it anyway, three weeks early.
+```
+
+---
+
+## The four networks
+
+| Network | What constrains it | Where you read it | What failure looks like first |
+| --- | --- | --- | --- |
+| Water | pumping station output, then the pipe graph's reach | water info-view; production-versus-consumption bar | insufficient-water notices at the far end of the main |
+| Sewage | treatment plant throughput; the receiving water at the outfall | sewage info-view; ground- and water-pollution overlays | untreated discharge, then a plume downstream |
+| Electricity | generation capacity, then transformer and line throughput | electricity info-view; the grid graph | outage across the whole connected grid, not one block |
+| Garbage | collection fleet, then landfill and incinerator throughput | garbage info-view | accumulation at buildings, ground pollution, abandonment |
+
+```notes
+Four networks, four different constraint shapes. Electricity is the
+  one that fails globally and instantly; garbage is the one that fails slowly
+  enough to be mistaken for a zoning problem.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## Two geometries of failure
+
+<CourseDiagram kind="failure-geometries" />
+
+*Coverage degrades at an edge. Capacity shortfall propagates through a connected graph.*
+
+```notes
+Students carry a mental model built from the district-based
+  service-radius weeks and apply it to utilities, which is why they expect the
+  blocks nearest the pumping station to suffer first. This slide is the
+  correction, and slide 12 is the proof.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## The Kerrow corridor, as a network
+
+<CourseDiagram kind="utility-network" />
+
+*Direct readouts belong to production, consumption, processing and transmission—not pipe pressure.*
+
+```notes
+Draw attention to the geography before the numbers. The outfall
+  sits upstream of the intake, which is a decision somebody made in Week 1 by
+  placing the pumping station where the road already went.
+```
+
+---
+
+## The reverse salient
+
+- Hughes's term for the one component whose capacity holds the whole system
+  below the capacity of its other parts.
+- In the Kerrow corridor it is Wensley Bank: 1,200 u installed against
+  1,104 u of draw.
+- Total distribution pipe in the four districts could carry roughly three
+  times that. It is irrelevant.
+- The zoning envelope approved in Week 3 implies about 1,340 u at build-out.
+  The pump was never revisited.
+
+```notes
+The arithmetic is the point: 1,340 against 1,200. The failure in
+  this deck was designed four weeks ago and has been waiting for a construction
+  crew to finish.
+```
+
+---
+
+{/* _class: banner */}
+
+## The cascade begins
+
+**Step 1.** A medium-density residential block completes on Ombersley Flats'
+eastern edge. District draw rises 374 u → 412 u. Corridor draw crosses
+1,200 u. Load: 103%.
+
+**Step 2.** Delivered pressure along the trunk main falls. No notification
+fires for four days. The production-versus-consumption bar has been red since
+the frame the block completed.
+
+```notes
+Nothing has visibly happened yet. If a student is watching the
+  notification feed rather than the capacity bar, they are now four days into a
+  failure they have not been told about.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## Cascade, step 3: the far end fails first
+
+<CourseDiagram kind="trunk-failure" />
+
+*The block adding load is not the only block exposed to a citywide shortfall.*
+
+```notes
+Farrant Row contributed 0 u of the overload and loses service
+  first, because it is furthest along the graph. This is Graham and Marvin's
+  splintering in its simplest possible form.
+```
+
+---
+
+## The money leaves at the same time as the water
+
+**Step 4.** Unserviced buildings pass the grace period and abandon.
+Twenty-two dwellings in Farrant Row, nine in eastern Ombersley Flats. Land
+value in the affected blocks falls, and the land value overlay shows the drop
+spreading one block past the abandonment.
+
+**Step 5.** Abandoned buildings pay nothing. The upgrade becomes necessary in
+the same quarter that the revenue to pay for it disappears.
+
+| Budget line | Before the trigger | Four weeks after | Change |
+| --- | --- | --- | --- |
+| Residential tax, Ombersley Flats | ₡14,200 / mo | ₡9,850 / mo | −31% |
+| Residential tax, Halstead Reach | ₡21,600 / mo | ₡20,400 / mo | −6% |
+| Water and sewage upkeep | ₡8,900 / mo | ₡13,400 / mo | +51% |
+| Healthcare upkeep | ₡6,100 / mo | ₡9,700 / mo | +59% |
+| Net operating balance | +₡11,300 / mo | −₡4,600 / mo | — |
+
+```notes
+Halstead Reach is in this table and did nothing. Its 6% is the
+  land-value effect of being on the same overlay as a district that abandoned,
+  and it is the first sign that the failure has left Ombersley Flats.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## Cascade, steps 6 and 7: the fix that breaks the next thing
+
+<CourseDiagram kind="cascade-ring" />
+
+*Fixing one reverse salient can reveal the next.*
+
+```notes
+Step 1 is a correct engineering decision that makes the system
+  worse, because it restores the load the treatment plant was quietly being
+  spared. This is Perrow's interactive complexity, and it is why the
+  walkthrough is worth twenty minutes of a lecture.
+```
+
+---
+
+## Step 8: it is no longer Ombersley Flats' problem
+
+- Waterborne sickness raises healthcare demand in Halstead Reach and Ockley
+  Green — the two districts with no part in the overload.
+- Well-being falls in both. Livability, as the studio measures it, falls
+  across the corridor rather than in the district that failed.
+- Halstead Reach's land value flattens; its commercial demand softens a week
+  later.
+- The corridor now needs a treatment upgrade, a healthcare increase, and the
+  pump it already bought. The Week 3 rezoning is the only decision that
+  caused any of it.
+
+```notes
+This is the slide to land hard. A capacity decision in one district
+  is a livability decision in every district downstream of its waste, which is
+  the argument for treating the corridor and not the district as the unit of
+  infrastructure design.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## The whole cascade on one page
+
+<CourseDiagram kind="cascade-sequence" />
+
+*The readout leads the street by three weeks in this worked hypothetical.*
+
+```notes
+Three weeks is the whole clinic. Half the utility failures in this
+  studio are legible in the capacity readouts three weeks before they are
+  legible anywhere else, and this figure is where students should be aiming to
+  intervene.
+```
+
+---
+
+{/* _class: impact */}
+
+# Headroom costs money now and buys nothing visible
+
+**Fiscal performance** against **livability**, in one number: the headroom
+you install at Wensley Bank before the demand exists.
+
+- 40% headroom: ₡5,200 / mo of upkeep charged against a tax base that has not
+  been built. Fiscal performance falls this quarter, for a benefit no
+  screenshot can show.
+- 8% headroom: ₡0 / mo, and slides 11–16.
+
+There is no third option where the pipes are free. There is only a choice
+about which metric absorbs the cost, and a memo in which you say which one
+you chose.
+
+```notes
+Close by refusing to give the answer. Both numbers are defensible
+  at the jury; only one of them is defensible without having been thought
+  about.
+```
+
+---
+
+## This week
+
+- **Utilities clinic**, Thursday. Bring your save file with the water,
+  sewage and electricity info-views already open and your current headroom
+  written down as three percentages.
+- **Studio session**: we run the cascade live on one volunteered save. If it
+  is yours, you will have found your reverse salient before the room does.
+- **Assessment 2**, due Week 9 — *Public Realm &amp; Infrastructure Plan*, 25%.
+  Fiscal 30, livability 45, mobility 25. The infrastructure half of that
+  title is this week, and the headroom argument belongs in the memo.
+- Book the clinic even when nothing is broken. That is when it is useful.
+
+```notes
+Say the Week 9 weighting out loud. Students consistently read
+  "Public Realm & Infrastructure" as a parks brief with a utilities appendix,
+  and the fiscal 30 is mostly earned or lost on this week's material.
+```
+

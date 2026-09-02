@@ -1,48 +1,324 @@
 ---
-title: Opening lecture
-description: The placeholder deck — replace it with a real deck for your course
+title: "Week 1: Site Analysis and the Blank Map"
+description: "SLOP2418 Urban Design Studio lecture 1"
 ---
 
-# Opening lecture
+import CourseDiagram from "../components/decks/CourseDiagram.astro";
 
-{/* STARTER_CONTENT: replace this deck, then remove this comment. */}
+{/* _class: impact */}
 
-Replace this deck. It is here to show that slides are part of the site, built
-from the same markdown as everything else.
+# Site Analysis and the Blank Map
+
+SLOP2418 — Urban Design Studio  
+Week 1 · Marisol Quaye · 22 February 2027
+
+<p className="evidence-key">direct readout · derived measure · worked hypothetical</p>
+
+```notes
+Open by saying the studio produces one district per student,
+   built continuously from this week to Week 12, and that today is the only
+   week in which nothing is built.
+```
 
 ---
 
-## Slides are markdown
+## How this studio works
 
-A `---` starts a new slide. Everything else is ordinary markdown: headings,
-lists, links, tables, images, fenced code.
+- One student, one save file, one district, Weeks 1 to 12.
+- Everyone builds on the same site: the standard map issued today.
+- Twelve lectures, twelve studio sessions, three assessed pin-ups with a
+  jury.
+- Every submission is in-simulation screenshots and a short defence memo.
+- The software of record is Cities: Skylines II. No simulation-altering
+  mods, no unlimited money, no unlock-all.
 
-- one idea per slide
-- the fewest words that carry it
-- the deck is a performance artefact, so it can say things a page wouldn't
+```notes
+Point at the studio policies page rather than reading the rules
+   out; say only that the settings are not negotiable because the metrics are
+   comparative and only compare across identical ground.
+```
+
+---
+
+{/* _class: quote */}
+
+## Survey before plan
+
+> Survey before plan.
+>
+> — the working principle of Patrick Geddes, *Cities in Evolution* (1915)
+
+*Today's session ends with a site report and no
+roads.*
+
+```notes
+Geddes's point is not that survey is polite preparation but that
+   a plan drawn before the survey is a plan of the designer's assumptions.
+   Students will want to build immediately; the whole first session withholds
+   the road tool.
+```
+
+---
+
+## What "good" has meant before
+
+Lynch's five dimensions of good city form, with the two meta-criteria, set
+as a list:
+
+- **vitality** — the settlement sustains the biology of its inhabitants
+- **sense** — it can be perceived and structured in the mind
+- **fit** — its spaces match the behaviours people actually perform
+- **access** — people, goods and information can reach what they need
+- **control** — those who use a space have some say over it
+- *and across all five:* **efficiency** and **justice**
+
+Kevin Lynch, *Good City Form* (1981).
+
+```notes
+Say plainly that this studio uses three metrics rather than
+   seven, that the reduction loses things Lynch cared about — control and
+   justice most obviously — and that Week 11 is where the studio comes back to
+   what the three metrics cannot see.
+```
 
 ---
 
 {/* _class: impact */}
 
-# A slide class
+## Three metrics
 
-`{/* _class: impact */}` fills the slide with the brand colour. `quote`,
-`banner` and `centered` are the others the theme styles.
+> **fiscal performance**
+> **mobility performance**
+> **livability**
+>
+> Every lecture. Every studio session. Every criterion on every mark sheet.
+
+```notes
+These three words are used in these forms all semester, in the
+   lectures and on the mark sheets, and students are expected to use them the
+   same way at crit.
+```
 
 ---
 
-## What else is here
+## Fiscal performance
 
-```sh
-pnpm dev
-pnpm check
+**Fiscal performance** — whether the district can pay for what it has built,
+and keep paying as it grows.
+
+- **Read it in:** the economy panel's monthly balance; the service budget
+  sliders and the per-service expenditure lines beneath them; road and
+  building upkeep; outstanding loans and their repayments; the tax rates set
+  per zone type and per resource.
+- **The jury asks:** what does this district cost per month at the service
+  level you are claiming, who pays that, and what does the number do when
+  the population you have zoned for actually arrives?
+
+```notes
+Emphasise that a positive balance achieved by turning the service
+   budgets down is not fiscal performance, it is a livability decision being
+   hidden in the economy panel.
 ```
 
-The second command proves the deck compiles with the rest of the site. Use the
-first to inspect every slide at the desktop and phone marking viewports; slide
-fit and legibility are visual judgements.
+---
 
-The [astromotion](https://github.com/ANUcybernetics/astromotion) README has the
-rest of the syntax: speaker notes, backgrounds, QR codes, fragments, and
-components hydrated per slide.
+## Mobility performance
+
+**Mobility performance** — whether people and goods complete their trips at
+an acceptable cost in time, at the hour the trips are actually made.
+
+- **Read it in:** the traffic info view's flow and volume overlays; the
+  road-level traffic readout; public transport line passenger counts,
+  vehicle loads and stop waiting times; the path taken by a selected citizen
+  or delivery vehicle when you follow it.
+- **The jury asks:** for one named origin and one named destination in your
+  district, how long is that trip at the morning peak, by which mode, and
+  what is the second-best mode when the first one is full?
+
+```notes
+The phrase "at the hour the trips are actually made" is doing the
+   work here — an empty road at 02:00 is not evidence, and Idris Fenn will
+   spend Week 6 proving it.
+```
+
+---
+
+## Livability
+
+**Livability** — whether the place is worth being in for the people already
+there, independent of how many more arrive.
+
+- **Read it in:** citizen well-being and health figures; the happiness
+  readout on individual buildings; the land value overlay; the service
+  coverage overlays — health, education, parks, police, fire, garbage,
+  mail; and the four pollution overlays — ground, air, noise and water.
+- **The jury asks:** name the worst-served block in your district, say what
+  it is short of, and say what you chose to spend the money on instead.
+
+```notes
+Livability is the metric students most often argue for with
+   adjectives. The definition is deliberately written so that the answer is a
+   block, a shortfall and a decision, not an impression.
+```
+
+---
+
+## How the three are read, and where they are marked
+
+- All three are read **over time**, not at a moment. A screenshot is
+  evidence of a state; the studio marks a trend.
+- Take every reading at the same in-game hour. The studio convention is
+  **08:00**, and the memo says which hour the reading was taken at.
+- Where two metrics conflict, name which one you traded and why. A plan that
+  claims all three has not been read carefully.
+
+| Assessment | Due | Weight | fiscal | mobility | livability |
+| --- | --- | --- | --- | --- | --- |
+| 1. Neighbourhood Unit Plan | Week 4 | 25% | 30 | 30 | 40 |
+| 2. Public Realm &amp; Infrastructure Plan | Week 9 | 25% | 30 | 25 | 45 |
+| 3. Comprehensive City Plan | Week 12 | 50% | holistic | holistic | holistic |
+
+```notes
+Point out that no assessment weights any metric below 25, so
+   there is no assessment in which one of the three can be abandoned — only
+   ones in which it can be knowingly traded down.
+```
+
+---
+
+## McHarg's layers, and where they live
+
+| McHarg layer | Read it in | What it constrains |
+| --- | --- | --- |
+| Slope and drainage | Terrain and contour display, water info view | Road cost, pipe gradient, what can be zoned at all |
+| Surface hydrology | Water info view, river flow direction | Where the intake goes, and where the outflow cannot |
+| Prevailing wind | Wind info view | Which ground is downwind of which |
+| Soils and extractives | Natural resources info view — fertile land, ore, forest, oil | What building on the ground forfeits |
+| Existing access | Outside connections — highway, rail, ship, air | The first cost of reaching the site at all |
+
+```notes
+McHarg's method is one layer at a time and then the overlay; the
+    common student failure is opening the land value view first and treating it
+    as a survey, when at hour zero it is almost flat.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## The site: Kerrow Basin
+
+<CourseDiagram kind="basin" />
+
+*Gold is what the site gives. Black is what somebody drew.*
+
+```notes
+Establish the ink convention here and keep it all semester: gold
+    is what the site gives you, black is what somebody drew. Students should
+    be able to name all five features without looking at the slide by the end
+    of the session.
+```
+
+---
+
+## Kerrow Basin in Lynch's five terms
+
+| Lynch term | On this site |
+| --- | --- |
+| Path | The highway spur south from Dunthorpe; the rail line along the terrace |
+| Edge | The River Kerrow; the break of slope at the foot of Verrall Ridge |
+| District | Halstead Reach, Verrall Ridge, Ombersley Flats |
+| Node | Dunthorpe interchange; Thackray Cut, where every westward route must pass |
+| Landmark | The ridge crest itself, visible from every part of the basin floor |
+
+```notes
+The point of the exercise is that the site is already legible in
+    Lynch's terms with nothing built on it, which is why the first plan should
+    work with that structure rather than against it.
+```
+
+---
+
+## Four places the first road could go
+
+| Ground | Fiscal read | Mobility read | Livability read |
+| --- | --- | --- | --- |
+| Halstead Reach | Cheapest to build and service; forfeits fertile soil under everything you zone | 1.2 km to Dunthorpe; rail already alongside | Flat, unremarkable, upwind of nothing and downwind of nothing |
+| Verrall Ridge shelf | 4.1 km of road including the climb; water pumped uphill; ore sterilised under any housing | Every trip runs through Thackray Cut | Long views, quiet air, the highest land-value ceiling on the map |
+| Ombersley Flats | Cheap ground, flood exposure, remote from the interchange | Longest haul to every outside connection | Downwind and downstream of the whole basin |
+| Thackray Cut | Not a settlement; a piece of infrastructure with a price | The only westward crossing of the ridge | Nothing lives there |
+
+```notes
+Ombersley Flats and Thackray Cut are on the slide to be
+    eliminated as settlement, not chosen — but hold onto both, because Week 3
+    sites industry and Week 5 puts a corridor through the Cut.
+```
+
+---
+
+{/* _class: banner */}
+
+## The tradeoff of the week
+
+> **Halstead Reach buys fiscal performance. Verrall Ridge buys
+> livability. There is no version of this map on which one road buys
+> both.**
+
+- Reach: about 1.2 km of new road to the interchange, no lift on the water
+  network, service coverage from a single point reaching most of the first
+  settlement.
+- Ridge: about 4.1 km of new road on gradient, water lifted roughly 90 m,
+  two service points to cover the same population.
+- Both numbers are monthly, and both appear in the economy panel from the
+  first month, not at the end of the semester.
+
+```notes
+This is the slide the whole lecture exists to deliver. Say
+    explicitly that either answer is defensible and that the indefensible
+    answer is the one given without the arithmetic.
+```
+
+---
+
+{/* _class: quote */}
+
+## The value was in the ground first
+
+> The value of land is created by the community, not by the owner of it.
+>
+> — the argument of Henry George, *Progress and Poverty* (1879)
+
+- Land value on this map rises around the things the district paid for
+  collectively — the roads, the services, the parks — and not around the
+  buildings sitting on it.
+- So a site decision is a revenue decision, and it is made in Week 1
+  whether or not it is noticed in Week 1.
+
+```notes
+Flag that Week 11 asks students to read their own district's
+    land-value history from Week 1 forward, which only works if the weekly
+    saves exist. This is the reason the save discipline is not administrative
+    tidiness.
+```
+
+---
+
+## Before Tuesday
+
+- Load the standard map. Do not regenerate it. Do not open the road tool.
+- Produce a one-page site report: the five McHarg layers, one screenshot
+  each, and one sentence per layer on what it rules out.
+- Name your first settlement area and state the tradeoff you are making in
+  the form used on Slide 14 — which metric you bought, which you paid with.
+- Save as `<student ID>-w01` and put a copy somewhere that is not the
+  machine you built it on.
+- Desk crits Tuesdays 13:00–16:00, Studio 2.14.
+
+```notes
+The site report is not marked, and it is the document Assessment
+    1 will be read against in Week 4, so the ones written carelessly cost their
+    authors in three weeks rather than this one.
+```
+
+
+

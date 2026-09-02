@@ -1,0 +1,306 @@
+---
+title: "Week 8: Fiscal Realism: Taxes, Budgets and the Limits of Growth"
+description: "SLOP2418 Urban Design Studio lecture 8"
+---
+
+import CourseDiagram from "../components/decks/CourseDiagram.astro";
+
+{/* _class: impact */}
+
+# Fiscal Realism: Taxes, Budgets and the Limits of Growth
+
+SLOP2418 — Urban Design Studio  
+Week 8 · Tobias Wren · 26 April 2027
+
+<p className="evidence-key">direct readout · derived measure · worked hypothetical</p>
+
+```notes
+Open on the deficit, not the theory. The number is on the next
+  slide and it is real for every student in the room.
+```
+
+---
+
+{/* _class: banner */}
+
+## You are ₡9,000 a month short
+
+Effective from this session, the Kerrow corridor carries an imposed operating
+deficit of **₡9,000 per month**. It is not a modelling error and it is not
+negotiable.
+
+By the end of Thursday's studio you will have closed it. This lecture is
+about the three ways that is possible and what each one costs in a metric
+that is not fiscal performance.
+
+```notes
+Say that the deficit is imposed rather than earned, so nobody
+  spends the hour arguing about whose zoning caused it. The interesting
+  question is not the cause; it is the closure.
+```
+
+---
+
+## Where the money comes from
+
+| Revenue line | Share of monthly income | What moves it | Delay before it moves |
+| --- | --- | --- | --- |
+| Residential tax | ~46% | rate, population, land value, education mix | 2–4 weeks |
+| Commercial tax | ~24% | rate, footfall, land value at the frontage | 1–2 weeks |
+| Industrial and office tax | ~19% | rate, resource-chain throughput, office demand | 4–8 weeks |
+| Service fees and fares | ~11% | ridership, utility consumption, fee settings | immediate |
+
+```notes
+Three of these four lines depend on land value and only one depends
+  on activity. That ratio is the argument for the rest of the lecture.
+```
+
+---
+
+## George, in one paragraph
+
+- A parcel's value is almost entirely a function of what surrounds it: the
+  road, the transit stop, the school catchment, the square at the end of the
+  street.
+- None of those were built by the parcel's owner. All of them were built by
+  the studio, out of the operating budget.
+- George's conclusion is that the resulting value is the community's, and is
+  the proper base for public revenue.
+- The studio's narrower conclusion: the land value info-view is a map of your
+  own past spending, and it is the only readout that tells you which of your
+  investments worked.
+
+```notes
+The last bullet is the operational one. Students treat land value
+  as a symptom of desirability; it is better read as a receipt.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## Who made the value
+
+<CourseDiagram kind="value-uplift" />
+
+*Collective investment changes the location; the uplift does not explain who receives it.*
+
+```notes
+Hold the two panels together and ask what changed. The answer is
+  ₡310 a month, which is the cheapest thing on the corridor's budget.
+```
+
+---
+
+{/* _class: quote */}
+
+## George on the land tax
+
+> The tax upon land values is, therefore, the most just and equal of all
+> taxes.
+
+— Henry George, *Progress and Poverty*, 1879, Book VIII
+
+```notes
+Quote it and then step back from it. The studio is not adjudicating
+  nineteenth-century tax philosophy; it is borrowing George's causal claim, which
+  is the part the simulation actually implements.
+```
+
+---
+
+## The optimistic bound
+
+Stiglitz (1977), with Arnott (1979): under a set of idealising conditions, the
+aggregate rise in land rent produced by a public good is exactly enough to
+pay for that public good.
+
+The conditions the corridor does not meet:
+
+- It assumes population is free to move in response. Yours is, partly.
+- It assumes the public good is optimally sized. The Halstead Reach civic
+  plaza is not.
+- It assumes the rent is fully captured. You capture a percentage of it, set
+  by a slider, and that percentage also drives people away.
+
+```notes
+This is the ceiling on land value capture and the reason the rest
+  of the lecture is about cuts rather than about revenue. The theorem is true
+  and it is not going to save anyone's budget this week.
+```
+
+---
+
+## The two levers
+
+| Lever | Tax rate | Budget slider |
+| --- | --- | --- |
+| What it changes | how much of existing activity you take | how much service you supply |
+| Who notices | prospective residents and businesses | existing residents and businesses |
+| Speed | 2–4 weeks, through demand | immediate, through coverage and capacity |
+| Failure mode | the district stops growing | the district stops working |
+| Reversible? | yes, and cheaply | yes, but the abandonment is not |
+
+```notes
+Vickrey's distinction, made operational. Students reach for the tax
+  slider because it has a plus sign on it, and it is the slower of the two by a
+  month.
+```
+
+---
+
+## Your tax rate is an admissions policy
+
+Tiebout (1956): households choose the jurisdiction whose bundle of taxes and
+services suits them. In the corridor that shows up as demand by education
+level.
+
+| Residential rate | Low-education demand | High-education demand | Net monthly change |
+| --- | --- | --- | --- |
+| 9% (current) | steady | steady | — |
+| 11% | steady | −8% | +₡5,400 |
+| 13% | −3% | −21% | +₡8,100 |
+| 15% | −14% | −38% | +₡6,900 |
+
+```notes
+The last row is the one to sit with. Fifteen per cent raises less
+  than thirteen, and the households it loses first are the ones the office
+  demand depends on.
+```
+
+---
+
+## A budget slider is not a discount
+
+What actually happens at 70% funding on a school:
+
+- Its coverage radius contracts before its student capacity does.
+- The blocks that fall outside the new radius do not lose a little education.
+  They lose all of it.
+- The uneducated cohort begins to grow about six weeks later, and it is the
+  input to office demand about twelve weeks after that.
+- The saving is 30%. The service is not 70% of a service.
+
+```notes
+This is the standard student error of the week: reading the slider
+  as a proportional dial rather than as a threshold device sitting on a
+  coverage model.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## The funding-response curve
+
+<CourseDiagram kind="funding-curve" />
+
+*Cutting below default reveals losses quickly; spending above it buys diminishing returns.*
+
+```notes
+Point back at Week 7 explicitly. Over-funding a service and
+  over-provisioning a pump are the same mistake seen from two directions, and
+  the corridor is currently making both.
+```
+
+---
+
+## Five ways to find ₡9,000
+
+| Move | Monthly effect | First visible consequence | Metric it lands on |
+| --- | --- | --- | --- |
+| Transit operating budget 100% → 75% | +₡4,100 | frequency drops; corridor bus load factor over 1.0; car mode share up | mobility performance |
+| Education 100% → 70% | +₡3,600 | Ockley Green primary's radius retreats off Farrant Row | livability now, fiscal in eight weeks |
+| Healthcare 100% → 80% | +₡2,200 | clinic coverage leaves Farrant Row entirely | livability |
+| Residential tax 9% → 11% | +₡5,400 | high-education demand falls 8%; land value flattens | fiscal now, livability later |
+| Defer the Wensley Bank pump upgrade | +₡4,500 | nothing at all, for three weeks | Week 7, in full |
+
+```notes
+The last row is on the table because students will find it
+  themselves. Take it seriously as an option and then walk the room back through
+  slide 16 of last week.
+```
+
+---
+
+## Two closures, sixteen weeks out
+
+Both close ₡9,000. Neither is wrong.
+
+| Outcome | **A — transit and healthcare** | **B — education and tax** |
+| --- | --- | --- |
+| Composition | transit 75% (₡4,100), healthcare 80% (₡2,200), tax 9% → 10% (₡2,700) | education 70% (₡3,600), tax 9% → 11% (₡5,400) |
+| Week 4 | bus load factor 1.14; clinic off Farrant Row | primary radius off Farrant Row; demand softening |
+| Week 8 | car mode share +9 points; corridor arterial at capacity in the peak | uneducated cohort +6%; well-being −4 in two districts |
+| Week 16 | road upkeep +₡1,900 / mo; deficit partly reopened | office demand −11%; commercial tax line falling |
+| Metric taken | mobility performance | livability, then fiscal performance |
+
+```notes
+Both closures reopen the deficit eventually, by different routes and
+  at different speeds. The honest version of this slide is that a cut is a loan
+  against a metric, and the memo has to say which metric and for how long.
+```
+
+---
+
+## The upkeep you already signed for
+
+Shoup's argument, applied to the road rather than the kerb: a public good
+supplied without a price is a subsidy, and the subsidy appears somewhere else
+on the budget.
+
+- The Kerrow corridor arterial cost ₡41,000 to build, once, in Week 5.
+- It has cost ₡1,240 a month ever since, and the widening in Week 6 took that
+  to ₡1,610.
+- Across twelve weeks of studio the upkeep will exceed a third of the build
+  cost, and nothing about the road will have improved.
+- There is no slider that switches a road off. It is the only line on the
+  budget with no dial next to it.
+
+```notes
+This is where the deficit actually came from, in most students'
+  builds, and it is the argument for treating road width as a fiscal decision
+  in the Week 9 and Week 12 memos rather than only a mobility one.
+```
+
+---
+
+{/* _class: impact */}
+
+# Fiscal performance is fixed. Pick the other one.
+
+The ₡9,000 closes either way. What differs is which metric pays for it:
+
+- **Mobility performance** — cut the transit operating budget, hold the
+  services, and watch car mode share do the rest.
+- **Livability** — cut education and healthcare coverage, hold the buses, and
+  watch well-being fall in the districts the coverage leaves.
+
+A budget is not a limit on the design. It is the part of the design where you
+have to say which metric you are willing to be worse at.
+
+```notes
+End on the memo. Every closure is defensible at the jury; a closure
+  chosen by which slider was nearest the mouse is not.
+```
+
+---
+
+## This week
+
+- **Studio session**, Thursday: close the ₡9,000 in the room. Arrive with the
+  fiscal readout and the land value info-view already open.
+- Write down your closure and its cost in one metric before you touch a
+  slider. If those two lines contradict what the readout does by Week 4 of the
+  run, that contradiction goes in the memo.
+- **Assessment 2**, due next week — *Public Realm &amp; Infrastructure Plan*, 25%.
+  Fiscal 30, livability 45, mobility 25.
+- Next week is the public realm, which is the cheapest livability on the
+  budget and the reason the fiscal 30 and the livability 45 are on the same
+  brief.
+
+```notes
+Trail Week 9 as the other half of this argument. The square in slide
+  5 costs ₡310 a month and moved four blocks of land value, which is the best
+  fiscal-to-livability ratio anywhere in the corridor.
+```

@@ -1,0 +1,354 @@
+---
+title: "Week 6: Traffic Engineering and Its Discontents"
+description: "SLOP2418 Urban Design Studio lecture 6"
+---
+
+import CourseDiagram from "../components/decks/CourseDiagram.astro";
+
+{/* _class: impact */}
+
+# Traffic Engineering and Its Discontents
+
+SLOP2418 — Urban Design Studio  
+Week 6 · Idris Fenn · 29 March 2027
+
+<p className="evidence-key">direct readout · derived measure · worked hypothetical</p>
+
+```notes
+Do not preface this lecture. Go to slide 2 in under a minute; the
+   argument is better made by the numbers than by an introduction to them.
+```
+
+---
+
+{/* _class: dense */}
+
+## Your save file, last Wednesday and this morning
+
+Table. The figures are the studio baseline; students substitute their own.
+
+| Kerrow corridor at Wickstead | Before (Wk 5, pre-change) | Day 1 after widening | Day 30 after widening |
+| --- | --- | --- | --- |
+| Lanes each way | 2 | 3 | 3 |
+| Peak volume, veh/h | 2,040 | 2,040 | 3,050 |
+| Volume ÷ capacity | 0.98 | 0.65 | 0.97 |
+| Average peak speed | 24 km/h | 41 km/h | 25 km/h |
+| Ashgrove back streets, veh/h | 480 | 210 | 140 |
+| Tram line passengers, daily | 3,900 | 3,510 | 3,180 |
+
+```notes
+Give the room a moment on the third column. Then say the only
+   sentence this slide needs: the lane is still there, and the congestion is
+   back.
+```
+
+---
+
+{/* _class: centered */}
+
+## The argument
+
+A single line, set large:
+> Capacity does not reduce congestion. It relocates the demand that produced
+> it, and then enlarges it.
+
+```notes
+State that nothing in this lecture is a criticism of anyone's
+   Week 5 decision. The decision was the correct one to make in order to find
+   this out, which is why the session was designed to produce it.
+```
+
+---
+
+## What the pathfinder is doing
+
+- Wardrop's first principle, 1952: at equilibrium, no driver can reduce
+  their own journey time by switching route. All used routes cost the same;
+  unused routes cost more.
+- The model's traffic AI implements exactly this. Agents cost a route and
+  take the cheapest one available, and they re-cost it when the network
+  changes.
+- So a widening does not give the existing traffic a faster trip. It
+  lowers the cost of one route until enough traffic has moved onto it that
+  the costs are equal again.
+- Equilibrium is not a goal the model is pursuing. It is a property of
+  everybody doing the obvious thing.
+
+```notes
+This is the mechanism slide, and everything after it is
+   consequences. If students leave with one thing, it should be that the model
+   is not simulating traffic, it is simulating choice.
+```
+
+---
+
+{/* _class: quote */}
+
+## Downs's law
+
+> On urban commuter expressways, peak-hour traffic congestion rises to meet
+> maximum capacity.
+>
+> — Anthony Downs, "The Law of Peak-Hour Expressway Congestion," *Traffic
+> Quarterly* (1962)
+
+```notes
+Downs published this in 1962, before the corridor projects that
+   would have tested it were built. It has not needed revision since, and the
+   mechanism he proposed is the one in the next slide.
+```
+
+---
+
+## Triple convergence
+
+| Convergence | The driver's decision | The view that shows it |
+| --- | --- | --- |
+| Spatial | Take the improved route instead of the back streets | Traffic volume layer, read on Ashgrove |
+| Temporal | Leave at 08:00 again instead of 07:20 | Volume by hour across the peak |
+| Modal | Drive instead of taking the tram | Transportation Overview, passengers per line |
+
+*Downs proposed three. The model
+supplies a fourth, more slowly.*
+
+```notes
+The fourth is land use, and it is slide 9's last row. Flag it
+   here and do not explain it yet.
+```
+
+---
+
+{/* _class: dense */}
+
+## The arithmetic: capacity
+
+The Wickstead junction, worked from first principles.
+
+| Term | Value | Source |
+| --- | --- | --- |
+| Base saturation flow | 1,900 veh/h per lane | standard signalised-arterial figure |
+| Effective green ratio, g ÷ C | 0.55 | measured at the Wickstead signal |
+| Effective capacity per lane | 1,900 × 0.55 = 1,045 veh/h | |
+| Capacity, 2 lanes each way | 2,090 veh/h | before |
+| Capacity, 3 lanes each way | 3,135 veh/h | after |
+| Capacity increase | +50% | |
+
+```notes
+Do the multiplication on the slide rather than presenting the
+   result. Students who cannot reconstruct 1,045 cannot argue about anything
+   later in the hour.
+```
+
+---
+
+## The arithmetic: demand
+
+Duranton and Turner (2011) estimate the elasticity of vehicle-kilometres
+travelled with respect to lane-kilometres at approximately 1.0. The UK
+Standing Advisory Committee on Trunk Road Assessment (*Trunk Roads and the
+Generation of Traffic*, 1994) reached broadly compatible conclusions from
+different data.
+
+| Elasticity assumed | Volume increase | Long-run peak volume | Volume ÷ capacity | Relief retained |
+| --- | --- | --- | --- | --- |
+| 0.0 (the project's business case) | 0% | 2,040 | 0.65 | all of it |
+| 0.5 (short-run, optimistic) | +25% | 2,550 | 0.81 | about half |
+| 0.8 | +40% | 2,856 | 0.91 | about a fifth |
+| 1.0 (Duranton and Turner) | +50% | 3,060 | 0.98 | none |
+
+*The top row is the row every widening is
+justified on. The bottom row is the row the literature supports.*
+
+```notes
+The middle rows matter. Even a student who thinks the elasticity
+   literature is overstated has to concede that at 0.5 the project has spent
+   its whole budget to buy half a level of service, temporarily.
+```
+
+---
+
+## Where the extra 1,020 vehicles came from
+
+Decomposition of the +50% observed at day 30, in vehicles per hour at the
+peak.
+
+| Source | veh/h | Downs's category | Where you can see it |
+| --- | --- | --- | --- |
+| Re-routed from the Ashgrove streets | +340 | spatial | Ashgrove volume, 480 → 140 |
+| Shifted off the Pelling Street tram | +180 | modal | Tram daily passengers, 3,900 → 3,180 |
+| Re-timed into the peak from the shoulders | +220 | temporal | 07:00–08:00 volume falling, 08:00–09:00 rising |
+| Longer and newly generated trips as households relocate | +280 | land use | Residential demand and new occupancy at the Denton Hill edge |
+| **Total** | **+1,020** | | **= 50% of 2,040** |
+
+```notes
+This is the most important slide in the lecture. The four rows
+   are independently observable in the model and they sum to the elasticity the
+   literature predicts. Students who want to dispute the conclusion have to
+   dispute a row.
+```
+
+---
+
+## Downs–Thomson: the tram set the speed
+
+- Thomson, 1977, and Mogridge, 1990: on a corridor with a competing transit
+  service, the equilibrium speed of car travel is set by the door-to-door
+  speed of that service. Drivers switch until the two are equally bad.
+- So the widening's long-run car speed was never a property of the road. It
+  was a property of the tram.
+- And the widening pulled 180 veh/h off the tram, which cut the line's
+  revenue, which — for most of the studio — was met by cutting the fleet
+  from three vehicles to two.
+- A 10-minute headway became a 15-minute headway. Average wait rose from
+  5 minutes to 7.5. The competing trip got worse, so the equilibrium car
+  speed the corridor settles at got worse with it.
+- The widening made itself less effective by the mechanism it triggered.
+
+```notes
+This is where Week 5's fiscal tradeoff comes back as a mobility
+    problem. Point at the headway table from last week explicitly; the fleet
+    cut is the same arithmetic run backwards.
+```
+
+---
+
+{/* _class: diagram-slide */}
+
+## Braess, 1968
+
+<CourseDiagram kind="braess" />
+
+*The tempting extra link can make every selfish route slower.*
+
+```notes
+Nobody in this network behaves irrationally and nobody can
+    improve their own journey by switching. Every driver is 15 minutes worse
+    off because a link was added. The connector at Wickstead is not this
+    example, but it is this shape.
+```
+
+---
+
+## Buchanan, 1963: the other capacity
+
+- Buchanan's *Traffic in Towns* argued that a street has two capacities,
+  and that planning had only ever measured one.
+- **Vehicular capacity:** the volume above which the traffic stops moving.
+  On Pelling Street at three lanes, 3,135 veh/h.
+- **Environmental capacity:** the volume above which the street's other
+  functions stop working. On Pelling Street, reached at roughly 1,600.
+- The second number is not in the Highway Capacity Manual, has no
+  standardised method, and is the number the district is actually built
+  around.
+
+```notes
+Buchanan is the reason this week is called "and its
+    discontents". The engineering is not wrong; it answers a narrower question
+    than the one a district is asking.
+```
+
+---
+
+## What the third lane cost the frontage
+
+Table. Pelling Street frontage, before the widening and one simulated year
+after.
+
+| Measure | 2 lanes each way | 3 lanes each way | Working |
+| --- | --- | --- | --- |
+| Carriageway width | 14.0 m | 20.5 m | one 3.25 m lane each way |
+| Pedestrian crossing time at 1.2 m/s | 11.7 s | 17.1 s | +5.4 s of exposure |
+| Traffic noise at 10 m | 68 dB(A) | 69.8 dB(A) | 10 log₁₀(1.5) = +1.8 dB |
+| Ground-floor commercial holding level 3 or above | 71% | 44% | Land Value info view |
+| Frontage land value index | 100 | 87 | Land Value info view |
+
+*1.8 dB is barely audible and entirely
+sufficient.*
+
+```notes
+The noise row is the one to dwell on. Traffic noise rises with
+    the logarithm of volume, so the acoustic change is small — and the land
+    value moved 13 points anyway, because what changed was not the loudness but
+    the street.
+```
+
+---
+
+{/* _class: impact */}
+
+## The tradeoff of the week
+
+Set large:
+> **Mobility performance against livability.**
+>
+> The lane bought 16 minutes of peak speed for one month and 6.5 metres of
+> carriageway for good.
+
+```notes
+Say the two metric names in those exact words. Then say that the
+    asymmetry is the point: the mobility gain was temporary and the livability
+    loss was not, and no amount of care in the detailing reverses that.
+```
+
+---
+
+## What to do instead
+
+The honest menu, with what each costs.
+
+| Instrument | Effect on the corridor | What it costs |
+| --- | --- | --- |
+| Retime the Wickstead signal; raise g ÷ C from 0.55 to 0.62 | +13% effective capacity | Almost nothing fiscally; the same elasticity applies, so it buys less and lasts as briefly |
+| Reallocate one existing lane to transit | Vehicular capacity down a third; corridor person-throughput up, if the headway is held | Politically the hardest move in the studio, and the one Downs–Thomson says works |
+| Shorten the trips: mix uses in the station areas, per Week 4 | Removes demand rather than serving it | Slow — a simulated year or more before it is visible — and it is a zoning project, not a road project |
+| Price the peak | The only instrument that addresses demand directly | Not available. The model has no congestion-pricing mechanism, so nothing you argue from this save file can rest on one |
+
+```notes
+The last row is a constraint on what can be claimed, not a gap to
+    apologise for. Knowing which arguments a model can and cannot support is
+    part of using one, and Week 11 is given over to that question.
+```
+
+---
+
+## A working week, not a submission
+
+- Nothing is submitted in Week 6. Preserve the before-and-after record for
+  the remaining two assessments.
+- The next brief is **Assessment 2 — Public Realm and Infrastructure
+  Plan**, due Week 9 and worth 25%.
+- A plan that adds capacity is not penalised. A plan that adds capacity and
+  describes a short-term observation as a permanent congestion improvement
+  has exceeded its evidence.
+
+```notes
+The stress test is evidence for later briefs, not a deleted
+    Mobility Plan in disguise.
+```
+
+---
+
+{/* _class: banner */}
+
+## Before the break
+
+- Two weeks off. The studio reconvenes Monday 19 April.
+- **Leave the save file in a state you can return to.** Save under a name
+  with the week in it, and write your three peak figures into the process
+  log. You will not remember them.
+- **Week 7 — Infrastructure You Don't See**, Nadia Ilkhom. Water, sewage,
+  power and the capacity curve. It is the one week of the semester with a
+  built slide deck, and it is the most technical hour you will sit.
+- Nadia's framing, which is worth arriving with: every network in this city
+  has a capacity curve, and you have spent two weeks learning what happens
+  at the top of one. The next four are about the networks where failure is
+  not a queue but an outage.
+
+```notes
+End on the handover, not on a summary. The link between this
+    week and Week 7 is genuine — congestion and outage are the same curve read
+    at different tolerances — and it is worth saying so as the room leaves.
+```
+
+
+

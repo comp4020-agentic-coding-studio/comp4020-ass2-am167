@@ -1,0 +1,396 @@
+---
+interface Props {
+  kind: string;
+}
+
+const { kind } = Astro.props;
+---
+
+<figure class="course-diagram" aria-label="Lecture schematic">
+  {
+    kind === "basin" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="basin-title">
+        <title id="basin-title">Plan of the Kerrow Basin</title>
+        <path class="gold-fill soft" d="M0 70 C180 45 250 190 410 210 S710 190 1000 450 L1000 500 C700 265 520 315 380 285 S160 135 0 155Z" />
+        <path class="gold-fill hatch" d="M0 280 L250 165 L390 500 L0 500Z" />
+        <path class="ink-line heavy" d="M680 0 V70 H620 V190" />
+        <path class="ink-line rail" d="M1000 155 H525" />
+        <path class="ink-line" d="M230 350 L360 275" />
+        <text class="label" x="612" y="55">Dunthorpe interchange</text>
+        <text class="label" x="555" y="125">Halstead Reach</text>
+        <text class="label" x="88" y="375">Verrall Ridge</text>
+        <text class="label" x="610" y="405">Ombersley Flats</text>
+        <text class="label" x="165" y="320">Thackray Cut</text>
+        <text class="gold-text" x="54" y="42">WNW wind ↘</text>
+        <text class="gold-text" x="540" y="292">River Kerrow →</text>
+        <path class="ink-line" d="M805 465 h110" />
+        <text class="tiny" x="823" y="492">1 km</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "radburn" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="radburn-title">
+        <title id="radburn-title">Radburn superblock</title>
+        <rect class="ink-line heavy no-fill" x="90" y="55" width="820" height="385" rx="110" />
+        <path class="ink-line heavy" d="M90 250 H290 M910 250 H710 M500 55 V160 M500 440 V335" />
+        <path class="gold-fill soft" d="M315 110 H685 V390 H315Z" />
+        <path class="gold-line heavy" d="M170 250 H830 M500 115 V385" />
+        <g class="ink-fill">
+          <rect x="220" y="105" width="45" height="35" /><rect x="220" y="360" width="45" height="35" />
+          <rect x="735" y="105" width="45" height="35" /><rect x="735" y="360" width="45" height="35" />
+        </g>
+        <text class="label" x="395" y="240">interior park</text>
+        <text class="gold-text" x="390" y="285">pedestrian route</text>
+        <text class="label" x="105" y="475">collector road</text>
+        <text class="label" x="740" y="240">cul-de-sac</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "tree-web" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="tree-title">
+        <title id="tree-title">Tree and semi-lattice networks</title>
+        <text class="panel-title" x="210" y="48">tree</text>
+        <text class="panel-title" x="690" y="48">semi-lattice</text>
+        <g class="ink-line">
+          <path d="M250 100 L150 220 M250 100 L350 220 M150 220 L95 355 M150 220 L205 355 M350 220 L295 355 M350 220 L405 355" />
+          <path d="M730 100 L620 220 M730 100 L840 220 M620 220 L565 355 M620 220 L675 355 M840 220 L785 355 M840 220 L895 355" />
+        </g>
+        <g class="gold-line">
+          <path d="M565 355 L675 355 L785 355 L895 355 M620 220 L840 220 M675 355 L785 355" />
+        </g>
+        <g class="ink-fill">
+          {[250,150,350,95,205,295,405].map((x,i)=><circle cx={x} cy={i===0?100:i<3?220:355} r="14" />)}
+          {[730,620,840,565,675,785,895].map((x,i)=><circle cx={x} cy={i===0?100:i<3?220:355} r="14" />)}
+        </g>
+        <text class="tiny" x="120" y="430">one path between any pair</text>
+        <text class="tiny" x="612" y="430">overlap creates alternatives</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "street-patterns" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="patterns-title">
+        <title id="patterns-title">Three street patterns at the same scale</title>
+        <g class="gold-line"><rect x="35" y="70" width="270" height="340" /><rect x="365" y="70" width="270" height="340" /><rect x="695" y="70" width="270" height="340" /></g>
+        <g class="ink-line">
+          <path d="M35 155 H305 M35 240 H305 M35 325 H305 M103 70 V410 M170 70 V410 M237 70 V410" />
+          <path d="M365 145 C455 125 470 205 635 155 M365 290 C450 245 520 350 635 300 M430 70 C410 155 500 210 470 410 M565 70 C600 165 510 255 590 410" />
+          <rect x="725" y="105" width="210" height="270" rx="55" /><path d="M725 240 H815 M935 240 H845" />
+        </g>
+        <text class="panel-title" x="110" y="455">80 m grid</text>
+        <text class="panel-title" x="420" y="455">160 m organic</text>
+        <text class="panel-title" x="755" y="455">superblock</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "perry" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="perry-title">
+        <title id="perry-title">Perry's neighbourhood unit</title>
+        <rect class="ink-line heavy no-fill" x="185" y="45" width="630" height="410" />
+        <circle class="gold-line dash" cx="500" cy="250" r="160" />
+        <g class="ink-line"><path d="M250 95 L420 205 M750 95 L580 205 M250 405 L420 295 M750 405 L580 295" /></g>
+        <rect class="gold-fill" x="445" y="210" width="110" height="80" />
+        <g class="ink-fill"><rect x="165" y="25" width="40" height="40" /><rect x="795" y="25" width="40" height="40" /><rect x="165" y="435" width="40" height="40" /><rect x="795" y="435" width="40" height="40" /></g>
+        <text class="label invert" x="466" y="258">school</text>
+        <text class="gold-text" x="555" y="160">¼-mile radius</text>
+        <text class="label" x="365" y="486">arterials carry traffic around</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "pollution" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="pollution-title">
+        <title id="pollution-title">Two industrial sites and their pollution paths</title>
+        <path class="gold-line heavy" d="M20 120 C250 135 330 270 520 280 S780 280 980 410" />
+        <path class="ink-line" d="M390 40 V455" />
+        <g class="ink-fill"><rect x="170" y="150" width="150" height="90" /><rect x="610" y="320" width="150" height="90" /></g>
+        <path class="gold-fill soft" d="M320 165 C470 130 570 175 690 220 C560 270 445 265 320 225Z" />
+        <path class="gold-fill hatch" d="M760 335 C850 310 930 330 990 375 V455 C900 430 830 405 760 395Z" />
+        <text class="label" x="176" y="140">Reach counterfactual</text>
+        <text class="label" x="625" y="455">Pellow cells</text>
+        <text class="gold-text" x="58" y="88">WNW wind ↘</text>
+        <text class="tiny" x="420" y="110">housing</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "amenity-radius" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="amenity-title">
+        <title id="amenity-title">Amenity catchment over Halstead Reach</title>
+        <g class="ink-line thin">
+          <path d="M80 110 H920 M80 210 H920 M80 310 H920 M80 410 H920 M180 50 V460 M330 50 V460 M480 50 V460 M630 50 V460 M780 50 V460" />
+        </g>
+        <path class="ink-line heavy" d="M480 25 V475" />
+        <path class="ink-line heavy" d="M80 310 H920" />
+        <circle class="gold-line heavy dash" cx="480" cy="310" r="175" />
+        <rect class="gold-fill" x="450" y="280" width="60" height="60" />
+        <text class="label invert" x="460" y="317">clinic</text>
+        <text class="gold-text" x="610" y="175">15-minute walk</text>
+        <text class="label" x="500" y="292">Pelling Street</text>
+        <text class="tiny" x="500" y="48">Kerrow corridor</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "tod-rings" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="tod-title">
+        <title id="tod-title">Transit-oriented development bands</title>
+        <circle class="gold-fill soft" cx="500" cy="250" r="210" />
+        <circle class="gold-fill hatch" cx="500" cy="250" r="140" />
+        <circle class="gold-fill" cx="500" cy="250" r="70" />
+        <rect class="ink-fill" x="475" y="225" width="50" height="50" />
+        <text class="label invert" x="486" y="258">stop</text>
+        <text class="label" x="525" y="205">200 m · highest intensity</text>
+        <text class="label" x="620" y="285">400 m · mixed uses</text>
+        <text class="label" x="710" y="360">600 m · walkable edge</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "transit-line" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="transit-title">
+        <title id="transit-title">Six-stop Kerrow corridor bus line</title>
+        <path class="ink-line heavy" d="M100 250 H900" />
+        {[100,260,420,580,740,900].map((x)=><circle class="gold-fill" cx={x} cy="250" r="22" />)}
+        <g class="gold-line dash"><circle cx="100" cy="250" r="88" /><circle cx="260" cy="250" r="88" /><circle cx="420" cy="250" r="88" /><circle cx="580" cy="250" r="88" /><circle cx="740" cy="250" r="88" /><circle cx="900" cy="250" r="88" /></g>
+        <text class="label" x="55" y="395">Denton Hill</text>
+        <text class="label" x="795" y="395">Barrow Fields</text>
+        <text class="gold-text" x="392" y="120">walk catchments overlap</text>
+        <text class="tiny" x="375" y="475">four buses · headway timed manually</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "braess" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="braess-title">
+        <title id="braess-title">Braess network with tempting new link</title>
+        <g class="ink-line heavy"><path d="M120 250 L430 95 L880 250 M120 250 L430 405 L880 250" /></g>
+        <path class="gold-line heavy dash" d="M430 95 V405" />
+        <g class="ink-fill"><circle cx="120" cy="250" r="24" /><circle cx="430" cy="95" r="24" /><circle cx="430" cy="405" r="24" /><circle cx="880" cy="250" r="24" /></g>
+        <text class="label" x="45" y="260">Start</text><text class="label" x="910" y="260">End</text>
+        <text class="tiny" x="240" y="145">T ÷ 100</text><text class="tiny" x="650" y="145">45 min</text>
+        <text class="tiny" x="240" y="385">45 min</text><text class="tiny" x="650" y="385">T ÷ 100</text>
+        <text class="gold-text" x="452" y="260">new zero-time link</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "capacity-curve" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="capacity-title">
+        <title id="capacity-title">Capacity stays quiet, then falls sharply</title>
+        <path class="ink-line" d="M90 30 V425 H950" />
+        <rect class="gold-fill soft" x="720" y="30" width="135" height="395" />
+        <path class="ink-line heavy" d="M90 95 H690 Q780 98 820 135 Q850 180 865 405 H950" />
+        <path class="gold-line dash heavy" d="M855 30 V425" />
+        <text class="label" x="180" y="75">flat, therefore invisible</text>
+        <text class="label" x="730" y="155">the knee</text>
+        <text class="label" x="875" y="300">the cliff</text>
+        <text class="gold-text" x="665" y="465">installed capacity</text>
+        <text class="tiny" x="300" y="478">network load →</text>
+        <text class="tiny rotate" x="-330" y="28">service delivered →</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "failure-geometries" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="failure-title">
+        <title id="failure-title">Radius coverage and network capacity</title>
+        <text class="panel-title" x="165" y="45">radius: services</text><text class="panel-title" x="650" y="45">network: utilities</text>
+        <rect class="ink-line no-fill" x="70" y="75" width="360" height="330" />
+        <circle class="gold-line dash" cx="250" cy="240" r="118" /><circle class="ink-fill" cx="250" cy="240" r="18" />
+        <g class="ink-fill"><rect x="150" y="160" width="24" height="24" /><rect x="315" y="280" width="24" height="24" /></g>
+        <g class="gold-line"><rect x="92" y="95" width="24" height="24" /><rect x="388" y="360" width="24" height="24" /></g>
+        <path class="ink-line heavy" d="M530 230 H930 M650 230 V335 M780 230 V335 M900 230 V335" />
+        <circle class="ink-fill" cx="530" cy="230" r="20" />
+        <g class="gold-fill"><rect x="615" y="330" width="70" height="50" /><rect x="745" y="330" width="70" height="50" /><rect x="865" y="330" width="70" height="50" /></g>
+        <text class="tiny" x="140" y="455">degrades at the edge</text><text class="tiny" x="675" y="455">fails along the graph</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "utility-network" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="utility-title">
+        <title id="utility-title">Kerrow corridor water and sewage network</title>
+        <path class="gold-line heavy" d="M30 430 H970" /><text class="gold-text" x="420" y="470">River Kerrow →</text>
+        <rect class="ink-line no-fill" x="60" y="55" width="210" height="85" /><text class="label" x="82" y="91">Farrant treatment</text><text class="tiny" x="82" y="120">processing 88%</text>
+        <rect class="ink-line no-fill" x="710" y="55" width="220" height="85" /><text class="label" x="734" y="91">Wensley Bank pump</text><text class="tiny" x="734" y="120">production 92%</text>
+        <path class="ink-line heavy" d="M820 140 V210 H145" />
+        {[180,370,560,750].map((x)=><path class="ink-line" d={`M${x} 210 V290`} />)}
+        {["Halstead Reach","Ockley Green","Ombersley Flats","Farrant Row"].map((name,i)=><g><rect class="ink-line no-fill" x={105+i*190} y="290" width="150" height="65" /><text class="tiny" x={120+i*190} y="328">{name}</text></g>)}
+        <path class="gold-line dash" d="M170 430 C350 365 560 375 790 430" />
+        <text class="gold-text" x="350" y="402">outfall plume → intake</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "trunk-failure" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="trunk-title">
+        <title id="trunk-title">A citywide shortfall, not a pressure gradient</title>
+        <path class="ink-line heavy" d="M80 300 H930" />
+        <circle class="ink-fill" cx="80" cy="300" r="25" />
+        {[250,450,650,850].map((x)=><path class="ink-line" d={`M${x} 280 V320`} />)}
+        <rect class="gold-fill soft" x="80" y="130" width="770" height="100" />
+        <path class="gold-line heavy" d="M80 230 H850" />
+        <text class="label" x="195" y="355">Halstead</text><text class="label" x="405" y="355">Ockley</text><text class="label" x="590" y="355">Ombersley</text><text class="label" x="815" y="355">Farrant</text>
+        <text class="gold-text" x="270" y="190">production falls short across the connected graph</text>
+        <text class="tiny" x="245" y="440">The block that adds load is not the only block exposed.</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "cascade-ring" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="cascade-ring-title">
+        <title id="cascade-ring-title">Infrastructure cascade</title>
+        {[
+          [390,35,"1  pump upgrade"],
+          [690,105,"2  sewage load"],
+          [720,300,"3  discharge"],
+          [390,385,"4  plume at intake"],
+          [75,300,"5  sickness"],
+          [55,105,"6  healthcare spend"],
+        ].map(([x,y,label])=><g><rect class="ink-line no-fill" x={x} y={y} width="235" height="70" rx="12" /><text class="tiny" x={Number(x)+18} y={Number(y)+42}>{label}</text></g>)}
+        <path class="gold-line heavy" d="M625 70 L690 125 M810 175 L820 300 M720 360 L625 410 M390 420 L310 370 M75 300 L75 175 M290 105 L390 70" />
+        <text class="gold-text" x="400" y="265">the fix moves the failure</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "cascade-sequence" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="cascade-title">
+        <title id="cascade-title">Eight-step infrastructure cascade</title>
+        {["rezoning","load > capacity","shortfall","abandonment","tax base falls","upgrade","polluted intake","health spend"].map((label,i)=>{const x=55+(i%4)*235;const y=i<4?90:315;return <g><rect class={i===2?"gold-fill":"ink-line no-fill"} x={x} y={y} width="185" height="80" rx="10" /><text class={i===2?"label invert":"tiny"} x={x+15} y={y+46}>{i+1}. {label}</text></g>})}
+        <g class="gold-line heavy"><path d="M240 130 H290 M475 130 H525 M710 130 H760 M850 170 V315 M760 355 H710 M525 355 H475 M290 355 H240" /></g>
+        <path class="gold-line dash" d="M55 355 C15 355 15 230 55 130" />
+        <text class="gold-text" x="375" y="255">three weeks from readout to street</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "value-uplift" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="uplift-title">
+        <title id="uplift-title">The same blocks before and after public investment</title>
+        {[70,560].map((base)=><g>{[0,1,2].map(c=>[0,1].map(r=><rect class="ink-line no-fill" x={base+c*125} y={105+r*125} width="105" height="100" />))}</g>)}
+        <path class="gold-line heavy" d="M535 80 V385" /><circle class="gold-fill" cx="755" cy="355" r="32" />
+        <text class="panel-title" x="120" y="55">before</text><text class="panel-title" x="650" y="55">after transit + park</text>
+        <text class="tiny" x="125" y="395">value index 100</text><text class="gold-text" x="650" y="395">value index 143</text>
+        <text class="tiny" x="220" y="460">The buildings did not create the uplift alone.</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "funding-curve" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="funding-title">
+        <title id="funding-title">Service funding response curve</title>
+        <path class="ink-line" d="M90 30 V425 H950" />
+        <path class="ink-line heavy" d="M90 390 Q250 370 410 275 Q555 160 690 115 Q820 85 950 75" />
+        <path class="gold-line dash heavy" d="M590 30 V425" />
+        <text class="label" x="145" y="335">visible service loss</text><text class="label" x="650" y="150">diminishing return</text>
+        <text class="gold-text" x="520" y="465">default funding</text>
+        <text class="tiny" x="300" y="490">service funding →</text>
+        <text class="tiny rotate" x="-320" y="28">service delivered →</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "frontage" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="frontage-title">
+        <title id="frontage-title">Single-use and mixed frontage at 13:00 and 22:00</title>
+        <text class="panel-title" x="120" y="45">single-use strip</text><text class="panel-title" x="650" y="45">mixed frontage</text>
+        <rect class="ink-fill" x="75" y="95" width="340" height="90" /><rect class="gold-fill hatch" x="75" y="195" width="340" height="100" />
+        <rect class="ink-fill" x="585" y="95" width="340" height="160" /><g class="gold-fill"><rect x="610" y="205" width="65" height="50" /><rect x="720" y="205" width="65" height="50" /><rect x="830" y="205" width="65" height="50" /></g>
+        <path class="ink-line heavy" d="M55 330 H435 M565 330 H945" />
+        {[115,165,215,265,315,365].map(x=><circle class="gold-fill" cx={x} cy="318" r="10" />)}
+        {[615,670,725,780,835,890].map(x=><circle class="gold-fill" cx={x} cy="318" r="10" />)}
+        <text class="tiny" x="125" y="390">13:00 · 6</text><text class="tiny" x="275" y="390">22:00 · 0</text>
+        <text class="tiny" x="640" y="390">13:00 · 7</text><text class="gold-text" x="800" y="390">22:00 · 5</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "plaza" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="plaza-title">
+        <title id="plaza-title">Six faults in the Halstead Reach civic plaza</title>
+        <rect class="ink-line heavy no-fill" x="300" y="65" width="360" height="360" />
+        <rect class="ink-fill" x="300" y="65" width="360" height="70" />
+        <path class="ink-line heavy" d="M250 425 H710 M250 455 H710" />
+        <path class="gold-fill hatch" d="M300 135 H660 V250 H300Z" />
+        {[[290,420],[350,315],[660,300],[565,145],[470,425],[660,220]].map(([x,y],i)=><g><circle class="gold-fill" cx={x} cy={y} r="22" /><text class="label invert" x={x-6} y={y+7}>{i+1}</text></g>)}
+        <text class="tiny" x="30" y="100">1 level change</text><text class="tiny" x="30" y="150">2 only 11 m seating</text><text class="tiny" x="30" y="200">3 food 140 m away</text>
+        <text class="tiny" x="720" y="100">4 shadow after 14:00</text><text class="tiny" x="720" y="150">5 desire lines blocked</text><text class="tiny" x="720" y="200">6 thin catchment</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "resilience-curve" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="resilience-title">
+        <title id="resilience-title">Service capacity against three hazard loads</title>
+        <path class="ink-line" d="M90 30 V425 H950" />
+        <path class="ink-line heavy" d="M90 100 H680 Q760 105 805 220 Q835 330 850 410" />
+        <path class="gold-line heavy" d="M350 70 V425 M625 70 V425 M820 70 V425" />
+        <text class="gold-text" x="290" y="465">median week</text><text class="gold-text" x="555" y="465">worst week</text><text class="gold-text" x="765" y="445">+ one outage</text>
+        <text class="label" x="700" y="90">designed edge</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "tuckwell" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="tuckwell-title">
+        <title id="tuckwell-title">Tuckwell Bend intake, outfall and wind</title>
+        <path class="ink-line heavy" d="M40 330 C240 120 430 125 560 300 S800 430 960 255" />
+        <rect class="ink-fill" x="210" y="145" width="55" height="55" /><rect class="ink-fill" x="680" y="350" width="55" height="55" />
+        <path class="gold-fill soft" d="M705 335 C760 250 860 220 960 250 L960 365 C850 360 770 370 705 390Z" />
+        <path class="gold-line heavy" d="M80 70 L300 170" />
+        <text class="gold-text" x="45" y="55">WNW wind ↘</text><text class="label" x="145" y="130">intake upstream</text><text class="label" x="640" y="435">outfall downstream</text>
+        <text class="gold-text" x="790" y="300">plume moves away</text><text class="tiny" x="410" y="245">Tuckwell Bend →</text>
+      </svg>
+    )
+  }
+
+  {
+    kind === "value-history" && (
+      <svg viewBox="0 0 1000 500" role="img" aria-labelledby="history-title">
+        <title id="history-title">Kerrow corridor land value, Weeks 1 to 11</title>
+        <path class="ink-line" d="M90 35 V425 H950" />
+        <path class="ink-line heavy" d="M90 390 L175 370 L260 345 L345 300 L430 270 L515 210 L600 190 L685 140 L770 115 L855 92 L940 78" />
+        <g class="gold-line dash"><path d="M345 35 V425 M600 35 V425 M770 35 V425" /></g>
+        <text class="gold-text" x="300" y="465">transit</text><text class="gold-text" x="555" y="465">utilities</text><text class="gold-text" x="730" y="465">public realm</text>
+        <text class="label" x="105" y="375">100</text><text class="label" x="860" y="70">214</text>
+        <text class="tiny" x="390" y="495">week 1 → week 11</text>
+      </svg>
+    )
+  }
+
+  {
+    ![
+      "basin","radburn","tree-web","street-patterns","perry","pollution",
+      "amenity-radius","tod-rings","transit-line","braess","capacity-curve",
+      "failure-geometries","utility-network","trunk-failure","cascade-ring",
+      "cascade-sequence","value-uplift","funding-curve","frontage","plaza",
+      "resilience-curve","tuckwell","value-history",
+    ].includes(kind) && <p>Diagram unavailable: {kind}</p>
+  }
+</figure>
