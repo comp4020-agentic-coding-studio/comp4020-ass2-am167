@@ -558,3 +558,23 @@ agents.
   and an explicit weekly subject anchor. Added an adversarial prospective-
   student review protocol to `CLAUDE.md` because enrolment appeal needs human
   judgement, not a synthetic score.
+
+## 2026-09-02 — Lecture-review corrections: evidence and canon
+
+Turned the adversarial review's methodological finding into the lecture plan's
+default rule: bare UI fields are direct evidence, formulas and protocols are
+derived evidence, and every fixed scenario value remains a worked hypothetical
+until a pinned-build evidence pack identifies its save, state, run and source.
+Added a week-by-week place/use register, fixed the Kerrow corridor north–south,
+made Ludworth Bench the named shelf on Verrall Ridge, kept the Pellow cells
+industrial, settled Week 5 on a six-stop bus with four vehicles, and replaced
+the unsupported Week 10 flood premise with a documented forest-fire load case.
+
+## 2026-09-02 — Adversarial review of all studio plans
+
+Ran three fresh adversarial reviews across Weeks 1–4, 5–8 and 9–12, then
+collated their factual, pedagogical, timing, assessment and continuity findings
+in `notes/studio-adversarial-review.md`. Review only: no studio plan, session
+body, assessment brief or policy was revised. The plans remain not approved for
+production pending an evidence pack, a coherent save/source chain, authoritative
+assessment briefs and structural repairs to Weeks 2, 4, 7–8, 10 and 12.

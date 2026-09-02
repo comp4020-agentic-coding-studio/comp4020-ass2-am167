@@ -7,14 +7,15 @@ turns on, and the slide-by-slide content. Where a plan gives bullet text, table
 rows, a pull-quote or a diagram description, that is the content to use, not a
 suggestion of the kind of content to invent.
 
-**Status.** Plans only, and **not approved for production after adversarial
-review on 2026-09-01**. No deck in `src/decks/` has been built from these plans,
-and the twelve lecture bodies in `src/content/lectures/` are still
-`STARTER_CONTENT` placeholders. The review found unsupported game mechanics and
-non-reproducible datasets throughout the plans; see
-`notes/lecture-adversarial-review.md` before writing a lecture body or deck.
-Writing a lecture body and building its deck are separate jobs; this file serves
-both once those blockers are resolved.
+**Status.** Plans only, **revised against the adversarial review on
+2026-09-02**. The mechanics, geography, delivery mode and evidence language in
+the plans now follow the corrections in `notes/lecture-adversarial-review.md`.
+No deck in `src/decks/` has been built from them, and the twelve lecture bodies
+in `src/content/lectures/` are still `STARTER_CONTENT` placeholders. Production
+use remains gated on the reference evidence pack described below: until it
+exists, all fixed scenario values are worked hypotheticals, not claims about a
+save students will receive. Writing a lecture body and building its deck are
+separate jobs; this file is the source for both.
 
 ## How to use this file
 
@@ -59,8 +60,7 @@ average travel-time readout and present it as native UI.
 
 ## Evidence rule after adversarial review
 
-The plans below currently mix three kinds of evidence without labelling them.
-Any revision must mark each figure or claim as one of:
+Every figure and mechanic claim uses one of three labels:
 
 - **direct readout** — visible in the current course build's UI;
 - **derived measure** — calculated from named direct readouts, with the working
@@ -68,12 +68,22 @@ Any revision must mark each figure or claim as one of:
 - **worked hypothetical** — invented to teach a method and never described as
   a result the simulation “will” produce.
 
-Exact outcomes require a versioned reference save or a reproducible measurement
-protocol. The repo currently contains neither, so no fixed population, cost,
-headway, travel-time, land-value, household, pollution, capacity or modal-share
-number below is approved as a direct readout. The game must also be pinned to a
-version before a deck is built: its economy and transport systems have changed
-since release.
+For this document as it stands, **named UI fields with no claimed value are
+direct readouts; calculations with a displayed formula or sampling protocol are
+derived measures; every fixed scenario value and outcome is a worked
+hypothetical.** That default applies even where a slide does not repeat the
+label beside every row. A hypothetical may illustrate a decision, but the
+speaker may not say that the simulation “will”, “always” or “exactly” produce
+it.
+
+Promoting a worked hypothetical to a reference result requires an evidence-pack
+row recording all of: game version and platform; save identifier and checksum;
+starting state; intervention; elapsed simulation time; time of day; UI source;
+manual sampling window; and calculation. The same pack must contain the
+canonical Kerrow Basin map and the save that generated the value. The repo does
+not yet contain that pack, so no fixed population, cost, headway, travel-time,
+land-value, household, pollution, capacity or modal-share number below is a
+direct readout. Pin the course build before building the Week 7 deck.
 
 They are also the marking criteria for every weighted assessment, so a lecture
 that names a tradeoff between two of them is naming something a student will be
@@ -122,25 +132,42 @@ as fixed.
 
 | Feature | What it is |
 |---|---|
-| **Kerrow Basin** | the standard map issued in Week 1. The River Kerrow runs north-west to south-east; prevailing wind is WNW. |
-| **Halstead Reach** | the flat north-east terrace, roughly 4 × 2 km, fertile soil. The semester's primary build site. |
-| **Verrall Ridge** | south-west, rising ~90 m over 1.5 km, ore in the flank. The costly alternative siting in Week 1. |
-| **Ombersley Flats** | south-east, downwind and downstream of the whole basin, floodable. Zoned in Week 3, and the site of the Week 7 service failure and the Week 10 flood decision. |
+| **Kerrow Basin** | the standard map issued in Week 1. The River Kerrow runs north-west to south-east; prevailing wind is WNW. This orientation is fixed; dimensions remain worked hypotheticals until the map ships. |
+| **Halstead Reach** | the flat north-east terrace and the semester's primary build site. Its quoted dimensions are worked hypotheticals until measured from the canonical map. |
+| **Verrall Ridge / Ludworth Bench** | Verrall Ridge is the south-west landform; Ludworth Bench is the one shelf on it considered as the costly Week 1 settlement alternative. Week 10's supported forest-fire scenario begins on the forested ridge. |
+| **Ombersley Flats / the Pellow cells** | Ombersley Flats is the south-east ground, downwind and downstream of the basin. The Pellow cells are the industrial cells zoned there in Week 3. They remain industrial; no later week silently converts them to housing. |
 | **Thackray Cut** | the only westward road gradient off the Reach. |
-| **Dunthorpe interchange** | highway connection, north edge, 1.2 km from the Reach. |
+| **Dunthorpe interchange** | highway connection at the north edge. The quoted connection length is a worked hypothetical pending the map. |
 | **Kerrow corridor** | the main north–south arterial. Widened in Week 6, and the last four blocks of it are Week 11's case. |
 | **Tuckwell Bend** | the river bend the low-lying Ombersley blocks sit inside. |
 | Lesser places | Pelling Street, Denton Hill, Barrow Fields, Wickstead junction (Weeks 4–6); Ockley Green, Wensley Bank pumping station, Farrant Row (Weeks 7–9). |
 
-**Standing measurement conventions**, set in Week 1 and assumed by every later
-week: readings are trends, not moments; every reading is taken at in-game 08:00
-and the memo says so; a plan claiming all three metrics improved has not been
-read carefully.
+### Place and use register
 
-**Money.** Weeks 7–9 write currency as `₡` (e.g. `₡6,800/month`). Weeks 1–6 and
-10–12 give bare figures. Whoever builds a deck should use `₡` throughout — it is
-the simulation's own symbol, and mixed notation across a semester reads as an
-error.
+| Week | Canonical change carried forward |
+| --- | --- |
+| 1 | The cohort selects Halstead Reach; Ludworth Bench remains the measured counterfactual, not a second name for the ridge. |
+| 2 | The residential block comparison is 80 m versus 160 m on Halstead Reach. |
+| 3 | Industry is zoned only in the Pellow cells on Ombersley Flats; the comparison site on the Reach is a sandbox counterfactual. |
+| 4 | The amenity core is on Pelling Street beside the north–south Kerrow corridor. |
+| 5 | The canonical mode is a six-stop **bus** from Denton Hill to Barrow Fields, initially assigned four buses; headway is timed manually. |
+| 6 | Wickstead is widened on the north–south Kerrow corridor. |
+| 7 | No land use changes. Growth exposes citywide water-production and sewage-treatment shortfalls; the pipes themselves have no claimed capacity or pressure reading. |
+| 8–9 | Ockley Green and Farrant Row receive the budget and public-realm decisions; the Pellow cells remain industrial. |
+| 10 | A supported forest-fire load case begins on Verrall Ridge and tests Thackray Cut, power transmission and fire response. There is no vanilla flood scenario. |
+| 11–12 | The last four Kerrow-corridor blocks and the proposed cross-town link are planning decisions, not new place names. |
+
+**Standing measurement conventions**, set in Week 1 and assumed by every later
+week: readings are trends, not moments; every direct reading names its UI field
+and is taken at in-game 08:00; every manual observation records its route,
+sampling window and weather state; every derivation shows its inputs. When all
+three composites appear to improve, inspect distribution and omitted fields
+before concluding that no trade occurred — Week 11 is the deliberate case.
+
+**Money.** Use `₡` throughout. A citywide budget-panel value is labelled
+**direct readout**; a district or corridor allocation is labelled **studio
+worksheet**; a fixed value in these unverified plans is a **worked
+hypothetical**.
 
 **Assessment structure.** The repo ships **three** assessments and the files in
 `src/content/assessments/` are authoritative:
