@@ -23,8 +23,9 @@ entire point of having them.
 The visiting critic has not watched you build your district. They were not at
 the desk crit where you explained the reasoning, or the Week 5 session where the
 transit spine made sense to everyone in the room. They arrive with your
-screenshots, your defence memo and twenty minutes, which is roughly what a plan
-gets in professional practice before somebody decides about it.
+screenshots, your defence memo and the clock the brief names — six minutes in
+Week 4, four at the Week 9 wall, fifteen at the capstone — which is roughly what
+a plan gets in professional practice before somebody decides about it.
 
 That makes the jury the studio's best test of whether an argument is actually in
 the work or only in your head. Students find this the hardest room of the

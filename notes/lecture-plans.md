@@ -3342,12 +3342,12 @@ recorded against a livability benefit.
   ## Assessment 2 is due today
 
   *Public Realm & Infrastructure Plan* — 25% of the studio.
-  Pinned up before the jury sits: **Marisol Quaye** (chair), **Tobias Wren**,
-  **Sunniva Marek**.
+  Pinned up before the jury sits: **Tobias Wren** (chair), **Sunniva Marek**.
+  The Course Convenor is not in the room this week.
 
   Sunniva Marek is a principal at Kesselring & Marek and is not teaching staff.
   They were not at your desk crit. They arrive with your screenshots, your
-  memo, and twenty minutes.
+  memo, and the four-minute wall clock the brief names.
 
   **Notes:** The guest juror's ignorance of the process is the point of having
   them. An argument that only exists in the student's head reads as absent, and
@@ -3365,7 +3365,7 @@ recorded against a livability benefit.
   | Deliverable A | 8–12 in-simulation screenshots, captioned, including at least one attractiveness overlay, one land value overlay, one water or sewage info-view, and one street-level view at night |
   | Deliverable B | defence memo, 1,200 words maximum, structured against the three criteria in that order |
   | Deliverable C | one costed budget line for every public space proposed, monthly, funded from the closure you set in Week 8 |
-  | Format | twenty minutes at the jury: eight presenting, twelve defending |
+  | Format | four minutes at the wall: ninety seconds for one claim, the rest for questions; changeover inside the four minutes |
 
   The three criteria are not three sections of a plan. They are three claims
   about the same plan, and a memo that argues each one separately is arguing
@@ -4740,8 +4740,9 @@ whether you decided your tradeoffs or discovered them afterwards.
 
 - Structure a comprehensive plan as a single claim with grounds, warrant,
   qualifier and rebuttal, and state that claim in one sentence.
-- Sequence a twenty-minute jury walk-through across five scales and five info
-  views, with a stated purpose for each.
+- Sequence a fifteen-minute jury defence across five scales and five info
+  views, with a stated purpose for each. The walk-through is the five-minute
+  present.
 - Defend a tradeoff in the studio's three named metrics rather than apologise
   for a low number, using the two-column form given on slide 9.
 - Present the Comprehensive City Plan at the final pin-up under the studio's
@@ -4793,14 +4794,16 @@ accumulated surplus at the plan's final year buys, and it has to be taken
 before 12:00 today.
 
 - **Build the Kerrow cross-town link.** The spine currently runs north–south
-  only. The cross-town link raises the district's non-car trip share from 38
-  per cent to a modelled 46 per cent and puts the eastern employment area
-  inside the catchment. It consumes the whole surplus and pushes the annual
-  balance negative for the first three years of stage three.
+  only. The link puts the Pellow industrial cells inside the catchment. Transit
+  share (observation worksheet, **17%** in the reference row) and walk share
+  (**31%**, a different denominator) stay separate and are not added. Any
+  further transit points are a **worksheet forecast**, not a UI field. The
+  link consumes the whole surplus and pushes the annual balance negative for
+  the first years of staging, also on the worksheet.
 - **Hold the surplus as reserve.** The annual balance stays positive through
   every year of the plan, which is the answer to the question the jury asks
-  every single year: what happens in year fifteen. Mobility performance stays
-  at 38 per cent and the eastern employment area stays car-dependent.
+  every single year: what happens in year fifteen. Transit stays at the
+  current worksheet reading and the Pellow cells stay outside the catchment.
 
 Both are defensible and the plan's argument changes depending on which is
 taken, because the surplus is the only uncommitted money left. What is not
@@ -4818,7 +4821,8 @@ against the qualifier.
    > # The Comprehensive Plan
    > Week 12 · Marisol Quaye · 24 May 2027
    >
-   > The artefact is due at 12:00. The jury sits at 14:00.
+   > The memo was lodged Friday. The artefact is due at 12:00.
+   > The jury sits at 13:00, in two rooms.
    > This is the last hour in which anything is still a decision.
 
    **Notes:** Short lecture, and the room knows why. Do not pad it. Every
@@ -4827,15 +4831,17 @@ against the qualifier.
 2. **Slide 2 — The clock** `class: —`
 
    Content, as a plain list:
-   - **12:00 today** — the artefact. In-simulation screenshots and the defence
-     memo, including the omissions appendix drafted last week. Five percentage
-     points per calendar day after that, weekends included; not marked at all
-     past five days.
-   - **13:45** — presentation order drawn in Studio 2.14.
-   - **14:00** — the jury. The Course Convenor, your cohort, and Sunniva Marek
-     of Kesselring & Marek, who is in the building this afternoon and no other.
-   - **Twenty minutes each.** Roughly nine minutes of walk-through and eleven
-     of questions, and the ratio is not negotiable by talking for longer.
+   - **Friday 21 May 12:00** — jury copy of the memo, including the omissions
+     appendix. Both chairs pre-read over the weekend.
+   - **12:00 today** — the artefact, as the A3 brief: memo, screenshots, two A1
+     boards, save. Five percentage points per calendar day after that, weekends
+     included; not marked at all past five days.
+   - **12:15–12:50** — boards hung in **roster order** in 2.14 and 2.16. The
+     wall is not rearranged after the draw.
+   - **12:50** — presentation order drawn and posted.
+   - **13:00** — the jury, two rooms. Quaye chairs 2.14; Marek chairs 2.16;
+     Fenn, Ilkhom and Wren sit. Fifteen minutes each (five presenting). Week 4
+     did not use a twenty-minute slot.
    - Miss the jury and the plan is marked from the memo alone, which means the
      memo has to answer, unprompted, every question the room would have asked.
      Most memos do not.
@@ -4843,8 +4849,9 @@ against the qualifier.
      you are not being marked. A jury with no audience is two people looking at
      a screenshot.
 
-   **Notes:** Straight from the studio policies page, and worth reading out
-   because a third of the room has not opened it since Week 1.
+   **Notes:** Straight from the A3 brief, which overrides the standing 14:00
+   pin-up start. Worth reading out because a third of the room has not opened
+   the brief since it was issued.
 
 3. **Slide 3 — Holistic marking, and what it does not mean** `class: —`
 
@@ -4868,7 +4875,7 @@ against the qualifier.
 
    Content:
    - The failure mode of every capstone is the tour: here is the transit, here
-     is the industry, here is the park chain, here is the water. Twenty minutes
+     is the industry, here is the park chain, here is the water. Fifteen minutes
      of true statements adding up to no position.
    - Alan Altshuler (1965) put the difficulty precisely: comprehensiveness is a
      claim to have integrated goals that a planner cannot in fact know well
@@ -4934,14 +4941,14 @@ against the qualifier.
 
    | Move | On screen | What you say | Time |
    | --- | --- | --- | --- |
-   | 1 | Full district extent, roads only, no overlay | The site, and the one constraint that set the plan | 60 s |
-   | 2 | Same extent, land value overlay | What the plan did, and where it landed | 90 s |
-   | 3 | The corridor at neighbourhood scale | The claim, in one sentence, with its grounds | 180 s |
-   | 4 | One block at street level | The thing the figures cannot show — what it is like to stand there | 90 s |
-   | 5 | Back to full extent, the three metric readouts | The trade you made, named | 90 s |
+   | 1 | Full district extent, roads only, no overlay | The site, and the one constraint that set the plan | 40 s |
+   | 2 | Same extent, land value overlay | What the plan did, and where it landed | 60 s |
+   | 3 | The corridor at neighbourhood scale | The claim, in one sentence, with its grounds | 120 s |
+   | 4 | One block at street level | The thing the figures cannot show — what it is like to stand there | 60 s |
+   | 5 | Back to full extent, the three metric readouts | The trade you made, named | 60 s |
 
-   Line beneath: nine minutes. The other eleven belong to the room, and the
-   room is where the marks are.
+   Line beneath: five minutes. The other ten belong to the room, and the
+   room is where the marks are. This is the A3 clock, not a twenty-minute slot.
 
    **Notes:** Move 4 is the one students cut when they are nervous, and it is
    the one the visiting critic remembers. Insist on it.
@@ -5086,7 +5093,7 @@ against the qualifier.
     > — Sunniva Marek, Kesselring & Marek
 
     Beneath, one line in the studio's voice: they have not watched you build
-    it. They have your screenshots, your memo and twenty minutes, which is
+    it. They have your screenshots, your memo and fifteen minutes, which is
     roughly what a plan gets in practice before somebody decides about it.
 
     **Notes:** Deck-builder: this is the visiting critic's own line and may be
@@ -5096,8 +5103,10 @@ against the qualifier.
 ### Studio session hand-off
 
 - There is no ordinary studio session this week. The afternoon is the final
-  pin-up in Studio 2.14: order drawn at 13:45, jury from 14:00, twenty minutes
-  each, and the cohort in the room for the whole afternoon.
+  pin-up in Studios 2.14 and 2.16: boards hung in roster order 12:15–12:50,
+  presentation order drawn at 12:50, jury from 13:00, fifteen minutes each,
+  and the cohort in the room for the whole afternoon. The A3 brief is the
+  authority; this lecture does not invent a second clock.
 - Students arrive at the jury with the save paused at the plan's final year,
   the five info views from slide 8 pre-checked on the presenting machine, and
   the memo open with the omissions appendix at the front.
@@ -5122,22 +5131,14 @@ whole document, and the appendix is what keeps the claims inside the evidence.
 
 ### Open questions for the writer
 
-- The studio calendar puts Week 12 on Monday 24 May and this plan assumes the
-  final pin-up runs that same afternoon, which makes the lecture the morning
-  briefing before the jury. `src/content/assessments/03-comprehensive-city-plan.md`
-  is authoritative on the 12:00 due time and 50% weight. The unresolved issue
-  is the defence: this lecture and the policies page say 14:00 in one room,
-  while the detailed Week 12 session plan uses two parallel rooms from 13:00 so
-  sixteen twenty-minute slots fit. Resolve that once across the course before
-  this lecture is written up.
+- Settled by the A3 brief and policies: memo Friday 21 May 12:00 for pre-read;
+  artefact Monday 24 May 12:00; two rooms from 13:00; fifteen minutes per plan
+  (five presenting); Week 4 did not use a 20-minute slot. When this lecture is
+  written, slide 7's walk-through is the five-minute present, not a
+  nine-plus-eleven twenty-minute split.
 - Slide 11's semester table is invented and internally consistent. Decide
   whether it is presented as the studio's reference save or explicitly as a
   worked example students rebuild from their own figures — the same decision
   Week 11's slides 5 and 8 need, and it should be taken once for both weeks.
-- The twenty-minute jury slot is split here as nine minutes of walk-through and
-  eleven of questions. Confirm that against the actual room booking and cohort
-  size; if the slot is fifteen minutes, slide 7's move 4 is the one to shorten
-  and move 2 is the one to cut, and the table should say so rather than leaving
-  students to improvise the trim.
 
 ---

@@ -20,8 +20,62 @@ related:
   - sessions/12-final-jury
 ---
 
-<!-- STARTER_CONTENT: replace this assessment brief, then remove this comment. -->
+Twelve weeks of district decisions, argued as one position. Holistic marking
+does not mean the three metrics stopped applying. It means no part of the plan
+can be carried by a strong score elsewhere, and that a fourth question sits
+beside them: Week 10's exposure, and what the model could not show.
 
-Scheduled but not yet written. The brief, the deliverable format and the spec
-this Comprehensive City Plan is held to land when it is written up; the weight
-and the marking model below are settled.
+This brief is the sole authority for memo, appendix, boards, screenshots and
+defence. The Week 12 studio is the jury.
+
+## Two clocks
+
+- **Friday 21 May 12:00 — jury copy of the defence memo**, including the
+  omissions appendix at the front. Both chairs pre-read all sixteen copies.
+  This is why the chairs can sit at 13:00 on Monday; it is not the artefact
+  deadline.
+- **Monday 24 May 12:00 — the artefact.** The same memo, the in-simulation
+  screenshots, two A1 boards, and the save `<student ID>-w12` at the plan's
+  final year, paused, at full district extent. Late work on this clock follows
+  the [studio policies](../../policies/) artefact rule.
+
+## What the artefact must contain
+
+- **A defence memo** that states a claim, the grounds, the warrant, the
+  qualifier as a number, and the rebuttal. The **omissions appendix** drafted
+  in Week 11 sits at the **front**, not the back.
+- **Screenshots** at the walk-through views named in the Week 12 session: full
+  extent roads only; land value overlay; corridor at neighbourhood scale; one
+  street-level block; the three metric readouts. Caption in-game day and 08:00.
+- **Spatial planning evidence on the boards** — named overlays, the corridor
+  budget sheet column, the unfunded list, the Week 10 exposure statement. Oral
+  polish without this evidence does not carry a 50% holistic mark.
+- A **metric card** is permitted in the slot: the three headline figures
+  written where you can see them. Memory is not the assessment.
+- Transit share and walk share keep **separate observation denominators**. Do
+  not add them. The long-range reserve-versus-link forecast is a worksheet, not
+  a UI field.
+
+## Defence
+
+**13:00**, not 14:00 — this brief overrides the standing pin-up start because
+sixteen fifteen-minute slots cannot start at 14:00. **Studio 2.14** (Marisol
+Quaye chair) and **Studio 2.16** (Sunniva Marek chair), eight students each.
+Idris Fenn, Nadia Ilkhom and Tobias Wren sit as booked panel.
+
+**Fifteen minutes** per plan: five presenting, then clarifying questions, then
+critique, then the presenter last. This is the policies clock, not Week 4's
+six minutes and not a twenty-minute slot.
+
+Boards hang in **roster order** from 12:15. The running order is **drawn at
+12:50** and does not rearrange the wall. Each student is seen live by one chair
+and one sitting tutor. Chairs do not swap rooms. The other chair's mark is from
+the Friday memo, the boards, and Friday's calibration.
+
+The last question of every slot is the fourth question: does the district hold
+under Week 10's fire load case, and what could the model not show.
+
+## Marking
+
+Holistic. The three metrics remain the language of the argument. A plan whose
+claims exceed its evidence is marked down across the whole document.

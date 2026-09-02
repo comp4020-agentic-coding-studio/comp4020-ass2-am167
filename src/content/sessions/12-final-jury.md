@@ -8,6 +8,9 @@ date: 2027-05-24
 teachers:
   - marisol-quaye
   - sunniva-marek
+  - idris-fenn
+  - nadia-ilkhom
+  - tobias-wren
 related:
   - lectures/week-12
 ---

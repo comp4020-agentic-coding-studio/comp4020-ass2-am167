@@ -583,3 +583,46 @@ assessment briefs and structural repairs to Weeks 2, 4, 7–8, 10 and 12.
 
 Updated `CLAUDE.md` so the adversarial-review exception may spawn only Luna in
 Codex or Sonnet in Claude Code. The restriction applies only to subagents.
+
+## 2026-09-02 — Studio-review corrections into plans and briefs
+
+Applied `notes/studio-adversarial-review.md`. Review found: missing evidence
+pack; weekly bodies ignoring their own evidence labels; studio sessions
+inventing A1–A3 requirements; contradictory personal/reference save chain;
+jury/lab rules disagreed with policies (15 machines vs 16 live saves; 13:00 vs
+14:00; 6/4/15/20 minute clocks); Weeks 2, 4, 7–8, 10 and 12 structurally
+unsafe; Week 10 flood not a vanilla mechanic; Week 7 boil-notice fiction;
+authorship disappearing mid-semester; formulaic crit.
+
+Changed: wrote A1–A3 briefs as sole submission authority; added a week-by-week
+save/source matrix and standing jury/lab operations to `notes/studio-plans.md`;
+Week 2 uses issued populated 80/160 checkpoints and path-count; Week 3 intake
+upstream, Scheme B a counterfactual, separate pollution overlays; Weeks 4/9/12
+are jury-only with production before the deadline; Week 7 production/treatment
+checkpoints, no boil notice, neither facility forced onto the personal save;
+Week 8 bus arithmetic 24÷3=8 min and ₡1,200/bus; Week 9 money bridge and
+associated plaza/tree points; Week 10 rewritten as staged forest-fire
+checkpoints on Verrall Ridge/Thackray Cut; Week 11 ten saves plus pre-extracted
+series; Week 12 roster hang, Friday memo pre-read, 15-minute slots, no chair
+swap, named panel, separate mode-share denominators. Policies now name the
+sixteenth workstation (tutor station), 21:00 unassessed upload, brief-override
+clocks, and Week 9 chaired by the tutor of record. Session bodies remain
+placeholders; the evidence pack itself is still not in the repo.
+
+## 2026-09-02 — Studio-review leftovers: Week 11 finish and Week 12 redesign
+
+Review still blocking: missing evidence pack; leftover “eleven weekly saves”;
+Week 11 extracting two series in 35 minutes; causal “move that produced it”;
+Week 12 hang-before-draw, noon-memo unread by 12:50, chair-swap as moderation,
+invented artefact list, 20-minute/14:00 clocks, additive 48% non-car share.
+
+Changed: Week 11 plotting uses the pre-extracted pack throughout, personal
+saves as recovery, Farrant Row from `kerrow-ref-w04` / `-w04`, association not
+attribution, same 0–100 scale as the lecture. Week 12 body now matches the A3
+brief: roster hang then draw, Friday memo pre-read, 13:00 / 15 min in two rooms
+with a 14:00 pause, Quaye/Marek/Fenn/Ilkhom/Wren booked, no chair swap, metric
+card permitted, spatial evidence required, separate mode-share denominators,
+reserve/link as a worksheet forecast, fourth question on `d3` vs `recovered`.
+Lecture Week 9/12 clocks and Marek’s bio aligned to the briefs. Evidence pack
+still missing (expected). Session pages still STARTER_CONTENT.
+

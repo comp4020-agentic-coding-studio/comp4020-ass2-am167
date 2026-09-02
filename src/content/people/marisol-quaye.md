@@ -1,8 +1,8 @@
 ---
 title: Marisol Quaye
 description:
-  Convenes the studio, writes the weekly briefs, and chairs every jury from the
-  first pin-up to the final review.
+  Convenes the studio, writes the weekly briefs, and chairs the Week 4 and
+  Week 12 juries. Week 9 is chaired by that week's tutor of record.
 affiliation: Slop University School of Urban Design
 role: convenor
 email: marisol.quaye@slop.university
@@ -31,5 +31,6 @@ choosing to ride it. The model will not let you skip that, and I have never
 found a crit that could."
 
 They take the Week 1–3 lectures — site analysis, block pattern, zoning — and
-chair the Week 12 capstone review. Expect to be asked which of the three metrics
-you traded, and to keep being asked until you name it.
+chair the Week 4 pin-up and the Week 12 capstone review. Week 9 is chaired by
+the tutor of record. Expect to be asked which of the three metrics you traded,
+and to keep being asked until you name it.
