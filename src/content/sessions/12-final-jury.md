@@ -39,9 +39,10 @@ order. The draw at 12:50 sets presentation order and does not rearrange either
 wall. Test the one presenting machine in each room and open every save during
 the hang. A save that does not load is defended from the lodged artefact.
 
-Marisol Quaye chairs 2.14 with Idris Fenn sitting. Sunniva Marek chairs 2.16
-with Nadia Ilkhom sitting. Tobias Wren circulates. Chairs stay in their rooms;
-both have already read all sixteen memos against one calibrated mark sheet.
+Marisol Quaye chairs 2.14 with Idris Fenn sitting. Tobias Wren chairs 2.16
+with Nadia Ilkhom sitting. Sunniva Marek circulates between both rooms as
+Visiting Critic and chairs neither. Chairs stay in their rooms; both have
+already read all sixteen memos against one calibrated mark sheet.
 
 ## Your fifteen minutes
 

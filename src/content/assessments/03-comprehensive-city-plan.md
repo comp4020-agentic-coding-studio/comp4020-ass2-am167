@@ -35,15 +35,16 @@ defence. The Week 12 studio is the jury.
   This is why the chairs can sit at 13:00 on Monday; it is not the artefact
   deadline.
 - **Monday 24 May 12:00 — the artefact.** The same memo, the in-simulation
-  screenshots, two A1 boards, and the save `<student ID>-w12` at the plan's
-  final year, paused, at full district extent. Late work on this clock follows
-  the [studio policies](../../policies/) artefact rule.
+  screenshots, two A1 boards, and the save `<student ID>-w12`, paused at 08:00
+  and full district extent. Late work on this clock follows the
+  [studio policies](../../policies/) artefact rule.
 
 ## What the artefact must contain
 
-- **A defence memo** that states a claim, the grounds, the warrant, the
-  qualifier as a number, and the rebuttal. The **omissions appendix** drafted
-  in Week 11 sits at the **front**, not the back.
+- **A defence memo of no more than 1,600 words** (the omissions appendix does
+  not count toward this limit) that states a claim, the grounds, the warrant,
+  the qualifier as a number, and the rebuttal. The **omissions appendix**
+  drafted in Week 11 sits at the **front**, not the back.
 - **Screenshots** at the walk-through views named in the Week 12 session: full
   extent roads only; land value overlay; corridor at neighbourhood scale; one
   street-level block; the three metric readouts. Caption in-game day and 08:00.
@@ -60,8 +61,10 @@ defence. The Week 12 studio is the jury.
 
 **13:00**, not 14:00 — this brief overrides the standing pin-up start because
 sixteen fifteen-minute slots cannot start at 14:00. **Studio 2.14** (Marisol
-Quaye chair) and **Studio 2.16** (Sunniva Marek chair), eight students each.
-Idris Fenn, Nadia Ilkhom and Tobias Wren sit as booked panel.
+Quaye chair, Idris Fenn sitting) and **Studio 2.16** (Tobias Wren chair, Nadia
+Ilkhom sitting), eight students each. Sunniva Marek circulates between both
+rooms as Visiting Critic; her feedback feeds both chairs' calibration, and she
+chairs neither.
 
 **Fifteen minutes** per plan: five presenting, then clarifying questions, then
 critique, then the presenter last. This is the policies clock, not Week 4's

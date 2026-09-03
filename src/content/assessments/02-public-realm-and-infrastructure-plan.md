@@ -65,6 +65,12 @@ record chairs. **Four minutes** per plan at the wall: ninety seconds for one
 claim, the rest for questions. Changeover is inside the four minutes. This
 clock is the brief's override of the ordinary crit protocol.
 
+At the recess between the two rounds of eight, the chair and the Visiting
+Critic may return up to three plans they disagree about for a further six
+minutes each before the whole room. That round is discussion, not extra marked
+time: the mark for every plan is set from its own four minutes at the wall, the
+memo and the wall itself, whether or not it is called back.
+
 The question the wall has to survive: did the district get better because you
 designed something, or because you spent money, and what did each associated
 point of happiness cost per month.

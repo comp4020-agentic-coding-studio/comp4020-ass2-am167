@@ -871,3 +871,48 @@ session the same hour. The final closeout (rebuild, full check, both
 viewports, diff review) turned up nothing new wrong, which is itself a
 signal the fixes made along the way were sound rather than needing a
 last-minute scramble.
+
+## 2026-09-03 — Adversarial review of assessment briefs' content
+
+Spawned a fresh reviewer (no shared context) against the three assessment
+briefs, the assessments index, `policies/index.mdx`, and sessions 04/09/12,
+told explicitly to attack for contradictions, weekday/timezone/weight
+arithmetic, cross-page consistency and gradability. It also checked the real
+COMP4020 Assignment 2 spec's "assessment that adds up to 100%" requirement
+(25+25+50, satisfied).
+
+Two must-fix findings, both real:
+
+1. **Assessment 3's jury gave the Visiting Critic (Sunniva Marek) sole
+   marking-chair authority over Studio 2.16**, contradicting her role
+   everywhere else on the site — `policies/index.mdx` ("Course Convenor
+   chairs Weeks 4 and 12; Week 9 is chaired by the tutor of record"),
+   `people/index.mdx` ("a visiting critic ... who sits on the jury ... and
+   nowhere else"), her own bio (`role: guest`, "not a member of the teaching
+   team"), and Assessments 1 and 2 themselves (where she only ever "sits as
+   Visiting Critic"). The bug was systemic, not a typo: it was corroborated
+   in `sessions/12-final-jury.md` and `decks/week-12.deck.mdx`. Fixed by
+   giving Studio 2.16 to Tobias Wren as chair (mirroring the Week 9
+   tutor-of-record pattern) with Nadia Ilkhom sitting, and having Marek
+   circulate between both rooms as Visiting Critic, chairing neither — across
+   the assessment brief, the session page, the deck, and a clarifying
+   sentence added to `policies/index.mdx` explaining the two-room split.
+2. **Assessment 2's brief claimed "sole authority" over the defence** but
+   never mentioned the recess return round in `sessions/09-public-realm-
+   build.md` (three plans the chair and Visiting Critic disagree about come
+   back for six more minutes). Added one paragraph to the brief's Defence
+   section stating that round is discussion, not extra marked time, so the
+   "sole authority" claim stays true.
+
+Also fixed two gradability gaps the reviewer flagged as polish: Assessment 3
+had no word limit on its defence memo (added 1,600 words, appendix excluded)
+despite Assessments 1 and 2 both capping theirs, and its save requirement
+didn't state the 08:00 pause time its own screenshot captions require (added
+explicitly, matching `sessions/12-final-jury.md`).
+
+Everything the reviewer checked and found already correct: all four due-date
+weekdays against the real 2027 calendar, DST offset boundaries, marking-
+criteria weights per brief (40+30+30, 45+30+25), cohort/room arithmetic, the
+A2 cost-per-happiness-point math, and every one of Assessment 3's forward
+references into Weeks 8/10/11 — none orphaned. `pnpm check` stayed pristine
+(0 errors, 0 warnings, 7/7 test files, 21/21 tests) after all fixes.
