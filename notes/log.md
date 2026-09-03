@@ -1010,3 +1010,70 @@ the numbers/quotes still checked out, but caught three real problems:
 
 `pnpm check` stayed pristine (0 errors, 0 warnings, 14/14 test files, 42/42
 tests) after these fixes.
+
+## 2026-09-03 — Adversarial review of the policies page vs. the real course's handbook
+
+Asked a fresh Sonnet subagent (no shared context) to compare
+`src/pages/policies/index.mdx` against the real COMP4020 course's own admin
+content, pulled live via the `comp4020:handbook` skill's API (`ai-use-and-
+integrity`, `assessment`, `code-of-conduct`, `communication`, `enrolment`,
+`ethics`, `participation`, `studio-crit-model`). It reported 8 findings; I
+verified each against primary sources — the page itself, the assessment
+briefs, session files and people bios — before acting, since this repo's
+studio (Cities: Skylines II district design, pin-ups, a Visiting Critic) is
+deliberately a different fiction from the real agentic-coding course and is
+not obligated to mirror its actual administrative machinery.
+
+**Rejected as intentional, internally-consistent fiction, not bugs:**
+1. Comms model ("Course Convenor, by email" for briefs/marks/extensions/
+   adjustments) vs. the real course's Ed-only, no-direct-email policy —
+   Marisol Quaye's own bio (`people/marisol-quaye.md`) already establishes
+   "Briefs, marks, extensions and adjustments come to me and to nobody
+   else," with her email listed. Consistent with itself; just a different
+   fictional administrative model.
+2. Extensions granted by convenor discretion vs. the real course's ANU-set
+   ECA process — same bio confirms this is this studio's own established
+   rule, not an oversight.
+3. "Miss the jury and your plan is marked from the memo alone" vs. the real
+   course's zero-for-a-missed-crit rule — `sessions/12-final-jury.md` already
+   states, in the studio's own voice, "a missed jury is marked from the memo
+   and boards without a live defence." The subagent compared against the
+   real course's rule instead of this repo's own established fiction.
+4. Per-artefact generative-tools disclosure line vs. the real course's
+   one-time blanket AI-use declaration — a legitimate different policy
+   choice for a different (game-design) practice, not a contradiction
+   anywhere in this repo.
+   Also checked and confirmed correct: root-absolute links (`/assessments/`,
+   `/sessions/`, `/people/`) — Astro's build already rewrites these under the
+   deployed base path (verified in `dist/policies/index.html`), so the
+   general CLAUDE.md caution about root-absolute links doesn't apply to
+   MDX-authored links here.
+
+**Fixed as genuine internal defects:**
+1. **"Attendance at pin-ups is expected in all twelve studio sessions"**
+   overreached the studio's own terminology — only Weeks 4 and 9 are
+   pin-ups, Week 12 is a jury, and ordinary weeks (`sessions/02-block-
+   pattern.md`, `08-budget-under-cutback.md`) are desk crits. Reworded to
+   "the crit --- desk crit, pin-up or jury, whichever the week calls it."
+2. **Self-contradictory lost-save clause**: the page said a machine dying
+   "when you were keeping the backups the studio asks for" was grounds for
+   an extension — but if the backups were kept, the save was not actually
+   lost, which is the opposite of what the sentence needed to argue.
+   Rewrote it to locate the harm correctly: kept backups mean the save
+   survives, so what an extension covers is the lost time getting back onto
+   a working machine, not the (non-existent) data loss.
+3. **Undefined term used before its section**: "a registered access
+   adjustment" appeared in Save files, sixty lines before Equipment defines
+   "registered accessibility adjustments" — different phrasing, no forward
+   link. Unified the term and added a link to
+   `/policies/#equipment-access-and-adjustments`.
+4. **Ambiguous room reference**: the Equipment section named "the tutor
+   station in Studio 2.14" for the cohort's 16th save without saying how
+   2.14 relates to "the design lab" it was just introduced alongside, when
+   2.14 is established elsewhere (`people/marisol-quaye.md`, all three
+   assessment briefs) as the desk-crit/jury room, not the lab. Added a
+   clause naming it as that same room, distinct from the design lab.
+
+`pnpm check` stayed pristine (0 errors, 0 warnings, 7/7 test files, 21/21
+tests) after all fixes; no heading `id`s changed, so the deep-link test in
+`spec/policies.test.ts` still resolves.
