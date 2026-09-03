@@ -35,31 +35,24 @@ worth taking are precisely the ones that do not pay for themselves.
   Its Environs*, Vol. VII (1929).** A residential cell of roughly 5,000 people
   on about 160 acres, elementary school at the centre, arterial roads on the
   boundary and never through it, shops at the corners where two cells meet.
-  In this lecture it is the literal geometry of Assessment 1, and its known
-  failure mode — the school catchment as an instrument of sorting — is what
-  the jury is briefed to press on.
 - **Carlos Moreno, Zaheer Allam, Didier Chabaud, Catherine Gall and Florent
   Pratlong, "Introducing the '15-Minute City': Sustainability, Resilience and
   Place Identity in Future Post-Pandemic Cities," *Smart Cities* 4(1), 2021.**
   Four dimensions — proximity, diversity, density, ubiquity — organised around
   six social functions reachable in a quarter-hour on foot or by bicycle.
-  In this lecture it converts Perry's fixed radius into a time budget, which
-  is the quantity the simulation can actually be interrogated for.
 - **Jane Jacobs, *The Death and Life of Great American Cities* (1961), Ch. 7
   and Ch. 11.** Four conditions generate diversity; the fourth is a
-  sufficiently dense concentration of people. In this lecture it supplies the
-  argument that density is what keeps a corner shop tenanted, not what makes a
-  district good on its own.
+  sufficiently dense concentration of people.
 - **Cesare Marchetti, "Anthropological Invariants in Travel Behavior,"
   *Technological Forecasting and Social Change* 47(1), 1994.** The roughly
   one-hour daily travel-time budget, stable across settlement patterns and
-  centuries. In this lecture it explains why the radius is measured in minutes
-  and why a district cannot buy proximity and long commutes at once.
+  centuries.
 - **Henry George, *Progress and Poverty* (1879), and the land-value-capture
   tradition after it.** Improvements raise the value of land, and the question
-  is who captures the increment. In this lecture it is the fiscal half of the
-  tradeoff and the reason the Land Value info view is open for the second half
-  of the hour.
+  is who captures the increment.
+
+The deck walks through where each of these lands, slide by slide, against the
+Halstead Reach cell.
 
 ### Simulation mapping
 
@@ -76,13 +69,11 @@ worth taking are precisely the ones that do not pay for themselves.
 
 ## The decision this week
 
-**Livability against fiscal performance.** The decision that forces it is where
-the clinic goes. Sited inside the Halstead Reach cell it sits an eleven-minute
-walk from the furthest dwelling and the cell carries its full upkeep. Moved to
-a shared catchment serving three cells, the cell's share of that upkeep drops
-by roughly two-thirds and the monthly deficit closes — and the walk becomes a
-trip. There is no siting that gets both. Students must choose one and say which
-metric they paid with.
+**Livability against fiscal performance**, forced by where the clinic goes:
+inside the cell, an easy walk the cell fully funds, or in a shared catchment,
+cheaper per cell but now a trip. The deck works both siting options' upkeep
+and walk-time figures. There is no siting that gets both; students must choose
+one and say which metric they paid with.
 
 ## Into the studio
 

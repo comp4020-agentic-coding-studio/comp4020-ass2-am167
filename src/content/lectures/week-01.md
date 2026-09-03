@@ -35,27 +35,23 @@ metrics it will be read against for the next twelve weeks.
 ## Theory into practice
 
 - **Patrick Geddes, *Cities in Evolution* (1915)** — the regional survey comes
-  before the plan; diagnosis before treatment. Doing here: it supplies the
-  studio's Week 1 rule and the reason the first session produces no roads.
+  before the plan; diagnosis before treatment.
 - **Ian McHarg, *Design with Nature* (1969)** — suitability read as a stack of
   single-factor layers, each mapped separately, then overlaid to find the
-  ground that resists development least. Doing here: it is the literal method
-  of the site-reading exercise, and it maps one-to-one onto the info views.
+  ground that resists development least.
 - **Kevin Lynch, *The Image of the City* (1960)** — paths, edges, districts,
   nodes and landmarks as the five terms people actually use to hold a place in
-  their heads. Doing here: it gives students a vocabulary for describing a site
-  that has no buildings on it yet.
+  their heads.
 - **Kevin Lynch, *Good City Form* (1981)** — five performance dimensions
   (vitality, sense, fit, access, control) plus two meta-criteria (efficiency
   and justice), offered as the way to argue about city quality without
-  retreating into taste. Doing here: it is the precedent for the studio having
-  named metrics at all, and the honest admission that ours are blunter than
-  his.
+  retreating into taste.
 - **Henry George, *Progress and Poverty* (1879)** — the value of a location is
   produced by everything around it rather than by the owner's improvements, so
-  it can be captured publicly. Doing here: it converts site reading from a
-  scenic exercise into a fiscal one, and it is the thread Week 11 picks up when
-  students read their own district's land-value history.
+  it can be captured publicly.
+
+The deck walks through where each of these lands, slide by slide, against the
+studio's own site.
 
 ### Simulation mapping
 
@@ -72,16 +68,12 @@ metrics it will be read against for the next twelve weeks.
 
 ## The decision this week
 
-**Fiscal performance against livability**, forced by where the first road goes.
-The flat alluvial terrace of Halstead Reach sits 1.2 km from the Dunthorpe
-interchange on a gradient under two per cent: short service runs, cheap road
-upkeep, no pumping, and a district that balances its budget early. The shelf
-on Verrall Ridge sits 4.1 km away up through Thackray Cut, with long views over
-the basin and quiet air on the windward side: higher land value, better
-well-being readings, and a per-capita servicing cost that the district carries
-every month for twelve weeks. Students must site the first settlement, and the
-choice cannot be deferred, because everything from Week 2 onward is built off
-that first road.
+**Fiscal performance against livability**, forced by where the first road
+goes: the cheap, flat Halstead Reach terrace against the costlier, better-sited
+Ludworth Bench shelf on Verrall Ridge. The deck works the two sites' numbers
+side by side. Students must site the first settlement, and the choice cannot
+be deferred, because everything from Week 2 onward is built off that first
+road.
 
 ## Into the studio
 

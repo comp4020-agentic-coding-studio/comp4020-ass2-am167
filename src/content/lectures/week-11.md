@@ -36,32 +36,28 @@ is not qualified to cite the curve.
 - **James C. Scott, *Seeing Like a State* (1998).** Administration requires
   legibility, and legibility is achieved by thin simplifications — the
   cadastral map, the standardised unit — which then become the only reality the
-  administration can act on. This is the frame for the whole lecture: our model
-  is a legibility instrument, and its blind spots are the ordinary blind spots
-  of such instruments, not defects unique to it.
+  administration can act on.
 - **Peter Marcuse, "Gentrification, Abandonment and Displacement" (1985).**
   Displacement has four distinct forms — direct last-resident, direct chain,
   exclusionary, and displacement pressure — and three of them leave no mark in
-  any count of who currently lives somewhere. Used on slide 10 to show exactly
-  where the model's household figures stop.
+  any count of who currently lives somewhere.
 - **Ananya Roy, "Urban Informality: Toward an Epistemology of Planning"
   (*Journal of the American Planning Association*, 2005).** Informality is not
   a sector sitting outside the plan; it is a mode of urbanisation the state
-  itself produces through what it zones, services and tolerates. Used on slide
-  12 against the model's hard zero: unzoned land in this simulation stays
-  empty.
+  itself produces through what it zones, services and tolerates.
 - **Douglass B. Lee Jr., "Requiem for Large-Scale Models" (*Journal of the
   American Institute of Planners*, 1973).** Large urban models fail
   characteristically by being comprehensive — too coarse at every point to be
   right anywhere, hungry for data nobody has, and complicated enough to hide
-  their own assumptions. Used on slide 14 to place the studio's model in a
-  fifty-year-old lineage of the same failure.
+  their own assumptions.
 - **Naomi Oreskes, Kristin Shrader-Frechette and Kenneth Belitz,
   "Verification, Validation, and Confirmation of Numerical Models in the Earth
   Sciences" (*Science*, 1994).** Models of open systems cannot be verified;
   agreement between model and observation is confirmation, and confirmation is
-  not proof of correctness. Used on slide 4 to set the standard of evidence the
-  rest of the lecture holds the curve to.
+  not proof of correctness.
+
+The deck walks through where each of these lands, slide by slide, against the
+model's own omissions.
 
 ### Simulation mapping
 
@@ -90,19 +86,15 @@ households in Halstead Reach.
   subsidy stays where it is.
 
 The complication, and the reason this decision belongs in this week rather than
-in Week 5: if they upzone, the simulation will report **livability rising too**.
-Land value rises, rent rises, the remaining low-wealth households leave or
-appear in the homelessness figure, and the corridor's livability score is then
-computed over the households that are there afterwards. Both metrics improve.
-The tradeoff is real and the model cannot display it, because livability here
-is measured on whoever remains.
+in Week 5: if they upzone, **livability reads as rising too**, because the
+corridor's livability score is computed over the households that are there
+afterwards, not the ones displaced. Both metrics improve on the readout. The
+tradeoff is real and the model cannot display it.
 
-So the studio requires the trade to be recorded by hand. A student who upzones
-must write, in the memo, that mobility performance was bought with the
-livability of a population the metric no longer contains. A student who holds
-must write that they declined the mobility gain and say what the spine's
-subsidy costs fiscal performance as a result. The move is defensible either
-way; the unrecorded move is not.
+So the studio requires the trade to be recorded by hand: a student who upzones
+must write what mobility performance was bought with; a student who holds must
+say what the spine's subsidy costs fiscal performance. The move is defensible
+either way; the unrecorded move is not.
 
 ## Into the studio
 

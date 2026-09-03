@@ -32,8 +32,7 @@ seating and sightlines rather than about area.
 - **Jane Jacobs, *The Death and Life of Great American Cities* (1961).** Her
   three conditions for a street that works: a clear demarcation between public
   and private space; eyes upon the street from buildings oriented towards it;
-  and users on it fairly continuously through the day. The week's first
-  diagnostic, and the reason the frontage matters more than the park.
+  and users on it fairly continuously through the day.
 - **William H. Whyte, *The Social Life of Small Urban Spaces* (1980).** Direct
   observation of plaza use found sittable space to be the strongest predictor,
   along with the relationship to the street, food, sun, water and trees; and
@@ -43,18 +42,17 @@ seating and sightlines rather than about area.
 - **Ray Oldenburg, *The Great Good Place* (1989).** The third place — neither
   home nor work — characterised by neutral ground, a levelling of status,
   conversation as the main activity, accessibility, a set of regulars, a low
-  profile, a playful mood, and the feel of a home away from home. Used to
-  explain why commercial demand appears against a good plaza edge unprompted.
+  profile, a playful mood, and the feel of a home away from home.
 - **Jan Gehl, *Life Between Buildings* (1971).** Necessary, optional and social
   activities: necessary activity happens regardless of the quality of the
-  space, and only optional activity responds to it. This gives the studio its
-  measurement protocol, since optional presence is what the day/night cycle
-  makes visible.
+  space, and only optional activity responds to it.
 - **Christopher Alexander et al., *A Pattern Language* (1977).** Pattern 61,
   *Small Public Squares*, holds that a square wider than about 45 to 60 feet
   stops working as a room; Pattern 106, *Positive Outdoor Space*, holds that
-  outdoor space must be shaped and enclosed rather than left over. Both are
-  used against the Halstead Reach civic plaza.
+  outdoor space must be shaped and enclosed rather than left over.
+
+The deck walks through where each of these lands, slide by slide, against the
+Halstead Reach civic plaza.
 
 ### Simulation mapping
 
@@ -74,15 +72,12 @@ seating and sightlines rather than about area.
 **Livability against fiscal performance**, forced by one decision on the Kerrow
 corridor: the Halstead Reach civic plaza, or the eleven pocket squares.
 
-One 3,600 m² civic plaza at ₡6,800 a month reaches 1,900 people within 300 m
-and dominates the attractiveness overlay locally. Eleven 320 m² squares
-distributed along the corridor cost ₡3,410 a month in total, reach 7,400 people
-within 300 m, and lift the overlay everywhere by less. The plaza is worse on
-both livability and fiscal performance and it is the option students choose,
-because it is the option that pins up. **Mobility performance** enters through
-the footpath network: the distributed option only reaches its 7,400 if the
-corridor's footpath connections are completed, which is a mobility spend
-recorded against a livability benefit.
+The deck works both options' reach and upkeep figures in full. The plaza is
+worse on both livability and fiscal performance and it is the option students
+choose, because it is the option that pins up. **Mobility performance** enters
+through the footpath network: the distributed option only reaches its full
+catchment if the corridor's footpath connections are completed, which is a
+mobility spend recorded against a livability benefit.
 
 ## Into the studio
 

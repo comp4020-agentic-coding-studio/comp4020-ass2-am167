@@ -33,26 +33,22 @@ not show.
 - **Peter Calthorpe, *The Next American Metropolis: Ecology, Community, and
   the American Dream* (1993).** Transit-oriented development: a mixed-use core
   within roughly a 2,000-foot — about 600 metre — walk of a transit stop, with
-  densities stepping down away from it. In this lecture it is the shape
-  this week's studio asks students to draw, and the reason the zoning has to
-  change before the line will carry anyone.
+  densities stepping down away from it.
 - **Kevin Lynch, *The Image of the City* (1960).** Imageability, built from
-  paths, edges, districts, nodes and landmarks. In this lecture it supplies the
-  vocabulary for legibility: a network is a thing a rider has to hold in their
-  head before they will commit a morning to it.
+  paths, edges, districts, nodes and landmarks.
 - **Jarrett Walker, *Human Transit* (2011).** Frequency is freedom; the
   ridership–coverage choice is a question about what the service is *for*, and
-  cannot be settled by analysis. In this lecture it is the direct source of the
-  week's tradeoff, and the framing for the studio exercise.
+  cannot be settled by analysis.
 - **Vukan R. Vuchic, *Urban Transit: Operations, Planning and Economics*
   (2005).** Riders weight out-of-vehicle time — walking, waiting, transferring
-  — at roughly two to three times in-vehicle time. In this lecture it is the
-  arithmetic behind the transfer penalty and behind stop spacing.
+  — at roughly two to three times in-vehicle time.
 - **Robert Cervero and Kara Kockelman, "Travel demand and the 3Ds: Density,
   diversity, and design," *Transportation Research Part D* 2(3), 1997.** Built
   form measurably shifts travel behaviour, but the elasticities are modest and
-  they compound. In this lecture it is the caution against expecting a line to
-  fix a land-use problem.
+  they compound.
+
+The deck walks through where each of these lands, slide by slide, against the
+studio's own bus line.
 
 ### Simulation mapping
 
@@ -69,13 +65,10 @@ not show.
 
 ## The decision this week
 
-**Mobility performance against fiscal performance.** The decision that forces it
-is the headway on the Halstead–Barrow Fields line. Every vehicle added to that
-line buys every rider on it a reduction in average wait, and commits the
-district to that vehicle's upkeep for as long as the line runs. A ten-minute
-headway is a service people plan around. A ten-minute headway on a 24-minute
-round trip is three vehicles, and three vehicles is an operating cost the
-line's ticket revenue does not cover at Halstead Reach's current density.
+**Mobility performance against fiscal performance**, forced by the headway set
+on the Denton Hill–Barrow Fields line: every vehicle added buys every rider a
+shorter wait, and commits the district to that vehicle's upkeep for as long as
+the line runs. The deck works the headway-to-fleet-to-cost arithmetic in full.
 Students must set a headway and say which metric they paid.
 
 ## Into the studio

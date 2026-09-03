@@ -110,7 +110,7 @@ Star's point is descriptive, not a complaint: the invisibility is
 
 | Network | What constrains it | Where you read it | What failure looks like first |
 | --- | --- | --- | --- |
-| Water | pumping station output, then the pipe graph's reach | water info-view; production-versus-consumption bar | insufficient-water notices at the far end of the main |
+| Water | pumping station output, then the pipe graph's reach | water info-view; production-versus-consumption bar | insufficient-water notices across the connected network as buffered supply runs out |
 | Sewage | treatment plant throughput; the receiving water at the outfall | sewage info-view; ground- and water-pollution overlays | untreated discharge, then a plume downstream |
 | Electricity | generation capacity, then transformer and line throughput | electricity info-view; the grid graph | outage across the whole connected grid, not one block |
 | Garbage | collection fleet, then landfill and incinerator throughput | garbage info-view | accumulation at buildings, ground pollution, abandonment |
@@ -167,6 +167,9 @@ Draw attention to the geography before the numbers. The outfall
 - The zoning envelope approved in Week 3 implies about 1,340 u at build-out.
   The pump was never revisited.
 
+*Worked hypothetical: these unit figures illustrate the method; no evidence
+pack yet backs a real save's numbers.*
+
 ```notes
 The arithmetic is the point: 1,340 against 1,200. The failure in
   this deck was designed four weeks ago and has been waiting for a construction
@@ -180,12 +183,13 @@ The arithmetic is the point: 1,340 against 1,200. The failure in
 ## The cascade begins
 
 **Step 1.** A medium-density residential block completes on Ombersley Flats'
-eastern edge. District draw rises 374 u → 412 u. Corridor draw crosses
-1,200 u. Load: 103%.
+eastern edge. District draw rises 374 u → 412 u. Corridor draw reaches
+1,142 u — 95.2% of the 1,200 u installed at Wensley Bank, inside the
+under-5% band from slide 5.
 
-**Step 2.** Delivered pressure along the trunk main falls. No notification
-fires for four days. The production-versus-consumption bar has been red since
-the frame the block completed.
+**Step 2.** Production at Wensley Bank falls short of citywide draw. No
+notification fires for four days. The production-versus-consumption bar has
+been red since the frame the block completed.
 
 ```notes
 Nothing has visibly happened yet. If a student is watching the
@@ -197,7 +201,7 @@ Nothing has visibly happened yet. If a student is watching the
 
 {/* _class: diagram-slide */}
 
-## Cascade, step 3: the far end fails first
+## Cascade, step 3: the shortfall reaches every district on the graph
 
 <CourseDiagram kind="trunk-failure" />
 
@@ -205,7 +209,9 @@ Nothing has visibly happened yet. If a student is watching the
 
 ```notes
 Farrant Row contributed 0 u of the overload and loses service
-  first, because it is furthest along the graph. This is Graham and Marvin's
+  first, because it is a consumption failure shared across the whole
+  connected network, not a distance effect — Farrant Row is simply the first
+  district whose buffered demand runs out. This is Graham and Marvin's
   splintering in its simplest possible form.
 ```
 
@@ -228,6 +234,9 @@ the same quarter that the revenue to pay for it disappears.
 | Water and sewage upkeep | ₡8,900 / mo | ₡13,400 / mo | +51% |
 | Healthcare upkeep | ₡6,100 / mo | ₡9,700 / mo | +59% |
 | Net operating balance | +₡11,300 / mo | −₡4,600 / mo | — |
+
+*Worked hypothetical: a budget shaped to teach the fiscal chain, not a
+figure from a real save.*
 
 ```notes
 Halstead Reach is in this table and did nothing. Its 6% is the
