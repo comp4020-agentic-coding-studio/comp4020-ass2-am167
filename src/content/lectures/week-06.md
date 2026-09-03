@@ -34,32 +34,27 @@ for a level of service it will not keep.
   Quarterly* 16(3), 1962; triple convergence developed in *Stuck in Traffic*
   (1992).** Peak congestion rises to meet the capacity provided, because
   drivers converge on an improved facility from other routes, other departure
-  times and other modes. In this lecture it is the organising structure of the
-  whole hour, and the source of the decomposition on slide 9.
+  times and other modes.
 - **Gilles Duranton and Matthew A. Turner, "The Fundamental Law of Road
   Congestion: Evidence from US Cities," *American Economic Review* 101(6),
   2011.** The elasticity of vehicle-kilometres travelled with respect to
-  lane-kilometres is close to one. In this lecture it is the number the
-  arithmetic on slide 8 actually runs on, and the reason a widening cannot be
-  defended as a congestion measure.
+  lane-kilometres is close to one.
 - **J. Michael Thomson, *Great Cities and Their Traffic* (1977), and Martin
   J. H. Mogridge, *Travel in Towns: Jam Yesterday, Jam Today and Jam
   Tomorrow?* (1990).** The Downs–Thomson and Lewis–Mogridge position: on a
   corridor with a competing public transport service, the equilibrium speed of
-  car travel is set by the door-to-door speed of that service. In this lecture
-  it is why the tram line built in Week 5's studio is the thing that determines
-  whether the widening holds.
+  car travel is set by the door-to-door speed of that service.
 - **Dietrich Braess, "Über ein Paradoxon aus der Verkehrsplanung,"
   *Unternehmensforschung* 12, 1968, with J. G. Wardrop, "Some theoretical
   aspects of road traffic research," *Proceedings of the Institution of Civil
   Engineers* (1952) as its equilibrium assumption.** Adding a link to a
-  network can make every user's journey longer. In this lecture it is the
-  formal case that capacity is not monotonically good, and Wardrop's first
-  principle is the rule the model's pathfinder is following.
+  network can make every user's journey longer.
 - **Colin Buchanan, *Traffic in Towns* (HMSO, 1963).** A street has an
   environmental capacity — a traffic volume above which its other functions
-  fail — and it is reached well before its vehicular capacity. In this lecture
-  it is the livability half of the tradeoff and the discontent in the title.
+  fail — and it is reached well before its vehicular capacity.
+
+The deck walks through where each of these lands, slide by slide, against the
+Kerrow widening.
 
 ### Simulation mapping
 
@@ -67,7 +62,7 @@ for a level of service it will not keep.
 | --- | --- | --- |
 | Wardrop's user equilibrium | The traffic AI's pathfinding: every agent takes the least-cost route available and re-chooses when costs change | The Ashgrove back streets emptying within about three simulated days of the Kerrow widening opening |
 | Downs's spatial convergence | The traffic volume layer of the Traffic info view, read on the parallel routes rather than the widened one | Volume falling on the back streets and rising by more than that on Kerrow |
-| Downs's modal convergence | The Transportation Overview passenger count on the Week 5 tram line | Ridership dropping on the line the widening now competes with, and the line's revenue dropping with it |
+| Downs's modal convergence | The Transportation Overview passenger count on the Week 5 bus line | Ridership dropping on the line the widening now competes with, and the line's revenue dropping with it |
 | Downs's temporal convergence | Citizen daily schedules under the day/night cycle | The shoulder of the peak thinning as the corridor gets quick enough to leave at 08:00 again |
 | Braess's link addition | The road tool, and the new connector at the Wickstead junction | Average district-wide travel time after adding a link that was locally an improvement |
 | Buchanan's environmental capacity | The noise pollution overlay and the Land Value info view along the Pelling Street frontage | Land value falling on the widened frontage, and ground-floor commercial failing to hold its level |
@@ -77,15 +72,11 @@ for a level of service it will not keep.
 
 ## The decision this week
 
-**Mobility performance against livability.** The decision that forces it is the
-third lane on the Kerrow corridor, which most of the studio added in last
-week's session. It bought a 50% increase in effective capacity and a
-volume–capacity ratio of 0.65 on the first morning. It cost the Pelling Street
-frontage 6.5 metres of carriageway, five seconds of pedestrian crossing time,
-1.8 dB of traffic noise and — as the model will show over the following
-simulated year — the ground-floor tenancies that were holding the high street's
-land value up. The uncomfortable part is that the mobility gain does not
-survive the year and the livability loss does.
+**Mobility performance against livability**, forced by the third lane on the
+Kerrow corridor most of the studio added last week: a real capacity gain on
+day one, against a frontage cost that grows over the following year. The deck
+works the full before-and-after figures. The mobility gain does not survive
+the year; the livability loss does.
 
 ## Into the studio
 

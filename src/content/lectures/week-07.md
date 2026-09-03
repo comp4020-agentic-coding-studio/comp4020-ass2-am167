@@ -31,25 +31,22 @@ makes is how much headroom to pay for while nothing yet looks wrong.
 
 - **Susan Leigh Star, "The Ethnography of Infrastructure" (1999).**
   Infrastructure is by definition part of the background of other work, and
-  becomes visible only when it breaks down. This is the lecture's title and its
-  organising problem: the studio's utilities are the one system students never
-  look at until a notification fires.
+  becomes visible only when it breaks down.
 - **Thomas P. Hughes, *Networks of Power* (1983).** The "reverse salient" — the
   one lagging component that holds an entire technological system below the
-  capacity of its other parts. Used to establish that a district's water
-  capacity is the pumping station's number, not the sum of its pipes.
+  capacity of its other parts.
 - **Charles Perrow, *Normal Accidents* (1984).** Tightly coupled systems with
   interactive complexity convert single faults into cascades that operators
-  cannot interrupt in time. This is the theoretical licence for the
-  failure-cascade walkthrough that occupies slides 11–16.
+  cannot interrupt in time.
 - **Joel A. Tarr, *The Search for the Ultimate Sink* (1996).** Urban waste is
   moved between air, land and water rather than removed; every disposal
-  decision chooses a receiving medium. Carries the sewage limb of the cascade
-  and the outfall-upstream-of-the-intake error.
+  decision chooses a receiving medium.
 - **Stephen Graham and Simon Marvin, *Splintering Urbanism* (2001).** Networked
   infrastructures distribute unevenly, and the unevenness follows the network's
-  own topology rather than the map's geography. Used to explain why the blocks
-  that lose water are not the blocks that caused the shortfall.
+  own topology rather than the map's geography.
+
+The deck walks through where each of these lands, slide by slide, against the
+cascade the corridor actually runs.
 
 ### Simulation mapping
 
@@ -66,18 +63,12 @@ makes is how much headroom to pay for while nothing yet looks wrong.
 
 ## The decision this week
 
-**Fiscal performance against livability**, forced by one decision: how much
-headroom to install at the Wensley Bank pumping station and the Farrant Row
-treatment plant before the demand exists.
-
-Buy 40% headroom and the monthly upkeep is charged against a tax base that has
-not been built yet — fiscal performance drops this quarter, visibly, for a
-benefit nobody can see. Run at 92% and the money stays in the account, until
-one medium-density completion in Ombersley Flats crosses the cliff and the
-cascade takes livability with it across four districts, including the two that
-did nothing. Mobility performance is the metric this week does not touch, which
-is worth saying out loud: infrastructure failures are the one class of failure
-in this studio that leaves the road network entirely alone.
+**Fiscal performance against livability**, forced by how much headroom to
+install at the Wensley Bank pumping station and the Farrant Row treatment
+plant before the demand exists. The deck works both the underbuilt and
+overbuilt cases in full. Mobility performance is the metric this week does not
+touch: infrastructure failures are the one class of failure in this studio
+that leaves the road network entirely alone.
 
 ## Into the studio
 

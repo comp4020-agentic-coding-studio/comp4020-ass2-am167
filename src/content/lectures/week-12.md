@@ -32,29 +32,24 @@ whether you decided your tradeoffs or discovered them afterwards.
 ## Theory into practice
 
 - **Stephen Toulmin, *The Uses of Argument* (1958).** An argument has six
-  parts: claim, grounds, warrant, backing, qualifier and rebuttal. This is the
-  lecture's working structure — the plan is written to Toulmin's six fields on
-  slides 5 and 6, and the jury's questions map onto them one for one.
+  parts: claim, grounds, warrant, backing, qualifier and rebuttal.
 - **Alan Altshuler, "The Goals of Comprehensive Planning" (*Journal of the
   American Institute of Planners*, 1965).** The comprehensive plan's standing
   difficulty is that no planner can know a community's goals well enough to
   integrate them, so comprehensiveness is always partly a claim to authority.
-  Used to explain why the plan must argue rather than assert.
 - **Charles Lindblom, "The Science of 'Muddling Through'" (*Public
   Administration Review*, 1959).** Real decisions proceed by successive limited
-  comparison, not by synoptic evaluation of all options. Used to reconcile the
-  document — one integrated plan — with how it was actually produced, which was
-  eleven incremental weeks.
+  comparison, not by synoptic evaluation of all options.
 - **Horst Rittel and Melvin Webber, "Dilemmas in a General Theory of Planning"
   (*Policy Sciences*, 1973).** Planning problems are wicked: no stopping rule,
   solutions are good-or-bad rather than true-or-false, and there is no
-  immediate test of a solution. This is the licence to defend rather than
-  apologise, and it is the intellectual content of slide 10.
+  immediate test of a solution.
 - **Kevin Lynch, *Good City Form* (1981).** Lynch's five performance
   dimensions — vitality, sense, fit, access, control — with efficiency and
-  justice as meta-criteria. Used at the close to place the studio's three
-  metrics inside a larger set and to say honestly what they do and do not
-  cover.
+  justice as meta-criteria.
+
+The deck walks through where each of these lands, slide by slide, against the
+capstone jury.
 
 ### Simulation mapping
 

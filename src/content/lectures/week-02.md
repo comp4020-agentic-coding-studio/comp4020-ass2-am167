@@ -36,30 +36,23 @@ opposite directions.
 
 - **Hippodamus of Miletus, 5th century BCE, reported in Aristotle's
   *Politics*, Book II** — the orthogonal plan as an instrument of equal
-  division and legible administration, applied at Miletus and Piraeus. Doing
-  here: it establishes that the grid was an argument about governance long
-  before it was an argument about traffic, which is why it keeps being
-  redrawn.
+  division and legible administration, applied at Miletus and Piraeus.
 - **Jane Jacobs, *The Death and Life of Great American Cities* (1961)** —
   the second of her four conditions for diversity: "Most blocks must be short;
-  that is, streets and opportunities to turn corners must be frequent." Doing
-  here: it is the strongest available case for the fine grid, and it is made on
-  livability grounds rather than traffic grounds.
+  that is, streets and opportunities to turn corners must be frequent."
 - **Clarence Stein and Henry Wright, the Radburn plan (1929)** — the
   superblock, the cul-de-sac, the continuous interior park and the pedestrian
-  underpass, proposed as a settlement pattern for the motor age. Doing here: it
-  is the fully worked counter-proposal to the grid, and its costs are the
-  week's teaching material.
+  underpass, proposed as a settlement pattern for the motor age.
 - **Christopher Alexander, "A City is Not a Tree" (1965)** — the difference
   between a tree, in which no two branches overlap, and a semilattice, in which
   sets overlap freely; planned settlements tend to be trees and living ones are
-  semilattices. Doing here: it names precisely what a hierarchical road
-  classification does to a network, and it is the diagram the whole lecture
-  turns on.
+  semilattices.
 - **Bill Hillier and Julienne Hanson, *The Social Logic of Space* (1984)** —
   space syntax: the configuration of a street network, rather than land use,
-  predicts a great deal of where movement occurs. Doing here: it is the reason
-  the studio measures a layout before it zones anything into it.
+  predicts a great deal of where movement occurs.
+
+The deck walks through where each of these lands, slide by slide, against the
+studio's own network.
 
 ### Simulation mapping
 
@@ -77,15 +70,10 @@ opposite directions.
 ## The decision this week
 
 **Mobility performance against fiscal performance**, forced by the block
-dimension chosen for the first residential quarter on Halstead Reach. A fine
-grid at roughly 80 m spacing gives four or more routes between most pairs of
-points, so a single blocked link redistributes rather than fails — and it does
-that by laying down close to double the road length per dwelling of a
-superblock layout, every metre of which appears in the road upkeep line every
-month for the rest of the semester. A superblock at roughly 240 m spacing halves
-the upkeep and concentrates every trip onto three collector mouths. Students
-choose a dimension this week, and Week 6's peak-load stress test is run against
-whatever they chose.
+dimension chosen for the first residential quarter on Halstead Reach: a fine
+grid's route redundancy against a superblock's cheaper road upkeep. The deck
+works the spacing and cost figures for both. Students choose a dimension this
+week, and Week 6's peak-load stress test is run against whatever they chose.
 
 ## Into the studio
 

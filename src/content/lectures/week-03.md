@@ -33,32 +33,26 @@ this week is a decision about which of those two costs they would rather carry.
 - **Ebenezer Howard, *To-morrow: A Peaceful Path to Real Reform* (1898),
   reissued as *Garden Cities of To-morrow* (1902)** — the garden city's
   concentric arrangement, with industry on the outer ring and housing held
-  clear of it. Doing here: it establishes that separation began as a
-  public-health measure against smoke and effluent, at a time when that was the
-  correct diagnosis.
+  clear of it.
 - ***Village of Euclid v. Ambler Realty Co.*, 272 U.S. 365 (1926)** — the
   United States Supreme Court upheld comprehensive use zoning as a valid
   exercise of the police power; Justice Sutherland's opinion contains the line
   that "a nuisance may be merely a right thing in the wrong place, like a pig
-  in the parlor instead of the barnyard." Doing here: it is the moment
-  separation stops being a proposal and becomes an instrument with law behind
-  it, and it gives the lecture its central pull-quote.
+  in the parlor instead of the barnyard."
 - **Clarence Perry, "The Neighborhood Unit", in the *Regional Survey of New
   York and Its Environs*, Vol. VII (1929)** — a residential cell sized to one
   elementary school's catchment, about a quarter-mile radius, with arterials at
-  the edges rather than through it and shops at the corners. Doing here: it is
-  the direct ancestor of Assessment 1, which is named after it, and it shows
-  separation applied at the scale students are about to work at.
+  the edges rather than through it and shops at the corners.
 - **Jane Jacobs, *The Death and Life of Great American Cities* (1961)** — the
   first condition for diversity: a district must serve more than one primary
   function, so that people using it on different schedules are present at
-  different hours. Doing here: it is the case against separation, made on
-  grounds separation's defenders were not measuring.
+  different hours.
 - **Andrés Duany, Elizabeth Plater-Zyberk and Jeff Speck, *Suburban Nation*
   (2000)** — the argument for regulating built form rather than use, and the
-  form-based codes that followed. Doing here: it is the live alternative the
-  studio actually has available, and it sets up the question of what a code
-  should control.
+  form-based codes that followed.
+
+The deck walks through where each of these lands, slide by slide, against
+Halstead Reach's own zoning choice.
 
 ### Simulation mapping
 
@@ -76,17 +70,11 @@ this week is a decision about which of those two costs they would rather carry.
 ## The decision this week
 
 **Livability against mobility performance**, forced by where Halstead Reach's
-industry goes. Sited on Ombersley Flats — downwind under a WNW prevailing wind
-and downstream on the Kerrow — the industrial area's ground, air and water
-pollution leave the map instead of landing on housing, and the residential
-quarter's land value and well-being readings hold. It also sits about 3.2 km
-from the nearest dwelling, across the river, so the district buys a bridge and
-every worker and every freight movement makes that crossing twice a day on the
-one link that exists. Sited on the eastern edge of the Reach instead, the
-commute falls to under a kilometre with no crossing, and the ground pollution
-overlay puts a measurable footprint on the blocks students zoned last week.
-Both schemes are buildable this week. Only one of them can be defended without
-naming what it cost.
+industry goes: downwind and downstream on Ombersley Flats, clean but a long,
+bridged commute, against the eastern edge of the Reach, close but exposed to
+its own pollution footprint. The deck works both schemes' figures side by
+side. Both are buildable this week; only one can be defended without naming
+what it cost.
 
 ## Into the studio
 

@@ -741,3 +741,108 @@ window; both times are now named (08:00 / 14:00). Week 7's evidence-label list
 had drifted from Week 1's four-term taxonomy ("overlay" instead of "manual
 observation"); reverted to the standing wording. `pnpm check` stayed pristine
 throughout (0 errors, 0 warnings, 21/21 spec tests).
+
+## 2026-09-03 — Adversarial review of the twelve lecture decks
+
+Ran a fresh, context-isolated adversarial review of the **lecture decks**
+(`src/decks/week-*.deck.mdx`, ~194 slides), not the lecture reference pages,
+against a handoff list of seeded and suspected problems plus an independent
+pass. Confirmed and fixed:
+
+- **Week 7 arithmetic/pipe-pressure.** A worked hypothetical implied the
+  district's water trunk was capacity-limited in a way that conflicts with
+  the documented no-capacity pipe model; reworded to the production-vs-
+  treatment premise the studio pages already carry, with no invented
+  hydraulic ceiling.
+- **Week 10 flood-vs-fire regression.** A leftover flood-scenario slide had
+  crept back into the deck after the studio-plan rewrite to a forest-fire
+  load case (Verrall Ridge / Thackray Cut); replaced to match.
+- **Week 5–6 tram-vs-bus canon drift.** Slides still described a tram where
+  the settled canon (and the studio pages) run a six-stop bus with four
+  vehicles; corrected across both decks.
+- **Week 12 fabricated "Ondrey escarpment."** No such place exists in the
+  Kerrow Basin gazetteer; replaced with Ludworth Bench, the real named shelf
+  on Verrall Ridge established in the lecture-review pass.
+- **Evidence-labelling gaps.** Added the standing direct-readout / derived-
+  measure / worked-hypothetical labels to slides in Weeks 6, 7 and 8 that
+  stated striking numeric outcomes without one.
+- **Source quotations.** Verified every direct quotation attributed to a
+  named theorist against the actual text; none were fabricated, but citation
+  details were tightened where loose.
+- **Dense/illegible tables.** Weeks 9, 10 and 11 carried tables too dense for
+  a projected slide; reset to the deck's compact handbook table style.
+- **Lecture-page vs. deck duplication.** Trimmed sections repeated near-
+  verbatim between a week's `.md` reference page and its `.deck.mdx`, so the
+  deck teaches and the page is the leave-behind, not two copies of one text.
+- **Diagram overlap bugs in `CourseDiagram.astro`** (task #12, mechanical,
+  found by reading the SVG source's coordinates against each label's
+  position/x-span, not by screenshot): `utility-network` label collision;
+  `cascade-sequence` box text overflowing its 185×80 box at 24px (dropped to
+  15px for the eight `.tiny` labels); `basin`'s "Thackray Cut" label sitting
+  on top of the heavy rail line it was meant to sit beside (repositioned).
+  Also spot-checked `pollution`, `braess`, `capacity-curve`, `cascade-ring`,
+  `amenity-radius`, `radburn`, `tuckwell` and others for the same class of
+  bug by coordinate arithmetic; no further overlaps found.
+
+### Tooling finding, worth keeping: `agent-browser` cannot verify SVG `<text>` inside a reveal.js slide
+
+While chasing what first looked like a `radburn`-diagram text bug, established
+that `agent-browser` screenshots do **not** reliably render SVG `<text>`
+elements inside `CourseDiagram.astro`'s diagrams once reveal.js's slide-scale
+CSS transform is applied — while `<path>`/`<rect>` shapes in the same SVG
+always render correctly. Symptom: text present in the DOM with correct
+computed styles and coordinates, but at 1920×1080 it is frequently invisible
+in the captured pixels, and at other viewports it renders tiny and clustered
+near the diagram's top-left rather than at its true scaled position. This
+reproduced identically on two different diagrams (`radburn` and `basin`) and
+was not fixed by a forced resize-repaint. A diagram (`basin`) that had
+screenshotted cleanly in an earlier session later showed the same failure
+with no source change in between — confirming this is a capture-pipeline
+artifact of headless Chromium under CDP, not a content or CSS bug.
+Consequence: **diagram label placement must be verified by coordinate
+arithmetic against the SVG source (line/shape geometry vs. text x/y and
+span), not by `agent-browser` screenshot.** The fixes above were made and
+confirmed that way. Screenshot verification in this pass covered page
+structure, non-SVG text, and layout/overflow only, per the viewport check
+below — not SVG-internal diagram labels.
+
+### Verification
+
+`rm -rf dist && pnpm build` then `pnpm check`: exit 0, 0 errors, 0 warnings,
+7/7 test files, 21/21 tests, no broken links, no accessibility violations.
+
+Viewport pass in actual Chrome via `agent-browser` device emulation, fresh
+`pnpm preview` build, page identity curl-checked first: homepage, the Week 10
+lecture page (including its theory list and simulation-mapping table area),
+and the Week 1 deck title slide, at both 1920×1080 and 390×844. All clean —
+no horizontal overflow, nav collapses to a mobile menu, deck chrome and
+non-SVG slide text render correctly. SVG diagram-label legibility was **not**
+re-verified visually, per the tooling finding above; those fixes rest on
+source-geometry verification and `pnpm check`.
+
+## 2026-09-03 — Cross-course consistency check: studio fixes vs. lecture decks
+
+Handoff instruction from the studio adversarial review was to check
+lecture/studio cross-consistency once the lecture-deck review landed
+(`cf34a0b9`), particularly Weeks 2, 4, 5, 6, 10. Diffed that commit against
+the studio pages fixed earlier the same day (`88e29a2f`) rather than
+re-running a full review, since the specific risk was the two passes
+correcting the same claim in opposite directions.
+
+Weeks 4, 5, 6 and 10 check out: the lecture-deck pass's own fixes (bus canon,
+Ludworth Bench, the fire-load scenario, Week 7's no-pressure model) already
+match the studio pages, and neither Week 4 deck nor lecture page carries the
+stale `w03` save reference the studio fix removed.
+
+**Week 2 did not.** `src/decks/week-02.deck.mdx` still described the
+unzoned-network exercise as reading a live traffic-volume overlay
+("read the traffic volume overlay... Volume will already be uneven",
+close-one-link as "before-and-after volume readings", "screenshot the
+traffic volume overlay at 08:00") — the exact claim the studio page fix
+replaced with path-count/route-count evidence, because an empty network has
+no local origins and so no honest volume to show. The deck predates that
+studio fix and the lecture-deck review's own pass didn't cross-check against
+it. Reworded the three affected slides (configuration-predicts-movement,
+close-one-link procedure and table, "Before Tuesday" checklist) to path-count
+and route-count language matching `02-block-pattern.md`. `pnpm check` stayed
+pristine (0 errors, 0 warnings, 21/21 tests).

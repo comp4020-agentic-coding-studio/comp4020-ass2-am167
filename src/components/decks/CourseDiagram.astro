@@ -16,11 +16,11 @@ const { kind } = Astro.props;
         <path class="ink-line heavy" d="M680 0 V70 H620 V190" />
         <path class="ink-line rail" d="M1000 155 H525" />
         <path class="ink-line" d="M230 350 L360 275" />
-        <text class="label" x="612" y="55">Dunthorpe interchange</text>
-        <text class="label" x="555" y="125">Halstead Reach</text>
+        <text class="label" x="694" y="45">Dunthorpe interchange</text>
+        <text class="label" x="634" y="125">Halstead Reach</text>
         <text class="label" x="88" y="375">Verrall Ridge</text>
         <text class="label" x="610" y="405">Ombersley Flats</text>
-        <text class="label" x="165" y="320">Thackray Cut</text>
+        <text class="label" x="45" y="245">Thackray Cut</text>
         <text class="gold-text" x="54" y="42">WNW wind ↘</text>
         <text class="gold-text" x="540" y="292">River Kerrow →</text>
         <path class="ink-line" d="M805 465 h110" />
@@ -42,7 +42,7 @@ const { kind } = Astro.props;
           <rect x="735" y="105" width="45" height="35" /><rect x="735" y="360" width="45" height="35" />
         </g>
         <text class="label" x="395" y="240">interior park</text>
-        <text class="gold-text" x="390" y="285">pedestrian route</text>
+        <text class="gold-text" x="520" y="320">pedestrian route</text>
         <text class="label" x="105" y="475">collector road</text>
         <text class="label" x="740" y="240">cul-de-sac</text>
       </svg>
@@ -99,7 +99,7 @@ const { kind } = Astro.props;
         <rect class="gold-fill" x="445" y="210" width="110" height="80" />
         <g class="ink-fill"><rect x="165" y="25" width="40" height="40" /><rect x="795" y="25" width="40" height="40" /><rect x="165" y="435" width="40" height="40" /><rect x="795" y="435" width="40" height="40" /></g>
         <text class="label invert" x="466" y="258">school</text>
-        <text class="gold-text" x="555" y="160">¼-mile radius</text>
+        <text class="gold-text" x="590" y="80">¼-mile radius</text>
         <text class="label" x="365" y="486">arterials carry traffic around</text>
       </svg>
     )
@@ -114,7 +114,7 @@ const { kind } = Astro.props;
         <g class="ink-fill"><rect x="170" y="150" width="150" height="90" /><rect x="610" y="320" width="150" height="90" /></g>
         <path class="gold-fill soft" d="M320 165 C470 130 570 175 690 220 C560 270 445 265 320 225Z" />
         <path class="gold-fill hatch" d="M760 335 C850 310 930 330 990 375 V455 C900 430 830 405 760 395Z" />
-        <text class="label" x="176" y="140">Reach counterfactual</text>
+        <text class="label" x="90" y="140">Reach counterfactual</text>
         <text class="label" x="625" y="455">Pellow cells</text>
         <text class="gold-text" x="58" y="88">WNW wind ↘</text>
         <text class="tiny" x="420" y="110">housing</text>
@@ -133,9 +133,9 @@ const { kind } = Astro.props;
         <path class="ink-line heavy" d="M80 310 H920" />
         <circle class="gold-line heavy dash" cx="480" cy="310" r="175" />
         <rect class="gold-fill" x="450" y="280" width="60" height="60" />
-        <text class="label invert" x="460" y="317">clinic</text>
+        <text class="tiny invert" x="458" y="315">clinic</text>
         <text class="gold-text" x="610" y="175">15-minute walk</text>
-        <text class="label" x="500" y="292">Pelling Street</text>
+        <text class="label" x="545" y="300">Pelling Street</text>
         <text class="tiny" x="500" y="48">Kerrow corridor</text>
       </svg>
     )
@@ -179,7 +179,7 @@ const { kind } = Astro.props;
         <g class="ink-line heavy"><path d="M120 250 L430 95 L880 250 M120 250 L430 405 L880 250" /></g>
         <path class="gold-line heavy dash" d="M430 95 V405" />
         <g class="ink-fill"><circle cx="120" cy="250" r="24" /><circle cx="430" cy="95" r="24" /><circle cx="430" cy="405" r="24" /><circle cx="880" cy="250" r="24" /></g>
-        <text class="label" x="45" y="260">Start</text><text class="label" x="910" y="260">End</text>
+        <text class="label" x="16" y="260">Start</text><text class="label" x="910" y="260">End</text>
         <text class="tiny" x="240" y="145">T ÷ 100</text><text class="tiny" x="650" y="145">45 min</text>
         <text class="tiny" x="240" y="385">45 min</text><text class="tiny" x="650" y="385">T ÷ 100</text>
         <text class="gold-text" x="452" y="260">new zero-time link</text>
@@ -196,7 +196,7 @@ const { kind } = Astro.props;
         <path class="ink-line heavy" d="M90 95 H690 Q780 98 820 135 Q850 180 865 405 H950" />
         <path class="gold-line dash heavy" d="M855 30 V425" />
         <text class="label" x="180" y="75">flat, therefore invisible</text>
-        <text class="label" x="730" y="155">the knee</text>
+        <text class="label" x="695" y="75">the knee</text>
         <text class="label" x="875" y="300">the cliff</text>
         <text class="gold-text" x="665" y="465">installed capacity</text>
         <text class="tiny" x="300" y="478">network load →</text>
@@ -229,10 +229,10 @@ const { kind } = Astro.props;
         <path class="gold-line heavy" d="M30 430 H970" /><text class="gold-text" x="420" y="470">River Kerrow →</text>
         <rect class="ink-line no-fill" x="60" y="55" width="210" height="85" /><text class="label" x="82" y="91">Farrant treatment</text><text class="tiny" x="82" y="120">processing 88%</text>
         <rect class="ink-line no-fill" x="710" y="55" width="220" height="85" /><text class="label" x="734" y="91">Wensley Bank pump</text><text class="tiny" x="734" y="120">production 92%</text>
-        <path class="ink-line heavy" d="M820 140 V210 H145" />
-        {[180,370,560,750].map((x)=><path class="ink-line" d={`M${x} 210 V290`} />)}
-        {["Halstead Reach","Ockley Green","Ombersley Flats","Farrant Row"].map((name,i)=><g><rect class="ink-line no-fill" x={105+i*190} y="290" width="150" height="65" /><text class="tiny" x={120+i*190} y="328">{name}</text></g>)}
-        <path class="gold-line dash" d="M170 430 C350 365 560 375 790 430" />
+        <path class="ink-line heavy" d="M820 140 V210 H140" />
+        {[150,365,580,795].map((x)=><path class="ink-line" d={`M${x} 210 V290`} />)}
+        {["Halstead Reach","Ockley Green","Ombersley Flats","Farrant Row"].map((name,i)=><g><rect class="ink-line no-fill" x={55+i*215} y="290" width="190" height="65" /><text class="tiny" x={75+i*215} y="328">{name}</text></g>)}
+        <path class="gold-line dash" d="M170 430 C350 320 560 320 790 430" />
         <text class="gold-text" x="350" y="402">outfall plume → intake</text>
       </svg>
     )
@@ -265,7 +265,7 @@ const { kind } = Astro.props;
           [390,385,"4  plume at intake"],
           [75,300,"5  sickness"],
           [55,105,"6  healthcare spend"],
-        ].map(([x,y,label])=><g><rect class="ink-line no-fill" x={x} y={y} width="235" height="70" rx="12" /><text class="tiny" x={Number(x)+18} y={Number(y)+42}>{label}</text></g>)}
+        ].map(([x,y,label])=><g><rect class="ink-line no-fill" x={x} y={y} width="260" height="70" rx="12" /><text class="tiny" x={Number(x)+18} y={Number(y)+42}>{label}</text></g>)}
         <path class="gold-line heavy" d="M625 70 L690 125 M810 175 L820 300 M720 360 L625 410 M390 420 L310 370 M75 300 L75 175 M290 105 L390 70" />
         <text class="gold-text" x="400" y="265">the fix moves the failure</text>
       </svg>
@@ -276,7 +276,7 @@ const { kind } = Astro.props;
     kind === "cascade-sequence" && (
       <svg viewBox="0 0 1000 500" role="img" aria-labelledby="cascade-title">
         <title id="cascade-title">Eight-step infrastructure cascade</title>
-        {["rezoning","load > capacity","shortfall","abandonment","tax base falls","upgrade","polluted intake","health spend"].map((label,i)=>{const x=55+(i%4)*235;const y=i<4?90:315;return <g><rect class={i===2?"gold-fill":"ink-line no-fill"} x={x} y={y} width="185" height="80" rx="10" /><text class={i===2?"label invert":"tiny"} x={x+15} y={y+46}>{i+1}. {label}</text></g>})}
+        {["rezoning","load > capacity","shortfall","abandonment","tax base falls","upgrade","polluted intake","health spend"].map((label,i)=>{const x=55+(i%4)*235;const y=i<4?90:315;return <g><rect class={i===2?"gold-fill":"ink-line no-fill"} x={x} y={y} width="185" height="80" rx="10" /><text class={i===2?"label invert":"tiny"} x={x+15} y={y+46} style={i===2?undefined:"font-size:15px"}>{i+1}. {label}</text></g>})}
         <g class="gold-line heavy"><path d="M240 130 H290 M475 130 H525 M710 130 H760 M850 170 V315 M760 355 H710 M525 355 H475 M290 355 H240" /></g>
         <path class="gold-line dash" d="M55 355 C15 355 15 230 55 130" />
         <text class="gold-text" x="375" y="255">three weeks from readout to street</text>
@@ -365,7 +365,7 @@ const { kind } = Astro.props;
         <path class="gold-fill soft" d="M705 335 C760 250 860 220 960 250 L960 365 C850 360 770 370 705 390Z" />
         <path class="gold-line heavy" d="M80 70 L300 170" />
         <text class="gold-text" x="45" y="55">WNW wind ↘</text><text class="label" x="145" y="130">intake upstream</text><text class="label" x="640" y="435">outfall downstream</text>
-        <text class="gold-text" x="790" y="300">plume moves away</text><text class="tiny" x="410" y="245">Tuckwell Bend →</text>
+        <text class="gold-text" x="790" y="300">plume moves away</text><text class="tiny" x="380" y="400">Tuckwell Bend →</text>
       </svg>
     )
   }
