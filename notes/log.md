@@ -846,3 +846,28 @@ it. Reworded the three affected slides (configuration-predicts-movement,
 close-one-link procedure and table, "Before Tuesday" checklist) to path-count
 and route-count language matching `02-block-pattern.md`. `pnpm check` stayed
 pristine (0 errors, 0 warnings, 21/21 tests).
+
+## 2026-09-03 — Reflection: lecture-deck adversarial review, worth citing in PROCESS.md
+
+Flagging this task for the process write-up: the full lecture-deck
+adversarial-review arc (fresh reviewer pass against handoff notes plus an
+independent pass, fixes across all twelve `.deck.mdx` files and lecture
+pages, a full `CourseDiagram.astro` overlap audit, both marked viewports,
+log, commit, push) ran close to two hours of wall-clock/agent time across
+several context compactions, and was time well spent rather than churn.
+
+Why it worked: mechanical `pnpm check` would never have caught the Week
+5–6 tram-vs-bus canon drift, the fabricated "Ondrey escarpment," or Week 7's
+arithmetic conflicting with the documented pipe model — all three need a
+reader applying outside knowledge (the game's actual mechanics, the course's
+own settled canon) against prose, which is exactly what the adversarial-
+review step in `CLAUDE.md` exists for. The one real time-sink in the two
+hours was a tooling artifact (`agent-browser` failing to reliably render SVG
+`<text>` under reveal.js's slide-scale transform) rather than the content
+work itself; recognising it as a dead end took a controlled, repeatable
+comparison rather than accepting the first screenshot as ground truth, and
+is recorded separately as a memory/feedback note so it doesn't cost a second
+session the same hour. The final closeout (rebuild, full check, both
+viewports, diff review) turned up nothing new wrong, which is itself a
+signal the fixes made along the way were sound rather than needing a
+last-minute scramble.
