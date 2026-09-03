@@ -15,27 +15,55 @@ import { sessionLabels, siteConfig } from "../site-config";
     {courseMeta.tags.map((tag) => <li>{tag}</li>)}
   </ul>
 
+  <p class="lede">
+    You will build something that works. Then a jury who was not in the room
+    when you decided will ask what stopped working because of it.
+  </p>
+
   <h2>What you will do</h2>
   <p>
-    You are assigned a district and a save file in week one, and you keep it
-    for the whole semester. Each week takes one planning problem — zoning,
-    transit, infrastructure, budget, the public realm — and you make the call
-    in Cities: Skylines II, then defend it at crit against three named
-    metrics: fiscal performance, mobility performance and livability. No
-    build gets all three. Learning to say which one you traded, and why, is
-    the actual syllabus. You leave with a comprehensive plan for a district
-    you can walk a critic through, screenshot by screenshot.
+    You will be assigned a district and a save file in week one, and you will
+    keep it for the whole semester. Each week takes one planning problem —
+    zoning, transit, infrastructure, budget, the public realm — and you will
+    make the call in Cities: Skylines II, then defend it at crit against
+    three named metrics: fiscal performance, mobility performance and
+    livability. No build gets all three. Learning to say which one you
+    traded, and why, is the actual syllabus.
+  </p>
+  <p>
+    In Week 6 you will widen a bottleneck at Wickstead from two lanes to
+    four. The reference route takes 11.2 minutes at the morning peak
+    beforehand, and 8.9 the moment the wider road opens. Six in-game weeks
+    later, the same route takes 10.7 minutes, likely because drivers who had
+    been avoiding the old jam start taking the new road too. The widening
+    genuinely helps — it just helps less than the first number says, and the
+    studio makes you report both numbers instead of stopping at the one that
+    flatters the decision. You will leave with a comprehensive plan for a
+    district you can walk a critic through, screenshot by screenshot.
+  </p>
+
+  <h2>Why simulate it</h2>
+  <p>
+    "You can draw a transit spine with a ruler in an afternoon," Marisol
+    Quaye, who convenes the studio, says. "What you cannot draw is anybody
+    choosing to ride it. The model will not let you skip that, and I have
+    never found a crit that could." That is the argument for building inside
+    a simulation rather than on paper: it refuses to certify a plan just
+    because it looks right. Week 1 sets a standing rule that holds for the
+    rest of semester — a plan claiming all three metrics improved has not
+    been read carefully — and every jury afterward spends its afternoon
+    checking whether you read your own numbers as carefully as you are
+    asking it to.
   </p>
 
   <h2>Who it is for</h2>
   <p>
-    Second-year students who've done a first-year planning or urban studies
-    gateway course and want their first studio — the crit format, the weekly
-    deliverable, the discipline of defending a design decision out loud. No
-    prior experience with the software is assumed; the studio teaches the
-    tool alongside the theory. If you want a semester of debate about whether
-    cities should exist at all, this isn't that course — every week here ends
-    with something built.
+    Second-year students who want their first studio — the crit format, the
+    weekly deliverable, the discipline of defending a design decision out
+    loud. No prior experience with the software is assumed; the studio
+    teaches the tool alongside the theory. If you want a semester of debate
+    about whether cities should exist at all, this isn't that course — every
+    week here ends with something built.
   </p>
 
   <h2>Where to go next</h2>
@@ -68,5 +96,10 @@ import { sessionLabels, siteConfig } from "../site-config";
     color: var(--at-text-secondary);
     background: var(--at-bg-alt);
     font-size: 0.9rem;
+  }
+
+  .lede {
+    font-size: 1.15rem;
+    max-width: 42rem;
   }
 </style>

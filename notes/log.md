@@ -916,3 +916,97 @@ criteria weights per brief (40+30+30, 45+30+25), cohort/room arithmetic, the
 A2 cost-per-happiness-point math, and every one of Assessment 3's forward
 references into Weeks 8/10/11 — none orphaned. `pnpm check` stayed pristine
 (0 errors, 0 warnings, 7/7 test files, 21/21 tests) after all fixes.
+
+## 2026-09-03 — Home page rewrite: too generic, not a reason to enrol
+
+User feedback: the home page was too simple and gave no reason a prospective
+student would want to enrol over any other studio course. `src/pages/index.astro`
+had the mechanics ("you keep a district all semester," "no build gets all
+three metrics") but no concrete evidence and no hook.
+
+Rewrote it to pull three verbatim facts already established elsewhere on the
+site into a single narrative: the Week 6 Wickstead widening's travel-time arc
+(11.2 → 8.9 → 10.7 minutes, from `sessions/06-peak-load-stress-test.md`),
+Marisol Quaye's "you cannot draw anybody choosing to ride it" quote (from her
+people-page bio), and the Week 1 standing rule that a plan claiming all three
+metrics improved has not been read carefully (from
+`sessions/01-site-selection.md`). Added a one-line lede up top and a new "Why
+simulate it" section built around the quote and standing rule.
+
+Spawned a fresh Sonnet reviewer (no shared context) to fact-check every new
+number/quote against its source and attack the page as a skeptical
+prospective student. It confirmed all three borrowed facts were exact
+matches, including the three-week-hold / six-week-refill sequence on the
+Wickstead numbers, and found no contradiction against `policies/index.mdx` or
+`course-config.ts`. Real findings, both fixed:
+
+1. The "Who it is for" section invented an unsourced prerequisite
+   ("a first-year planning or urban studies gateway course") that appears
+   nowhere else on the site — a specific, falsifiable-sounding claim with no
+   backing. Removed the invented gateway-course detail, kept "second-year
+   students" (which does match `course-config.ts`'s `level: 2`).
+2. No hook line before the reader reaches the Wickstead paragraph. Added a
+   one-sentence lede right under the tag pills: "You will build something
+   that works. Then a jury who was not in the room when you decided will ask
+   what stopped working because of it."
+3. "screenshot by screenshot, tradeoff by tradeoff" was flagged as reaching
+   for punchiness with a stacked parallel construction, out of step with the
+   plain numbers-first voice elsewhere. Cut back to "screenshot by
+   screenshot."
+
+The reused Marisol quote (identical to her bio) was flagged as a minor risk
+of reading like padding but left as-is — a home page repeating a person's own
+pull quote before a reader has visited their page is normal, not a
+contradiction. `pnpm check` stayed pristine (0 errors, 0 warnings, 14/14 test
+files, 42/42 tests) after the fixes, and both marked viewports (1920×1080,
+390×844) were checked in Chrome via `agent-browser` against `pnpm preview`.
+
+User called the Wickstead paragraph "pure slop" on a follow-up read, and they
+were right: "drifting to 10.7 by week six" collides with "In Week 6 you widen
+it" earlier in the same sentence, so a careful reader can misread it as the
+road failing in the same course week it was built, when the six weeks are
+in-game (simulated) time elapsed after the widening, not a later course week.
+The adversarial reviewer's fact-check confirmed the numbers were accurate but
+did not catch this because it checked values, not readability against a
+first-time reader. Also cut two decorative metaphors doing no explanatory
+work ("the travel time you bought erode," "a claim with a half-life").
+Rewrote to state explicitly "six in-game weeks" and lead with the mechanism
+(drivers who'd been avoiding the jam come back) rather than a metaphor.
+`pnpm check` stayed pristine after the fix; no re-screenshot taken since this
+was a wording correction to an already-verified layout, not a structural
+change.
+
+## 2026-09-03 — Home page tense: present vs. future for a prospective reader
+
+User pushed back again: the "What you will do" section was written in present
+tense ("you are assigned," "you make the call") even though this is the intro
+page, addressed to someone who hasn't enrolled yet — its own heading already
+said "What you will do." Converted that section and the Wickstead example to
+future tense for the personal narrative ("you will be assigned," "you will
+widen"), while deliberately leaving general/standing facts in present tense
+(no build gets all three metrics; the widening genuinely helps; "Who it is
+for"'s audience description) — mixing future-for-events and present-for-
+standing-truths is normal in English and matches how the rest of the site
+already reads.
+
+Spawned a second fresh Sonnet reviewer against the converted page. It found
+the numbers/quotes still checked out, but caught three real problems:
+
+1. "and the studio will make you report both numbers" broke tense with its
+   own coordinate clause (a present-tense standing-fact sentence) —
+   reverted that clause to present ("makes you report").
+2. The "Why simulate it" closing sentence had a category mismatch (a jury
+   is not "someone") and a dangling "them" with no clear antecedent.
+   Rewrote as "every jury afterward spends its afternoon checking whether
+   you read your own numbers as carefully as you are asking it to."
+3. The Wickstead paragraph stated one traffic-return mechanism as settled
+   fact, when `sessions/06-peak-load-stress-test.md` treats it as one of
+   four unaudited hypotheses students must test — ironic given the same
+   sentence praises the studio for not stopping at a flattering number.
+   Softened to "likely because." Also swapped the imperative "Run the
+   simulation forward six in-game weeks" for a declarative "Six in-game
+   weeks later," which had read as a mood shift out of place in the
+   narration.
+
+`pnpm check` stayed pristine (0 errors, 0 warnings, 14/14 test files, 42/42
+tests) after these fixes.
