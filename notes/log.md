@@ -819,3 +819,30 @@ no horizontal overflow, nav collapses to a mobile menu, deck chrome and
 non-SVG slide text render correctly. SVG diagram-label legibility was **not**
 re-verified visually, per the tooling finding above; those fixes rest on
 source-geometry verification and `pnpm check`.
+
+## 2026-09-03 — Cross-course consistency check: studio fixes vs. lecture decks
+
+Handoff instruction from the studio adversarial review was to check
+lecture/studio cross-consistency once the lecture-deck review landed
+(`cf34a0b9`), particularly Weeks 2, 4, 5, 6, 10. Diffed that commit against
+the studio pages fixed earlier the same day (`88e29a2f`) rather than
+re-running a full review, since the specific risk was the two passes
+correcting the same claim in opposite directions.
+
+Weeks 4, 5, 6 and 10 check out: the lecture-deck pass's own fixes (bus canon,
+Ludworth Bench, the fire-load scenario, Week 7's no-pressure model) already
+match the studio pages, and neither Week 4 deck nor lecture page carries the
+stale `w03` save reference the studio fix removed.
+
+**Week 2 did not.** `src/decks/week-02.deck.mdx` still described the
+unzoned-network exercise as reading a live traffic-volume overlay
+("read the traffic volume overlay... Volume will already be uneven",
+close-one-link as "before-and-after volume readings", "screenshot the
+traffic volume overlay at 08:00") — the exact claim the studio page fix
+replaced with path-count/route-count evidence, because an empty network has
+no local origins and so no honest volume to show. The deck predates that
+studio fix and the lecture-deck review's own pass didn't cross-check against
+it. Reworded the three affected slides (configuration-predicts-movement,
+close-one-link procedure and table, "Before Tuesday" checklist) to path-count
+and route-count language matching `02-block-pattern.md`. `pnpm check` stayed
+pristine (0 errors, 0 warnings, 21/21 tests).

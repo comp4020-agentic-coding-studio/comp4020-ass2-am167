@@ -121,8 +121,12 @@ Say the crucial thing directly — a road hierarchy of arterial,
   alone predicts a large share of observed movement.
 - The implication for this studio: a layout can be evaluated **before**
   anything is zoned into it.
-- The test: place the network, place nothing else, run the simulation, and
-  read the traffic volume overlay. Volume will already be uneven.
+- The test: place the network, place nothing else, and count independent
+  routes between two named corners on paper. Redundancy is already uneven
+  before anything is zoned.
+- An empty network has no local origins, so it has no honest traffic to read
+  — there is no unzoned volume overlay. Path-count is the only reading an
+  unzoned layout can give you.
 
 ```notes
 This is the week's methodological gift — students can test a
@@ -193,15 +197,15 @@ Make students derive the last column themselves from the road
 The redundancy test, stated as a procedure students run on Tuesday:
 
 1. Build the layout. Zone nothing.
-2. Open the traffic info view and note volume on every link at 08:00.
-3. Delete one link — the busiest one.
-4. Read the volume overlay again at 08:00 the following day.
+2. Pick two named corners and count independent routes between them on paper.
+3. Remove one link on paper — the busiest topological one.
+4. Count independent routes between the same two corners again.
 
-| Layout | Where the traffic goes | What the overlay shows |
+| Layout | Routes before | Routes after removal |
 | --- | --- | --- |
-| A — fine grid | Redistributes across three or four parallel routes | Volume rises modestly on several links |
-| B — organic | Redistributes onto the other through-route | Volume rises sharply on one link |
-| C — superblock | Nowhere. The trips that used it are re-routed to the remaining collector mouths | A queue forms and does not clear |
+| A — fine grid | Three or four parallel routes | Redistributes; still two or three remain |
+| B — organic | Two routes | One route remains |
+| C — superblock | One route | Zero; the two corners are no longer connected |
 
 ```notes
 This is Alexander's diagram made operational. A tree has no
@@ -256,10 +260,11 @@ Livability is the third metric in this week's decision and it is
 
 - Lay out the first residential quarter of your settlement area at one
   chosen block dimension, stated in metres in your notes.
-- Zone nothing yet. Run the layout unzoned and screenshot the traffic
-  volume overlay at 08:00.
-- Run the close-one-link test and bring the before-and-after volume
-  readings. Bring the numbers, not a description of the numbers.
+- Zone nothing yet. Bring the unzoned path-count table: independent routes
+  between two named corners and the frontage metres the zoning tool can
+  reach.
+- Run the close-one-link test and bring the before-and-after route counts.
+  Bring the numbers, not a description of the numbers.
 - Bring the road upkeep figure from the economy panel, and the road metres
   per dwelling you have derived from it.
 - Save as `<student ID>-w02`, off-machine copy as usual. Studio Wednesdays
