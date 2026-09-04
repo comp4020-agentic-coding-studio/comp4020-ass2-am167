@@ -123,6 +123,10 @@ interesting.
   requires subagents, use Luna in Codex (`gpt-5.6-luna`) or Sonnet in Claude
   Code. Do not spawn any other model. This restriction applies to subagents,
   not the main agent.
+- **Prefer the highest-context-window variant available for an allowed
+  subagent model** (e.g. Sonnet's 1M-token context option), so a reviewer
+  isn't forced to summarize away parts of the course to fit a smaller window
+  before it can judge coherence.
 
 ## Tests
 
