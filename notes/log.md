@@ -1140,3 +1140,99 @@ Visual verification at both marked viewports (1920×1080, 390×844 via
 
 `pnpm check` stayed pristine (0 errors, 0 warnings, 8/8 test files, 29/29
 tests) after all fixes.
+
+## 2026-09-04 — Policies page: tiled layout
+
+Restructured `src/pages/policies/index.mdx` into a card grid, on request, so
+the page reads as nine distinct tiles instead of one long scroll of H2
+sections — matching the `Card`/`CardGrid` visual language already used on the
+home page and the assessments index. Prose is unchanged; this is layout only.
+
+New component `src/components/PolicyCard.astro` wraps the theme's existing
+`.at-card`/`.at-card-body`/`.at-card-title` classes (confirmed these are
+plain global CSS, not private to `Card.astro`) but, unlike `Card.astro`,
+takes an explicit `id` prop and puts it on the heading element itself. This
+was necessary because `Card.astro` has no `id` prop at all — it relies on
+callers not needing anchors. The policies page's headings are load-bearing:
+`spec/policies.test.ts` and three other pages (`assessments/*`,
+`people/index.mdx`, and the page's own self-links) deep-link into
+`/policies/#<id>`, so switching to a component-rendered heading would have
+silently dropped every one of those anchors if `id` weren't threaded through
+by hand. Removed the `##` markdown headings from each section (title is now
+a prop, not parsed markdown) so there's exactly one mechanism producing each
+heading id — otherwise rehype-slug and the hand-set `id` would compete.
+
+The one section that doesn't suit a narrow card — "Where to ask what", which
+is a lookup table, not a rule — gets a `wide` prop on `PolicyCard` that sets
+`grid-column: 1 / -1`, so it spans the full row instead of squeezing a table
+into a ~20rem column.
+
+Verified after `pnpm build`: all 9 H2 ids plus the H1 are byte-for-byte
+unchanged in `dist/policies/index.html`, `pnpm check` is pristine (7/7 files,
+21/21 tests, no broken links), and visual check at both 1920×1080 and 390×844
+in Chrome confirms the grid collapses to a single column on mobile with no
+clipped content (checked table and card children against bounding boxes, not
+just `scrollWidth`, since `.at-card` sets `overflow: hidden`).
+
+## 2026-09-04 — Adversarial review of the tiled policies page, two real fixes
+
+Before committing, ran an adversarial review with a fresh general-purpose
+agent (no shared context with the drafting session, per CLAUDE.md) against
+`src/pages/policies/index.mdx` and `src/components/PolicyCard.astro`. It
+found two real defects the mechanical checks couldn't see, plus two minor
+ones. Both real defects are fixed; this is what changed and why.
+
+**Dead whitespace from row-height stretching.** The theme forces sibling
+`.at-card`s in the same grid row onto a shared `subgrid` (`grid-row: span 2;
+grid-template-rows: subgrid` in `astro-theme-university/styles/
+components.css`), so a short card and a long one paired in the same row get
+stretched to equal height. That's fine for `Card.astro`'s short, near-
+uniform nav blurbs, but this page's sections range from ~90 to 300+ words —
+"Generative tools" was measured stretching to 928px to match "Save files and
+version discipline" in the same row, leaving ~130px of empty bordered box.
+Fixed with two scoped rules on `.policy-card`: `grid-row: auto;
+grid-template-rows: auto` to opt out of the subgrid, and (found only by
+checking computed styles, not just reasoning about the CSS) `align-self:
+start`, because CSS Grid stretches items to their row's height by default
+even without subgrid — the first fix alone left cards still silently
+matching heights in pairs. Also had to confirm empirically that the scoped
+override actually beats the theme's rule despite equal selector specificity
+(0,2,0 both) — it does, because Astro emits the component's `<style>` before
+the theme's external stylesheet in `<head>`, but same-specificity source-
+order reasoning is easy to get backwards, so I verified computed `height` in
+a real browser via `agent-browser` rather than trusting the cascade math.
+Confirmed after the fix: cards in the same row now report different
+heights matched to their own content (e.g. 622px vs 928px).
+
+**Missing "#" permalink anchors.** Every other heading on the site goes
+through the theme's `rehype-slug` + `rehype-autolink-headings` pipeline
+(`astro-theme-university/markdown.ts`), which appends a hover-reveal,
+aria-hidden `<a class="at-heading-anchor">#</a>` for copying a section link.
+`PolicyCard`'s heading is rendered directly in the `.astro` template, not
+parsed as MDX prose, so it bypassed that pipeline entirely — the policies
+page, the one page on the site most dependent on shareable per-section
+anchors, was the only page where readers couldn't copy a section's link.
+`spec/policies.test.ts` didn't catch this because it only checks that ids
+exist and resolve, not that the copy-link affordance is present. Fixed by
+hand-adding the same anchor markup (`href="#{id}"`, `aria-hidden="true"`,
+`tabindex="-1"`, class `at-heading-anchor`) inside each card's heading,
+matching the theme's convention exactly. Verified in built output (10
+`at-heading-anchor` elements: H1 + 9 cards, was 1 before) and confirmed via
+computed style that it stays hidden until hover, matching every other
+heading on the site.
+
+Also trimmed the unused `headingLevel` prop from `PolicyCard` (no call site
+ever used `"h3"` — dead speculative flexibility) since a reviewer flagged it
+and the project's convention is against unrequested generality.
+
+The review's other findings — that reusing a nav-card visual pattern for
+non-navigational reference content is a category tension, since policies
+cross-reference each other in ways link-out nav cards don't — were judged
+correct as an observation but not a defect to fix: `PolicyCard` renders a
+plain `<div>`, not an `<a>`, and the theme's hover/pointer affordances are
+scoped to `a.at-card:hover` only, so it doesn't visually lie about being
+clickable. Left as-is; noted here so the tradeoff isn't silently lost.
+
+Re-ran `pnpm check` after both fixes: 29/29 files, 91/91 tests, pristine.
+Re-verified both viewports in Chrome via `agent-browser` after the fix (not
+just re-trusting the earlier pass, since the CSS changed materially).
