@@ -18,6 +18,12 @@ marking:
       weight: 25
 related:
   - sessions/09-public-realm-build
+spec:
+  - "You submit 8–12 in-simulation screenshots captioned with in-game day and time, including an attractiveness overlay, a land value overlay, a water or sewage info-view, and a 19:00 street-level view with a counted, captioned polygon population."
+  - "Your defence memo is no more than 1,200 words, structured against livability, fiscal performance and mobility performance in that order, and confronts the public realm spend against what remains unfunded on the treatment plant."
+  - "Every public space you proposed carries one costed monthly line, funded from the Week 8 closure, with any happiness or land-value movement labelled as associated rather than isolated cause."
+  - "The signed unfunded list from Week 8 is the memo's last sheet."
+  - "The save `<student ID>-w09` matches the wall."
 ---
 
 The district after the break, argued as parks, plazas and streets planned with
@@ -77,6 +83,5 @@ point of happiness cost per month.
 
 ## Marking
 
-Livability 45, fiscal performance 30, mobility performance 25. An unfunded
-plaza is a fiscal fail, not a livability one. Keep the save exactly as
-submitted; Week 10 reads this district, not a weekend repair.
+An unfunded plaza is a fiscal fail, not a livability one. Keep the save
+exactly as submitted; Week 10 reads this district, not a weekend repair.

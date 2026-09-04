@@ -22,11 +22,12 @@ spec:
 ## The jury
 
 This afternoon is a jury, not a build session. Sixteen plans occupy the long
-wall and two concurrent bays run from 14:00. Marisol Quaye chairs one; Sunniva
-Marek, who has not watched the work develop, sits at the other. Each plan has
-six minutes: two to present and four for questions. Two rounds of eight finish
-before a recess, when the room leaves so the jurors can read the wall as one
-body of work. The afternoon closes with Marek’s response and a metric round.
+wall and are heard in one bay, two rounds of eight from 14:00. Marisol Quaye
+chairs both rounds; Sunniva Marek, who has not watched the work develop, sits
+through both. Each plan has six minutes: two to present and four for
+questions. The two rounds finish before a recess, when the room leaves so the
+jurors can read the wall as one body of work. The afternoon closes with
+Marek’s response and a metric round.
 
 ## Before 13:00
 
