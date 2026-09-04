@@ -5,6 +5,9 @@ description:
   crit, the standard map, and where to take a problem.
 ---
 
+import CardGrid from "astro-theme-university/components/CardGrid.astro";
+import PolicyCard from "../../components/PolicyCard.astro";
+
 # Studio policies
 
 Every brief in this studio is a design problem. This page is not. It is the set
@@ -18,7 +21,9 @@ Where a brief on the [assessment pages](/assessments/) sets a different rule for
 one piece of work, that brief wins for that piece of work, and says so where it
 does. Everything else here holds from Week 1 to the final jury.
 
-## The pin-up deadline
+<CardGrid columns={2}>
+
+<PolicyCard id="the-pin-up-deadline" title="The pin-up deadline">
 
 A pin-up is not a submission portal that happens to close at noon. It is a room,
 with a jury in it, booked for one afternoon. That is the entire reason the
@@ -50,7 +55,9 @@ critique is the thing you are actually paying for. Attendance at the crit ---
 desk crit, pin-up or jury, whichever the week calls it --- is expected in all
 twelve [studio sessions](/sessions/).
 
-## Extensions
+</PolicyCard>
+
+<PolicyCard id="extensions" title="Extensions">
 
 Extensions are granted, and granted readily, when something outside your control
 has eaten the time. Ask the Course Convenor in writing before the deadline. An
@@ -80,7 +87,9 @@ A machine dying close to a deadline is grounds for an extension when it costs
 you the hours it takes to get back onto a working machine with that backup ---
 it is the time you have lost, not the save.
 
-## Authorship and what the crit is allowed to change
+</PolicyCard>
+
+<PolicyCard id="authorship-and-what-the-crit-is-allowed-to-change" title="Authorship and what the crit is allowed to change">
 
 This studio has an unusual academic integrity problem, and it is worth naming it
 directly rather than gesturing at the University's rules and hoping.
@@ -113,7 +122,9 @@ Passing off another person's design work as your own is plagiarism, and the
 University's academic integrity rules apply here in full and unmodified. What
 this section adds is the studio-specific reading of them.
 
-## The standard map and simulation settings
+</PolicyCard>
+
+<PolicyCard id="the-standard-map-and-simulation-settings" title="The standard map and simulation settings">
 
 Everyone in this studio builds on the same site: the standard map issued in
 Week 1, on the settings listed in that session's brief. This is not
@@ -140,7 +151,9 @@ Sandbox saves, where you can do whatever you like to find out how a system
 behaves, are encouraged and never marked. Keep them separate from the assessed
 district.
 
-## Save files and version discipline
+</PolicyCard>
+
+<PolicyCard id="save-files-and-version-discipline" title="Save files and version discipline">
 
 Your district is a twelve-week argument, and the save file is the only record of
 it. Treat it the way a studio treats drawings.
@@ -162,7 +175,9 @@ week. Students who kept one rolling save have a screenshot and a memory.
 Submit the relevant save alongside the screenshots and memo each time the brief
 asks for it.
 
-## Generative tools
+</PolicyCard>
+
+<PolicyCard id="generative-tools" title="Generative tools">
 
 Use them. Research, reading, working out why the traffic AI is doing something
 baffling, drafting and tightening the memo --- all reasonable, none of it
@@ -178,7 +193,9 @@ is the whole disclosure requirement. Beyond that, the jury is a good detector:
 a memo that argues for a decision its author cannot defend out loud reads
 exactly the same whoever or whatever wrote it.
 
-## Conduct at crit
+</PolicyCard>
+
+<PolicyCard id="conduct-at-crit" title="Conduct at crit">
 
 Critique is the studio's core teaching method and the part most likely to go
 wrong, so the room runs to a protocol:
@@ -200,7 +217,9 @@ University's code of conduct takes it from there.
 If something in a crit lands badly --- yours or someone else's --- tell the
 Course Convenor. It is a small studio and this is fixable when it is early.
 
-## Equipment, access and adjustments
+</PolicyCard>
+
+<PolicyCard id="equipment-access-and-adjustments" title="Equipment, access and adjustments">
 
 The studio runs on Cities: Skylines II, which needs a reasonably capable machine.
 You do not need to own one. The design lab has **fifteen** machines with the
@@ -224,7 +243,9 @@ arranged around it.
 Nothing in the pin-up format is more important than your being able to take part
 in it.
 
-## Where to ask what
+</PolicyCard>
+
+<PolicyCard id="where-to-ask-what" title="Where to ask what" wide>
 
 | If it is about... | Ask |
 | --- | --- |
@@ -237,3 +258,7 @@ in it.
 Contact details for everyone named here are on the [people page](/people/). The
 Visiting Critic does not take student email; their feedback arrives at the jury,
 which is the point of having one.
+
+</PolicyCard>
+
+</CardGrid>
