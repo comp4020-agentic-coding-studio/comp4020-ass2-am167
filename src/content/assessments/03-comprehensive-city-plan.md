@@ -18,6 +18,13 @@ marking:
     simulation was never able to show it.
 related:
   - sessions/12-final-jury
+spec:
+  - "The jury copy of your defence memo, with the omissions appendix at the front, reaches both chairs by Friday 21 May 12:00 — three days before the artefact deadline."
+  - "Your defence memo is no more than 1,600 words (the omissions appendix does not count) and states a claim, the grounds, the warrant, the qualifier as a number, and the rebuttal."
+  - "Your screenshots cover full extent roads only, the land value overlay, the corridor at neighbourhood scale, one street-level block, and the three metric readouts, captioned in-game day and 08:00."
+  - "Your boards carry spatial planning evidence: named overlays, the corridor budget sheet column, the unfunded list, and the Week 10 exposure statement."
+  - "Transit share and walk share are reported against separate observation denominators, never added together."
+  - "You answer, for every slot, whether the district holds under Week 10's fire load case and what the model could not show."
 ---
 
 Twelve weeks of district decisions, argued as one position. Holistic marking
@@ -26,7 +33,8 @@ can be carried by a strong score elsewhere, and that a fourth question sits
 beside them: Week 10's exposure, and what the model could not show.
 
 This brief is the sole authority for memo, appendix, boards, screenshots and
-defence. The Week 12 studio is the jury.
+defence. The Week 12 studio is the jury. Two deadlines apply, not one — read
+Two clocks below before you read anything else.
 
 ## Two clocks
 

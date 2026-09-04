@@ -18,6 +18,13 @@ marking:
       weight: 30
 related:
   - sessions/04-upzoning-the-amenity-core
+spec:
+  - "Your defence memo is no more than 800 words and names the two metrics you traded and the element of the plan where the trade is visible."
+  - "Your memo cites the Week 1 site report, the Week 2 block dimension and its upkeep, and the Week 3 scheme and named front door."
+  - "Your screenshots are captioned with in-game day and 08:00, and include the land value overlay over the cell, the coverage radius of every service building you sited (each captured with that building selected), and the traffic volume layer at the Kerrow corridor boundary."
+  - "The hung A3 shows the district-tool boundary, the amenity core at Pelling Cross, and the Kerrow corridor drawn where it actually runs, with the three required views printed beneath it."
+  - "The bay card states the cell's monthly cost and monthly return in ₡, from the issued district-cost worksheet."
+  - "The save `<student ID>-w04` matches the screenshots and the hung plan."
 ---
 
 One residential cell on Halstead Reach, at Perry's dimensions, designed to a
@@ -61,10 +68,11 @@ the 12:00 upload alone.
 
 ## Defence
 
-**14:00**, Studio 2.14, two concurrent bays. Marisol Quaye chairs; Sunniva Marek
-sits as Visiting Critic. **Six minutes** per plan: two presenting, four
-questions. This clock is the brief's override of the ordinary five-minute crit
-protocol; the evidence does not change.
+**14:00**, Studio 2.14, one bay run in two rounds of eight. Marisol Quaye
+chairs both rounds; Sunniva Marek sits as Visiting Critic throughout.
+**Six minutes** per plan: two presenting, four questions. This clock is the
+brief's override of the ordinary five-minute crit protocol; the evidence does
+not change.
 
 The first question is always: which two of the three metrics did you trade, and
 where on the wall is that visible.
@@ -83,6 +91,5 @@ the Week 4 **lecture**, before this deadline, so it can still change the plan.
 
 ## Marking
 
-Livability 40, fiscal performance 30, mobility performance 30. A plan that
-closed a shortfall without recording which move closed it marks in the middle
-band and no higher.
+A plan that closed a shortfall without recording which move closed it marks
+in the middle band and no higher.
