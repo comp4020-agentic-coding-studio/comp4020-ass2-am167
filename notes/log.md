@@ -1315,3 +1315,22 @@ violations). No layout/CSS/structural change was made — all fixes are prose
 and frontmatter content, including a new `spec:` block already handled by
 the existing `SpecList`/`MarkingModel` components — so no viewport
 verification was needed.
+
+## 2026-09-04 — Semester timeline visual alignment
+
+Compared the live COMP4020 timeline in Chrome and read the assignment 2 brief
+and spec. Worked from current main in `fix/semester-timeline`, in a separate
+worktree as requested. Restyled the existing timeline with full-height week
+bands, a shaded double-width break, three spaced marker rows, larger assessment
+dots with inline labels beneath, and horizontal enrolment labels above dashed
+rules. Kept the existing calendar mapping and SlopU palette. This is a visual
+change with existing mapping coverage; no curriculum rewrite or new behaviour.
+
+Validation: `pnpm check` passed with zero warnings, 29 tests, 51 pages, no
+broken links or accessibility violations. Chrome production-preview screenshots
+at 1920×1080 and 390×844 confirmed the layout; mobile DOM bounds showed no
+out-of-bounds labels or dots and no clipping containers. Preview used confirmed
+port 4322 after an initial startup timeout during concurrent build load; retry
+started cleanly. `pnpm check:evidence` still fails on the pre-existing PROCESS.md
+template and fake citation hashes; left the student's account untouched and
+disclosed this baseline issue in the PR.
