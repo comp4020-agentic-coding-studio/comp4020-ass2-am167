@@ -1,0 +1,248 @@
+---
+import { getPublishedCollection } from "astro-course-university/content";
+import { buildSemesterTimeline, weekBoundaryFor } from "../lib/semester-timeline";
+import { sessionLabels } from "../site-config";
+
+const BREAK_AFTER_WEEK = 6;
+const BREAK_WEEKS = 2;
+// Not published in any content collection --- these are the two enrolment
+// deadlines every ANU-style semester carries, invented for this fictional
+// course but consistent with its real calendar: census before the first
+// pin-up (Week 4), last day to drop before the second (Week 9).
+const CENSUS_DATE = "2027-03-12";
+const DROP_BY_DATE = "2027-04-30";
+
+const [lectures, studios, assessments] = await Promise.all([
+  getPublishedCollection("lectures"),
+  getPublishedCollection("sessions"),
+  getPublishedCollection("assessments"),
+]);
+
+const weekDates = lectures.map((lecture) => ({ week: lecture.data.week, date: lecture.data.date }));
+
+const cells = buildSemesterTimeline({
+  totalWeeks: lectures.length,
+  breakAfterWeek: BREAK_AFTER_WEEK,
+  breakWeeks: BREAK_WEEKS,
+  lectureWeeks: lectures.map((lecture) => lecture.data.week),
+  studioWeeks: studios.map((studio) => studio.data.week),
+  assessments: assessments.map((assessment) => ({
+    week: assessment.data.week,
+    weight: assessment.data.weight,
+  })),
+  markers: [
+    { label: "census date", afterWeek: weekBoundaryFor(CENSUS_DATE, weekDates) },
+    { label: "last day to drop", afterWeek: weekBoundaryFor(DROP_BY_DATE, weekDates) },
+  ],
+});
+---
+
+<div class="semester-timeline">
+  <div class="semester-timeline-track">
+    {
+      cells.map((cell) => {
+        if (cell.kind === "marker") {
+          return (
+            <div class="st-marker" role="presentation">
+              <span class="st-marker-label">{cell.label}</span>
+            </div>
+          );
+        }
+        if (cell.kind === "break") {
+          return (
+            <div class="st-cell st-cell--break">
+              <span class="st-week-label">break</span>
+            </div>
+          );
+        }
+        return (
+          <div class="st-cell">
+            <span class="st-assessment-slot">
+              {cell.assessment && (
+                <>
+                  <span class="st-assessment-label">
+                    <span>{cell.assessment.shortLabel}</span>
+                    <span>{cell.assessment.weight}%</span>
+                  </span>
+                  <span class="st-dot st-dot--assessment" aria-hidden="true" />
+                </>
+              )}
+            </span>
+            <span class="st-dot st-dot--studio" aria-hidden="true" />
+            <span class="st-dot st-dot--lecture" aria-hidden="true" />
+            <span class="st-week-label">{cell.week}</span>
+          </div>
+        );
+      })
+    }
+  </div>
+
+  <ul class="st-legend">
+    <li><span class="st-dot st-dot--assessment" aria-hidden="true" /> Assignments</li>
+    <li><span class="st-dot st-dot--studio" aria-hidden="true" /> {sessionLabels.plural}</li>
+    <li><span class="st-dot st-dot--lecture" aria-hidden="true" /> Lectures</li>
+    <li><span class="st-tick" aria-hidden="true" /> Enrolment dates</li>
+  </ul>
+</div>
+
+<style>
+  .semester-timeline {
+    margin-block: 2rem;
+  }
+
+  .semester-timeline-track {
+    display: flex;
+    align-items: stretch;
+    overflow-x: auto;
+    border-block-end: 1px solid var(--at-divider);
+    padding-block-end: 0.5rem;
+  }
+
+  .st-cell {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    flex: 1 1 0;
+    min-width: 1.75rem;
+    padding-block: 1.75rem 0.5rem;
+    border-inline-end: 1px solid var(--at-divider);
+  }
+
+  .st-cell--break {
+    flex: 0 0 auto;
+    min-width: 3.5rem;
+    justify-content: center;
+    padding-block: 0;
+    color: var(--at-text-muted);
+    font-size: var(--at-font-size-sm);
+  }
+
+  @media (max-width: 480px) {
+    .semester-timeline-track {
+      padding-inline-end: 1.1rem;
+    }
+
+    .st-cell {
+      gap: 0.2rem;
+      min-width: 0.55rem;
+      padding-block: 1.5rem 0.4rem;
+    }
+
+    .st-cell--break {
+      min-width: 1.75rem;
+      font-size: 0.6rem;
+    }
+
+    .st-marker {
+      padding-inline: 0.1rem;
+    }
+
+    .st-dot {
+      inline-size: 0.6rem;
+      block-size: 0.6rem;
+    }
+
+    .st-assessment-slot {
+      gap: 0.15rem;
+      block-size: 1.9rem;
+    }
+
+    .st-assessment-label {
+      font-size: 0.6rem;
+    }
+
+    .st-week-label {
+      font-size: 0.6rem;
+    }
+
+    .st-marker-label {
+      font-size: 0.6rem;
+    }
+  }
+
+  .st-assessment-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.3rem;
+    block-size: 2.5rem;
+  }
+
+  .st-assessment-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.15;
+    font-size: var(--at-font-size-xs);
+    color: var(--at-text-secondary);
+  }
+
+  .st-dot {
+    inline-size: 0.85rem;
+    block-size: 0.85rem;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .st-dot--assessment {
+    background: var(--at-primary);
+  }
+
+  .st-dot--studio {
+    background: var(--at-info);
+  }
+
+  .st-dot--lecture {
+    background: var(--at-tertiary);
+  }
+
+  .st-week-label {
+    font-size: var(--at-font-size-xs);
+    color: var(--at-text-muted);
+    font-family: var(--at-font-mono);
+  }
+
+  .st-marker {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-inline: 0.6rem;
+    border-inline-end: 1px dashed var(--at-border);
+  }
+
+  .st-marker-label {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: var(--at-font-size-xs);
+    color: var(--at-text-muted);
+    white-space: nowrap;
+    padding-block: 0.25rem;
+  }
+
+  .st-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin-block: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: var(--at-font-size-sm);
+    color: var(--at-text-secondary);
+  }
+
+  .st-legend li {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .st-tick {
+    inline-size: 1px;
+    block-size: 0.85rem;
+    border-inline-start: 1px dashed var(--at-border);
+  }
+</style>

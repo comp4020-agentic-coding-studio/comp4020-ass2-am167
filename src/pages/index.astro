@@ -2,6 +2,7 @@
 import Card from "astro-theme-university/components/Card.astro";
 import CardGrid from "astro-theme-university/components/CardGrid.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
+import SemesterTimeline from "../components/SemesterTimeline.astro";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
 ---
@@ -65,6 +66,13 @@ import { sessionLabels, siteConfig } from "../site-config";
     about whether cities should exist at all, this isn't that course — every
     week here ends with something built.
   </p>
+
+  <h2>The semester at a glance</h2>
+  <p>
+    Twelve teaching weeks, one lecture and one studio pin-up each, a
+    two-week break after Week 6, and three assessed juries along the way.
+  </p>
+  <SemesterTimeline />
 
   <h2>Where to go next</h2>
   <CardGrid columns={2}>

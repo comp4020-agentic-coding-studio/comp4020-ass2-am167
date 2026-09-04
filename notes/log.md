@@ -1077,3 +1077,66 @@ not obligated to mirror its actual administrative machinery.
 `pnpm check` stayed pristine (0 errors, 0 warnings, 7/7 test files, 21/21
 tests) after all fixes; no heading `id`s changed, so the deep-link test in
 `spec/policies.test.ts` still resolves.
+
+## 2026-09-04 — Semester-at-a-glance timeline on the home page
+
+Added `<SemesterTimeline />` between the "Who it is for" prose and the
+"Where to go next" cards, per a request to mimic a real widget from the
+COMP4020 course site (with the "today" indicator explicitly dropped, since a
+static prototype has no live current date to mark).
+
+Design decisions:
+
+- **Pure data mapping, TDD'd separately from the component.** `src/lib/
+  semester-timeline.ts` (`buildSemesterTimeline`, `weekBoundaryFor`) takes
+  the three content collections (lectures, sessions, assessments) plus two
+  calendar dates and produces one ordered `TimelineCell[]` — weeks, the
+  mid-semester break, enrolment-date markers — interleaved correctly. Wrote
+  `spec/semester-timeline.test.ts` first (8 tests covering marker/break
+  ordering, assessment-week labelling regardless of input order, and the
+  no-assessment-this-week case) since interleaving order is exactly the kind
+  of thing that's easy to get subtly wrong without a test.
+- **Census/drop-by dates are invented but real data, not omitted.** Neither
+  date is published anywhere in this course's content collections. Rather
+  than skip the enrolment markers the reference widget has, added census
+  (2027-03-12, before Week 4's pin-up) and last-day-to-drop (2027-04-30,
+  before Week 9's pin-up) as plausible ANU-calendar-consistent constants in
+  the component, with a comment explaining they're invented-but-consistent
+  rather than sourced.
+- **No horizontal scroll at either marked viewport.** The track is
+  `overflow-x: auto` as a safety net, but every fix below aimed at making
+  the full 15-cell row (12 weeks + break + 2 markers) fit inside the content
+  column without scrolling, since `agent-browser get box` turned out to be
+  scroll-offset-insensitive — it reports static document-layout coordinates
+  regardless of an ancestor's current scroll position, so it can't verify
+  scrolled-to content is actually reachable. Designing away the need to
+  scroll sidesteps that verification gap entirely.
+
+Visual verification at both marked viewports (1920×1080, 390×844 via
+`agent-browser`, against `pnpm preview`) found two real clipping bugs that
+`pnpm build` and the data-mapping tests couldn't catch:
+
+1. **Desktop: nowrap assessment labels forced flex-items wider than their
+   basis.** `.st-cell { flex: 1 0 3.25rem }` let a nowrap "A1 · 25%" label
+   push those three columns past 3.25rem (flex-shrink was 0), widening the
+   whole 15-column row past the 48rem content column with no visible
+   scroll affordance. Fixed by pulling the label out of flex-sizing and
+   switching cells to `flex: 1 1 0; min-width: 1.75rem` (shrinkable).
+2. **Mobile: grid overflow, then a separate last-column label overflow.**
+   First pass at a `max-width: 480px` media query still left the row ~20px
+   wider than its clip box (caught by comparing `.st-cell`'s right edge to
+   the track's right edge via `get box`, not by `scrollWidth===clientWidth`,
+   which reports clean on an `overflow-x:auto` container regardless).
+   Shrank `.st-cell` min-width down to 0.55rem to fit the grid, which
+   surfaced a second, subtler bug: the last week's (Week 12/A3) absolutely-
+   positioned, centred label still overhung the clip edge by ~5.5px even
+   with the grid itself flush, because centring a wide label over a narrow
+   flex item pushes its edge past the item's own bounds. Fixed structurally
+   — converted the label from absolutely-positioned single-line text to an
+   in-flow two-line stack inside a fixed-height slot, which can't escape
+   its flex item's width the way absolute centring could — plus a small
+   `padding-inline-end` on the track so the last label's residual overhang
+   lands in reserved padding rather than past the container's edge.
+
+`pnpm check` stayed pristine (0 errors, 0 warnings, 8/8 test files, 29/29
+tests) after all fixes.
