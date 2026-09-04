@@ -7,8 +7,8 @@ affiliation: Slop University School of Urban Design
 role: convenor
 email: marisol.quaye@slop.university
 contact:
-  Desk crits Tuesdays 13:00–16:00 in Studio 2.14. Briefs, marks, extensions and
-  adjustments come to me and to nobody else.
+  Office hours Tuesdays 13:00–16:00 in Studio 2.14. Briefs, marks, extensions
+  and adjustments come to me and to nobody else.
 photo: ./marisol-quaye.avif
 photoAlt: >-
   A two-ink portrait in flat gold and black on cream: an angular bust with
@@ -30,7 +30,7 @@ with a ruler in an afternoon," they say. "What you cannot draw is anybody
 choosing to ride it. The model will not let you skip that, and I have never
 found a crit that could."
 
-They take the Week 1–3 lectures — site analysis, block pattern, zoning — and
+They take the Week 1 and Week 3 lectures — site analysis and zoning — and
 chair the Week 4 pin-up and the Week 12 capstone review. Week 9 is chaired by
 the tutor of record. Expect to be asked which of the three metrics you traded,
 and to keep being asked until you name it.

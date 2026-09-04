@@ -1236,3 +1236,82 @@ clickable. Left as-is; noted here so the tradeoff isn't silently lost.
 Re-ran `pnpm check` after both fixes: 29/29 files, 91/91 tests, pristine.
 Re-verified both viewports in Chrome via `agent-browser` after the fix (not
 just re-trusting the earlier pass, since the CSS changed materially).
+
+## Adversarial review: assessments pages and people page
+
+Audited git history first to find what had not yet been through adversarial
+review. Lecture reference pages, the assessments section, and the people
+page had no prior adversarial-review log entry (deck slides, home page,
+studio session pages, and policies-vs-handbook had all been reviewed).
+Ran two fresh, context-isolated reviewer subagents (Sonnet, no shared
+context with the drafting history) against the three assessment briefs and
+the people page + 5 bios, instructed to be adversarial rather than
+encouraging.
+
+**Assessments review findings, and fixes:**
+
+1. **Chair-authority contradiction, Week 4.** The assessment brief
+   described "two concurrent bays" for the Week 4 pin-up with only one
+   chair named (Marisol Quaye) and Sunniva Marek explicitly established
+   site-wide as never chairing — leaving one bay with no chair of record.
+   The paired session page (`sessions/04-upzoning-the-amenity-core.md`)
+   had the identical contradiction, since both describe the same jury.
+   Fixed both to one bay run in two sequential rounds of eight, with
+   Marisol chairing both rounds and Marek sitting as Visiting Critic
+   throughout — rather than inventing a second chair, since Week 4's
+   established cast is only Marisol and Sunniva.
+2. **Redundant marking restatement.** Assessments 01 and 02 (weighted
+   marking) repeated the criteria/weights numbers in prose in the body
+   "## Marking" section, verbatim duplicating what the `marking:`
+   frontmatter already states and `MarkingModel.astro` already renders as
+   a table. Removed the redundant numbers from the prose in both, keeping
+   only the qualitative marking guidance the table can't express.
+   Assessment 03 uses holistic marking with genuinely distinct prose, so
+   left as-is.
+3. **Missing `spec:` contract.** Every session page renders a "what a
+   marker checks" bullet list via `<SpecList>` from a `spec:` frontmatter
+   field; no assessment page had one, despite the assessment template
+   already wiring in the same component (rendering nothing for all three
+   briefs). Added a `spec:` array to all three assessment briefs, each
+   drafted from facts already stated in that same brief's body — no new
+   invented requirements.
+4. **Buried second deadline, Week 12.** The capstone brief's intro line
+   ("This brief is the sole authority...") gave no signal that a "Two
+   clocks" section further down established two separate deadlines
+   (Friday memo, Monday artefact), inviting a student who stops reading
+   at the intro to miss the earlier one. Added a sentence directing the
+   reader to "Two clocks" immediately.
+
+**People-page review findings, and fixes:**
+
+5. **Contact-hours vs. calendar contradiction.** Three bios (Marisol,
+   Idris, Nadia) gave a specific weekday/time for "the studio" or "desk
+   crits" that didn't match `spec/calendar.test.ts`'s Monday-only teaching
+   calendar — e.g. Idris's contact line implied Wednesday/Friday studio
+   sessions when Idris's actual teaching weeks (2, 5, 6) are all Mondays.
+   Reframed each as explicit drop-in/office hours, distinct from the
+   official Monday session, rather than flattening all three to identical
+   text and losing each tutor's voice.
+6. **Teaching-credit mismatch with the session/lecture records.** Two bios
+   claimed lecture credit not borne out by `content/lectures/*.md`
+   frontmatter: Marisol's bio claimed "Week 1-3 lectures" but Week 2's
+   lecture is Idris's; Idris's bio omitted Week 2 despite teaching it;
+   Nadia's bio claimed "the one lecture in the semester with slides" and
+   Week 7 only, omitting Week 10 (also hers per `sessions/10-*.md`).
+   Corrected all three bios to match the session/lecture frontmatter
+   exactly (Marisol: Weeks 1 and 3; Idris: Weeks 2, 5 and 6; Nadia: Weeks
+   7 and 10).
+   Tobias Wren's bio was checked and already correct — no change needed.
+   One flagged item (root-absolute internal links on the people page) was
+   *not* acted on: a prior adversarial review (see above, policies-vs-
+   handbook entry) already established this is a genuine site-wide
+   authoring convention that Astro's build correctly rewrites under the
+   deployed base path, confirmed again here by grepping the same pattern
+   across `index.astro`, the grid components, and `policies/index.mdx`.
+
+`pnpm check` is pristine after all fixes (0 errors, 0 warnings, 7/7 test
+files, 21/21 tests, 51 pages built, no broken links, no accessibility
+violations). No layout/CSS/structural change was made — all fixes are prose
+and frontmatter content, including a new `spec:` block already handled by
+the existing `SpecList`/`MarkingModel` components — so no viewport
+verification was needed.
