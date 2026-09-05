@@ -4,6 +4,14 @@ description: >-
   The district after the break: its parks, plazas and streets planned together
   with the utility networks beneath them, and costed against a budget that
   will not stretch.
+heroImage: ../../assets/images/assessment-02-hero.svg
+heroImageAlt: >-
+  A district of plazas, parks and streets drawn above a cutaway of the water
+  and sewage lines running beneath them.
+cardImage: ../../assets/images/assessment-02-card.svg
+cardImageAlt: >-
+  Plazas and street frontages above a dark cutaway showing the water and
+  sewage networks under the public realm.
 week: 9
 due: 2027-05-03T12:00:00+10:00
 weight: 25

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">The whole district as one plan</title>
+  <desc id="desc">The full city at extent with the river, the transit corridor and three metric bars read together.</desc>
+  <rect width="800" height="450" fill="#f6eedd"/>
+  <path d="M0 240c110-52 166 44 280 8s166-86 270-50 150 24 250-28v280H0Z" fill="#e7d7ad"/>
+  <g fill="#17150f">
+    <path d="m-10 214 150-156 16 24-150 156zM80 344l180-220 18 22-180 220zM300 344l166-210 18 22-166 210zM505 344l150-192 18 22-150 192zM680 344l130-168 18 22-130 168z"/>
+  </g>
+  <g fill="#c69f57">
+    <rect x="48" y="142" width="58" height="44"/><rect x="222" y="172" width="66" height="46"/>
+    <rect x="418" y="180" width="62" height="44"/><rect x="634" y="166" width="70" height="48"/>
+  </g>
+  <path d="M-10 344c130 34 210-52 320-34s170 70 280 34 150-86 220-102" fill="none" stroke="#b45436" stroke-width="12"/>
+  <path d="M-10 344c130 34 210-52 320-34s170 70 280 34 150-86 220-102" fill="none" stroke="#f6eedd" stroke-width="3" stroke-dasharray="8 14"/>
+  <g fill="#17150f" stroke="#f6eedd" stroke-width="4">
+    <circle cx="140" cy="352" r="12"/><circle cx="440" cy="356" r="12"/><circle cx="690" cy="270" r="12"/>
+  </g>
+  <g transform="translate(48 386)">
+    <rect width="704" height="40" fill="#17150f"/>
+    <rect x="14" y="12" width="214" height="16" fill="#c69f57"/>
+    <rect x="252" y="12" width="176" height="16" fill="#e7d7ad"/>
+    <rect x="452" y="12" width="146" height="16" fill="#b45436"/>
+  </g>
+</svg>

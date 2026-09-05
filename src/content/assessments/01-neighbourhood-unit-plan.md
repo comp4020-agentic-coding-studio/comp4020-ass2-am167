@@ -4,6 +4,14 @@ description: >-
   Plan and defend a single neighbourhood unit — its block pattern, its zoning,
   and the amenity everything else is arranged around. First assessed pin-up of
   the semester.
+heroImage: ../../assets/images/assessment-01-hero.svg
+heroImageAlt: >-
+  One residential cell drawn at block scale, its amenity core marked in gold
+  inside a dashed walking radius, with the corridor running down one edge.
+cardImage: ../../assets/images/assessment-01-card.svg
+cardImageAlt: >-
+  A single neighbourhood cell: block frontages around a gold amenity core,
+  ringed by a dashed walking radius.
 week: 4
 due: 2027-03-15T12:00:00+11:00
 weight: 25

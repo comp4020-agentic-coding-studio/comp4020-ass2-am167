@@ -4,6 +4,14 @@ description: >-
   The capstone: the whole district argued as one plan — every zoning, transit,
   budget and public-realm decision since Week 1, defended end to end at the
   final jury.
+heroImage: ../../assets/images/assessment-03-hero.svg
+heroImageAlt: >-
+  The whole district at full extent, the river and transit corridor crossing
+  it, beside a readout of all three studio metrics and the Week 10 fire load.
+cardImage: ../../assets/images/assessment-03-card.svg
+cardImageAlt: >-
+  The full district at extent, river and transit corridor crossing it, over a
+  bar reading all three studio metrics at once.
 week: 12
 due: 2027-05-24T12:00:00+10:00
 weight: 50

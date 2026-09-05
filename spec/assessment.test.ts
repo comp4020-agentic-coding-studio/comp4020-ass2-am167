@@ -44,6 +44,19 @@ const studioWeeks = new Set(
   api.nodes.filter((node) => node.type === "sessions").map((node) => Number(node.meta?.week)),
 );
 
+// The card image and the page hero are the two places the theme renders an
+// illustration; a nav logo or a footer mark is chrome, not content, so this
+// looks at the content region only.
+function imageAlts(html: string): string[] {
+  const body = html
+    .replace(/<header[\s\S]*?<\/header>/gi, "")
+    .replace(/<footer[\s\S]*?<\/footer>/gi, "")
+    .replace(/<nav[\s\S]*?<\/nav>/gi, "");
+  return [...body.matchAll(/<img\b[^>]*>/gi)]
+    .map((tag) => tag[0].match(/\balt="([^"]*)"/i)?.[1] ?? "")
+    .filter((alt) => alt.trim().length > 0);
+}
+
 describe("assessment", () => {
   it("adds up to 100%", () => {
     const total = assessments.reduce((sum, assessment) => sum + assessment.weight, 0);
@@ -76,5 +89,31 @@ describe("assessment", () => {
         `${assessment.id} is due in week ${assessment.week}, which runs no studio`,
       ).toBe(true);
     }
+  });
+
+  // The three briefs escalate in scale --- one cell, then a district, then the
+  // whole city --- and the illustrations are meant to carry that, not just
+  // decorate the page. One shared stock image on all three would satisfy a
+  // bare "has an image" check while telling a student nothing, so each brief
+  // brings its own picture and its own description of it.
+  it("illustrates every brief, on its card and at the head of its own page", () => {
+    const cardAlts = imageAlts(readFileSync(resolve("dist/assessments/index.html"), "utf8"));
+    expect(
+      cardAlts.length,
+      `the assessment grid shows ${assessments.length} briefs but ${cardAlts.length} images`,
+    ).toBe(assessments.length);
+
+    const heroAlts = assessments.map((assessment) => {
+      const page = readFileSync(resolve(`dist/${assessment.id}/index.html`), "utf8");
+      const [alt] = imageAlts(page);
+      expect(alt, `${assessment.id} has no illustration above its brief`).toBeTruthy();
+      return alt as string;
+    });
+
+    for (const alt of [...cardAlts, ...heroAlts]) {
+      expect(alt.length, `"${alt}" is too thin to describe an image`).toBeGreaterThan(20);
+    }
+    expect(new Set(cardAlts).size, "two briefs share a card illustration").toBe(cardAlts.length);
+    expect(new Set(heroAlts).size, "two briefs share a page illustration").toBe(heroAlts.length);
   });
 });

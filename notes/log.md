@@ -1416,3 +1416,45 @@ Contents and lecture-return links work. Stopped visual testing when requested.
 Evidence gate still reports the personal PROCESS template and two example SHAs;
 left that account untouched. Updated AUDIT.md with per-finding disposition and
 limits. Preserved the other agent's assessment artwork changes outside our index.
+
+## 2026-09-05 — Assessment imagery
+
+Added illustrations to the three assessment briefs, on both the index card and
+the head of each brief page, extending the homepage pattern from PR 5. The
+concept is scale escalation: Week 4 is one residential cell with its amenity
+core and walking radius, Week 9 is a district with the utility networks in
+cutaway beneath it, Week 12 is the whole district with the corridor and all
+three metrics read at once. So the pictures track the course argument rather
+than decorating it.
+
+Six SVGs, not three. The card frame is 16:9 and the page hero crops to about
+5.2:1 at 1920 and 1.1:1 at 390, so one drawing cannot serve both without being
+badly cropped in one of them. Cards stay cream to match the PR 5 cards; heroes
+are dark-field because the theme overlays a white h1 on them.
+
+Schema: `heroImage`/`cardImage` via Astro's `image()` on the assessments
+collection, each requiring alt text through a `superRefine`, mirroring how
+`people` already guards `photo`/`photoAlt`. TDD — the new
+`spec/assessment.test.ts` case asserts an illustration with distinct,
+non-trivial alt text on every card and every brief page, and it failed for
+the right reason before the wiring existed.
+
+Two things the checks could not have told me. First, the first hero pass used
+cream art like the cards; the theme's white hero title was then unreadable over
+pale gold. The homepage never actually uses a hero image band — PR 5 put its
+illustration inline in the content column — so this was a new pattern, not a
+copied one. Redrew the heroes dark-field and measured the crop safe zone
+(viewBox x 425–1175, y 160–460) so the subject survives both viewports.
+Second, `agent-browser` renders the hero title wrong mid `fade-up` animation:
+the capture showed dark text while computed style reported white at opacity 1.
+Disabled animations before trusting any screenshot, which is the same class of
+artifact as the SVG-text issue noted earlier.
+
+Also hit a race with the concurrent PR 4 session: a build at 11:10 flagged
+`../resources/` on the lectures index as broken and I retargeted it, but that
+page was created at 11:14. Reverted; the link was never broken.
+
+Validation: `pnpm check` green, 52 pages, 33 tests, no broken links, no
+accessibility violations, no warnings. Verified all three briefs and the index
+in Chrome at 1920×1080 and 390×844 against the confirmed preview port 4341,
+with viewport set by emulation and `innerWidth`/`innerHeight` asserted.
