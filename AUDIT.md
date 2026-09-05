@@ -2,6 +2,42 @@
 
 Audited baseline: `eb7746e` (`origin/main`), 4–5 September 2026 UTC. Worktree branch: `audit/assignment-2`. This report records findings; it does not change the website or represent a grade.
 
+## Repair status — 5 September 2026
+
+This PR now includes repairs against current main, preserving the newer homepage
+artwork and timeline layout. The findings below remain the historical audit of
+`eb7746e`; this table records their disposition.
+
+| Findings | Disposition |
+| --- | --- |
+| A01 | Still requires the student's own PROCESS.md narrative and real citations. The evidence gate remains red for the template comment and two example SHAs; no account was fabricated. |
+| A02 | Publication remains outside this authorized PR update. Repository visibility and main were not changed. |
+| A03, A07 | Lecture/deck preparation now follows Monday studios and assessed jury clocks; weekly uploads remain required, with the explicit Week 11 Tuesday-noon exception. |
+| A04 | Both utility increments remain funded through Week 9. Public realm needs additional discretionary savings or evidenced surplus. |
+| A05, A06 | Reserve/link decision is finalized before Friday's memo. Friday late/extension handling is explicit. Five presentation moves total 280 seconds, leaving 20 for transitions. |
+| A08 | Resources page explains pre-Week 1 access, supported lab-build manifest, issue schedule, upload folders and fallback, with usable evidence/allocation/chronology worksheets. The fictional LMS and unavailable runnable saves are explicitly distinguished from the working prototype. |
+| A09, A11 | Removed starter and visible authoring instructions, stale assessment counts, rehearsal lengths and studio weekdays. |
+| A10 | Corrected overload arithmetic, labelled hypothetical evidence, separated household counts from tracked departures, and replaced the incompatible capstone series with explicit units and denominators. |
+| A12 | Published common score bands and the exact meanings of A1's cap and A2's fiscal fail. Each brief links to them. |
+| A13 | Added focused checks for the actual walkthrough sum, utility chronology and 22% allocation arithmetic; a fresh adversarial content review found further issues which were repaired and logged. |
+| A14 | All twelve decks provide a phone reading view derived from the compiled slides, with contents links and lecture return navigation. Body/table text is at least 16px at 390×844; wide diagrams and tables scroll within their own containers. Desktop presentation remains intact. |
+| A15 | Timeline now exposes both calendar dates, policy meaning and accessible week summaries while retaining current main's layout. |
+
+Validation: Node 24 `pnpm check` passes, with zero typecheck errors/warnings/hints,
+52 built pages, all build link/accessibility/deck checks passing, and 33 tests
+in the shared checkout (including the other agent's uncommitted illustration
+check). The completed Chrome sweep measured all twelve decks at 1920×1080 and
+390×844: no clipped text and no page overflow; phone minimum text 16px. Checked
+contents navigation and the lecture return link. No further visual testing was
+performed after the owner's instruction to finish. [Repair measurements](notes/pr4-repair-evidence/metrics.json),
+[desktop clock](notes/pr4-repair-evidence/deck-clock-1920.png),
+[phone clock](notes/pr4-repair-evidence/deck-clock-390.png).
+
+The other agent's assessment illustrations, schema/grid changes and tests are
+preserved in the working tree and excluded from these repair commits. The
+student account and publication are the two remaining submission-readiness
+items; this update does not claim a public deployment or runnable simulator pack.
+
 ## Authority and scope
 
 Checked against the published [Assignment 2 brief and spec](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/assessments/assignment-2/#the-spec) and [marking environment](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#marking-environment), retrieved 4 September 2026. The report distinguishes fixed-spec readiness gaps from usability and curriculum-quality findings. The deadline is 21 September 2026: an incomplete submission today is not a missed deadline.

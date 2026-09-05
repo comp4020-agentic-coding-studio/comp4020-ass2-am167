@@ -76,11 +76,7 @@ three: ₡340 ÷ 3 ≈ **₡113 per attributed point**. Plaza, trees, paths and
 maintenance changed together, so neither ratio is an isolated causal return.
 Happiness rose nine points; the two unattributed points also need an account.
 
-The harder question sits on the last sheet. The Farrant Row treatment increment
-still costs ₡5,100/month and remains unfunded. The jury will ask where the memo
-records the decision to spend ₡2,540 on public realm while leaving that line
-open. The answer may defend either choice. It must show that the choice was
-noticed.
+The harder question sits on the last sheet. The ₡5,100/month treatment increment remains funded and protected, as Week 8 requires. To add ₡2,540/month of public realm, identify an additional eligible saving or evidenced surplus in your corridor column. The jury asks which discretionary service or future project pays for that choice; utilities cannot be silently deferred.
 
 ## What you take away
 

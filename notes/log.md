@@ -1,3 +1,22 @@
+## 2026-09-05 — Fix mobile assessment-label overflow in PR 3
+
+Adversarial review of PR 3 (semester timeline restyle) found that at 390×844
+the assessment labels ("A1 · 25%" etc.) were wider than their week column,
+visually bisected by the dashed census/drop-date rules and bleeding into
+neighbouring columns. The PR's own last-child right-align hack only redirected
+the overflow rather than containing it, and was fragile besides (relied on the
+final DOM child always being a week cell, not a marker).
+
+Fixed in `SemesterTimeline.astro`: gave `.st-assessment-slot` explicit
+`inset-inline: 0` (was relying on implicit flex abspos-centering) so it's
+pinned to its own column's width, then let `.st-assessment-label` wrap
+(`flex-wrap`, `white-space: normal` on mobile) instead of forcing `nowrap`.
+Removed the `:last-child` special case entirely — no longer needed once
+labels are contained to their own column. Verified via rendered Chrome
+screenshots + `getBoundingClientRect()` at both 1920×1080 and 390×844: labels
+now sit fully inside their own column and no longer cross the dashed marker
+lines. `pnpm check` stayed green throughout.
+
 ## 2026-08-31 — Policies page
 
 Wrote the first real content page after the home page: `src/pages/policies/index.mdx`,
@@ -1335,3 +1354,65 @@ explicit deck weekday corroboration without misclassifying staff office hours.
 Final AUDIT.md records 15 findings, spec status, reproduction evidence and limits.
 Rechecked with the specified Node 24 runtime: 29 tests and all build checks pass.
 PROCESS.md remains untouched and the existing evidence-gate failure is reported.
+## 2026-09-04 — Semester timeline visual alignment
+
+Compared the live COMP4020 timeline in Chrome and read the assignment 2 brief
+and spec. Worked from current main in `fix/semester-timeline`, in a separate
+worktree as requested. Restyled the existing timeline with full-height week
+bands, a shaded double-width break, three spaced marker rows, larger assessment
+dots with inline labels beneath, and horizontal enrolment labels above dashed
+rules. Kept the existing calendar mapping and SlopU palette. This is a visual
+change with existing mapping coverage; no curriculum rewrite or new behaviour.
+
+Validation: `pnpm check` passed with zero warnings, 29 tests, 51 pages, no
+broken links or accessibility violations. Chrome production-preview screenshots
+at 1920×1080 and 390×844 confirmed the layout; mobile DOM bounds showed no
+out-of-bounds labels or dots and no clipping containers. Preview used confirmed
+port 4322 after an initial startup timeout during concurrent build load; retry
+started cleanly. `pnpm check:evidence` still fails on the pre-existing PROCESS.md
+template and fake citation hashes; left the student's account untouched and
+disclosed this baseline issue in the PR.
+## 2026-09-05 — Homepage course imagery
+
+Added a wide local SVG hero and three image-led homepage navigation cards,
+following the reference course site's visual hierarchy without borrowing its
+artwork. The illustrations use the course's cream, gold, ink and red palette to
+show the actual studio premise: a city plan, a route under test, an assessment
+map and a teaching team around the shared plan. Every image has descriptive alt
+text; assets are local so GitHub Pages deployment does not depend on an external
+image host.
+
+## 2026-09-05 — PR 4 audit repairs against newer main
+
+Merged current main into the existing audit branch, retaining its new artwork
+and timeline layout and both log histories. Reconciled lecture preparation with
+studio clocks, kept both Week 7 utilities funded through Week 9, and moved the
+capstone decision before Friday’s memo. Corrected the 340-second walkthrough to
+280 seconds plus 20 for transitions; its focused test first failed at 340.
+Separated hypothetical arithmetic from captured evidence and household aggregates
+from tracked departures. Added discoverable access/worksheet guidance and marking
+bands; the fictional course share is explicitly not a working LMS. PROCESS.md
+remains the student’s account and publication is outside this PR update.
+
+## 2026-09-05 — Adversarial review of audit repairs
+
+A fresh Luna reviewer found residual deck weekdays, denied weekly uploads,
+a second unsupported household-departure claim and unlabelled homepage figures.
+Replaced those instructions, clarified the Week 11 decision/final-artifact
+window, and labelled the home example hypothetical. Their Week 9/11 count
+findings overlapped fixes already underway. Added arithmetic checks against the
+published allocation and utility chronology, rather than another keyword gate.
+The phone reader derives its content from compiled slides; Chrome confirms
+390×844, 16px body text and all reading sections exposed, rather than a scaled
+6px slide canvas. Final layout inspection follows the complete content draft.
+
+## 2026-09-05 — Repair verification and PR update
+
+Node 24 pnpm check passes with no diagnostics: 52 pages, build accessibility,
+base paths, links and deck checks, 33 tests in the shared checkout (one belongs
+to the concurrent illustration task). Chrome measured all twelve decks at both
+marked viewports: no clipped text or page overflow; phone minimum text 16px.
+Contents and lecture-return links work. Stopped visual testing when requested.
+Evidence gate still reports the personal PROCESS template and two example SHAs;
+left that account untouched. Updated AUDIT.md with per-finding disposition and
+limits. Preserved the other agent's assessment artwork changes outside our index.

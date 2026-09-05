@@ -20,7 +20,7 @@ related:
   - sessions/09-public-realm-build
 spec:
   - "You submit 8–12 in-simulation screenshots captioned with in-game day and time, including an attractiveness overlay, a land value overlay, a water or sewage info-view, and a 19:00 street-level view with a counted, captioned polygon population."
-  - "Your defence memo is no more than 1,200 words, structured against livability, fiscal performance and mobility performance in that order, and confronts the public realm spend against what remains unfunded on the treatment plant."
+  - "Your defence memo is no more than 1,200 words, structured against livability, fiscal performance and mobility performance in that order, and accounts for the public realm spend while keeping both Week 7 utility increments funded."
   - "Every public space you proposed carries one costed monthly line, funded from the Week 8 closure, with any happiness or land-value movement labelled as associated rather than isolated cause."
   - "The signed unfunded list from Week 8 is the memo's last sheet."
   - "The save `<student ID>-w09` matches the wall."
@@ -47,8 +47,7 @@ Upload, as one artefact:
   the count on the caption. A count with no time of day and no weather state is
   not evidence.
 - **A defence memo of no more than 1,200 words**, structured against livability,
-  fiscal performance and mobility performance in that order. Confront the public
-  realm spend with whatever remains unfunded on the treatment plant.
+  fiscal performance and mobility performance in that order. Show what discretionary spending pays for public realm while both utility increments stay funded.
 - **One costed monthly line for every public space proposed**, funded from the
   Week 8 closure. Associated happiness or land-value movement is labelled
   associated, not isolated cause.
@@ -85,3 +84,5 @@ point of happiness cost per month.
 
 An unfunded plaza is a fiscal fail, not a livability one. Keep the save
 exactly as submitted; Week 10 reads this district, not a weekend repair.
+
+See [resources and upload destinations](../../resources/) and the [common marking bands](../../policies/#marking-bands).

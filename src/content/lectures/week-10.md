@@ -64,7 +64,7 @@ Thackray corridor's fire load case.
 | Climate as a seasonal load case | Seasons and weather driving heating demand, water freezing, and solar and wind generation output | The same network passing in October and browning out in the second week of the coldest month |
 | Perrow's tight coupling | Week 7's district-based service radii sharing one power and water trunk | A single generation shortfall taking water pumps offline, which takes fire response offline, inside one notification cluster |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 

@@ -64,30 +64,18 @@ studio's own site.
 | George on location value | The land value overlay, and building level 1–5 responding to it | Land value rises around things the district paid for collectively, not around the buildings that sit on it |
 | Terrain as cost | Road placement on gradient, terraforming charges, water pumping height | The same 400 m of road costs a different amount depending on which contour it crosses |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
 **Fiscal performance against livability**, forced by where the first road
 goes: the cheap, flat Halstead Reach terrace against the costlier, better-sited
 Ludworth Bench shelf on Verrall Ridge. The deck works the two sites' numbers
-side by side. Students must site the first settlement, and the choice cannot
-be deferred, because everything from Week 2 onward is built off that first
-road.
+side by side. Students defend a site preference on paper. The cohort then uses Halstead Reach for comparable experiments; the first confirmed road is placed in Week 2.
 
 ## Into the studio
 
-- Students arrive at Session 1 with Cities: Skylines II installed and the
-  standard map loaded, on the settings named in the session brief, and with no
-  roads placed.
-- The session runs the McHarg overlay exercise live: five info views in a fixed
-  order — natural resources, water, wind, terrain, outside connections — with
-  the road tool deliberately unavailable until the last hour.
-- The session closes by setting the save convention (`<student ID>-w<NN>`, one
-  per week, one off-machine copy) and by having each student state their
-  settlement choice and its named tradeoff aloud, in one sentence.
-- Nobody leaves without the 08:00 reading convention written down, because
-  every later week's evidence depends on the readings being comparable.
+Arrive on Monday with the untouched Kerrow Basin map. Survey five overlays, then drag and cancel candidate roads to measure length and gradient; confirm no road. Defend either site in the report, but continue on Halstead Reach as the shared lab site. Save the untouched archive as `<student ID>-w01`; upload it and the site report by 21:00. Read the [studio brief](../../sessions/01-site-selection/) for the room sequence.
 
 ## Assessment connection
 
@@ -96,5 +84,5 @@ settlement area chosen this week is the ground that plan sits on, and the
 site report is the evidence the defence memo will cite when it explains why the
 unit is where it is. More broadly, this lecture defines the three criteria that
 every assessment in the studio is marked against, so its definitions are
-loadbearing for all three. Nothing is submitted this week.
+loadbearing for all three. No weighted assessment is due; the weekly save and report upload still applies.
 

@@ -61,7 +61,7 @@ corridor's own budget.
 | Shoup: an unpriced service is a subsidy paid elsewhere | one-off road build cost against permanent road upkeep | The Kerrow corridor's arterial upkeep line grows every time the road is widened, and never falls |
 | — (mechanic with no single theory anchor) | the per-service budget sliders | At 70% funding a school's capacity and coverage shrink faster than its cost does |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
@@ -69,23 +69,11 @@ corridor's own budget.
 fixed as the binding constraint. That is the shape of this week and it is
 deliberately different from Week 7's.
 
-The imposed cutback is a ₡9,000 / month operating deficit in the Kerrow
-corridor, non-negotiable, to be closed by the end of the studio session. The
-deck works both cheapest closures — transit, or education and healthcare — in
-full. Fiscal performance is the same number either way, which is what makes it
-a design decision rather than an accounting one.
+The imposed cut is 22% of eligible allocated monthly outlay. The deck’s separate ₡9,000 worked example illustrates alternative closures; it is not the studio target. Protect both utility increments before choosing which remaining services lose funding.
 
 ## Into the studio
 
-- Students arrive with the Week 7 save carried forward, the Wensley Bank
-  headroom decision already made and recorded, and the ₡9,000 deficit applied.
-- The fiscal readout and the land value info-view are both open before the
-  session starts; budget questions in this studio go badly otherwise.
-- One written line before any slider moves: the intended closure and the metric
-  it is expected to cost. The session compares that line against the readout at
-  four simulated weeks.
-- The session ends with each student's closure entered in the corridor's shared
-  budget sheet, which Week 9 assumes exists when it costs the plaza options.
+Monday is the budget charrette. Bring the unchanged Week 7 personal save and total the district allocation worksheet. Remove 22% of eligible monthly outlay once, protecting both funded utility increments. Compare the paper closure with the nearest issued branch, label mismatches, and sign the unfunded list. No fixed deficit is applied to the personal save. Upload the save and worksheet by 21:00; follow the [studio brief](../../sessions/08-budget-under-cutback/).
 
 ## Assessment connection
 

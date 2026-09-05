@@ -47,6 +47,8 @@ Two clocks below before you read anything else.
   and full district extent. Late work on this clock follows the
   [studio policies](../../policies/) artefact rule.
 
+Finalize the reserve-versus-link decision during Week 11 and lodge it in Friday’s memo. Monday rehearses that position. A late Friday copy must still reach both chairs immediately; it receives no separate mark deduction, but forfeits advance feedback. Monday’s artefact clock still applies. An agreed extension explicitly states the revised memo time and whether the student uses the original jury or a later convenor desk crit; contact the convenor before Friday noon.
+
 ## What the artefact must contain
 
 - **A defence memo of no more than 1,600 words** (the omissions appendix does
@@ -90,3 +92,5 @@ under Week 10's fire load case, and what could the model not show.
 
 Holistic. The three metrics remain the language of the argument. A plan whose
 claims exceed its evidence is marked down across the whole document.
+
+See [resources and upload destinations](../../resources/) and the [common marking bands](../../policies/#marking-bands).

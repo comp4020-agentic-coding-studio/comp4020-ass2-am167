@@ -68,29 +68,18 @@ Kerrow widening.
 | Buchanan's environmental capacity | The noise pollution overlay and the Land Value info view along the Pelling Street frontage | Land value falling on the widened frontage, and ground-floor commercial failing to hold its level |
 | Marchetti's time budget, from Week 4 | Housing demand and the residential demand bars at the outer edge of the district | Households taking up sites further out at Denton Hill once the commute cost falls |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
-**Mobility performance against livability**, forced by the third lane on the
-Kerrow corridor most of the studio added last week: a real capacity gain on
+**Mobility performance against livability**, tested by widening Wickstead from two to four lanes this week: a real capacity gain on
 day one, against a frontage cost that grows over the following year. The deck
 works the full before-and-after figures. The mobility gain does not survive
 the year; the livability loss does.
 
 ## Into the studio
 
-- Students arrive at Wednesday's session with the Week 5 save, the post-widening
-  save, and the three before-figures recorded last week. Without the before-
-  figures the session cannot be run and the student watches.
-- The session's exercise is slide 15 as a comparison run: pick two of the first
-  three instruments, implement each on a separate branch of the save, advance
-  twelve simulated months, and record volume ÷ capacity and frontage land value
-  for both.
-- Nothing is submitted at the end of this week. The session closes the first
-  half of semester and preserves evidence for the remaining assessments.
-- The session ends with every student naming, out loud, which two metrics their
-  plan trades. This is rehearsal for the jury and it is not optional.
+Bring the unchanged Week 5 transit save on Monday. Widen Wickstead from two to four lanes in this session and compare the issued before, three-week and six-week checkpoints; keep personal and reference branches distinct. The deck’s three-lanes-each-way example is a separate hypothetical, not the studio intervention. Complete the position statement, save and evidence sheet and upload by 21:00. No weighted assessment is due. Follow the [studio brief](../../sessions/06-peak-load-stress-test/).
 
 ## Assessment connection
 

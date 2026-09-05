@@ -25,10 +25,10 @@ opposite directions.
 - Distinguish the orthogonal grid, the medieval or organic street pattern and
   the Radburn superblock by what each does to route choice, not by how each
   looks in plan.
-- Calculate lane-kilometres per dwelling for a proposed block layout and locate
+- Calculate road metres per dwelling for a proposed block layout and locate
   the resulting figure in the economy panel's road upkeep line.
 - Demonstrate route redundancy by closing one link in a proposed network and
-  observing where the traffic goes.
+  counting the remaining paper paths.
 - State the week's block-dimension decision as an explicit trade between
   mobility performance and fiscal performance.
 
@@ -62,10 +62,10 @@ studio's own network.
 | Jacobs on short blocks | Zoning cell depth against road frontage | Short blocks put almost every cell on a frontage; long blocks leave a dead core the zoning tool cannot reach |
 | Radburn's superblock and cul-de-sac | Road hierarchy — small road, medium road, arterial — and the traffic AI's pathfinding cost | Every trip from a cul-de-sac is forced onto one collector, and the collector's mouth is where the queue forms |
 | Alexander's tree versus semilattice | Following a single citizen's chosen path, and the lane-selection behaviour approaching a junction | In a tree there is one path and the vehicle takes it; in a semilattice the same origin and destination produce different paths at different hours |
-| Space syntax integration | The traffic info view's volume overlay on an unzoned network | Volume concentrates on the most connected links before land use has been assigned at all |
+| Space syntax integration | Paper path counts on the unzoned street graph | Count alternative paths between fixed endpoints; this is a network measure, not observed traffic |
 | Network cost | Road upkeep in the economy panel, charged by length | Two layouts housing the same population differ in the monthly upkeep line, and the difference is permanent |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
@@ -77,16 +77,7 @@ week, and Week 6's peak-load stress test is run against whatever they chose.
 
 ## Into the studio
 
-- Students arrive with the Week 1 save, a settlement area already chosen, and
-  no roads beyond whatever connects the site to the Dunthorpe interchange.
-- Session 2 is the first review: each student shows the unzoned layout and the
-  traffic volume overlay at 08:00, in under two minutes, and names the one
-  decision they are least sure about.
-- The session assumes the traffic info view is open and understood, and that
-  the economy panel's road upkeep line has been found — both are prerequisites
-  rather than session content.
-- Students leave having committed to a block dimension in metres. Week 3 zones
-  into that layout and cannot begin until it exists.
+Bring the untouched Week 1 archive on Monday. Build the Halstead Reach block alternatives without zoning. Compare paper path counts before and after closing one link; an unzoned network cannot supply a meaningful traffic-volume comparison. Calculate road metres per dwelling, recording road length and dwelling capacity separately. Commit the chosen block dimension for Week 3 and upload the save and sheet by 21:00. Follow the [studio brief](../../sessions/02-block-pattern/).
 
 ## Assessment connection
 

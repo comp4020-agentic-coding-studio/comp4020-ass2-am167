@@ -4,6 +4,9 @@ description: "SLOP2418 Urban Design Studio lecture 12"
 ---
 
 import CourseDiagram from "../components/decks/CourseDiagram.astro";
+import DeckReader from "../components/decks/DeckReader.astro";
+
+<DeckReader />
 
 {/* _class: impact */}
 
@@ -25,7 +28,6 @@ Short lecture, and the room knows why. Do not pad it. Every
 
 ## The clock
 
-Content, as a plain list:
 - **Friday 21 May 12:00** — jury copy of the memo, including the omissions
   appendix. Both chairs pre-read over the weekend.
 - **12:00 today** — the artefact, as the A3 brief: memo, screenshots, two A1
@@ -38,7 +40,7 @@ Content, as a plain list:
   chairs 2.16 with Ilkhom sitting. Marek circulates as Visiting Critic and
   chairs neither. Fifteen minutes each (five presenting). Week 4 did not use
   a twenty-minute slot.
-- Miss the jury and the plan is marked from the memo alone, which means the
+- Miss the jury and the plan is marked from the memo and boards, which means the
   memo has to answer, unprompted, every question the room would have asked.
   Most memos do not.
 - Attendance is expected for the whole afternoon, including the parts where
@@ -62,7 +64,7 @@ Straight from the A3 brief, which overrides the standing 14:00
 - What it does mean: no part of the plan can be carried by a strong score
   elsewhere. A plan whose claims exceed its evidence is marked down across
   the whole document, not in one line item.
-- The three earlier assessments each told you which metric to favour. This
+- The two earlier assessments each told you which metric to favour. This
   one does not, and choosing is the assessment.
 - So the first question the plan answers is not "is this good" but "what was
   this plan trying to be good at, and did it say so".
@@ -142,7 +144,7 @@ Worked example: Halstead Reach.
 | Warrant | Growth placed inside an existing high-capacity transit catchment costs less to service and generates more of its own mobility than growth placed outside one |
 | Backing | Week 5 and Week 6: spine ridership responded to density inside the 400 m catchment and not beyond it. Week 7: the corridor trunk has headroom, the bench has no trunk |
 | Qualifier | Holds while the spine has capacity. The corridor supports approximately one further upzoning before the Week 7 trunk knee |
-| Rebuttal | Fails if the bench's fire exposure is judged acceptable and the corridor's loss of 244 low-wealth households is judged unacceptable, in which case the plan's own equity gap is the argument against it |
+| Rebuttal | Fails if the bench's fire exposure is judged acceptable and the corridor's decline of 244 in the low-wealth household count (not tracked departures) is judged unacceptable, in which case the plan's own equity gap is the argument against it |
 
 ```notes
 Point out that the rebuttal row cites the student's own omissions
@@ -159,11 +161,11 @@ Point out that the rebuttal row cites the student's own omissions
 | --- | --- | --- | --- |
 | 1 | Full district extent, roads only, no overlay | The site, and the one constraint that set the plan | 40 s |
 | 2 | Same extent, land value overlay | What the plan did, and where it landed | 60 s |
-| 3 | The corridor at neighbourhood scale | The claim, in one sentence, with its grounds | 120 s |
+| 3 | The corridor at neighbourhood scale | The claim, in one sentence, with its grounds | 60 s |
 | 4 | One block at street level | The thing the figures cannot show — what it is like to stand there | 60 s |
 | 5 | Back to full extent, the three metric readouts | The trade you made, named | 60 s |
 
-five minutes. The other ten belong to the room, and the
+280 seconds plus 20 seconds for view changes: five minutes. The other ten belong to the room, and the
 room is where the marks are. This is the A3 clock, not a twenty-minute slot.
 
 ```notes
@@ -201,7 +203,7 @@ The fifth column is the whole slide. Students choose overlays for
 | --- | --- | --- |
 | Livability in the west reads 58 | "I ran out of time to fix the west" | "Livability in the west reads 58. The Year 9 surplus went to the cross-town link instead of the western park chain, because mobility performance was the binding constraint on employment access district-wide. The park chain is stage two, and the balance supports it from Year 13" |
 | The balance is negative in Years 6 to 9 | "the budget went negative for a while" | "The plan runs a deficit from Year 6 to Year 9, financed against corridor rate growth. If growth runs slower than modelled, stage three defers by a year and the deficit closes a year later. That is the qualifier on the whole plan" |
-| The corridor lost 244 low-wealth households | "the model doesn't really handle that" | "The corridor lost 244 low-wealth households against 34 recorded as homeless. The plan bought mobility performance with that and has no instrument in it to compensate them. Appendix item 2 says where I think they went and how confident I am" |
+| The low-wealth household count fell by 244 | "the model doesn't really handle that" | "The low-wealth count fell by 244; 34 households are currently homeless. These aggregates do not match people over time or prove displacement. The appendix names the missing longitudinal evidence and the equity risk" |
 
 the difference is not tone. It is that the defence contains a
 number, a reason, and what happens next.
@@ -247,30 +249,17 @@ This is the lecture's one piece of intellectual reassurance and
 
 ## Back to the three metrics
 
-- Week 1 named three metrics and every brief since has been marked against
-  them: **fiscal performance**, **mobility performance**, **livability**.
+Week 1 named fiscal performance, mobility performance and livability. Reconstruct your own series with consistent units; do not combine unrelated deck examples into a time series.
 
-Halstead Reach across the semester, as a table with exactly these rows:
+| Metric | Baseline and comparison | Evidence |
+| --- | --- | --- |
+| Fiscal | Week 1 −₡2,400/month; later personal monthly balances | Monthly worksheet allocation; show protected utilities and discretionary cuts |
+| Mobility | Week 6 three/six-week travel times; Week 9 reference 11.1 minutes | Same route and 08:00 window; personal and reference branches labelled |
+| Capstone transit | Reference 17% | Transit observations / eligible observed journeys |
+| Capstone walk | Reference 31% | Walk observations / separately sampled trips; never add to transit share |
+| Livability | Week 12 reference land value: district 40, core 66, Ombersley 18 | Same normalization; an average hides distribution |
 
-| Metric | Wk 1 | Wk 4 | Wk 6 | Wk 9 | Wk 12 |
-| --- | --- | --- | --- | --- | --- |
-| Fiscal — annual balance (index) | −4 | +2 | −6 | +9 | +14 |
-| Mobility — share of trips not by car | 0% | 6% | 24% | 27% | 38% |
-| Livability — district reading | 52 | 58 | 61 | 74 | 77 |
-
-- Read the columns, not the rows. Week 6 bought 18 points of mobility with
-  the fiscal balance. Week 9 bought 13 points of livability and got the
-  balance back by deferring the cross-town link, which is the decision
-  still sitting open this morning.
-- Not one of those three rows moved without another moving against it, in
-  any week of this semester. Find the column in your own table where that
-  is clearest and open your pin-up on it.
-
-```notes
-This closes the semester's quantitative loop back to Week 1. The table is the
-summary: ask students to identify the column in their own work where the trade
-is clearest.
-```
+These reference values are worked hypotheticals. Several indicators can improve together. The task is to trace costs, omitted outcomes and who benefits, not force a decline into every column.
 
 ---
 
@@ -302,13 +291,13 @@ appear in the studio's three composites.
 > The surplus buys the Kerrow cross-town link, or it stays as the reserve
 > that keeps the plan solvent to Year 15.
 >
-> It cannot do both, and you have until 12:00.
+> It cannot do both, and you lodged the choice on Friday 21 May at 12:00.
 >
 > Whichever you take is your claim. Write the qualifier for it before you
 > write anything else.
 
 ```notes
-Twelve weeks of tradeoffs and the last one is due before lunch.
+The final trade was lodged on Friday; today rehearses its defence.
     That is the correct note to end the teaching on.
 ```
 
@@ -323,9 +312,8 @@ Twelve weeks of tradeoffs and the last one is due before lunch.
 - Your claim written as one sentence you can say without reading it.
 - Your qualifier and your rebuttal written down, in that order, where you
   can see them.
-- The one figure for each of the three metrics, memorised. If you have to
-  look up your own livability reading, the room notices.
-- Nine minutes of walk-through timed at least once, out loud, this morning.
+- A metric card with the three figures and their units; memory is not the assessment.
+- Five minutes of walk-through timed at least once, out loud, this morning.
 - A decision about the surplus.
 
 ```notes

@@ -46,3 +46,43 @@ describe("lecture delivery", () => {
     }
   });
 });
+
+// Durations are read from the delivered instructions, not a duplicate fixture.
+it("fits the capstone's five moves inside five minutes in both teaching formats", () => {
+  const studio = readFileSync("src/content/sessions/12-final-jury.md", "utf8");
+  const deck = readFileSync("src/decks/week-12.deck.mdx", "utf8");
+  for (const [text, pattern] of [[studio, /—\s*(\d+)\s+seconds/g], [deck, /\| (\d+) s \|/g]] as const) {
+    const durations = [...text.matchAll(pattern)].map((match) => Number(match[1]));
+    expect(durations).toHaveLength(5);
+    expect(durations.reduce((sum, value) => sum + value, 0)).toBeLessThanOrEqual(300);
+  }
+});
+
+it("reconciles the published utility chronology before calling a checkpoint overloaded", () => {
+  const sheet = readFileSync("src/pages/resources/index.mdx", "utf8");
+  const rows = [...sheet.matchAll(/\| (Baseline|First completion|Second completion) \| ([\d,]+) \| ([\d,]+) \| ([^|]+) \|/g)];
+  expect(rows).toHaveLength(3);
+  for (const [, , demandText, capacityText, interpretation] of rows) {
+    const demand = Number(demandText.replaceAll(",", ""));
+    const capacity = Number(capacityText.replaceAll(",", ""));
+    expect(interpretation).toContain(`${Math.abs(capacity - demand)} u ${demand > capacity ? "shortfall" : "headroom"}`);
+  }
+  const deck = readFileSync("src/decks/week-07.deck.mdx", "utf8");
+  expect(deck).toContain("adds 198 u: draw reaches 1,340 u against 1,200 u installed");
+});
+
+it("balances the resource worksheet's 22% cut without spending the protected utilities", () => {
+  const sheet = readFileSync("src/pages/resources/index.mdx", "utf8");
+  const rows = [...sheet.matchAll(/\| (Transit|Education|Healthcare|Parks and recreation) \| ([\d,]+) \| ([\d,]+) \| ([\d,]+) \|/g)];
+  expect(rows).toHaveLength(4);
+  let before = 0, cut = 0;
+  for (const [, , a, b, c] of rows) {
+    const values = [a, b, c].map((value) => Number(value.replaceAll(",", "")));
+    expect(values[0] - values[1]).toBe(values[2]);
+    before += values[0]; cut += values[1];
+  }
+  expect(cut / before).toBe(0.22);
+  expect(sheet).toContain("total allocated spending falls from ₡31,900 to ₡27,500");
+  expect(before + 6800 + 5100).toBe(31900);
+  expect(before - cut + 6800 + 5100).toBe(27500);
+});

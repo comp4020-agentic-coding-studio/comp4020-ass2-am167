@@ -93,3 +93,5 @@ the Week 4 **lecture**, before this deadline, so it can still change the plan.
 
 A plan that closed a shortfall without recording which move closed it marks
 in the middle band and no higher.
+
+See [resources and upload destinations](../../resources/) and the [common marking bands](../../policies/#marking-bands).
