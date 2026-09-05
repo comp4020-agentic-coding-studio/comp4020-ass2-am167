@@ -1,3 +1,22 @@
+## 2026-09-05 — Fix mobile assessment-label overflow in PR 3
+
+Adversarial review of PR 3 (semester timeline restyle) found that at 390×844
+the assessment labels ("A1 · 25%" etc.) were wider than their week column,
+visually bisected by the dashed census/drop-date rules and bleeding into
+neighbouring columns. The PR's own last-child right-align hack only redirected
+the overflow rather than containing it, and was fragile besides (relied on the
+final DOM child always being a week cell, not a marker).
+
+Fixed in `SemesterTimeline.astro`: gave `.st-assessment-slot` explicit
+`inset-inline: 0` (was relying on implicit flex abspos-centering) so it's
+pinned to its own column's width, then let `.st-assessment-label` wrap
+(`flex-wrap`, `white-space: normal` on mobile) instead of forcing `nowrap`.
+Removed the `:last-child` special case entirely — no longer needed once
+labels are contained to their own column. Verified via rendered Chrome
+screenshots + `getBoundingClientRect()` at both 1920×1080 and 390×844: labels
+now sit fully inside their own column and no longer cross the dashed marker
+lines. `pnpm check` stayed green throughout.
+
 ## 2026-08-31 — Policies page
 
 Wrote the first real content page after the home page: `src/pages/policies/index.mdx`,
@@ -1315,3 +1334,22 @@ violations). No layout/CSS/structural change was made — all fixes are prose
 and frontmatter content, including a new `spec:` block already handled by
 the existing `SpecList`/`MarkingModel` components — so no viewport
 verification was needed.
+
+## 2026-09-04 — Semester timeline visual alignment
+
+Compared the live COMP4020 timeline in Chrome and read the assignment 2 brief
+and spec. Worked from current main in `fix/semester-timeline`, in a separate
+worktree as requested. Restyled the existing timeline with full-height week
+bands, a shaded double-width break, three spaced marker rows, larger assessment
+dots with inline labels beneath, and horizontal enrolment labels above dashed
+rules. Kept the existing calendar mapping and SlopU palette. This is a visual
+change with existing mapping coverage; no curriculum rewrite or new behaviour.
+
+Validation: `pnpm check` passed with zero warnings, 29 tests, 51 pages, no
+broken links or accessibility violations. Chrome production-preview screenshots
+at 1920×1080 and 390×844 confirmed the layout; mobile DOM bounds showed no
+out-of-bounds labels or dots and no clipping containers. Preview used confirmed
+port 4322 after an initial startup timeout during concurrent build load; retry
+started cleanly. `pnpm check:evidence` still fails on the pre-existing PROCESS.md
+template and fake citation hashes; left the student's account untouched and
+disclosed this baseline issue in the PR.

@@ -60,11 +60,12 @@ const cells = buildSemesterTimeline({
             <span class="st-assessment-slot">
               {cell.assessment && (
                 <>
+                  <span class="st-dot st-dot--assessment" aria-hidden="true" />
                   <span class="st-assessment-label">
                     <span>{cell.assessment.shortLabel}</span>
+                    <span aria-hidden="true">·</span>
                     <span>{cell.assessment.weight}%</span>
                   </span>
-                  <span class="st-dot st-dot--assessment" aria-hidden="true" />
                 </>
               )}
             </span>
@@ -87,15 +88,16 @@ const cells = buildSemesterTimeline({
 
 <style>
   .semester-timeline {
-    margin-block: 2rem;
+    margin-block: 2.5rem 2rem;
   }
 
   .semester-timeline-track {
     display: flex;
     align-items: stretch;
-    overflow-x: auto;
-    border-block-end: 1px solid var(--at-divider);
-    padding-block-end: 0.5rem;
+    position: relative;
+    block-size: 13rem;
+    border-block: 1px solid var(--at-divider);
+    border-inline-start: 1px solid var(--at-divider);
   }
 
   .st-cell {
@@ -104,92 +106,68 @@ const cells = buildSemesterTimeline({
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    gap: 0.4rem;
+    gap: 0;
     flex: 1 1 0;
-    min-width: 1.75rem;
-    padding-block: 1.75rem 0.5rem;
+    min-width: 0;
+    padding-block: 0 0.5rem;
     border-inline-end: 1px solid var(--at-divider);
   }
 
   .st-cell--break {
-    flex: 0 0 auto;
-    min-width: 3.5rem;
-    justify-content: center;
-    padding-block: 0;
+    flex: 2 1 0;
+    background: color-mix(in srgb, var(--at-text-muted) 6%, transparent);
     color: var(--at-text-muted);
     font-size: var(--at-font-size-sm);
   }
 
-  @media (max-width: 480px) {
-    .semester-timeline-track {
-      padding-inline-end: 1.1rem;
-    }
-
-    .st-cell {
-      gap: 0.2rem;
-      min-width: 0.55rem;
-      padding-block: 1.5rem 0.4rem;
-    }
-
-    .st-cell--break {
-      min-width: 1.75rem;
-      font-size: 0.6rem;
-    }
-
-    .st-marker {
-      padding-inline: 0.1rem;
-    }
-
-    .st-dot {
-      inline-size: 0.6rem;
-      block-size: 0.6rem;
-    }
-
-    .st-assessment-slot {
-      gap: 0.15rem;
-      block-size: 1.9rem;
-    }
-
-    .st-assessment-label {
-      font-size: 0.6rem;
-    }
-
-    .st-week-label {
-      font-size: 0.6rem;
-    }
-
-    .st-marker-label {
-      font-size: 0.6rem;
-    }
-  }
-
   .st-assessment-slot {
+    position: absolute;
+    inset-inline: 0;
+    top: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-    gap: 0.3rem;
-    block-size: 2.5rem;
+    gap: 0.4rem;
   }
 
   .st-assessment-label {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.3em;
     align-items: center;
     line-height: 1.15;
+    max-inline-size: 100%;
     font-size: var(--at-font-size-xs);
     color: var(--at-text-secondary);
+    font-family: var(--at-font-mono);
+    white-space: nowrap;
   }
 
   .st-dot {
-    inline-size: 0.85rem;
-    block-size: 0.85rem;
+    inline-size: 0.65rem;
+    block-size: 0.65rem;
     border-radius: 50%;
     flex-shrink: 0;
   }
 
   .st-dot--assessment {
     background: var(--at-primary);
+  }
+
+  .st-assessment-slot > .st-dot--assessment {
+    inline-size: 1.1rem;
+    block-size: 1.1rem;
+  }
+
+  .st-cell > .st-dot--studio {
+    position: absolute;
+    top: 6.1rem;
+  }
+
+  .st-cell > .st-dot--lecture {
+    position: absolute;
+    top: 9.2rem;
   }
 
   .st-dot--studio {
@@ -207,27 +185,34 @@ const cells = buildSemesterTimeline({
   }
 
   .st-marker {
-    flex: 0 0 auto;
-    display: flex;
-    justify-content: center;
-    padding-inline: 0.6rem;
-    border-inline-end: 1px dashed var(--at-border);
+    position: relative;
+    flex: 0 0 0;
+    z-index: 1;
+  }
+
+  .st-marker::after {
+    content: "";
+    position: absolute;
+    inset-block: 0 2.8rem;
+    border-inline-start: 1px dashed var(--at-text-muted);
   }
 
   .st-marker-label {
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
+    position: absolute;
+    bottom: calc(100% + 0.2rem);
+    left: 0;
+    transform: translateX(-50%);
     font-size: var(--at-font-size-xs);
     color: var(--at-text-muted);
     white-space: nowrap;
-    padding-block: 0.25rem;
+    font-family: var(--at-font-mono);
   }
 
   .st-legend {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.25rem;
-    margin-block: 0.75rem 0 0;
+    gap: 0.5rem 1.25rem;
+    margin-block: 0.75rem 0;
     padding: 0;
     list-style: none;
     font-size: var(--at-font-size-sm);
@@ -243,6 +228,24 @@ const cells = buildSemesterTimeline({
   .st-tick {
     inline-size: 1px;
     block-size: 0.85rem;
-    border-inline-start: 1px dashed var(--at-border);
+    border-inline-start: 1px dashed var(--at-text-muted);
+  }
+
+  @media (max-width: 480px) {
+    .st-assessment-label,
+    .st-week-label,
+    .st-marker-label {
+      font-size: 0.65rem;
+    }
+
+    .st-assessment-label {
+      white-space: normal;
+      text-align: center;
+    }
+
+    .st-legend {
+      gap: 0.4rem 0.9rem;
+      font-size: 0.75rem;
+    }
   }
 </style>
