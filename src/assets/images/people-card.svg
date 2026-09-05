@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="title desc">
+  <title id="title">The teaching team</title><desc id="desc">Three illustrated figures stand beside a shared city plan.</desc>
+  <rect width="800" height="460" fill="#f6eedd"/><path d="M0 365h800v95H0Z" fill="#e7d7ad"/>
+  <g stroke="#17150f" stroke-width="8"><circle cx="180" cy="150" r="58" fill="#c69f57"/><path d="M95 365c8-110 42-151 85-151s77 41 85 151Z" fill="#17150f"/><circle cx="400" cy="120" r="58" fill="#e7d7ad"/><path d="M315 365c8-110 42-151 85-151s77 41 85 151Z" fill="#b45436"/><circle cx="620" cy="155" r="58" fill="#b45436"/><path d="M535 365c8-110 42-151 85-151s77 41 85 151Z" fill="#c69f57"/></g>
+  <path d="M100 305h600" stroke="#17150f" stroke-width="8"/><path d="m125 335 80-55 80 55 115-75 100 75 100-65 75 65" fill="none" stroke="#17150f" stroke-width="6"/>
+</svg>

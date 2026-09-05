@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">A city plan under review</title>
+  <desc id="desc">An illustrated city grid, transit route and three performance metrics on a cream drawing board.</desc>
+  <rect width="1600" height="620" fill="#f6eedd"/>
+  <path d="M0 500 300 280l260 100 250-210 250 130 300-190 240 120v390H0Z" fill="#e7d7ad"/>
+  <g fill="#17150f">
+    <path d="m-30 420 420-300 32 45-420 300zM220 650l520-430 33 42-520 430zM690 650l470-410 34 40-470 410zM1110 650l430-380 35 40-430 380z"/>
+    <path d="m70 535 350-280 16 22-350 280zM540 390l300-250 16 22-300 250zM940 410l300-250 16 22-300 250z"/>
+  </g>
+  <g fill="#c69f57">
+    <rect x="120" y="230" width="104" height="80"/><rect x="260" y="155" width="90" height="66"/>
+    <rect x="475" y="305" width="120" height="82"/><rect x="655" y="210" width="100" height="70"/>
+    <rect x="870" y="310" width="112" height="74"/><rect x="1070" y="220" width="92" height="68"/>
+    <rect x="1275" y="300" width="125" height="86"/>
+  </g>
+  <path d="M-20 470C220 300 370 500 560 355s300-98 465 0 300 56 595-145" fill="none" stroke="#b45436" stroke-width="13"/>
+  <path d="M-20 470C220 300 370 500 560 355s300-98 465 0 300 56 595-145" fill="none" stroke="#f6eedd" stroke-width="3" stroke-dasharray="8 16"/>
+  <g fill="#17150f" stroke="#f6eedd" stroke-width="5">
+    <circle cx="285" cy="391" r="15"/><circle cx="560" cy="355" r="15"/><circle cx="1025" cy="355" r="15"/><circle cx="1350" cy="305" r="15"/>
+  </g>
+  <g transform="translate(1190 42)">
+    <rect width="320" height="150" fill="#17150f"/>
+    <text x="24" y="38" fill="#f6eedd" font-family="monospace" font-size="17" letter-spacing="2">KERROW / LIVE READ</text>
+    <text x="24" y="82" fill="#c69f57" font-family="monospace" font-size="30">FISCAL  72</text>
+    <text x="24" y="120" fill="#e7d7ad" font-family="monospace" font-size="17">MOBILITY  58   LIFE  64</text>
+  </g>
+</svg>

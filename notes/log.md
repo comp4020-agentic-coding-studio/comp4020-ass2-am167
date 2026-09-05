@@ -1353,3 +1353,12 @@ port 4322 after an initial startup timeout during concurrent build load; retry
 started cleanly. `pnpm check:evidence` still fails on the pre-existing PROCESS.md
 template and fake citation hashes; left the student's account untouched and
 disclosed this baseline issue in the PR.
+## 2026-09-05 — Homepage course imagery
+
+Added a wide local SVG hero and three image-led homepage navigation cards,
+following the reference course site's visual hierarchy without borrowing its
+artwork. The illustrations use the course's cream, gold, ink and red palette to
+show the actual studio premise: a city plan, a route under test, an assessment
+map and a teaching team around the shared plan. Every image has descriptive alt
+text; assets are local so GitHub Pages deployment does not depend on an external
+image host.

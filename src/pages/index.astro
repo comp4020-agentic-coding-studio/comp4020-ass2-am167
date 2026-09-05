@@ -5,6 +5,10 @@ import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import SemesterTimeline from "../components/SemesterTimeline.astro";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
+import heroImage from "../assets/images/course-hero.svg";
+import studioImage from "../assets/images/studio-card.svg";
+import assessmentImage from "../assets/images/assessment-card.svg";
+import peopleImage from "../assets/images/people-card.svg";
 ---
 
 <ContentLayout
@@ -15,6 +19,11 @@ import { sessionLabels, siteConfig } from "../site-config";
   <ul class="course-tags" aria-label="Course tags">
     {courseMeta.tags.map((tag) => <li>{tag}</li>)}
   </ul>
+
+  <figure class="home-hero">
+    <img src={heroImage.src} alt="A city plan under review, with a transit route and three performance metrics." />
+    <figcaption>One save file. Twelve weeks. No decision without a tradeoff.</figcaption>
+  </figure>
 
   <p class="lede">
     You will build something that works. Then a jury who was not in the room
@@ -76,13 +85,13 @@ import { sessionLabels, siteConfig } from "../site-config";
 
   <h2>Where to go next</h2>
   <CardGrid columns={2}>
-    <Card title={sessionLabels.plural} href="/sessions/">
+    <Card title={sessionLabels.plural} href="/sessions/" image={studioImage} imageAlt="A studio pin-up with a route plan and a peak travel-time reading.">
       <p>The weekly schedule and what happens in each studio.</p>
     </Card>
-    <Card title="Assessment" href="/assessments/">
+    <Card title="Assessment" href="/assessments/" image={assessmentImage} imageAlt="A folded city map with a marked route and assessment checklist.">
       <p>What is marked, what it is worth, and when it is due.</p>
     </Card>
-    <Card title="People" href="/people/">
+    <Card title="People" href="/people/" image={peopleImage} imageAlt="Three members of the teaching team gathered around a city plan.">
       <p>Who teaches the course and how to reach them.</p>
     </Card>
   </CardGrid>
@@ -109,5 +118,24 @@ import { sessionLabels, siteConfig } from "../site-config";
   .lede {
     font-size: 1.15rem;
     max-width: 42rem;
+  }
+
+  .home-hero {
+    margin: 0 0 2.5rem;
+  }
+
+  .home-hero img {
+    display: block;
+    width: 100%;
+    margin-inline: 0;
+    border: 1px solid var(--at-divider);
+    background: var(--at-bg-alt);
+  }
+
+  .home-hero figcaption {
+    margin-top: 0.6rem;
+    color: var(--at-text-muted);
+    font-family: var(--at-font-mono);
+    font-size: var(--at-font-size-xs);
   }
 </style>
