@@ -65,7 +65,7 @@ Halstead Reach's own zoning choice.
 | Jacobs on mixed primary uses | Commercial demand, and the distance a citizen will path to reach a shop before the commercial building fails | Separated commercial that is too far away shows up as an abandoned building, not as a long trip |
 | Separation as trip generation | The traffic volume overlay on the collector serving the residential quarter at 08:00 | Every trip a resident makes to work or to a shop crosses the same one or two links, because the code left them nowhere else to go |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 

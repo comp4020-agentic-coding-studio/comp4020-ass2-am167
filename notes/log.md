@@ -1335,6 +1335,25 @@ and frontmatter content, including a new `spec:` block already handled by
 the existing `SpecList`/`MarkingModel` components — so no viewport
 verification was needed.
 
+## 2026-09-04 — Assignment 2 audit
+
+Created a separate audit worktree at eb7746e at the owner's request. Read the
+published Assignment 2 brief/spec and all lecture, studio, assessment and people
+sources. Recorded submission readiness and cross-page contradictions in AUDIT.md.
+The baseline pnpm check passes 29 tests; check:evidence fails on the unchanged
+PROCESS template and example citations. Findings remain findings, without editing
+course behavior or the student's personal process account.
+
+## 2026-09-05 — Audit verification and report
+
+Completed the production-browser sweep: 51 routes and 194 slides at both marking
+viewports. Documented phone deck readability with measurements and screenshots;
+rejected false positives for scrollable tables and an image still decoding.
+A fresh adversarial reviewer supported the first nine content findings; added
+explicit deck weekday corroboration without misclassifying staff office hours.
+Final AUDIT.md records 15 findings, spec status, reproduction evidence and limits.
+Rechecked with the specified Node 24 runtime: 29 tests and all build checks pass.
+PROCESS.md remains untouched and the existing evidence-gate failure is reported.
 ## 2026-09-04 — Semester timeline visual alignment
 
 Compared the live COMP4020 timeline in Chrome and read the assignment 2 brief
@@ -1362,3 +1381,80 @@ show the actual studio premise: a city plan, a route under test, an assessment
 map and a teaching team around the shared plan. Every image has descriptive alt
 text; assets are local so GitHub Pages deployment does not depend on an external
 image host.
+
+## 2026-09-05 — PR 4 audit repairs against newer main
+
+Merged current main into the existing audit branch, retaining its new artwork
+and timeline layout and both log histories. Reconciled lecture preparation with
+studio clocks, kept both Week 7 utilities funded through Week 9, and moved the
+capstone decision before Friday’s memo. Corrected the 340-second walkthrough to
+280 seconds plus 20 for transitions; its focused test first failed at 340.
+Separated hypothetical arithmetic from captured evidence and household aggregates
+from tracked departures. Added discoverable access/worksheet guidance and marking
+bands; the fictional course share is explicitly not a working LMS. PROCESS.md
+remains the student’s account and publication is outside this PR update.
+
+## 2026-09-05 — Adversarial review of audit repairs
+
+A fresh Luna reviewer found residual deck weekdays, denied weekly uploads,
+a second unsupported household-departure claim and unlabelled homepage figures.
+Replaced those instructions, clarified the Week 11 decision/final-artifact
+window, and labelled the home example hypothetical. Their Week 9/11 count
+findings overlapped fixes already underway. Added arithmetic checks against the
+published allocation and utility chronology, rather than another keyword gate.
+The phone reader derives its content from compiled slides; Chrome confirms
+390×844, 16px body text and all reading sections exposed, rather than a scaled
+6px slide canvas. Final layout inspection follows the complete content draft.
+
+## 2026-09-05 — Repair verification and PR update
+
+Node 24 pnpm check passes with no diagnostics: 52 pages, build accessibility,
+base paths, links and deck checks, 33 tests in the shared checkout (one belongs
+to the concurrent illustration task). Chrome measured all twelve decks at both
+marked viewports: no clipped text or page overflow; phone minimum text 16px.
+Contents and lecture-return links work. Stopped visual testing when requested.
+Evidence gate still reports the personal PROCESS template and two example SHAs;
+left that account untouched. Updated AUDIT.md with per-finding disposition and
+limits. Preserved the other agent's assessment artwork changes outside our index.
+
+## 2026-09-05 — Assessment imagery
+
+Added illustrations to the three assessment briefs, on both the index card and
+the head of each brief page, extending the homepage pattern from PR 5. The
+concept is scale escalation: Week 4 is one residential cell with its amenity
+core and walking radius, Week 9 is a district with the utility networks in
+cutaway beneath it, Week 12 is the whole district with the corridor and all
+three metrics read at once. So the pictures track the course argument rather
+than decorating it.
+
+Six SVGs, not three. The card frame is 16:9 and the page hero crops to about
+5.2:1 at 1920 and 1.1:1 at 390, so one drawing cannot serve both without being
+badly cropped in one of them. Cards stay cream to match the PR 5 cards; heroes
+are dark-field because the theme overlays a white h1 on them.
+
+Schema: `heroImage`/`cardImage` via Astro's `image()` on the assessments
+collection, each requiring alt text through a `superRefine`, mirroring how
+`people` already guards `photo`/`photoAlt`. TDD — the new
+`spec/assessment.test.ts` case asserts an illustration with distinct,
+non-trivial alt text on every card and every brief page, and it failed for
+the right reason before the wiring existed.
+
+Two things the checks could not have told me. First, the first hero pass used
+cream art like the cards; the theme's white hero title was then unreadable over
+pale gold. The homepage never actually uses a hero image band — PR 5 put its
+illustration inline in the content column — so this was a new pattern, not a
+copied one. Redrew the heroes dark-field and measured the crop safe zone
+(viewBox x 425–1175, y 160–460) so the subject survives both viewports.
+Second, `agent-browser` renders the hero title wrong mid `fade-up` animation:
+the capture showed dark text while computed style reported white at opacity 1.
+Disabled animations before trusting any screenshot, which is the same class of
+artifact as the SVG-text issue noted earlier.
+
+Also hit a race with the concurrent PR 4 session: a build at 11:10 flagged
+`../resources/` on the lectures index as broken and I retargeted it, but that
+page was created at 11:14. Reverted; the link was never broken.
+
+Validation: `pnpm check` green, 52 pages, 33 tests, no broken links, no
+accessibility violations, no warnings. Verified all three briefs and the index
+in Chrome at 1920×1080 and 390×844 against the confirmed preview port 4341,
+with viewport set by emulation and `innerWidth`/`innerHeight` asserted.

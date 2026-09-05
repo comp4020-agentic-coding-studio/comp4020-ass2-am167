@@ -4,6 +4,9 @@ description: "SLOP2418 Urban Design Studio lecture 11"
 ---
 
 import CourseDiagram from "../components/decks/CourseDiagram.astro";
+import DeckReader from "../components/decks/DeckReader.astro";
+
+<DeckReader />
 
 {/* _class: impact */}
 
@@ -23,8 +26,8 @@ Deliver the subtitle flat. The room expects either an apology for
 
 ## Why this lecture sits here
 
-- Three assessments are marked. The capstone is due next Monday. This is the
-  last week in which anything can still be changed.
+- Two assessments are marked. The capstone is due next Monday. This is the
+  last week for changing the substantive position before Friday’s memo; Monday still allows final board and screenshot preparation.
 - Every week since Week 1 has asked you to make a claim and support it with
   an output of the model — a ridership figure, a coverage radius, a land
   value overlay, a budget line.
@@ -170,12 +173,12 @@ This is the lecture's strongest single point and it is directly
 
 ## What the model does show about who left
 
-Preface line: the model is not silent about households. It is thin about
+the model is not silent about households. It is thin about
 them. Here is exactly how thin.
 
-Table, exactly these rows — the Kerrow corridor, Week 1 against Week 11:
+the Kerrow corridor, a populated Week 4 hypothetical against Week 11:
 
-| Measure | Week 1 | Week 11 |
+| Measure | Week 4 hypothetical | Week 11 hypothetical |
 | --- | --- | --- |
 | Land value index | 100 | 214 |
 | Rent index | 100 | 231 |
@@ -186,12 +189,7 @@ Table, exactly these rows — the Kerrow corridor, Week 1 against Week 11:
 | Corridor livability reading | 61 | 78 |
 | District homelessness figure | 0 | 34 |
 
-Two lines beneath:
-- Every figure in that table is a direct readout, available in the
-  simulation right now — not a projection and not invented.
-- Two hundred and forty-four low-wealth households are not in the corridor
-  any more. The model recorded thirty-four of them. It has no field for the
-  other two hundred and ten.
+These are worked hypothetical aggregates, not captured game readouts. Land value and rent are indices (Week 4 = 100); livability is a derived worksheet score. The low-wealth count falls by 244, but counts alone cannot distinguish departures from wealth-category changes. The 34 currently homeless households cannot be matched to those 244 without longitudinal records.
 
 ```notes
 Let the table sit in silence for a moment before the two lines.
@@ -204,11 +202,10 @@ Let the table sit in silence for a moment before the two lines.
 ## Livability is measured on whoever remains
 
 - The corridor's livability reading went from 61 to 78 across the same
-  eleven weeks. That is a true output and it will be marked as a good
-  result.
+  Week 4–11 interval in this hypothetical. That aggregate gain requires an account of who benefits.
 - It is computed over the households present when it is read. The population
   it describes in Week 11 is substantially not the population it described in
-  Week 1.
+  Week 4.
 - So a district can raise its livability score by improving conditions, by
   replacing its residents, or by any mixture of the two, and the metric
   returns the same number.
@@ -232,7 +229,7 @@ Do not editorialise. The comparison with Fainstein does the work
 
 ## Displacement has four shapes
 
-Marcuse's four forms, as a table with exactly these rows:
+Marcuse's four forms, :
 
 | Form | What it is | Can this model count it? |
 | --- | --- | --- |
@@ -435,7 +432,7 @@ This is the one slide from the whole semester that students
 
 1. Who holds the land whose value this plan raised, and what the plan does
    about it.
-2. Which households present in Week 1 are not present in Week 12, and where
+2. What can the Week 4–11 aggregate counts establish about departures, and where
    the plan assumes they went.
 3. Which of the plan's claims rest on a figure the model computes rather
    than a behaviour it observes.

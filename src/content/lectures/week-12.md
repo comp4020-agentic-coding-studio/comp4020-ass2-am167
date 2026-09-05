@@ -62,13 +62,12 @@ capstone jury.
 | Rittel and Webber's absent stopping rule | The simulation continuing to run past the year the plan stops | The district changing after the plan ends, which is the jury's favourite question |
 | Lindblom's successive limited comparison | The save file's own history — eleven weeks of incremental moves | The document reading as synoptic while the save records nothing of the kind |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
 **Fiscal performance against mobility performance.** The decision is what the
-accumulated surplus at the plan's final year buys, and it has to be taken
-before 12:00 today.
+accumulated surplus at the plan's final year buys, and it was finalized in Week 11 before Friday 21 May at 12:00.
 
 - **Build the Kerrow cross-town link.** The spine currently runs north–south
   only. The link puts the Pellow industrial cells inside the catchment. Transit
@@ -99,9 +98,7 @@ against the qualifier.
 - Students arrive at the jury with the save paused at the plan's final year,
   the five info views from slide 8 pre-checked on the presenting machine, and
   the memo open with the omissions appendix at the front.
-- Anyone still holding the surplus decision at 11:00 should take it at the desk
-  rather than at the lectern. An undecided plan presents as an inventory, which
-  is the failure mode slide 4 exists to prevent.
+- Rehearse the reserve/link position already lodged on Friday; today tests its qualifier rather than introducing a new headline decision.
 - The convenor is in Studio 2.14 from the end of the lecture to 12:00 for
   one-question desk crits only — a single question each, so that everyone gets
   one.

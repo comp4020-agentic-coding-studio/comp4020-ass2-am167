@@ -70,7 +70,7 @@ model's own omissions.
 | Roy's produced informality | Unzoned, unserviced land | Nothing is built there, ever, under any pressure of demand |
 | Lee's hypercomprehensiveness | The simulation's single integrated economy, traffic, service and land-value solve | Every claim you make being downstream of one set of coefficients you cannot inspect |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
@@ -100,13 +100,9 @@ either way; the unrecorded move is not.
 
 - Arrive with the running Halstead Reach save, and with the land value overlay
   and the household and rent readouts for the Kerrow corridor already recorded
-  for Week 1 and for the current state. Students who have not got the Week 1
-  figures should reconstruct them from their Week 1 pin-up screenshots rather
-  than skip the comparison.
+  for populated Week 4 and the current state. Week 1 was unbuilt: it supplies a land baseline, not household counts. Missing historical figures stay missing.
 - The session's first hour rebuilds slide 8's table for each student's own
-  corridor. Most tables will differ from the lecture's in magnitude and none
-  will differ in direction; the ones that do are worth ten minutes at the front
-  of the room.
+  corridor. Tables may differ in magnitude and direction: explain the comparison rather than forcing it to match the hypothetical.
 - The second hour takes the four-block decision and drafts the memo sentence
   that records it, in the metrics' own words. Draft it in the session, because
   it is the sentence students otherwise write at midnight next Sunday.
@@ -121,7 +117,7 @@ there is no line item for the appendix; what it means in practice is that a
 plan whose claims exceed its evidence is marked down across the whole
 document, and the appendix is the cheapest available protection against that.
 
-Retrospectively, this week is the reason the three earlier assessments were
+Retrospectively, this week is the reason the two earlier assessments were
 marked on stated criteria rather than on the model's raw numbers. Worth saying
 so out loud: the marking scheme has been a claim about what the metrics can
 carry since Week 1.

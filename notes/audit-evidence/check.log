@@ -1,0 +1,126 @@
+$ pnpm typecheck && pnpm test
+$ astro check
+23:59:01 [vite] Re-optimizing dependencies because vite config has changed
+23:59:01 [content] Syncing content
+23:59:02 [content] Synced content
+23:59:02 [types] Generated 930ms
+23:59:02 [check] Getting diagnostics for Astro files in /home/azureuser/comp4020/comp4020-ass2-audit...
+Result (37 files):
+- 0 errors
+- 0 warnings
+- 0 hints
+
+$ pnpm build && vitest run spec
+$ astro build
+23:59:14 [content] Syncing content
+23:59:15 [content] Synced content
+23:59:15 [types] Generated 716ms
+23:59:15 [build] output: "static"
+23:59:15 [build] mode: "static"
+23:59:15 [build] directory: /home/azureuser/comp4020/comp4020-ass2-audit/dist/
+23:59:15 [build] Collecting build info...
+23:59:15 [build] ✓ Completed in 782ms.
+23:59:15 [build] Building static entrypoints...
+23:59:17 [astro-icon] Loaded icons from /home/azureuser/comp4020/comp4020-ass2-audit/node_modules/.pnpm/astro-theme-university@https+++codeload.github.com+ANUcybernetics+astro-theme-universit_2d210993d5de7996d315958e5d56e2d2/node_modules/astro-theme-university/icons, iconoir
+23:59:17 [assets] Copying fonts (3 files)...
+23:59:18 [vite] ✓ built in 3.06s
+23:59:18 [vite] ✓ built in 150ms
+23:59:18 [build] Rearranging server assets...
+
+ generating static routes
+23:59:18   ├─ /404.html (+17ms)
+23:59:18   ├─ /assessments/01-neighbourhood-unit-plan/index.html (+7ms)
+23:59:18   ├─ /assessments/02-public-realm-and-infrastructure-plan/index.html (+4ms)
+23:59:18   ├─ /assessments/03-comprehensive-city-plan/index.html (+4ms)
+23:59:18   ├─ /assessments/index.html (+9ms)
+23:59:18   ├─ /decks/week-01/index.html (+6ms)
+23:59:18   ├─ /decks/week-02/index.html (+10ms)
+23:59:18   ├─ /decks/week-03/index.html (+4ms)
+23:59:18   ├─ /decks/week-04/index.html (+5ms)
+23:59:18   ├─ /decks/week-05/index.html (+4ms)
+23:59:18   ├─ /decks/week-06/index.html (+11ms)
+23:59:18   ├─ /decks/week-07/index.html (+6ms)
+23:59:18   ├─ /decks/week-08/index.html (+5ms)
+23:59:18   ├─ /decks/week-09/index.html (+5ms)
+23:59:18   ├─ /decks/week-10/index.html (+5ms)
+23:59:18   ├─ /decks/week-11/index.html (+11ms)
+23:59:18   ├─ /decks/week-12/index.html (+4ms)
+23:59:18   ├─ /lectures/week-01/index.html (+9ms)
+23:59:18   ├─ /lectures/week-02/index.html (+4ms)
+23:59:18   ├─ /lectures/week-03/index.html (+4ms)
+23:59:18   ├─ /lectures/week-04/index.html (+3ms)
+23:59:18   ├─ /lectures/week-05/index.html (+4ms)
+23:59:18   ├─ /lectures/week-06/index.html (+3ms)
+23:59:18   ├─ /lectures/week-07/index.html (+3ms)
+23:59:18   ├─ /lectures/week-08/index.html (+5ms)
+23:59:18   ├─ /lectures/week-09/index.html (+3ms)
+23:59:18   ├─ /lectures/week-10/index.html (+3ms)
+23:59:18   ├─ /lectures/week-11/index.html (+3ms)
+23:59:18   ├─ /lectures/week-12/index.html (+3ms)
+23:59:18   ├─ /lectures/index.html (+5ms)
+23:59:18   ├─ /people/idris-fenn/index.html (+5ms)
+23:59:18   ├─ /people/marisol-quaye/index.html (+2ms)
+23:59:18   ├─ /people/nadia-ilkhom/index.html (+2ms)
+23:59:18   ├─ /people/sunniva-marek/index.html (+2ms)
+23:59:18   ├─ /people/tobias-wren/index.html (+2ms)
+23:59:18   ├─ /people/index.html (+8ms)
+23:59:18   ├─ /policies/index.html (+7ms)
+23:59:18   ├─ /sessions/01-site-selection/index.html (+3ms)
+23:59:18   ├─ /sessions/02-block-pattern/index.html (+3ms)
+23:59:18   ├─ /sessions/03-zoning-the-district/index.html (+2ms)
+23:59:18   ├─ /sessions/04-upzoning-the-amenity-core/index.html (+8ms)
+23:59:18   ├─ /sessions/05-transit-spine/index.html (+3ms)
+23:59:18   ├─ /sessions/06-peak-load-stress-test/index.html (+6ms)
+23:59:18   ├─ /sessions/07-utilities-clinic/index.html (+3ms)
+23:59:18   ├─ /sessions/08-budget-under-cutback/index.html (+2ms)
+23:59:18   ├─ /sessions/09-public-realm-build/index.html (+2ms)
+23:59:18   ├─ /sessions/10-hazard-scenario/index.html (+4ms)
+23:59:18   ├─ /sessions/11-reading-the-land-value-curve/index.html (+3ms)
+23:59:18   ├─ /sessions/12-final-jury/index.html (+3ms)
+23:59:18   ├─ /sessions/index.html (+14ms)
+23:59:18   ├─ /index.html (+13ms)
+23:59:18 ✓ Completed in 325ms.
+
+ generating optimized images
+23:59:18   ▶ /_astro/marisol-quaye.BnfSgayl_Z17rabB.webp (reused cache entry) (+1ms) (1/20)
+23:59:18   ▶ /_astro/idris-fenn.BjDV3t1__1JzaU9.webp (reused cache entry) (+2ms) (2/20)
+23:59:18   ▶ /_astro/idris-fenn.BjDV3t1__qh3pd.avif (reused cache entry) (+1ms) (3/20)
+23:59:18   ▶ /_astro/marisol-quaye.BnfSgayl_mJsnP.avif (reused cache entry) (+1ms) (4/20)
+23:59:18   ▶ /_astro/marisol-quaye.BnfSgayl_Z2d9hBh.avif (reused cache entry) (+1ms) (5/20)
+23:59:18   ▶ /_astro/idris-fenn.BjDV3t1__1gwfmc.avif (reused cache entry) (+1ms) (6/20)
+23:59:18   ▶ /_astro/idris-fenn.BjDV3t1__4k6cw.avif (reused cache entry) (+1ms) (7/20)
+23:59:18   ▶ /_astro/marisol-quaye.BnfSgayl_2c9txI.avif (reused cache entry) (+1ms) (8/20)
+23:59:18   ▶ /_astro/nadia-ilkhom.CN425blN_2lMufY.webp (reused cache entry) (+1ms) (9/20)
+23:59:18   ▶ /_astro/sunniva-marek.C_LyfMCL_Z1gDOko.webp (reused cache entry) (+1ms) (10/20)
+23:59:18   ▶ /_astro/nadia-ilkhom.CN425blN_ZDmMnc.avif (reused cache entry) (+1ms) (11/20)
+23:59:18   ▶ /_astro/sunniva-marek.C_LyfMCL_dwNf3.avif (reused cache entry) (+1ms) (12/20)
+23:59:18   ▶ /_astro/sunniva-marek.C_LyfMCL_Z2mlVK4.avif (reused cache entry) (+1ms) (13/20)
+23:59:18   ▶ /_astro/nadia-ilkhom.CN425blN_Z1nvEI7.avif (reused cache entry) (+1ms) (14/20)
+23:59:18   ▶ /_astro/nadia-ilkhom.CN425blN_ZXP5EL.avif (reused cache entry) (+1ms) (15/20)
+23:59:18   ▶ /_astro/sunniva-marek.C_LyfMCL_22VOoV.avif (reused cache entry) (+1ms) (16/20)
+23:59:18   ▶ /_astro/tobias-wren.CEv90ctn_238zIX.webp (reused cache entry) (+1ms) (17/20)
+23:59:18   ▶ /_astro/tobias-wren.CEv90ctn_Z6Pduf.avif (reused cache entry) (+1ms) (18/20)
+23:59:18   ▶ /_astro/tobias-wren.CEv90ctn_vGTeb.avif (reused cache entry) (+1ms) (19/20)
+23:59:18   ▶ /_astro/tobias-wren.CEv90ctn_Wuv95.avif (reused cache entry) (+1ms) (20/20)
+23:59:18 ✓ Completed in 11ms.
+
+23:59:18 [build] ✓ Completed in 3.59s.
+23:59:19 [astro-theme-university] Search index built.
+23:59:19 [astro-theme-university] Checked 51 pages (51 unchanged, reused from cache) — no accessibility violations.
+23:59:20 [astro-theme-university] Checked 51 pages — all internal links respect base.
+23:59:20 [astro-theme-university] Generated llms.txt and llms-full.txt (37 entries).
+23:59:20 [course-graph] Generated course API: 33 nodes, 18 edges, 34 files.
+23:59:20 [astromotion] Checked 12 deck(s) — no structural violations.
+23:59:20 [astro-broken-links-checker] Checking 51 html pages for broken links
+23:59:20 [astro-broken-links-checker] No broken links detected.
+23:59:20 [astro-broken-links-checker] Time to check links: 126 ms
+23:59:20 [build] 51 page(s) built in 6.10s
+23:59:20 [build] Complete!
+
+ RUN  v4.1.10 /home/azureuser/comp4020/comp4020-ass2-audit
+
+
+ Test Files  8 passed (8)
+      Tests  29 passed (29)
+   Start at  23:59:20
+   Duration  1.29s (transform 96ms, setup 0ms, import 201ms, tests 63ms, environment 1ms)

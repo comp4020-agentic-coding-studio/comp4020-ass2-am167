@@ -1,0 +1,6 @@
+$ node scripts/check-evidence.ts
+✓ reflections/: none needed — an assignment's written account is PROCESS.md
+✗ PROCESS.md still contains the template comment — replace the boilerplate with your own overview
+✗ cited commit a1b2c3d doesn't exist in this repo
+✗ cited commit e4f5a6b doesn't exist in this repo
+[ELIFECYCLE] Command failed with exit code 1.

@@ -65,7 +65,7 @@ Halstead Reach cell.
 | George's land-value increment | The Land Value info view, and the residential tax rate slider | The value gradient that appears around the new park within about a year, and what the rate take does after it |
 | Marchetti's time budget | The pathfinding cost a cim assigns to a trip; the average commute figures in the city information panel | Average commute time rising as the cell's employment is pushed outside it |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
@@ -77,17 +77,7 @@ one and say which metric they paid with.
 
 ## Into the studio
 
-- Students arrive at Tuesday's desk crit with the shared Halstead Reach
-  baseline save loaded and the cell boundary already drawn with the district
-  tool. Not a screenshot of it — the save.
-- The session opens with every student running the Land Value info view over
-  their cell and reading the gradient aloud. Anyone whose gradient is flat has
-  not yet sited an amenity that does anything.
-- The session's exercise is the slide 13 comparison run for real: build both
-  options, run twelve in-game months on each, and bring the two monthly
-  balance figures to the pin-up.
-- Assessment 1 is submitted at 12:00 today, so the session is a
-  working session, not a teaching one. Come with the plan mostly made.
+Monday is the assessed jury. Complete both twelve-month clinic branches as homework before arrival. Upload the finished plan by 12:00, hang from 13:00, and defend the chosen branch at the jury. The lecture helps you articulate the evidence you have already prepared; it is not time to start the comparison. Follow [Assessment 1](../../assessments/01-neighbourhood-unit-plan/) and the [studio clock](../../sessions/04-upzoning-the-amenity-core/).
 
 ## Assessment connection
 

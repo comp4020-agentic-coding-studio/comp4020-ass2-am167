@@ -80,8 +80,7 @@ in-game **08:00** and state that time in the record. Label each number at the
 point of use as live UI, manual observation, worksheet calculation or
 reference-scenario value.
 
-The standing rule begins here: **a plan claiming all three metrics improved has
-not been read carefully.** Week 1 is the zero against which those movements are
+The standing rule begins here: **a plan claiming all three metrics improved must show costs, time windows and who benefited.** Week 1 is the zero against which those movements are
 read.
 
 ## What you leave with

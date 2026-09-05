@@ -1,0 +1,62 @@
+<script>
+  // Read from the compiled slide DOM so the reading and presentation versions
+  // cannot drift into separately authored copies.
+  const slides = [...document.querySelectorAll<HTMLElement>(".slides > section")];
+  const reader = document.createElement("main");
+  reader.className = "deck-reader";
+  reader.id = "reading-top";
+  const nav = document.createElement("nav");
+  nav.setAttribute("aria-label", "Lecture reading navigation");
+  const back = document.createElement("a");
+  const week = location.pathname.match(/week-\d+/)?.[0];
+  back.href = `../../lectures/${week ?? ""}/`;
+  back.textContent = "← Lecture and studio preparation";
+  nav.append(back);
+  const hint = document.createElement("p");
+  hint.textContent = "Reading view · Scroll through the slides, or choose a section.";
+  nav.append(hint);
+  const contents = document.createElement("ol");
+  slides.forEach((slide, index) => {
+    const copy = slide.cloneNode(true) as HTMLElement;
+    copy.querySelectorAll("aside.notes, script, .evidence-key, .at-heading-anchor").forEach((el) => el.remove());
+    copy.removeAttribute("style");
+    copy.removeAttribute("hidden");
+    copy.removeAttribute("aria-hidden");
+    copy.className = "reading-slide";
+    // Preserve SVG label/marker references while avoiding duplicate IDs.
+    copy.querySelectorAll<HTMLElement>("[id]").forEach((el) => {
+      const old = el.id;
+      const fresh = `reading-${index}-${old}`;
+      el.id = fresh;
+      copy.querySelectorAll("*").forEach((node) => {
+        for (const attr of [...node.attributes]) {
+          if (attr.name === "id") continue;
+          const value = attr.value.replaceAll(`url(#${old})`, `url(#${fresh})`);
+          if (value !== attr.value) node.setAttribute(attr.name, value);
+          if (["aria-labelledby", "aria-describedby"].includes(attr.name)) {
+            node.setAttribute(attr.name, attr.value.split(" ").map((id) => id === old ? fresh : id).join(" "));
+          }
+        }
+      });
+    });
+    copy.querySelectorAll("[aria-hidden]").forEach((el) => {
+      if (!el.closest("svg")) el.removeAttribute("aria-hidden");
+    });
+    copy.id = `reading-slide-${index + 1}`;
+    const heading = copy.querySelector("h1, h2, h3");
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = `#${copy.id}`;
+    link.textContent = heading?.textContent ?? `Slide ${index + 1}`;
+    item.append(link);
+    contents.append(item);
+    const top = document.createElement("a");
+    top.href = "#reading-top";
+    top.textContent = "Back to contents ↑";
+    copy.append(top);
+    reader.append(copy);
+  });
+  nav.append(contents);
+  reader.prepend(nav);
+  document.body.append(reader);
+</script>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">A district and the networks beneath it</title>
+  <desc id="desc">Plazas and streets above a cutaway of the water and sewage lines running under them.</desc>
+  <rect width="800" height="450" fill="#f6eedd"/>
+  <rect y="300" width="800" height="150" fill="#17150f"/>
+  <g fill="#e7d7ad">
+    <rect x="40" y="52" width="220" height="132"/><rect x="330" y="40" width="180" height="100"/>
+    <rect x="580" y="60" width="190" height="140"/>
+  </g>
+  <g fill="#c69f57">
+    <rect x="76" y="86" width="148" height="68"/><rect x="618" y="94" width="120" height="76"/>
+  </g>
+  <g fill="#17150f">
+    <rect x="330" y="166" width="54" height="104"/><rect x="404" y="186" width="46" height="84"/>
+    <rect x="470" y="158" width="50" height="112"/>
+    <rect x="40" y="212" width="66" height="58"/><rect x="132" y="212" width="56" height="58"/>
+    <rect x="580" y="222" width="70" height="48"/><rect x="672" y="222" width="60" height="48"/>
+  </g>
+  <path d="M0 284h800" stroke="#17150f" stroke-width="16"/>
+  <path d="M0 284h800" stroke="#f6eedd" stroke-width="3" stroke-dasharray="16 20"/>
+  <path d="M36 344h728" stroke="#c69f57" stroke-width="12"/>
+  <path d="M36 400h728" stroke="#b45436" stroke-width="12"/>
+  <g stroke="#c69f57" stroke-width="10" fill="none">
+    <path d="M210 344v-44M560 344v-44"/>
+  </g>
+  <g fill="#f6eedd"><circle cx="210" cy="344" r="13"/><circle cx="560" cy="344" r="13"/></g>
+</svg>

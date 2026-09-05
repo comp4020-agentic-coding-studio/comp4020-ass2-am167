@@ -4,6 +4,14 @@ description: >-
   The capstone: the whole district argued as one plan — every zoning, transit,
   budget and public-realm decision since Week 1, defended end to end at the
   final jury.
+heroImage: ../../assets/images/assessment-03-hero.svg
+heroImageAlt: >-
+  The whole district at full extent, the river and transit corridor crossing
+  it, beside a readout of all three studio metrics and the Week 10 fire load.
+cardImage: ../../assets/images/assessment-03-card.svg
+cardImageAlt: >-
+  The full district at extent, river and transit corridor crossing it, over a
+  bar reading all three studio metrics at once.
 week: 12
 due: 2027-05-24T12:00:00+10:00
 weight: 50
@@ -46,6 +54,8 @@ Two clocks below before you read anything else.
   screenshots, two A1 boards, and the save `<student ID>-w12`, paused at 08:00
   and full district extent. Late work on this clock follows the
   [studio policies](../../policies/) artefact rule.
+
+Finalize the reserve-versus-link decision during Week 11 and lodge it in Friday’s memo. Monday rehearses that position. A late Friday copy must still reach both chairs immediately; it receives no separate mark deduction, but forfeits advance feedback. Monday’s artefact clock still applies. An agreed extension explicitly states the revised memo time and whether the student uses the original jury or a later convenor desk crit; contact the convenor before Friday noon.
 
 ## What the artefact must contain
 
@@ -90,3 +100,5 @@ under Week 10's fire load case, and what could the model not show.
 
 Holistic. The three metrics remain the language of the argument. A plan whose
 claims exceed its evidence is marked down across the whole document.
+
+See [resources and upload destinations](../../resources/) and the [common marking bands](../../policies/#marking-bands).

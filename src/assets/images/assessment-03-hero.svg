@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">The whole district as one plan</title>
+  <desc id="desc">The full district at extent on a dark board, the river and transit corridor crossing it, above a bar reading all three studio metrics together.</desc>
+  <rect width="1600" height="620" fill="#17150f"/>
+  <path d="M0 236c210-58 320 46 540 12s330-96 540-58 300 26 520-32v120c-220 58-300 32-520 70s-320 96-540 58-330-70-540-12Z" fill="#2b2619"/>
+  <g fill="#e7d7ad">
+    <path d="m40 300 190-136 18 26-190 136zM250 400 480 236l20 26-230 164zM520 400 760 232l20 26-240 168zM800 396 1030 236l20 26-230 160zM1070 392 1300 232l20 26-230 160zM1340 388 1560 236l20 26-220 152z"/>
+  </g>
+  <g fill="#c69f57">
+    <rect x="120" y="252" width="70" height="52"/><rect x="330" y="286" width="76" height="54"/>
+    <rect x="600" y="292" width="72" height="52"/><rect x="880" y="286" width="78" height="54"/>
+    <rect x="1150" y="276" width="72" height="52"/><rect x="1410" y="266" width="76" height="54"/>
+  </g>
+  <path d="M-20 404c260 42 420-62 640-40s340 86 560 40 300-104 440-124" fill="none" stroke="#b45436" stroke-width="16"/>
+  <path d="M-20 404c260 42 420-62 640-40s340 86 560 40 300-104 440-124" fill="none" stroke="#17150f" stroke-width="4" stroke-dasharray="9 17"/>
+  <g fill="#f6eedd" stroke="#17150f" stroke-width="5">
+    <circle cx="250" cy="418" r="16"/><circle cx="620" cy="364" r="16"/><circle cx="1000" cy="420" r="16"/><circle cx="1380" cy="304" r="16"/>
+  </g>
+  <g transform="translate(330 486)">
+    <rect width="940" height="52" fill="#2b2619"/>
+    <rect x="18" y="16" width="286" height="20" fill="#c69f57"/>
+    <rect x="336" y="16" width="234" height="20" fill="#e7d7ad"/>
+    <rect x="602" y="16" width="196" height="20" fill="#b45436"/>
+  </g>
+</svg>

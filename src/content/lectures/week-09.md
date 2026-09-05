@@ -65,7 +65,7 @@ Halstead Reach civic plaza.
 | Alexander 61 and 106: shaped, small, enclosed | park footprint sizing against the district-based service-radius model | A single 60 m square reads as leftover ground; three 18 m squares at the corners read as three places |
 | — (mechanic with no single theory anchor) | the park maintenance budget slider and the attractiveness overlay | Cutting park upkeep to 60% drops the attractiveness contribution weeks before anything looks different |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
@@ -81,16 +81,7 @@ mobility spend recorded against a livability benefit.
 
 ## Into the studio
 
-- Students arrive with the Week 8 closure applied and funded, and with every
-  proposed public space already carrying a monthly upkeep figure.
-- Both readouts open before the desk crit: the attractiveness overlay and the
-  land value overlay, plus the day/night cycle set to 19:00 with fine weather.
-- Each student brings one 19:00 street-level observation of an existing space in
-  their own build, with a pedestrian count, written down before the crit rather
-  than during it.
-- The session is the last working time before the pin-up, so it is a review
-  session and not a building session; students who arrive without the memo
-  drafted will not get one written in it.
+Monday is the assessed jury. Complete the public-realm build and memo beforehand and upload by 12:00. Bring the funded corridor budget column, signed unfunded list and the captioned 19:00 pedestrian observation. Hang from 13:00 to 13:25; the jury begins at 14:00. Following Week 8, both utility increments remain funded. Follow [Assessment 2](../../assessments/02-public-realm-and-infrastructure-plan/) and the [studio brief](../../sessions/09-public-realm-build/).
 
 ## Assessment connection
 

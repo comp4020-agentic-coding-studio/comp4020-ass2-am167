@@ -61,7 +61,7 @@ studio's own bus line.
 | Cervero and Kockelman's 3Ds | Residential density, zone mix and the demand bars within the station area | Ridership per stop tracking the density gradient, not the geometry of the line |
 | Ridership against coverage | Routing the same corridor down Pelling Street or around Denton Hill | Passengers carried per vehicle-hour, and the line's revenue against its upkeep |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
@@ -73,20 +73,7 @@ Students must set a headway and say which metric they paid.
 
 ## Into the studio
 
-- Students arrive at Wednesday's session with the shared save advanced to the
-  Week 5 baseline and the Transportation Overview open. Not a screenshot — the
-  save, as always.
-- The session is a peak-load run held at 08:00 on the Kerrow corridor. Before
-  any change is made, every student records three figures: peak vehicle volume
-  on Kerrow at the Wickstead junction, vehicle volume on the parallel Ashgrove
-  streets, and passengers carried on any transit line running the corridor.
-- The session's two permitted moves are drawing a transit line at a headway
-  the student can justify from slide 8's formula, and adding capacity at the
-  Wickstead junction. Both are expected; the point of the session is that
-  both are made in the same afternoon by the same person.
-- Students leave with a saved file named for the session and the three
-  before-figures written into their process log. Week 6's lecture opens on
-  those figures, so the save must not be overwritten in the intervening days.
+Monday is the transit studio. Bring the Week 4 personal save and issued transit baseline. Record the before readings, then draw and fund the transit line and justify its headway. Do not widen Wickstead: the road intervention belongs to Week 6. Preserve the pre-widening save and upload the transit sheet and weekly save by 21:00. Follow the [studio brief](../../sessions/05-transit-spine/).
 
 ## Assessment connection
 

@@ -25,6 +25,8 @@ const { Content } = await render(assessment);
   title={assessment.data.title}
   description={assessment.data.description}
   {...siteConfig}
+  heroImage={assessment.data.heroImage}
+  heroImageAlt={assessment.data.heroImageAlt}
 >
   {
     assessment.data.draft && (

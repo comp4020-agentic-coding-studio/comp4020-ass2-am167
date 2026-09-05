@@ -81,11 +81,10 @@ Keep `<student ID>-w08` and the named reference branch as separate files. Leave
 with the branch-labelled readings, signed unfunded list, your corridor budget
 column, the opened prediction annotated where it was wrong, and three captioned
 screenshots. Upload by 21:00. Next Monday’s public-realm plan must fund every
-monthly line from this column and keep the ₡5,100 treatment increment visible
-where it remains unfunded.
+monthly line from this column and keep the ₡5,100 treatment increment funded and visible as a protected line.
 
 Any monthly surplus left after the cut accrues toward an uncommitted capital
 reserve rather than spending itself. Note what it is not yet spent on: the
 proposed **Kerrow cross-town link**, an east–west connection from the corridor
 to the Pellow cells, is the standing candidate. That decision is not made this
-week — it returns as a live question at the Week 12 jury.
+week — finalize it in Week 11 before the Friday 21 May memo, then defend it at the Week 12 jury.

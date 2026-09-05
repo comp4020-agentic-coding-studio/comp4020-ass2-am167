@@ -53,12 +53,12 @@ then the presenter speaks last. The five-minute walk-through has five moves:
    plan — 40 seconds.
 2. Full district, land value: say what the plan did and where it landed — 60
    seconds.
-3. Corridor at neighbourhood scale: state the claim and its grounds — 120
+3. Corridor at neighbourhood scale: state the claim and its grounds — 60
    seconds.
 4. One block at street level: say what it is like to stand there — 60 seconds.
 5. Full district, metric readouts: name the trade — 60 seconds.
 
-Do not cut the street-level move. It is the only minute not delivered by a
+The five moves total 280 seconds, leaving 20 seconds for view changes. Do not cut the street-level move. It is the only minute not delivered by a
 panel. A metric card is permitted; spatial evidence on the boards is required.
 
 ## The overlays, in order
@@ -96,6 +96,6 @@ Open `<student ID>-w11` and continue it as `<student ID>-w12`. Pause it at
 08:00 and full district extent. Pre-check the views.
 Keep the memo open with the omissions appendix at the front. Write the claim,
 numeric qualifier and rebuttal where you can see them; use a metric card if it
-helps. Decide the reserve position on the forecast worksheet before noon, and
+helps. Rehearse the reserve position finalized before Friday 21 May 12:00, and
 time the five moves aloud once. An undecided plan becomes an inventory at the
 lectern.

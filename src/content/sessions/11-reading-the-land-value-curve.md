@@ -85,7 +85,11 @@ decision moves for. Either position is defensible; an unrecorded trade is not.
 ## The appendix
 
 Draft half a page under four headings before leaving: who holds the land whose
-value rose; which Week 1 households are absent by Week 12; which claims use a
+value rose; what the Week 4–11 household counts cannot establish about departures; which claims use a
 computed field rather than observed behaviour; and what an objector would say,
 with the plan’s answer. Put this omissions appendix at the **front** of the
 capstone memo. Upload the studio record by Tuesday at 12:00.
+
+## Before the Friday memo
+
+Finalize the Week 8 reserve-versus-link forecast and its numeric qualifier before Friday 21 May 12:00. Lodge that decision with the omissions appendix in the A3 jury memo; Monday is rehearsal and defence.

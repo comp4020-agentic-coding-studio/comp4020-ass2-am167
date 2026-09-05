@@ -4,6 +4,14 @@ description: >-
   Plan and defend a single neighbourhood unit — its block pattern, its zoning,
   and the amenity everything else is arranged around. First assessed pin-up of
   the semester.
+heroImage: ../../assets/images/assessment-01-hero.svg
+heroImageAlt: >-
+  One residential cell drawn at block scale, its amenity core marked in gold
+  inside a dashed walking radius, with the corridor running down one edge.
+cardImage: ../../assets/images/assessment-01-card.svg
+cardImageAlt: >-
+  A single neighbourhood cell: block frontages around a gold amenity core,
+  ringed by a dashed walking radius.
 week: 4
 due: 2027-03-15T12:00:00+11:00
 weight: 25
@@ -93,3 +101,5 @@ the Week 4 **lecture**, before this deadline, so it can still change the plan.
 
 A plan that closed a shortfall without recording which move closed it marks
 in the middle band and no higher.
+
+See [resources and upload destinations](../../resources/) and the [common marking bands](../../policies/#marking-bands).

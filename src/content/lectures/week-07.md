@@ -55,11 +55,11 @@ cascade the corridor actually runs.
 | Star: infrastructure is invisible until breakdown | the water, sewage and electricity info-views, and their production-versus-consumption bars | The bars move for roughly three weeks of simulated time before a single citizen notification fires |
 | Hughes: the reverse salient caps the whole system | the single trunk main out of the Wensley Bank pumping station | Adding pipe inside Ombersley Flats raises nothing; the district's capacity stays the pump's number |
 | Perrow: tight coupling turns a fault into a cascade | the water → sewage → water-pollution → health → budget chain | One over-capacity treatment plant ends up moving the healthcare budget slider |
-| Tarr: waste is moved, not removed | the sewage outfall and the ground- and water-pollution overlays | The plume travels down the Kerrow and arrives at the intake the studio built downstream of it |
-| Graham and Marvin: networks splinter along their own topology | pipe-graph distance from the pumping station | Farrant Row loses water first, and Farrant Row added no demand at all |
+| Tarr: waste is moved, not removed | the sewage outfall and the ground- and water-pollution overlays | The issued failure branch illustrates an exposed intake; the personal Week 3 intake remains upstream |
+| Graham and Marvin: networks splinter along their own topology | pipe-graph distance from the pumping station | Compare affected districts without inferring outage order from pipe distance alone |
 | — (mechanic with no single theory anchor) | the per-service budget sliders | Dropping the water slider to 80% reduces delivered output, not only the monthly cost |
 
-> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical** until the course reference save and evidence pack are issued.
+> **Evidence standard.** Named interface fields are **direct readouts**. Calculations shown from those fields are **derived measures**. Every fixed scenario value on this page is a **worked hypothetical**, not a captured run. See [resources and evidence](../../resources/) for access arrangements and worksheets.
 
 ## The decision this week
 
@@ -72,16 +72,7 @@ that leaves the road network entirely alone.
 
 ## Into the studio
 
-- Students arrive with the Week 6 save carried forward, unmodified, and with
-  the Ombersley Flats rezoning from Week 3 still in place. No pre-session repairs.
-- Three numbers written down before the session starts: water headroom, sewage
-  headroom, electricity headroom, each as a percentage of installed capacity.
-- The session runs the slide 11–16 cascade live on one student's save, with the
-  water info-view and the water-pollution overlay both open, and stops at each
-  step to ask what the readout showed and when.
-- The utilities clinic on Thursday takes individual networks; students should
-  arrive having already identified their own reverse salient rather than
-  expecting the clinic to find it.
+Monday uses the issued utility checkpoints alongside the unchanged Week 6 personal save. Trace the supplied capacity readings and plume evidence; do not manufacture the cascade on a student’s save or move the Week 3 upstream intake. A systemwide capacity shortfall does not establish a far-end-first outage. Cost and order both utility increments on the reverse-salient card, then upload the weekly save and evidence by 21:00. The Thursday clinic is optional follow-up. Follow the [studio brief](../../sessions/07-utilities-clinic/).
 
 ## Assessment connection
 
