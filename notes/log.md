@@ -1315,3 +1315,23 @@ violations). No layout/CSS/structural change was made — all fixes are prose
 and frontmatter content, including a new `spec:` block already handled by
 the existing `SpecList`/`MarkingModel` components — so no viewport
 verification was needed.
+
+## 2026-09-04 — Assignment 2 audit
+
+Created a separate audit worktree at eb7746e at the owner's request. Read the
+published Assignment 2 brief/spec and all lecture, studio, assessment and people
+sources. Recorded submission readiness and cross-page contradictions in AUDIT.md.
+The baseline pnpm check passes 29 tests; check:evidence fails on the unchanged
+PROCESS template and example citations. Findings remain findings, without editing
+course behavior or the student's personal process account.
+
+## 2026-09-05 — Audit verification and report
+
+Completed the production-browser sweep: 51 routes and 194 slides at both marking
+viewports. Documented phone deck readability with measurements and screenshots;
+rejected false positives for scrollable tables and an image still decoding.
+A fresh adversarial reviewer supported the first nine content findings; added
+explicit deck weekday corroboration without misclassifying staff office hours.
+Final AUDIT.md records 15 findings, spec status, reproduction evidence and limits.
+Rechecked with the specified Node 24 runtime: 29 tests and all build checks pass.
+PROCESS.md remains untouched and the existing evidence-gate failure is reported.

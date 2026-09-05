@@ -1,0 +1,7358 @@
+[
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "SLOP2418: Urban Design Studio: Foundations of the Good City",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Page not found \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/404.html",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Assessment \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/assessments/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Neighbourhood Unit Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/assessments/01-neighbourhood-unit-plan/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Public Realm and Infrastructure Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/assessments/02-public-realm-and-infrastructure-plan/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Comprehensive City Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/assessments/03-comprehensive-city-plan/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 1: Site Analysis and the Blank Map",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-01/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Site Analysis and the Blank Map"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "How this studio works"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "Survey before plan"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "What \u201cgood\u201d has meant before"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 5,
+        "title": "Three metrics"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "Fiscal performance"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 7,
+        "title": "Mobility performance"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 8,
+        "title": "Livability"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 9,
+        "title": "How the three are read, and where they are marked"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 10,
+        "title": "McHarg\u2019s layers, and where they live"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "The site: Kerrow Basin"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 12,
+        "title": "Kerrow Basin in Lynch\u2019s five terms"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 13,
+        "title": "Four places the first road could go"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 15,
+        "title": "The value was in the ground first"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 16,
+        "title": "Before Tuesday"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 2: The Grid vs. the Organic Street",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-02/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "The Grid vs. the Organic Street"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "One question, three answers"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "The grid was an argument about government"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "Jacobs, on short blocks"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 5,
+        "title": "Radburn: the superblock"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "A city is not a tree"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 7,
+        "title": "Configuration predicts movement"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 8,
+        "title": "The three patterns at the same scale"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 9,
+        "title": "What the road tool actually gives you"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 10,
+        "title": "Lane-kilometres per dwelling"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 11,
+        "title": "Close one link"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 12,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 13,
+        "title": "Where livability sits in this"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "Before Tuesday"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 3: Zoning and the Myth of Separation",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-03/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Zoning and the Myth of Separation"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "The question this week"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "1898: separation as public health"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "1926: separation becomes law"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 5,
+        "title": "What the Euclidean code actually did"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "1929: separation at neighbourhood scale"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 7,
+        "title": "1961: the case against"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 8,
+        "title": "2000: regulate form, not use"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 9,
+        "title": "A hundred and two years, in one line"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 10,
+        "title": "The palette you actually have"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 11,
+        "title": "Two schemes for Halstead Reach"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 12,
+        "title": "Where the pollution goes"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 13,
+        "title": "Where the trips go"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 15,
+        "title": "Before Tuesday, and Assessment 1"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 4: Density and the 15-Minute City",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-04/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Density and the 15-Minute City"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "Where we are"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "The argument"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "Perry, 1929"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 5,
+        "title": "What Perry fixed and what he built in"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "Moreno, 2021: the radius becomes a budget"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 13.40625,
+        "slide": 7,
+        "title": "Jacobs on concentration"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 8,
+        "title": "Density is a precondition, not a goal"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 9,
+        "title": "Marchetti\u2019s hour"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 10,
+        "title": "The amenity radius, measured"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "The circle over Halstead Reach"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 12,
+        "title": "What the circle costs"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 13,
+        "title": "Two ways to close 1,300"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 14,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 15,
+        "title": "Assessment 1: the brief"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 16,
+        "title": "What the jury will ask"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 5: Moving People: Transit-Oriented Design",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-05/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Moving People: Transit-Oriented Design"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 13.40625,
+        "slide": 2,
+        "title": "A standing position, stated up front"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "The argument"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "Calthorpe, 1993"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 5,
+        "title": "Two ways a stop fails"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 13.40625,
+        "slide": 6,
+        "title": "Lynch on the parts and the whole"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 7,
+        "title": "Lynch\u2019s five elements, as a transit network"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 8,
+        "title": "Frequency is freedom"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 9,
+        "title": "What a headway is worth"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 10,
+        "title": "The arithmetic of the transfer"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "Stop spacing, from the same arithmetic"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 12,
+        "title": "Ridership or coverage"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 13,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "What this work feeds"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 15,
+        "title": "This week\u2019s studio, and next week"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 6: Traffic Engineering and Its Discontents",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-06/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Traffic Engineering and Its Discontents"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 2,
+        "title": "Your save file, last Wednesday and this morning"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "The argument"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "What the pathfinder is doing"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 13.40625,
+        "slide": 5,
+        "title": "Downs\u2019s law"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 6,
+        "title": "Triple convergence"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 7,
+        "title": "The arithmetic: capacity"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 8,
+        "title": "The arithmetic: demand"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 9,
+        "title": "Where the extra 1,020 vehicles came from"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 10,
+        "title": "Downs\u2013Thomson: the bus set the speed"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "Braess, 1968"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 12,
+        "title": "Buchanan, 1963: the other capacity"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 13,
+        "title": "What the third lane cost the frontage"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 14,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 15,
+        "title": "What to do instead"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 16,
+        "title": "A working week, not a submission"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 17,
+        "title": "Before the break"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 7: Infrastructure You Don't See",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-07/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Infrastructure You Don\u2019t See"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "Where the studio turns"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "Three claims about networks"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "The capacity curve"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 5,
+        "title": "Four bands of headroom"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "Star on breakdown"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 7,
+        "title": "The four networks"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 8,
+        "title": "Two geometries of failure"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 9,
+        "title": "The Kerrow corridor, as a network"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 10,
+        "title": "The reverse salient"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "The cascade begins"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 12,
+        "title": "Cascade, step 3: the shortfall reaches every district on the graph"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 13,
+        "title": "The money leaves at the same time as the water"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "Cascade, steps 6 and 7: the fix that breaks the next thing"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 15,
+        "title": "Step 8: it is no longer Ombersley Flats\u2019 problem"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 16,
+        "title": "The whole cascade on one page"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 17,
+        "title": "Headroom costs money now and buys nothing visible"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 18,
+        "title": "This week"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 8: Fiscal Realism: Taxes, Budgets and the Limits of Growth",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-08/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Fiscal Realism: Taxes, Budgets and the Limits of Growth"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "You are \u20a19,000 a month short"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 3,
+        "title": "Where the money comes from"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "George, in one paragraph"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 5,
+        "title": "Who made the value"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "George on the land tax"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 7,
+        "title": "The optimistic bound"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 8,
+        "title": "The two levers"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 9,
+        "title": "Your tax rate is an admissions policy"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 10,
+        "title": "A budget slider is not a discount"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "The funding-response curve"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 12,
+        "title": "Five ways to find \u20a19,000"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 13,
+        "title": "Two closures, sixteen weeks out"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "The upkeep you already signed for"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 15,
+        "title": "Fiscal performance is fixed. Pick the other one."
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 16,
+        "title": "This week"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 9: Parks, Plazas and the Public Realm",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-09/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Parks, Plazas and the Public Realm"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "Assessment 2 is due today"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 3,
+        "title": "Assessment 2, walked"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "Two definitions of a park"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 5,
+        "title": "Jacobs\u2019s three conditions"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "Jacobs on eyes upon the street"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 7,
+        "title": "The same 120 metres, twice"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 8,
+        "title": "What Whyte actually counted"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 9,
+        "title": "What Whyte actually counted, continued"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 10,
+        "title": "Whyte on what attracts people"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "The plaza that does not work"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 12,
+        "title": "The third place"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 13,
+        "title": "The 19:00 test"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "Alexander, with the numbers"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 15,
+        "title": "One plaza, or eleven squares"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 16,
+        "title": "Livability against fiscal performance, at \u20a1310 a month"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 17,
+        "title": "Five things the jury will ask"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 18,
+        "title": "This week"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 10: Resilience: Hazards, Pollution and Climate",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-10/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Resilience: Hazards, Pollution and Climate"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "Where Week 7 left the network"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "A hazard is an interaction, not an event"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 4,
+        "title": "Three families of hazard, three design responses"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 5,
+        "title": "You already have McHarg\u2019s method"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "The capacity curve, with a load case on it"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 7,
+        "title": "Pollution is a condition, not an incident"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 8,
+        "title": "Tuckwell Bend: intake, outfall, wind"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 9,
+        "title": "Ground pollution, and the decade of memory"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 10,
+        "title": "Climate as a seasonal load case"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "Which resilience did you buy?"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 12,
+        "title": "The decision: the corridor\u2019s ridge flank"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 13,
+        "title": "The tradeoff, named"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "The safe development paradox"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 15,
+        "title": "What the hazard layers cannot see"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 4.875,
+        "slide": 16,
+        "title": "Further reading"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 11: What the Model Can't Show You",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-11/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "What the Model Can\u2019t Show You"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 2,
+        "title": "Why this lecture sits here"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 3,
+        "title": "The engineer\u2019s omissions list"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "You cannot verify a model of an open system"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 5,
+        "title": "Eleven weeks of the Kerrow corridor"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 6,
+        "title": "What the curve is made of"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.19125,
+        "slide": 7,
+        "title": "114 points of uplift, accruing to nobody"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 4.485,
+        "slide": 8,
+        "title": "What the model does show about who left"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 9,
+        "title": "Livability is measured on whoever remains"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 10,
+        "title": "Displacement has four shapes"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 11,
+        "title": "The model has one tenure, and it has no term"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.19125,
+        "slide": 12,
+        "title": "The model\u2019s hard zero"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.19125,
+        "slide": 13,
+        "title": "One decision-maker, no room"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.19125,
+        "slide": 14,
+        "title": "Comprehensive models fail by being comprehensive"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 13.40625,
+        "slide": 15,
+        "title": "From eight years of rate-base modelling"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 16,
+        "title": "The tradeoff, named"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.19125,
+        "slide": 17,
+        "title": "The omissions appendix, and where to read further"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 4.875,
+        "slide": 18,
+        "title": "Where to read further"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 390,
+    "title": "Week 12: Capstone Review: The Comprehensive Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-12/",
+    "width": 390,
+    "slides": [
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 1,
+        "title": "Capstone Review: The Comprehensive Plan"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.19125,
+        "slide": 2,
+        "title": "The clock"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 3,
+        "title": "Holistic marking, and what it does not mean"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 4,
+        "title": "A plan is an argument, not an inventory"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 5,
+        "title": "Six fields"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 6,
+        "title": "The six fields, filled in"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 7,
+        "title": "Walking a jury through it: five scales"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.4350000000000005,
+        "slide": 8,
+        "title": "The info-view sequence"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 9,
+        "title": "Defending, and apologising"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 6.19125,
+        "slide": 10,
+        "title": "Better or worse, not true or false"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 5.11875,
+        "slide": 11,
+        "title": "Back to the three metrics"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 12,
+        "title": "What the three metrics leave out"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 10.48125,
+        "slide": 13,
+        "title": "The tradeoff, named"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 14,
+        "title": "Before you stand up"
+      },
+      {
+        "box": {
+          "bottom": 532.44921875,
+          "height": 219.375,
+          "left": 0,
+          "right": 390,
+          "top": 313.07421875,
+          "width": 390,
+          "x": 0,
+          "y": 313.07421875
+        },
+        "clipped": [],
+        "minTextPx": 7.55625,
+        "slide": 15,
+        "title": "The visiting critic"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Lectures \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5278.078125,
+          "height": 2343.359375,
+          "left": 18,
+          "right": 440.671875,
+          "top": 2934.71875,
+          "width": 422.671875,
+          "x": 18,
+          "y": 2934.71875
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 1: Site Analysis and the Blank Map",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-01/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5371.671875,
+          "height": 2199.375,
+          "left": 18,
+          "right": 451,
+          "top": 3172.296875,
+          "width": 433,
+          "x": 18,
+          "y": 3172.296875
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 2: The Grid vs. the Organic Street",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-02/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5846.8125,
+          "height": 2602.53125,
+          "left": 18,
+          "right": 417.84375,
+          "top": 3244.28125,
+          "width": 399.84375,
+          "x": 18,
+          "y": 3244.28125
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 3: Zoning and the Myth of Separation",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-03/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5357.265625,
+          "height": 2084.1875,
+          "left": 18,
+          "right": 452.765625,
+          "top": 3273.078125,
+          "width": 434.765625,
+          "x": 18,
+          "y": 3273.078125
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 4: Density and the 15-Minute City",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-04/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5004.5,
+          "height": 2084.1875,
+          "left": 18,
+          "right": 449.796875,
+          "top": 2920.3125,
+          "width": 431.796875,
+          "x": 18,
+          "y": 2920.3125
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 5: Moving People: Transit-Oriented Design",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-05/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5519.25,
+          "height": 2102.1875,
+          "left": 18,
+          "right": 477.5,
+          "top": 3417.0625,
+          "width": 459.5,
+          "x": 18,
+          "y": 3417.0625
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 6: Traffic Engineering and Its Discontents",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-06/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 4810.125,
+          "height": 1911.40625,
+          "left": 18,
+          "right": 452.875,
+          "top": 2898.71875,
+          "width": 434.875,
+          "x": 18,
+          "y": 2898.71875
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 7: Infrastructure You Don't See",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-07/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5355.921875,
+          "height": 2314.5625,
+          "left": 18,
+          "right": 403.140625,
+          "top": 3041.359375,
+          "width": 385.140625,
+          "x": 18,
+          "y": 3041.359375
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 8: Fiscal Realism: Taxes, Budgets and the Limits of Growth",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-08/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5098.09375,
+          "height": 1825.015625,
+          "left": 18,
+          "right": 460.546875,
+          "top": 3273.078125,
+          "width": 442.546875,
+          "x": 18,
+          "y": 3273.078125
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 9: Parks, Plazas and the Public Realm",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-09/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5671.34375,
+          "height": 2458.546875,
+          "left": 18,
+          "right": 443.578125,
+          "top": 3212.796875,
+          "width": 425.578125,
+          "x": 18,
+          "y": 3212.796875
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 10: Resilience: Hazards, Pollution and Climate",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-10/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 5220.484375,
+          "height": 1709.828125,
+          "left": 18,
+          "right": 580.140625,
+          "top": 3510.65625,
+          "width": 562.140625,
+          "x": 18,
+          "y": 3510.65625
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 11: What the Model Can't Show You",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-11/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [
+      {
+        "rect": {
+          "bottom": 4836.234375,
+          "height": 1652.234375,
+          "left": 18,
+          "right": 440,
+          "top": 3184,
+          "width": 422,
+          "x": 18,
+          "y": 3184
+        },
+        "tag": "TABLE",
+        "text": "Theory move\tCities: Skylines II mechanic\tWhat students should watch ha"
+      }
+    ],
+    "scrollWidth": 375,
+    "title": "Week 12: Capstone Review: The Comprehensive Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-12/",
+    "width": 390
+  },
+  {
+    "brokenImages": [
+      "http://127.0.0.1:4341/comp4020-ass2-am167/_astro/sunniva-marek.C_LyfMCL_22VOoV.avif"
+    ],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "People \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Idris Fenn",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/idris-fenn/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Marisol Quaye",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/marisol-quaye/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Nadia Ilkhom",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/nadia-ilkhom/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Sunniva Marek",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/sunniva-marek/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Tobias Wren",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/tobias-wren/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Studio policies \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/policies/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Studios",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 1 Studio: Site Selection and the First Grid",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/01-site-selection/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 2 Studio: Block Pattern and the Walkability Desk Crit",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/02-block-pattern/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 3 Studio: Zoning the First District",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/03-zoning-the-district/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 4 Studio: Upzoning the Amenity Core",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/04-upzoning-the-amenity-core/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 5 Studio: Designing the Transit Spine",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/05-transit-spine/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 6 Studio: Peak-Load Stress Test",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/06-peak-load-stress-test/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 7 Studio: Utilities Clinic",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/07-utilities-clinic/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 8 Studio: Budget Under Cutback",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/08-budget-under-cutback/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 9 Studio: The Public Realm Build",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/09-public-realm-build/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 10 Studio: Hazard Scenario",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/10-hazard-scenario/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 11 Studio: Reading the Land-Value Curve",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/11-reading-the-land-value-curve/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 844,
+    "outliers": [],
+    "scrollWidth": 375,
+    "title": "Week 12 Studio: Final Jury",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/12-final-jury/",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "SLOP2418: Urban Design Studio: Foundations of the Good City",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Page not found \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/404.html",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Assessment \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/assessments/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Neighbourhood Unit Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/assessments/01-neighbourhood-unit-plan/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Public Realm and Infrastructure Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/assessments/02-public-realm-and-infrastructure-plan/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Comprehensive City Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/assessments/03-comprehensive-city-plan/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 1: Site Analysis and the Blank Map",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-01/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Site Analysis and the Blank Map"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "How this studio works"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "Survey before plan"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "What \u201cgood\u201d has meant before"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 5,
+        "title": "Three metrics"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "Fiscal performance"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 7,
+        "title": "Mobility performance"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 8,
+        "title": "Livability"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 9,
+        "title": "How the three are read, and where they are marked"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 10,
+        "title": "McHarg\u2019s layers, and where they live"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "The site: Kerrow Basin"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 12,
+        "title": "Kerrow Basin in Lynch\u2019s five terms"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 13,
+        "title": "Four places the first road could go"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 15,
+        "title": "The value was in the ground first"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 16,
+        "title": "Before Tuesday"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 2: The Grid vs. the Organic Street",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-02/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "The Grid vs. the Organic Street"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "One question, three answers"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "The grid was an argument about government"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "Jacobs, on short blocks"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 5,
+        "title": "Radburn: the superblock"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "A city is not a tree"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 7,
+        "title": "Configuration predicts movement"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 8,
+        "title": "The three patterns at the same scale"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 9,
+        "title": "What the road tool actually gives you"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 10,
+        "title": "Lane-kilometres per dwelling"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 11,
+        "title": "Close one link"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 12,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 13,
+        "title": "Where livability sits in this"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "Before Tuesday"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 3: Zoning and the Myth of Separation",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-03/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Zoning and the Myth of Separation"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "The question this week"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "1898: separation as public health"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "1926: separation becomes law"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 5,
+        "title": "What the Euclidean code actually did"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "1929: separation at neighbourhood scale"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 7,
+        "title": "1961: the case against"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 8,
+        "title": "2000: regulate form, not use"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 9,
+        "title": "A hundred and two years, in one line"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 10,
+        "title": "The palette you actually have"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 11,
+        "title": "Two schemes for Halstead Reach"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 12,
+        "title": "Where the pollution goes"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 13,
+        "title": "Where the trips go"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 15,
+        "title": "Before Tuesday, and Assessment 1"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 4: Density and the 15-Minute City",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-04/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Density and the 15-Minute City"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "Where we are"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "The argument"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "Perry, 1929"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 5,
+        "title": "What Perry fixed and what he built in"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "Moreno, 2021: the radius becomes a budget"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 66,
+        "slide": 7,
+        "title": "Jacobs on concentration"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 8,
+        "title": "Density is a precondition, not a goal"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 9,
+        "title": "Marchetti\u2019s hour"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 10,
+        "title": "The amenity radius, measured"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "The circle over Halstead Reach"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 12,
+        "title": "What the circle costs"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 13,
+        "title": "Two ways to close 1,300"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 14,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 15,
+        "title": "Assessment 1: the brief"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 16,
+        "title": "What the jury will ask"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 5: Moving People: Transit-Oriented Design",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-05/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Moving People: Transit-Oriented Design"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 66,
+        "slide": 2,
+        "title": "A standing position, stated up front"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "The argument"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "Calthorpe, 1993"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 5,
+        "title": "Two ways a stop fails"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 66,
+        "slide": 6,
+        "title": "Lynch on the parts and the whole"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 7,
+        "title": "Lynch\u2019s five elements, as a transit network"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 8,
+        "title": "Frequency is freedom"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 9,
+        "title": "What a headway is worth"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 10,
+        "title": "The arithmetic of the transfer"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "Stop spacing, from the same arithmetic"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 12,
+        "title": "Ridership or coverage"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 13,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "What this work feeds"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 15,
+        "title": "This week\u2019s studio, and next week"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 6: Traffic Engineering and Its Discontents",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-06/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Traffic Engineering and Its Discontents"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 2,
+        "title": "Your save file, last Wednesday and this morning"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "The argument"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "What the pathfinder is doing"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 66,
+        "slide": 5,
+        "title": "Downs\u2019s law"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 6,
+        "title": "Triple convergence"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 7,
+        "title": "The arithmetic: capacity"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 8,
+        "title": "The arithmetic: demand"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 9,
+        "title": "Where the extra 1,020 vehicles came from"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 10,
+        "title": "Downs\u2013Thomson: the bus set the speed"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "Braess, 1968"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 12,
+        "title": "Buchanan, 1963: the other capacity"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 13,
+        "title": "What the third lane cost the frontage"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 14,
+        "title": "The tradeoff of the week"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 15,
+        "title": "What to do instead"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 16,
+        "title": "A working week, not a submission"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 17,
+        "title": "Before the break"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 7: Infrastructure You Don't See",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-07/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Infrastructure You Don\u2019t See"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "Where the studio turns"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "Three claims about networks"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "The capacity curve"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 5,
+        "title": "Four bands of headroom"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "Star on breakdown"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 7,
+        "title": "The four networks"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 8,
+        "title": "Two geometries of failure"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 9,
+        "title": "The Kerrow corridor, as a network"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 10,
+        "title": "The reverse salient"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "The cascade begins"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 12,
+        "title": "Cascade, step 3: the shortfall reaches every district on the graph"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 13,
+        "title": "The money leaves at the same time as the water"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "Cascade, steps 6 and 7: the fix that breaks the next thing"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 15,
+        "title": "Step 8: it is no longer Ombersley Flats\u2019 problem"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 16,
+        "title": "The whole cascade on one page"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 17,
+        "title": "Headroom costs money now and buys nothing visible"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 18,
+        "title": "This week"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 8: Fiscal Realism: Taxes, Budgets and the Limits of Growth",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-08/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Fiscal Realism: Taxes, Budgets and the Limits of Growth"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "You are \u20a19,000 a month short"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 3,
+        "title": "Where the money comes from"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "George, in one paragraph"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 5,
+        "title": "Who made the value"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "George on the land tax"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 7,
+        "title": "The optimistic bound"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 8,
+        "title": "The two levers"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 9,
+        "title": "Your tax rate is an admissions policy"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 10,
+        "title": "A budget slider is not a discount"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "The funding-response curve"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 12,
+        "title": "Five ways to find \u20a19,000"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 13,
+        "title": "Two closures, sixteen weeks out"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "The upkeep you already signed for"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 15,
+        "title": "Fiscal performance is fixed. Pick the other one."
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 16,
+        "title": "This week"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 9: Parks, Plazas and the Public Realm",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-09/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Parks, Plazas and the Public Realm"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "Assessment 2 is due today"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 3,
+        "title": "Assessment 2, walked"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "Two definitions of a park"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 5,
+        "title": "Jacobs\u2019s three conditions"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "Jacobs on eyes upon the street"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 7,
+        "title": "The same 120 metres, twice"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 8,
+        "title": "What Whyte actually counted"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 9,
+        "title": "What Whyte actually counted, continued"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 10,
+        "title": "Whyte on what attracts people"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "The plaza that does not work"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 12,
+        "title": "The third place"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 13,
+        "title": "The 19:00 test"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "Alexander, with the numbers"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 15,
+        "title": "One plaza, or eleven squares"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 16,
+        "title": "Livability against fiscal performance, at \u20a1310 a month"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 17,
+        "title": "Five things the jury will ask"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 18,
+        "title": "This week"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 10: Resilience: Hazards, Pollution and Climate",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-10/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Resilience: Hazards, Pollution and Climate"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "Where Week 7 left the network"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "A hazard is an interaction, not an event"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 4,
+        "title": "Three families of hazard, three design responses"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 5,
+        "title": "You already have McHarg\u2019s method"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "The capacity curve, with a load case on it"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 7,
+        "title": "Pollution is a condition, not an incident"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 8,
+        "title": "Tuckwell Bend: intake, outfall, wind"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 9,
+        "title": "Ground pollution, and the decade of memory"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 10,
+        "title": "Climate as a seasonal load case"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "Which resilience did you buy?"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 12,
+        "title": "The decision: the corridor\u2019s ridge flank"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 13,
+        "title": "The tradeoff, named"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "The safe development paradox"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 15,
+        "title": "What the hazard layers cannot see"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 24,
+        "slide": 16,
+        "title": "Further reading"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 11: What the Model Can't Show You",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-11/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "What the Model Can\u2019t Show You"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 2,
+        "title": "Why this lecture sits here"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 3,
+        "title": "The engineer\u2019s omissions list"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "You cannot verify a model of an open system"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 5,
+        "title": "Eleven weeks of the Kerrow corridor"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 6,
+        "title": "What the curve is made of"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 30.48,
+        "slide": 7,
+        "title": "114 points of uplift, accruing to nobody"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 22.08,
+        "slide": 8,
+        "title": "What the model does show about who left"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 9,
+        "title": "Livability is measured on whoever remains"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 10,
+        "title": "Displacement has four shapes"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 11,
+        "title": "The model has one tenure, and it has no term"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 30.48,
+        "slide": 12,
+        "title": "The model\u2019s hard zero"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 30.48,
+        "slide": 13,
+        "title": "One decision-maker, no room"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 30.48,
+        "slide": 14,
+        "title": "Comprehensive models fail by being comprehensive"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 66,
+        "slide": 15,
+        "title": "From eight years of rate-base modelling"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 16,
+        "title": "The tradeoff, named"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 30.48,
+        "slide": 17,
+        "title": "The omissions appendix, and where to read further"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 24,
+        "slide": 18,
+        "title": "Where to read further"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1920,
+    "title": "Week 12: Capstone Review: The Comprehensive Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/decks/week-12/",
+    "width": 1920,
+    "slides": [
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 1,
+        "title": "Capstone Review: The Comprehensive Plan"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 30.48,
+        "slide": 2,
+        "title": "The clock"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 3,
+        "title": "Holistic marking, and what it does not mean"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 4,
+        "title": "A plan is an argument, not an inventory"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 5,
+        "title": "Six fields"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 6,
+        "title": "The six fields, filled in"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 7,
+        "title": "Walking a jury through it: five scales"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 31.68,
+        "slide": 8,
+        "title": "The info-view sequence"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 9,
+        "title": "Defending, and apologising"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 30.48,
+        "slide": 10,
+        "title": "Better or worse, not true or false"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 25.2,
+        "slide": 11,
+        "title": "Back to the three metrics"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 12,
+        "title": "What the three metrics leave out"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 51.6,
+        "slide": 13,
+        "title": "The tradeoff, named"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 14,
+        "title": "Before you stand up"
+      },
+      {
+        "box": {
+          "bottom": 1083.75,
+          "height": 1080,
+          "left": 0,
+          "right": 1920,
+          "top": 3.75,
+          "width": 1920,
+          "x": 0,
+          "y": 3.75
+        },
+        "clipped": [],
+        "minTextPx": 37.2,
+        "slide": 15,
+        "title": "The visiting critic"
+      }
+    ]
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Lectures \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 1: Site Analysis and the Blank Map",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-01/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 2: The Grid vs. the Organic Street",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-02/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 3: Zoning and the Myth of Separation",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-03/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 4: Density and the 15-Minute City",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-04/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 5: Moving People: Transit-Oriented Design",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-05/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 6: Traffic Engineering and Its Discontents",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-06/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 7: Infrastructure You Don't See",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-07/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 8: Fiscal Realism: Taxes, Budgets and the Limits of Growth",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-08/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 9: Parks, Plazas and the Public Realm",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-09/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 10: Resilience: Hazards, Pollution and Climate",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-10/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 11: What the Model Can't Show You",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-11/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 12: Capstone Review: The Comprehensive Plan",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/lectures/week-12/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "People \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Idris Fenn",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/idris-fenn/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Marisol Quaye",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/marisol-quaye/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Nadia Ilkhom",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/nadia-ilkhom/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Sunniva Marek",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/sunniva-marek/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Tobias Wren",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/people/tobias-wren/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Studio policies \u2014 Slop University",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/policies/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Studios",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 1 Studio: Site Selection and the First Grid",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/01-site-selection/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 2 Studio: Block Pattern and the Walkability Desk Crit",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/02-block-pattern/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 3 Studio: Zoning the First District",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/03-zoning-the-district/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 4 Studio: Upzoning the Amenity Core",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/04-upzoning-the-amenity-core/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 5 Studio: Designing the Transit Spine",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/05-transit-spine/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 6 Studio: Peak-Load Stress Test",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/06-peak-load-stress-test/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 7 Studio: Utilities Clinic",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/07-utilities-clinic/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 8 Studio: Budget Under Cutback",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/08-budget-under-cutback/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 9 Studio: The Public Realm Build",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/09-public-realm-build/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 10 Studio: Hazard Scenario",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/10-hazard-scenario/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 11 Studio: Reading the Land-Value Curve",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/11-reading-the-land-value-curve/",
+    "width": 1920
+  },
+  {
+    "brokenImages": [],
+    "height": 1080,
+    "outliers": [],
+    "scrollWidth": 1905,
+    "title": "Week 12 Studio: Final Jury",
+    "url": "http://127.0.0.1:4341/comp4020-ass2-am167/sessions/12-final-jury/",
+    "width": 1920
+  }
+]
