@@ -1,3 +1,22 @@
+## 2026-09-05 — Fix mobile assessment-label overflow in PR 3
+
+Adversarial review of PR 3 (semester timeline restyle) found that at 390×844
+the assessment labels ("A1 · 25%" etc.) were wider than their week column,
+visually bisected by the dashed census/drop-date rules and bleeding into
+neighbouring columns. The PR's own last-child right-align hack only redirected
+the overflow rather than containing it, and was fragile besides (relied on the
+final DOM child always being a week cell, not a marker).
+
+Fixed in `SemesterTimeline.astro`: gave `.st-assessment-slot` explicit
+`inset-inline: 0` (was relying on implicit flex abspos-centering) so it's
+pinned to its own column's width, then let `.st-assessment-label` wrap
+(`flex-wrap`, `white-space: normal` on mobile) instead of forcing `nowrap`.
+Removed the `:last-child` special case entirely — no longer needed once
+labels are contained to their own column. Verified via rendered Chrome
+screenshots + `getBoundingClientRect()` at both 1920×1080 and 390×844: labels
+now sit fully inside their own column and no longer cross the dashed marker
+lines. `pnpm check` stayed green throughout.
+
 ## 2026-08-31 — Policies page
 
 Wrote the first real content page after the home page: `src/pages/policies/index.mdx`,

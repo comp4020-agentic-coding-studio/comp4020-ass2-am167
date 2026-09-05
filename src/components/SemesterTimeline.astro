@@ -122,6 +122,7 @@ const cells = buildSemesterTimeline({
 
   .st-assessment-slot {
     position: absolute;
+    inset-inline: 0;
     top: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -131,9 +132,12 @@ const cells = buildSemesterTimeline({
 
   .st-assessment-label {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0.3em;
     align-items: center;
     line-height: 1.15;
+    max-inline-size: 100%;
     font-size: var(--at-font-size-xs);
     color: var(--at-text-secondary);
     font-family: var(--at-font-mono);
@@ -234,13 +238,9 @@ const cells = buildSemesterTimeline({
       font-size: 0.65rem;
     }
 
-    .st-cell:last-child .st-assessment-slot {
-      right: 0.2rem;
-      align-items: flex-end;
-    }
-
-    .st-cell:last-child .st-assessment-slot > .st-dot {
-      margin-inline-end: 0.05rem;
+    .st-assessment-label {
+      white-space: normal;
+      text-align: center;
     }
 
     .st-legend {
