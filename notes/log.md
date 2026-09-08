@@ -1479,3 +1479,23 @@ Node 24 pnpm check passes: 33 tests, zero errors, warnings or hints; evidence
 citations resolve. Initial sandbox attempts could not open local server ports;
 rerunning with local-server permission passed. Documentation-only edit, so no
 site viewport sweep was needed. Stopped the dev server started for this task.
+
+## 2026-09-08 — Expand PROCESS around the student's actual acceptance criteria
+
+Student clarified that checks mainly constrained agent drift and hallucination,
+while revisions were mostly manual reading: would I take this course, do I find
+it interesting, and would someone else? Expanded the account around that stated
+motivation rather than presenting the tests as a planned curriculum framework.
+Kept the verified incidents and citations, foregrounded the homepage readability
+catch, and distinguished imagined student appeal from demonstrated audience
+feedback. Fresh review and checks follow.
+
+Restored the template's “What I built” and “How I got here” headings on the
+student's request, keeping the brief description separate from the narrative.
+
+Fresh Luna review corroborated the incidents and narrative but flagged ambiguity
+between adding a review protocol and performing a review. Clarified that the
+85e50545/fe9b9b93 citations support requirements in CLAUDE.md; the following deck
+incident documents an actual review. Final Node 24 checks pass (33 tests, zero
+errors/warnings/hints); all ten evidence citations resolve. No website content
+or layout changed. The dev server was stopped and its port confirmed clear.
