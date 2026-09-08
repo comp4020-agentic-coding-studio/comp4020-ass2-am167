@@ -1458,3 +1458,24 @@ Validation: `pnpm check` green, 52 pages, 33 tests, no broken links, no
 accessibility violations, no warnings. Verified all three briefs and the index
 in Chrome at 1920×1080 and 390×844 against the confirmed preview port 4341,
 with viewport set by emulation and `innerWidth`/`innerHeight` asserted.
+
+## 2026-09-08 — PROCESS factual corrections and narrative spine
+
+Revised the existing account around course promises made checkable, reviewer
+instructions, and acceptance left to the student's reading. Added the documented
+assessment-test failure as the concrete course-design example; separated the two
+review-protocol citations, described one audit plus repairs/re-review, retained
+both rejected and accepted policy findings, and credited the student with the
+homepage readability catch. Cut the long course description and unsupported
+claims about what caused most failures. No retrospective claim of educational
+research was added: the existing account and log do not identify an influence.
+Fresh adversarial review and final checks follow this draft.
+
+Fresh context-isolated Luna review found that the lecture/studio pairing was
+added in 87dffee0, after the cited break commit; split the citations accordingly.
+Also replaced ambiguous “kept four internal defects” with “accepted and fixed”.
+Reviewer corroborated the remaining incidents and found the revised spine clear.
+Node 24 pnpm check passes: 33 tests, zero errors, warnings or hints; evidence
+citations resolve. Initial sandbox attempts could not open local server ports;
+rerunning with local-server permission passed. Documentation-only edit, so no
+site viewport sweep was needed. Stopped the dev server started for this task.
