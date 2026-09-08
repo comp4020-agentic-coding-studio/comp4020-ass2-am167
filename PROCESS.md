@@ -17,9 +17,9 @@ of the work after that was directing and reviewing what the agent produced,
 then deciding whether to keep it. My questions were simple: would I take this
 course, do I find the content interesting, and could someone else?
 
-The first harness decision was what "coherent" had to mean here. I asked the
+A harness decision was what "coherent" had to mean here. I asked the
 agent how the spec's "twenty-odd pages that have to agree with each other"
-could be added to the harness. The obvious answer was prose checks: word
+could be added to the harness. One option was prose checks: word
 counts, banned boilerplate. I rejected those because they pass while the
 curriculum is still incoherent. The answer I kept was a course contract:
 `spec/course-coherence.test.ts` checks lecture/studio references,
@@ -49,8 +49,10 @@ for eight students against a cohort of sixteen, and a save state Week 7
 assumed but Week 6 never set up
 ([`7c130251`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/7c130251),
 [`b4416637`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/b4416637)).
-Every check was green; the facts that broke were the ones nobody owned. I
-removed the rule and kept subagents only for review, where isolation is the
+Every check was green; the facts that broke were the ones nobody owned.
+Subagents also stalled. Together, the coordination problems and delays made
+parallel implementation less useful to me. I removed the rule and kept
+subagents only for review, where isolation is the
 point
 ([`4d06839c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/4d06839c)).
 

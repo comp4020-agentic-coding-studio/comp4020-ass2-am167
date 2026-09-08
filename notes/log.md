@@ -1537,3 +1537,16 @@ rejected alternatives (prose checks vs. graph/anchor contract; parallel build
 vs. coherence). Dropped "pure slop" as a quoted prompt because it appears in no
 transcript, only in this log. Ten citations resolve, `check:evidence` passes,
 ~600 words including hashes.
+
+## 2026-09-08 — Confirm reasons for the subagent harness change
+
+Student explicitly confirmed that the coherence/coordination failures informed
+the decision to stop parallel implementation, alongside the stalling recorded
+in 4d06839c. Added both reasons to PROCESS rather than treating the commit's
+stalling explanation as exhaustive. Softened “first harness decision” and
+“obvious answer” to avoid unnecessary chronology and retrospective certainty.
+This is a small factual clarification of the student's revised account.
+
+Validation: pnpm check passed all 33 tests with zero errors/warnings/hints;
+check:evidence resolved all ten citations. No new test or fresh review needed
+for this small factual clarification.
