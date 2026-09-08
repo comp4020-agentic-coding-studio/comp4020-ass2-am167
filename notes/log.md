@@ -1521,3 +1521,19 @@ mismatches and confirmed the account covers actual work and acceptance. Node 24
 pnpm check passes all 33 tests with zero diagnostics; all six cited commits
 resolve in check:evidence. Documentation only, no viewport sweep. Stopped the
 local dev server and confirmed its port clear.
+
+## 2026-09-08 — PROCESS rewrite against the four HD gaps
+
+Adversarial review of the previous draft found it corroborated but capped at
+D–Cr: no harness-level failure, no quoted prompts, "What I built" listed pages
+not the idea, and no call shown beating its obvious alternative. Rewrote to
+cover all four. Pulled the student's verbatim prompts from the Claude Code and
+Codex session logs rather than the log's paraphrases: the "How could I add this
+to the harness" question that produced `fe9b9b93`, and the "too simple ... make
+me want to enrol" request behind `0fe8c068`. Added the subagent arc as the
+harness-level failure (`b9162255` → `7c130251`/`b4416637` → `4d06839c`), the
+trade-off thesis from the student's own "What I built" prompt, and the
+rejected alternatives (prose checks vs. graph/anchor contract; parallel build
+vs. coherence). Dropped "pure slop" as a quoted prompt because it appears in no
+transcript, only in this log. Ten citations resolve, `check:evidence` passes,
+~600 words including hashes.
