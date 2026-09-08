@@ -1499,3 +1499,25 @@ between adding a review protocol and performing a review. Clarified that the
 incident documents an actual review. Final Node 24 checks pass (33 tests, zero
 errors/warnings/hints); all ten evidence citations resolve. No website content
 or layout changed. The dev server was stopped and its port confirmed clear.
+
+## 2026-09-08 — Clarify the course position without inventing an influence
+
+Student identified the actual motivation: liking Cities: Skylines II and finding
+a semester-long project a cool idea. Rewrote the account to connect that premise
+to distinct weekly subjects, continuity and assessment metrics; made deliberate
+exclusion of interest/readability from automated scoring explicit. Preserved both
+template sections and the student's addition that revision involved manual and
+adversarial review. Removed repetitive calendar/audit citation inventory. Did not
+claim that coherence failures caused the subagent ban (its commit cites stalls),
+name a retrospective educational influence, or invent a verbatim prompt.
+
+Student steered the revision back to the template's focus on how work went and
+how results were judged. Reduced premise justification to one sentence, opened
+with the actual review workflow, and replaced the speculative closing appeal
+with the concrete readability improvement that supported acceptance.
+
+Fresh context-isolated Luna review found no factual overclaims or citation
+mismatches and confirmed the account covers actual work and acceptance. Node 24
+pnpm check passes all 33 tests with zero diagnostics; all six cited commits
+resolve in check:evidence. Documentation only, no viewport sweep. Stopped the
+local dev server and confirmed its port clear.
