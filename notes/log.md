@@ -1585,3 +1585,8 @@ This is a small factual clarification, so no new test or adversarial review.
 
 Validation: PROCESS is 597 words including headings/citation labels; all ten
 citations resolve and pnpm check passes 33 tests with zero diagnostics.
+
+
+## 2026-09-10 — PROCESS attribution and copy cleanup
+
+Corrected the detailed-review paragraph to credit the agent with assessing feedback and making repairs, clarified that adversarial review challenges the student’s impressions, repaired commit links, and tidied grammar and paragraph breaks. Kept the examples and overall structure as requested. No commit made.
