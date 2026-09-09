@@ -20,7 +20,7 @@ mobility all at once, and designers need to choose and justify the compromises
 they make. *Cities: Skylines II* came second because it makes those trade-offs
 measurable: the delivery mechanism, not the reason the course exists.
 
-That argument shaped what the harness had to check --- twenty-odd pages that
+That argument shaped what the harness had to check, twenty-odd pages that
 agree with each other. The agent proposed word counts and boilerplate
 detection; I rejected both because a page could pass either without
 contributing anything relevant. Instead, `spec/course-coherence.test.ts` checks
@@ -30,10 +30,10 @@ changing the course's direction
 ([`fe9b9b93`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/fe9b9b93)).
 
 The assessments had to follow the same argument: if students were learning to
-make trade-offs, the marking criteria had to assess those decisions. I wrote
-`spec/assessment.test.ts` to fail first, and it did --- the starter briefs
-marked "response to the brief" and "quality of execution" --- so I revised the
-three briefs around the three metrics
+make trade-offs, the marking criteria had to assess those decisions. The agent
+`spec/assessment.test.ts` to fail first, and it did. The starter briefs
+marked "response to the brief" and "quality of execution", so the
+three briefs were revised around the three metrics
 ([`be5bc71a`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/be5bc71a)).
 A check that the weights added up to 100 would still have passed criteria that
 assessed something the course never promised to teach.
@@ -44,7 +44,7 @@ none of the drafting agent's context to approach the site as a sceptical
 student
 ([`85e50545`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/85e50545)).
 
-I was less successful with parallel authoring. Splitting twelve lecture plans
+I was less successful with parallel agents. Splitting twelve lecture plans
 across four agents produced four drafts in roughly the time it took to write
 one, so I added that approach to the harness
 ([`b9162255`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/b9162255)).
@@ -62,7 +62,7 @@ When subagents also began stalling, I changed the harness to limit them to
 review work
 ([`4d06839c`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/4d06839c)).
 
-Review was the exception worth keeping. A pass through the decks found an
+Review was the exception worth keeping. An adversarial pass through the decks found an
 invented escarpment, a tram and a bus swapped between weeks, and Week 7
 arithmetic that contradicted the game's pipe model. The tests caught none of
 them
