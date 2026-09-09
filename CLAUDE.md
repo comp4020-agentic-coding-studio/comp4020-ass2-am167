@@ -186,11 +186,3 @@ append a short entry to `notes/log.md` describing what was done and why. Do
 this as we go, not reconstructed at the end of the assignment. Keep entries
 terse; they're raw material for `PROCESS.md`, not the write-up itself, so log
 generously rather than sparingly.
-
-## This file is yours
-
-A starting point, not a rulebook: what you add to it is the harness, and the
-harness is assessed. This file and the sensors you wire into `check` carry
-across the course --- both come with you into next week's repo. The prototype
-doesn't: source, and the tests answering this deliverable's published spec,
-stay behind. `spec/README.md` draws the line.
