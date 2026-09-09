@@ -15,8 +15,9 @@ defending that trade-off.
 I liked the idea of a semester-long project in a game I already enjoyed. I
 directed the agent and reviewed its work by asking: would I take this course, do I find the content interesting, and would someone else feel the same?
 
-For me, a good course needed to build on itself each week and assess what it
-actually taught. I asked the agent how to turn the brief's requirement for
+My inspiration was engineering and computing courses where you build one big
+project over a semester, learning what you need as you go. I wanted that same
+progression here, with assessment matching what students had practised. I asked the agent how to turn the brief's requirement for
 "twenty-odd pages that have to agree with each other" into a harness rule.
 The agent suggested word counts and checks for boilerplate. I rejected those:
 a page could pass both and still make no sense in the course. Instead,

@@ -1574,3 +1574,14 @@ Validation: pnpm check passed all 33 tests, with zero errors/warnings/hints;
 check:evidence resolved all ten citations. Initial sandbox runs were unable to
 open Astro's local ports; the permitted rerun passed. Documentation only, so
 no site viewport testing was needed.
+
+## 2026-09-09 — Clarify the actual course-design influence
+
+Student clarified that they did not examine specific courses: their inspiration
+was the engineering/computing model of building one substantial project across
+a semester and learning along the way. Added this stated influence to PROCESS,
+connecting it to progression and assessment without claiming external research.
+This is a small factual clarification, so no new test or adversarial review.
+
+Validation: PROCESS is 597 words including headings/citation labels; all ten
+citations resolve and pnpm check passes 33 tests with zero diagnostics.
