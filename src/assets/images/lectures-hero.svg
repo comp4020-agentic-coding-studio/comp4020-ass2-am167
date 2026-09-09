@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">The Monday lecture</title>
+  <desc id="desc">A district plan projected onto a lecture screen on a dark board, the beam widening towards it from a projector at the back of the room, with rows of seats in silhouette below.</desc>
+  <rect width="1600" height="620" fill="#17150f"/>
+  <g stroke="#3a3427" stroke-width="2">
+    <path d="M0 90h1600M0 210h1600M0 330h1600M0 450h1600M0 570h1600M200 0v620M400 0v620M600 0v620M800 0v620M1000 0v620M1200 0v620M1400 0v620"/>
+  </g>
+  <path d="M1500 310 1110 176v268Z" fill="#2b2619"/>
+  <rect x="1500" y="282" width="66" height="56" fill="#4d442f"/>
+  <rect x="1470" y="296" width="30" height="28" fill="#c69f57"/>
+  <rect x="500" y="168" width="610" height="284" fill="#241f15" stroke="#e7d7ad" stroke-width="5"/>
+  <g stroke="#4d442f" stroke-width="15" stroke-linecap="square">
+    <path d="M500 262h610M500 358h610M700 168v284M910 168v284"/>
+  </g>
+  <g fill="#e7d7ad">
+    <rect x="530" y="192" width="140" height="52"/><rect x="730" y="192" width="150" height="52"/>
+    <rect x="940" y="192" width="140" height="52"/>
+    <rect x="530" y="286" width="140" height="50"/><rect x="940" y="286" width="140" height="50"/>
+    <rect x="530" y="382" width="140" height="48"/><rect x="730" y="382" width="150" height="48"/>
+    <rect x="940" y="382" width="140" height="48"/>
+  </g>
+  <rect x="730" y="286" width="150" height="50" fill="#c69f57"/>
+  <path d="M500 430 1110 190" fill="none" stroke="#b45436" stroke-width="10"/>
+  <g fill="#2b2619">
+    <path d="M120 620v-84h150v84zM310 620v-84h150v84zM1140 620v-84h150v84zM1330 620v-84h150v84z"/>
+  </g>
+  <g fill="#4d442f">
+    <path d="M120 512h150v20H120zM310 512h150v20H310zM1140 512h150v20h-150zM1330 512h150v20h-150z"/>
+  </g>
+  <g transform="translate(140 178)">
+    <rect width="272" height="164" fill="#241f15" stroke="#4d442f" stroke-width="3"/>
+    <text x="24" y="44" fill="#e7d7ad" font-family="monospace" font-size="18" letter-spacing="2">READ AGAINST</text>
+    <text x="24" y="86" fill="#c69f57" font-family="monospace" font-size="19">FISCAL</text>
+    <text x="24" y="116" fill="#c69f57" font-family="monospace" font-size="19">MOBILITY</text>
+    <text x="24" y="146" fill="#c69f57" font-family="monospace" font-size="19">LIVABILITY</text>
+  </g>
+</svg>

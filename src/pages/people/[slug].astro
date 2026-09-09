@@ -26,12 +26,19 @@ const description = person.data.description;
 ---
 
 {/*
-  The portrait is square and the theme's heroImage is a wide full-bleed band, so
-  passing one to the other crops the face out entirely and leaves a strip of
-  collar under a dark scrim. It runs inline beside the details instead, at the
-  size it was drawn for.
+  The hero band is the site-wide page header, so this page gets the same
+  people illustration its index does --- not the portrait. A square portrait in
+  a wide full-bleed band crops the face out entirely and leaves a strip of
+  collar under a dark scrim, so it runs inline beside the details instead, at
+  the size it was drawn for.
 */}
-<ContentLayout title={person.data.title} description={description} {...siteConfig}>
+<ContentLayout
+  title={person.data.title}
+  description={description}
+  {...siteConfig}
+  heroImage="/src/assets/images/people-hero.svg"
+  heroImageAlt="Five figures in silhouette around a long studio table with a plan sheet open between them, and a sixth seated apart at the far end where the visiting critic sits."
+>
   <div class="person-head">
     {person.data.photo && (
       <Image class="person-photo" src={person.data.photo} alt={photoAlt} width={440} height={440} />

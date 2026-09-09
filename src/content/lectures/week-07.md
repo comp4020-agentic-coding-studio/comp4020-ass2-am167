@@ -10,7 +10,7 @@ teachers:
 slides: /decks/week-07/
 ---
 
-# The argument
+## The argument
 
 Every utility in the studio is a network with a flat performance curve and a
 cliff at the end of it, so the only real infrastructure decision a designer

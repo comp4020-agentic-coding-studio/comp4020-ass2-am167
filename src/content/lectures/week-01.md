@@ -13,7 +13,7 @@ related:
   - sessions/01-site-selection
 ---
 
-# The argument
+## The argument
 
 Before a single road goes down, the site has already decided most of what the
 district can afford, how far people will have to travel, and how pleasant it

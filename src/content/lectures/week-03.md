@@ -10,7 +10,7 @@ teachers:
 slides: /decks/week-03/
 ---
 
-# The argument
+## The argument
 
 Use separation was invented to solve a real problem — industrial nuisance
 landing on housing — and it solves that problem completely, at the price of

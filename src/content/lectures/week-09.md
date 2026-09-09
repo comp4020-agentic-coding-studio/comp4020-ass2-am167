@@ -10,7 +10,7 @@ teachers:
 slides: /decks/week-09/
 ---
 
-# The argument
+## The argument
 
 The public realm is the cheapest livability a district can buy and the easiest
 to build badly, because whether a space works is a question about edges,

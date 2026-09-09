@@ -10,7 +10,7 @@ teachers:
 slides: /decks/week-08/
 ---
 
-# The argument
+## The argument
 
 Public investment creates land value that a district can recapture, but
 recapture has a ceiling, and once the ceiling is reached the budget stops being

@@ -1,0 +1,62 @@
+/* Site-level fixes on top of astro-theme-university.
+ *
+ * Declarations here are deliberately unlayered. The theme's own rules live in
+ * `@layer at.components`, and an unlayered declaration beats a layered one
+ * regardless of load order --- the same mechanism the theme documents for
+ * brand CSS, which is how this file is registered (see astro.config.ts).
+ * Keep it to overrides that a brand's proportions force, and say why. */
+
+/* --- The nav row ------------------------------------------------------ */
+
+/* The brand lockup and the icon buttons are fixed-size targets, not slack.
+   Left shrinkable they give way first when the row is tight --- at 700px the
+   search trigger was squeezing from 45px to 33px, an off-square button with a
+   20px icon rattling inside it. Pinning them sends any shortfall to the links
+   row, which is a scroll container with the theme's own edge fade and is the
+   one part of the bar built to absorb it. */
+.at-nav-inner > .at-nav-brand,
+.at-nav-inner > .at-icon-button {
+  flex: none;
+}
+
+@media (width >= 640px) {
+  /* The theme's nav row is sized for a compact brand mark: ANU's stacked
+     crest-and-wordmark is about 128px wide at the nav's 2.5rem logo height.
+     Slop's horizontal lockup is 6.46:1, so at that height it is 290px --- and
+     with six nav links plus the search trigger the row wanted ~936px inside a
+     864px (48rem) content column.
+     `.at-nav-inner` is `flex-wrap: wrap`, so instead of the row tightening,
+     the search button dropped onto a second line. Two things followed: the nav
+     grew from 6.5rem to 9rem, and a dead band opened between the header and
+     the first line of content --- which also put every in-page `#anchor`
+     45px under the sticky header, since `scroll-padding-top` reads
+     `--at-nav-height` and that still said 6.5rem.
+     The row is brought back inside the column by spending less on spacing and
+     on logo height, which is where there was slack --- link type and hit
+     areas are left at the size the theme set them:
+       lockup at 2rem      232px  (was 290)
+       six links, xs gaps  524px  (was 546)
+       search trigger       45px
+       two md gaps          36px  (was 54)
+                          ------
+                           837px inside 864px
+     `nowrap` then holds the line as a contract rather than a coincidence: if
+     a future label or a narrower viewport overruns the column, the links row
+     scrolls behind the theme's own edge fade instead of wrapping the bar. */
+  .at-nav-inner {
+    flex-wrap: nowrap;
+    gap: 0 var(--at-spacing-md);
+  }
+
+  .at-nav-links {
+    gap: var(--at-spacing-xs);
+  }
+
+  /* The 2.5rem search trigger is now the tallest thing in the row, so the bar
+     still measures exactly the 6.5rem `--at-nav-height` that
+     `scroll-padding-top` and the sidebar's sticky offset assume. Nothing to
+     retune --- but keep that in mind before shrinking the icon buttons. */
+  .at-nav-logo {
+    height: 2rem;
+  }
+}

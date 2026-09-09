@@ -10,7 +10,7 @@ teachers:
 slides: /decks/week-05/
 ---
 
-# The argument
+## The argument
 
 A transit line is not a shape on a map, it is a bundle of waiting times a
 resident is being asked to accept, and the two things that decide whether they

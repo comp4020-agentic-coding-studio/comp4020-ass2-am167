@@ -11,7 +11,7 @@ teachers:
 slides: /decks/week-10/
 ---
 
-# The argument
+## The argument
 
 Hazard, pollution and climate are not events that happen to a finished
 district — they are load cases the district is designed against from the first

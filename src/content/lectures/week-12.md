@@ -10,7 +10,7 @@ teachers:
 slides: /decks/week-12/
 ---
 
-# The argument
+## The argument
 
 A comprehensive plan is an argument with a claim, evidence and a stated
 rebuttal — not an inventory of everything you built — and the jury is testing

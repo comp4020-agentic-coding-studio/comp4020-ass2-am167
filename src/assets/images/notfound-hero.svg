@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">A road that stops</title>
+  <desc id="desc">A corridor drawn across a dark board that ends mid-block at a barrier, the blocks beyond it left as empty grid with nothing built on them.</desc>
+  <rect width="1600" height="620" fill="#17150f"/>
+  <g stroke="#3a3427" stroke-width="2">
+    <path d="M0 110h1600M0 250h1600M0 390h1600M0 530h1600M200 0v620M400 0v620M600 0v620M800 0v620M1000 0v620M1200 0v620M1400 0v620"/>
+  </g>
+  <g stroke="#4d442f" stroke-width="16" stroke-linecap="square">
+    <path d="M120 200h740M120 420h740M340 160v300M580 160v300"/>
+  </g>
+  <g fill="#e7d7ad">
+    <rect x="150" y="228" width="160" height="70"/><rect x="150" y="326" width="160" height="70"/>
+    <rect x="390" y="228" width="160" height="70"/><rect x="390" y="326" width="160" height="70"/>
+    <rect x="630" y="228" width="160" height="70"/>
+  </g>
+  <rect x="630" y="326" width="160" height="70" fill="#c69f57"/>
+  <path d="M120 310h740" stroke="#b45436" stroke-width="22"/>
+  <path d="M120 310h740" stroke="#17150f" stroke-width="4" stroke-dasharray="16 22"/>
+  <g stroke="#e7d7ad" stroke-width="12">
+    <path d="M860 236v148"/>
+  </g>
+  <g fill="#b45436">
+    <rect x="874" y="272" width="46" height="30"/><rect x="966" y="272" width="46" height="30"/>
+    <rect x="920" y="316" width="46" height="30"/><rect x="1012" y="316" width="46" height="30"/>
+  </g>
+  <g stroke="#2b2619" stroke-width="10" stroke-linecap="square">
+    <path d="M1100 200h380M1100 420h380M1290 180v260"/>
+  </g>
+  <g fill="none" stroke="#3a3427" stroke-width="5" stroke-dasharray="14 18">
+    <rect x="1128" y="228" width="130" height="66"/><rect x="1128" y="326" width="130" height="66"/>
+    <rect x="1322" y="228" width="130" height="66"/><rect x="1322" y="326" width="130" height="66"/>
+  </g>
+</svg>

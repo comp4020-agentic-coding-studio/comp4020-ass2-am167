@@ -10,7 +10,7 @@ teachers:
 slides: /decks/week-06/
 ---
 
-# The argument
+## The argument
 
 Road capacity does not reduce congestion, it relocates and enlarges the demand
 that produced it, and the corridor that has been widened has paid its frontage

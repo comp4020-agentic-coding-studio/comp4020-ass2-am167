@@ -11,7 +11,7 @@ teachers:
 slides: /decks/week-11/
 ---
 
-# The argument
+## The argument
 
 The land-value curve the studio has been raising since Week 1 is an accurate
 output of a model that has no landowner, no tenure, no eviction, no informal

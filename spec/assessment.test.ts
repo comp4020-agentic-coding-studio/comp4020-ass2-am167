@@ -57,6 +57,15 @@ function imageAlts(html: string): string[] {
     .filter((alt) => alt.trim().length > 0);
 }
 
+// The grid's own illustrations. Every page also opens with a full-bleed hero
+// band (see spec/page-headers.test.ts), and that band sits outside `<main>`
+// beside the nav, so counting cards has to look inside `<main>` rather than at
+// everything that isn't chrome --- otherwise the index page's own header
+// illustration reads as a fourth brief.
+function gridImageAlts(html: string): string[] {
+  return imageAlts(html.match(/<main[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? "");
+}
+
 describe("assessment", () => {
   it("adds up to 100%", () => {
     const total = assessments.reduce((sum, assessment) => sum + assessment.weight, 0);
@@ -97,7 +106,7 @@ describe("assessment", () => {
   // bare "has an image" check while telling a student nothing, so each brief
   // brings its own picture and its own description of it.
   it("illustrates every brief, on its card and at the head of its own page", () => {
-    const cardAlts = imageAlts(readFileSync(resolve("dist/assessments/index.html"), "utf8"));
+    const cardAlts = gridImageAlts(readFileSync(resolve("dist/assessments/index.html"), "utf8"));
     expect(
       cardAlts.length,
       `the assessment grid shows ${assessments.length} briefs but ${cardAlts.length} images`,

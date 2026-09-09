@@ -1,7 +1,7 @@
 ---
+import BaseLayout from "astro-theme-university/layouts/BaseLayout.astro";
 import Card from "astro-theme-university/components/Card.astro";
 import CardGrid from "astro-theme-university/components/CardGrid.astro";
-import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import SemesterTimeline from "../components/SemesterTimeline.astro";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
@@ -11,19 +11,21 @@ import assessmentImage from "../assets/images/assessment-card.svg";
 import peopleImage from "../assets/images/people-card.svg";
 ---
 
-<ContentLayout
+<BaseLayout
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
   {...siteConfig}
+  heroTitle={courseMeta.title}
+  heroImage={heroImage}
+  heroImageAlt="A city plan under review, with a transit route running through it and a panel reading three performance metrics."
 >
+  <p class="lead">{courseMeta.description}</p>
+
   <ul class="course-tags" aria-label="Course tags">
     {courseMeta.tags.map((tag) => <li>{tag}</li>)}
   </ul>
 
-  <figure class="home-hero">
-    <img src={heroImage.src} alt="A city plan under review, with a transit route and three performance metrics." />
-    <figcaption>One save file. Twelve weeks. No decision without a tradeoff.</figcaption>
-  </figure>
+  <p class="kicker">One save file. Twelve weeks. No decision without a tradeoff.</p>
 
   <p class="lede">
     You will build something that works. Then a jury who was not in the room
@@ -95,14 +97,14 @@ import peopleImage from "../assets/images/people-card.svg";
       <p>Who teaches the course and how to reach them.</p>
     </Card>
   </CardGrid>
-</ContentLayout>
+</BaseLayout>
 
 <style>
   .course-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-block: 0 2rem;
+    margin-block: 0 1.25rem;
     padding: 0;
     list-style: none;
   }
@@ -120,20 +122,13 @@ import peopleImage from "../assets/images/people-card.svg";
     max-width: 42rem;
   }
 
-  .home-hero {
-    margin: 0 0 2.5rem;
-  }
-
-  .home-hero img {
-    display: block;
-    width: 100%;
-    margin-inline: 0;
-    border: 1px solid var(--at-divider);
-    background: var(--at-bg-alt);
-  }
-
-  .home-hero figcaption {
-    margin-top: 0.6rem;
+  /* The line that used to caption the home illustration. The illustration is
+     now the page's hero band, which takes a title and nothing else, so the
+     line stands on its own above the opening paragraph --- kept in the
+     caption's voice and type so it still reads as a margin note rather than
+     as prose. */
+  .kicker {
+    margin-block: 0 2rem;
     color: var(--at-text-muted);
     font-family: var(--at-font-mono);
     font-size: var(--at-font-size-xs);

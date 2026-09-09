@@ -13,7 +13,7 @@ related:
   - sessions/02-block-pattern
 ---
 
-# The argument
+## The argument
 
 The dimension of a block is not a drawing preference but a network decision:
 it sets how many routes exist between any two points and how many kilometres

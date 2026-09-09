@@ -1458,3 +1458,75 @@ Validation: `pnpm check` green, 52 pages, 33 tests, no broken links, no
 accessibility violations, no warnings. Verified all three briefs and the index
 in Chrome at 1920×1080 and 390×844 against the confirmed preview port 4341,
 with viewport set by emulation and `innerWidth`/`innerHeight` asserted.
+
+## Page headers on every page, and the nav row that wrapped
+
+Two reported problems, one shared cause: the top of every page was wrong.
+
+**The nav.** The search trigger was dropping onto a second line, which is where
+the "noticeable gap between the header and the start of content" came from ---
+the bar was 9rem tall instead of 6.5rem, with an empty second row under it. Not
+a viewport quirk: measured in Chrome at 1920, brand 290px + six links 546px +
+trigger 45px + two 1.5rem gaps came to ~936px inside an 864px (48rem) content
+column, so it never fit at *any* width, and `.at-nav-inner`'s `flex-wrap: wrap`
+wrapped rather than tightened. The theme sizes that row for a compact brand
+mark --- the ANU stacked lockup on the reference site is 128px wide --- and
+Slop's horizontal lockup is 6.46:1. Fixed in a new `src/styles/site.css`
+(registered through the theme's `brandCss` hook, so it loads unlayered on every
+page and beats `@layer at.components`): logo to 2rem, nav gap to `md`, link gap
+to `xs`, and `nowrap` so the links row scrolls behind the theme's own edge fade
+instead of wrapping the bar. 837px in 864px. The bar is 117px again, exactly
+the `--at-nav-height` that `scroll-padding-top` already assumed, so in-page
+`#anchor` targets stop landing under the sticky header --- a second bug the
+wrap had been causing on the policies page's deep links.
+
+A follow-up the first measurement missed: at 700px the trigger was shrinking to
+33px, an off-square button with a 20px icon inside it. Pinned the brand and the
+icon buttons `flex: none` so shortfall goes to the links row, which is the one
+part of the bar built to absorb it.
+
+**The headers.** Only the three assessment briefs had the illustrated title
+band the reference course site puts on every section page. Auditing the built
+output turned up worse than a missing image: `assessments/`, `lectures/` and
+`people/` rendered **no h1 at all** (they set `heroTitle` but no `heroImage`,
+and the theme only renders the band when it has both), and all twelve lecture
+pages rendered **two** --- the layout's title plus a `# The argument` opening
+the body. Wrote `spec/page-headers.test.ts` first: exactly one h1 per page,
+inside a hero band, with an image whose alt is more than 20 characters, and a
+different illustration per section. It failed on 4 of 5 assertions, which is
+the shape of the problem.
+
+Then drew seven illustrations in the existing flat-SVG house style (dark board
+`#17150f`, cream/gold/rust) --- lectures, studios, assessments, people,
+policies, resources, 404 --- and wired heroes through every route, promoted
+`course-hero.svg` to the home band, demoted the twelve lecture body h1s to h2,
+and gave `policies` and `resources` the `heroTitle` they never had. The home
+page moved from `ContentLayout` to `BaseLayout`: it is the one page whose
+`<title>` and hero heading want to differ, since the catalogue record set at
+hero scale runs to five lines before it says anything.
+
+`spec/assessment.test.ts` then failed --- correctly. It counted illustrations
+in everything that was not `<header>`/`<footer>`/`<nav>`, so the index's own
+header band read as a fourth brief. Scoped that one count to `<main>` (the band
+sits outside it) rather than weakening the assertion; the per-brief hero checks
+still read the whole document.
+
+The crop safe zone recorded in the PR 5 entry above earned its keep. `cover`
+on a 2.58:1 source shows only the vertical middle on desktop, and I still lost
+three things to it on the first pass and had to fix them: the home readout
+panel lost its top line, the policies `12:00` label sat below the crop, and the
+resources branch stack overran both edges. A fourth was not a crop problem at
+all --- the assessments legend collided with the white hero title, because the
+title starts at the content column's left edge, about x 455 in viewBox units.
+Narrowed it to `A1 25% / A2 25% / A3 50%`.
+
+Skipped adversarial review by design: this is a layout and asset change, not a
+content draft, so CLAUDE.md routes it to viewport verification instead. No
+course prose changed except the home page's opening block.
+
+Validation: `pnpm check` green --- 0 errors, 0 warnings, 0 hints, 38 tests, 52
+pages, no broken links, no accessibility violations --- and
+`pnpm check:evidence` clean. Verified in Chrome against the confirmed preview
+port 4399 at 1920×1080 and 390×844 (viewport by emulation, `reduced-motion` set
+so the hero fade could not skew a contrast read), plus 1024 and 700 to see the
+nav row hold at one line and hand overflow to the scrolling links row.

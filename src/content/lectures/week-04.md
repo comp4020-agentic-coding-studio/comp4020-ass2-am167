@@ -12,7 +12,7 @@ related:
   - assessments/01-neighbourhood-unit-plan
 ---
 
-# The argument
+## The argument
 
 A 15-minute city is not a distance, it is a claim about how a district spends
 its residents' time and its own money, and the amenities that make the walk
