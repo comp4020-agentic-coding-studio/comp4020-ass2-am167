@@ -1550,3 +1550,27 @@ This is a small factual clarification of the student's revised account.
 Validation: pnpm check passed all 33 tests with zero errors/warnings/hints;
 check:evidence resolved all ten citations. No new test or fresh review needed
 for this small factual clarification.
+
+## 2026-09-09 — Natural wording and process-spec review
+
+Edited the student's existing PROCESS draft for plainer wording and smoother
+connections, preserving their examples and in-progress edits. Made the existing
+course position explicit: weekly progression and assessment matching teaching.
+Checked the live Assignment 2 brief and shared assessment rubric. The account
+covers harness choices, deliberate exclusions, rejected alternatives and
+acceptance evidence; no recorded external course/education influence was found,
+so flagged this gap rather than adding a retrospective research claim.
+
+Fresh Luna review corroborated the ten cited incidents and flagged the missing
+external influence, limited word-count margin, and the attribution of the
+word-count suggestion. Retained that attribution from the student's supplied
+draft rather than rewriting their account as a different event; the existing
+September 8 log also records the transcript review of the rejected alternatives.
+Tightened wording and separated the context-isolation rule from the later
+prospective-student protocol to keep citations precise. Kept the concrete
+acceptance examples rather than adding a generic final-testing conclusion.
+
+Validation: pnpm check passed all 33 tests, with zero errors/warnings/hints;
+check:evidence resolved all ten citations. Initial sandbox runs were unable to
+open Astro's local ports; the permitted rerun passed. Documentation only, so
+no site viewport testing was needed.
