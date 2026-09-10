@@ -1607,3 +1607,12 @@ Explicitly externalised Sharp in Vite SSR so Node loads its native module.
 Confirmed all three assessment SVGs decode successfully in the live browser
 (they failed decoding before this configuration change). This is an image
 runtime fix, not a visual/layout change.
+
+## 2026-09-10 — Rewrite README for current site state
+
+Replaced the template README (starter/placeholder framing, empty CLAUDE.md,
+STARTER_CONTENT-first evidence story) with a project README for the built
+SLOP2418 studio: course thesis, what's shipped (12+12 weeks, decks, three
+briefs, cast, policies/resources, spec suite), quick start, working rules,
+coherence harness pointer, and a shortened platform section that still
+documents collections, base path, decks and checks.
