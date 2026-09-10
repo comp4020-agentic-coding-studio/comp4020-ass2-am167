@@ -1,8 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="title desc">
-  <title id="title">Studio pin-up</title><desc id="desc">Plans and metric cards arranged on a studio table.</desc>
-  <rect width="800" height="460" fill="#e7d7ad"/><path d="M0 350 800 110v350H0Z" fill="#c69f57"/>
-  <rect x="95" y="75" width="360" height="245" fill="#f6eedd" transform="rotate(-8 95 75)"/>
-  <path d="m125 245 250-120m-220 160 250-120M180 100l-10 180m130-190-10 180m125-160-10 150" stroke="#17150f" stroke-width="8"/>
-  <path d="M90 295 270 170l200 90" fill="none" stroke="#b45436" stroke-width="12"/>
-  <g transform="translate(500 85)"><rect width="210" height="220" fill="#17150f"/><text x="24" y="48" fill="#f6eedd" font-family="monospace" font-size="18">CRIT 06</text><text x="24" y="100" fill="#c69f57" font-family="monospace" font-size="27">11.2 → 8.9</text><text x="24" y="145" fill="#e7d7ad" font-family="monospace" font-size="15">PEAK ROUTE</text><path d="M24 180h160" stroke="#b45436" stroke-width="8"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="160 0 1280 775" role="img" aria-labelledby="title desc">
+  <title id="title">Studio pin-up</title>
+  <desc id="desc">Three street plans pinned up for review, with a rust-coloured critique arrow.</desc>
+<rect x="0" y="0" width="1800" height="800" fill="#17150f" />
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0H0V40" fill="none" stroke="#c69f57" stroke-opacity=".10" stroke-width="1"/>
+</pattern>
+</defs>
+<rect x="0" y="0" width="1800" height="800" fill="url(#grid)" />
+<g transform="translate(-190 0) scale(1.25)">
+<g transform="translate(260 155) rotate(-8)">
+<rect x="8" y="10" width="300" height="275" fill="#8b713e" opacity=".3"/>
+<rect x="0" y="0" width="300" height="275" fill="#f6eedd" />
+<rect x="22.0" y="22.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="22.0" y="97.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="22.0" y="172.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="87.0" y="22.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="87.0" y="97.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="87.0" y="172.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="152.0" y="22.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="152.0" y="97.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="152.0" y="172.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="217.0" y="22.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="217.0" y="97.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<rect x="217.0" y="172.0" width="58.75" height="66.66666666666667" fill="#e7d7ad" />
+<path d="M15 192.5L120.0 192.5 195.0 55.0 285 55.0" fill="none" stroke="#b45436" stroke-width="4" />
+</g>
+<g transform="translate(596 95) rotate(3)">
+<rect x="8" y="10" width="450" height="345" fill="#8b713e" opacity=".3"/>
+<rect x="0" y="0" width="450" height="345" fill="#f6eedd" />
+<rect x="22.0" y="22.0" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="22.0" y="120.33333333333333" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="22.0" y="218.66666666666666" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="124.5" y="22.0" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="124.5" y="120.33333333333333" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="124.5" y="218.66666666666666" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="227.0" y="22.0" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="227.0" y="120.33333333333333" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="227.0" y="218.66666666666666" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="329.5" y="22.0" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="329.5" y="120.33333333333333" width="96.25" height="90.0" fill="#e7d7ad" />
+<rect x="329.5" y="218.66666666666666" width="96.25" height="90.0" fill="#e7d7ad" />
+<path d="M15 241.49999999999997L180.0 241.49999999999997 292.5 69.0 435 69.0" fill="none" stroke="#b45436" stroke-width="4" />
+</g>
+<g transform="translate(1100 165) rotate(-5)">
+<rect x="8" y="10" width="235" height="260" fill="#8b713e" opacity=".3"/>
+<rect x="0" y="0" width="235" height="260" fill="#f6eedd" />
+<rect x="22.0" y="22.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="22.0" y="92.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="22.0" y="162.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="70.75" y="22.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="70.75" y="92.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="70.75" y="162.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="119.5" y="22.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="119.5" y="92.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="119.5" y="162.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="168.25" y="22.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="168.25" y="92.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<rect x="168.25" y="162.0" width="42.5" height="61.666666666666664" fill="#e7d7ad" />
+<path d="M15 182.0L94.0 182.0 152.75 52.0 220 52.0" fill="none" stroke="#b45436" stroke-width="4" />
+</g>
+<circle cx="280" cy="161" r="6" fill="#b45436" />
+<circle cx="610" cy="103" r="6" fill="#b45436" />
+<circle cx="1120" cy="174" r="6" fill="#b45436" />
+<path d="M645 380q180 90 360-120m-50 15 50-15-3 50" fill="none" stroke="#b45436" stroke-width="7" />
+<rect x="1110" y="470" width="210" height="5" fill="#c69f57" />
+<rect x="1110" y="488" width="130" height="5" fill="#f6eedd" />
+</g>
 </svg>

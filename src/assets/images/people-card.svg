@@ -1,6 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="title desc">
-  <title id="title">The teaching team</title><desc id="desc">Three illustrated figures stand beside a shared city plan.</desc>
-  <rect width="800" height="460" fill="#f6eedd"/><path d="M0 365h800v95H0Z" fill="#e7d7ad"/>
-  <g stroke="#17150f" stroke-width="8"><circle cx="180" cy="150" r="58" fill="#c69f57"/><path d="M95 365c8-110 42-151 85-151s77 41 85 151Z" fill="#17150f"/><circle cx="400" cy="120" r="58" fill="#e7d7ad"/><path d="M315 365c8-110 42-151 85-151s77 41 85 151Z" fill="#b45436"/><circle cx="620" cy="155" r="58" fill="#b45436"/><path d="M535 365c8-110 42-151 85-151s77 41 85 151Z" fill="#c69f57"/></g>
-  <path d="M100 305h600" stroke="#17150f" stroke-width="8"/><path d="m125 335 80-55 80 55 115-75 100 75 100-65 75 65" fill="none" stroke="#17150f" stroke-width="6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="160 0 1280 775" role="img" aria-labelledby="title desc">
+  <title id="title">The teaching team</title>
+  <desc id="desc">Five illustrated planners gather around a gold drafting table and a shared street plan.</desc>
+<rect x="0" y="0" width="1800" height="800" fill="#17150f" />
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0H0V40" fill="none" stroke="#c69f57" stroke-opacity=".10" stroke-width="1"/>
+</pattern>
+</defs>
+<rect x="0" y="0" width="1800" height="800" fill="url(#grid)" />
+<g transform="translate(-190 0) scale(1.25)">
+<g transform="translate(500 145) scale(0.9)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g transform="translate(730 120) scale(0.9)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g transform="translate(970 140) scale(0.9)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+<path d="M390 315 1020 245 1270 395 640 490Z" fill="#8b713e" />
+<path d="M390 300 1020 230 1270 380 640 475Z" fill="#c69f57" />
+<g transform="translate(655 270) rotate(8)">
+<rect x="8" y="10" width="290" height="150" fill="#8b713e" opacity=".3"/>
+<rect x="0" y="0" width="290" height="150" fill="#f6eedd" />
+<rect x="22.0" y="22.0" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="22.0" y="55.333333333333336" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="22.0" y="88.66666666666667" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="84.5" y="22.0" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="84.5" y="55.333333333333336" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="84.5" y="88.66666666666667" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="147.0" y="22.0" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="147.0" y="55.333333333333336" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="147.0" y="88.66666666666667" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="209.5" y="22.0" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="209.5" y="55.333333333333336" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="209.5" y="88.66666666666667" width="56.25" height="25.0" fill="#e7d7ad" />
+<path d="M15 105.0L116.0 105.0 188.5 30.0 275 30.0" fill="none" stroke="#b45436" stroke-width="4" />
+</g>
+<g transform="translate(535 380) scale(1.1)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g transform="translate(1040 385) scale(1.1)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+</g>
 </svg>

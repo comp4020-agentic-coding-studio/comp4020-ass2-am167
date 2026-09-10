@@ -6,12 +6,10 @@ description: >-
   final jury.
 heroImage: ../../assets/images/assessment-03-hero.svg
 heroImageAlt: >-
-  The whole district at full extent, the river and transit corridor crossing
-  it, beside a readout of all three studio metrics and the Week 10 fire load.
+  A city-wide map of dense urban blocks divided by a winding river, with bridges, a transit route and three comparison bars.
 cardImage: ../../assets/images/assessment-03-card.svg
 cardImageAlt: >-
-  The full district at extent, river and transit corridor crossing it, over a
-  bar reading all three studio metrics at once.
+  A city-wide map of dense urban blocks divided by a winding river, with bridges, a transit route and three comparison bars.
 week: 12
 due: 2027-05-24T12:00:00+10:00
 weight: 50

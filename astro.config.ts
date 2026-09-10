@@ -12,6 +12,8 @@ const { site, base } = resolveDeployment(process.env, gitOrigin);
 export default defineConfig({
   site,
   base,
+  // Sharp loads a native module; let Node load it directly in the dev server.
+  vite: { ssr: { external: ["sharp"] } },
   // Pages build as directories, so every route URL ends in a slash. Saying so
   // explicitly makes Astro emit matching links, which keeps the canonical URL
   // and what a visitor clicks in agreement --- otherwise each click costs a

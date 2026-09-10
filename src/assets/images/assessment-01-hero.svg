@@ -1,28 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
-  <title id="title">One neighbourhood cell</title>
-  <desc id="desc">A single residential cell drawn at block scale on a dark board, its amenity core marked in gold inside a dashed walking radius, with the corridor running down one edge.</desc>
-  <rect width="1600" height="620" fill="#17150f"/>
-  <g stroke="#3a3427" stroke-width="2">
-    <path d="M0 60h1600M0 180h1600M0 300h1600M0 420h1600M0 540h1600M200 0v620M400 0v620M600 0v620M800 0v620M1000 0v620M1200 0v620M1400 0v620"/>
-  </g>
-  <rect x="330" y="150" width="940" height="320" fill="none" stroke="#e7d7ad" stroke-width="5"/>
-  <g stroke="#4d442f" stroke-width="20" stroke-linecap="square">
-    <path d="M330 262h940M330 366h940M560 150v320M1040 150v320"/>
-  </g>
-  <g fill="#e7d7ad">
-    <rect x="360" y="176" width="76" height="60"/><rect x="452" y="176" width="76" height="60"/>
-    <rect x="596" y="176" width="70" height="60"/><rect x="1070" y="176" width="82" height="60"/>
-    <rect x="1176" y="176" width="70" height="60"/>
-    <rect x="360" y="288" width="76" height="54"/><rect x="1070" y="288" width="82" height="54"/>
-    <rect x="1176" y="288" width="70" height="54"/>
-    <rect x="360" y="392" width="80" height="54"/><rect x="456" y="392" width="72" height="54"/>
-    <rect x="596" y="392" width="70" height="54"/><rect x="1070" y="392" width="82" height="54"/>
-    <rect x="1176" y="392" width="70" height="54"/>
-  </g>
-  <circle cx="800" cy="310" r="196" fill="none" stroke="#e7d7ad" stroke-width="5" stroke-dasharray="16 20" opacity="0.85"/>
-  <rect x="700" y="258" width="200" height="104" fill="#c69f57"/>
-  <path d="M726 310h52m-26-26v52" stroke="#17150f" stroke-width="11" fill="none"/>
-  <path d="M812 292h64M812 330h64" stroke="#17150f" stroke-width="10"/>
-  <path d="M1310 150v320" stroke="#b45436" stroke-width="24"/>
-  <path d="M1310 150v320" stroke="#17150f" stroke-width="4" stroke-dasharray="14 20"/>
+<title id="title">The neighbourhood around its amenity</title>
+<desc id="desc">A circular neighbourhood plan with twelve residential blocks around a tree-lined shared amenity, a walking catchment and a transit corridor.</desc>
+<rect x="0" y="0" width="1600" height="620" fill="#17150f" />
+<g transform="translate(800 310)">
+<circle cx="0" cy="0" r="244" fill="#e7d7ad" />
+<circle cx="0" cy="0" r="214" fill="#17150f" />
+<circle cx="0" cy="0" r="172" fill="#f6eedd" />
+<circle cx="0" cy="0" r="122" fill="#e7d7ad" />
+<g transform="rotate(0)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(30)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(60)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(90)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(120)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(150)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(180)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(210)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(240)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(270)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(300)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(330)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<path d="M-125 0H125M0-125V125" fill="none" stroke="#f6eedd" stroke-width="20" />
+<g transform="translate(76.6820011984368 31.76272488630245) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(31.762724886302458 76.6820011984368) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-31.762724886302447 76.6820011984368) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-76.6820011984368 31.76272488630246) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-76.68200119843681 -31.762724886302443) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-31.762724886302497 -76.68200119843678) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(31.762724886302472 -76.6820011984368) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(76.68200119843678 -31.762724886302504) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<rect x="-38" y="-31" width="76" height="62" fill="#c69f57" />
+<rect x="-27" y="-22" width="54" height="44" fill="#f6eedd" />
+<rect x="-12" y="7" width="24" height="24" fill="#b45436" />
+<circle cx="0" cy="0" r="267" fill="none" stroke="#c69f57" stroke-width="2" stroke-dasharray="8 10"/>
+<path d="M-360 218H360" fill="none" stroke="#b45436" stroke-width="12" />
+<circle cx="-170" cy="218" r="10" fill="#f6eedd" />
+<circle cx="170" cy="218" r="10" fill="#f6eedd" />
+</g>
 </svg>

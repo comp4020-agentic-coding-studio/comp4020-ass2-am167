@@ -6,12 +6,10 @@ description: >-
   will not stretch.
 heroImage: ../../assets/images/assessment-02-hero.svg
 heroImageAlt: >-
-  A district of plazas, parks and streets drawn above a cutaway of the water
-  and sewage lines running beneath them.
+  An exploded infrastructure drawing separates a planted street level from two exposed utility networks, joined by vertical service connections.
 cardImage: ../../assets/images/assessment-02-card.svg
 cardImageAlt: >-
-  Plazas and street frontages above a dark cutaway showing the water and
-  sewage networks under the public realm.
+  An exploded infrastructure drawing separates a planted street level from two exposed utility networks, joined by vertical service connections.
 week: 9
 due: 2027-05-03T12:00:00+10:00
 weight: 25

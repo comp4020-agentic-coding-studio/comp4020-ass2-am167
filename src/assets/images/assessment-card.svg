@@ -1,7 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="title desc">
-  <title id="title">Assessment map</title><desc id="desc">A folded city map with a marked route and a checklist.</desc>
-  <rect width="800" height="460" fill="#17150f"/><path d="M70 90 280 45l220 58 230-42v285l-220 48-220-58-220 42Z" fill="#f6eedd" stroke="#c69f57" stroke-width="7"/>
-  <path d="M280 45v291m220-233v244m-220-140 220 58" fill="none" stroke="#b45436" stroke-width="6"/>
-  <path d="M95 265c90-115 170 55 260-45s165 80 315-70" fill="none" stroke="#17150f" stroke-width="13"/><circle cx="355" cy="220" r="17" fill="#c69f57" stroke="#17150f" stroke-width="6"/>
-  <g transform="translate(555 285)"><rect width="165" height="112" fill="#c69f57"/><path d="m20 31 12 12 22-27m-34 56 12 12 22-27" fill="none" stroke="#17150f" stroke-width="7"/><path d="M72 34h72M72 90h72" stroke="#17150f" stroke-width="7"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="160 0 1280 775" role="img" aria-labelledby="title desc">
+  <title id="title">Assessment map</title>
+  <desc id="desc">A street plan beside a gold checklist with three completed marks.</desc>
+<rect x="0" y="0" width="1800" height="800" fill="#17150f" />
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0H0V40" fill="none" stroke="#c69f57" stroke-opacity=".10" stroke-width="1"/>
+</pattern>
+</defs>
+<rect x="0" y="0" width="1800" height="800" fill="url(#grid)" />
+<g transform="translate(-190 0) scale(1.25)">
+<g transform="translate(435 125) rotate(-7)">
+<rect x="8" y="10" width="550" height="360" fill="#8b713e" opacity=".3"/>
+<rect x="0" y="0" width="550" height="360" fill="#f6eedd" />
+<rect x="22.0" y="22.0" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="22.0" y="125.33333333333333" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="22.0" y="228.66666666666666" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="149.5" y="22.0" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="149.5" y="125.33333333333333" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="149.5" y="228.66666666666666" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="277.0" y="22.0" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="277.0" y="125.33333333333333" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="277.0" y="228.66666666666666" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="404.5" y="22.0" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="404.5" y="125.33333333333333" width="121.25" height="95.0" fill="#e7d7ad" />
+<rect x="404.5" y="228.66666666666666" width="121.25" height="95.0" fill="#e7d7ad" />
+<path d="M15 251.99999999999997L220.0 251.99999999999997 357.5 72.0 535 72.0" fill="none" stroke="#b45436" stroke-width="4" />
+</g>
+<rect x="995" y="205" width="160" height="230" fill="#c69f57" />
+<path d="M1015 245l10 10 19-23" fill="none" stroke="#17150f" stroke-width="4" />
+<path d="M1060 245L1130 245" fill="none" stroke="#f6eedd" stroke-width="4" />
+<path d="M1015 293l10 10 19-23" fill="none" stroke="#17150f" stroke-width="4" />
+<path d="M1060 293L1130 293" fill="none" stroke="#f6eedd" stroke-width="4" />
+<path d="M1015 341l10 10 19-23" fill="none" stroke="#17150f" stroke-width="4" />
+<path d="M1060 341L1130 341" fill="none" stroke="#f6eedd" stroke-width="4" />
+</g>
 </svg>

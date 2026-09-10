@@ -1,22 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
-  <title id="title">One neighbourhood cell</title>
-  <desc id="desc">A single cell with its blocks, a gold amenity core and a dashed walking radius.</desc>
-  <rect width="800" height="450" fill="#f6eedd"/>
-  <rect x="60" y="46" width="680" height="358" fill="#e7d7ad" stroke="#17150f" stroke-width="8"/>
-  <g stroke="#f6eedd" stroke-width="18" stroke-linecap="square">
-    <path d="M60 160h680M60 292h680M250 46v358M560 46v358"/>
-  </g>
-  <g fill="#17150f">
-    <rect x="94" y="80" width="72" height="62"/><rect x="286" y="80" width="72" height="62"/>
-    <rect x="596" y="80" width="76" height="62"/>
-    <rect x="94" y="196" width="72" height="60"/><rect x="596" y="196" width="76" height="60"/>
-    <rect x="94" y="322" width="76" height="58"/><rect x="286" y="322" width="72" height="58"/>
-    <rect x="596" y="322" width="76" height="58"/>
-  </g>
-  <circle cx="400" cy="226" r="140" fill="none" stroke="#17150f" stroke-width="5" stroke-dasharray="14 18" opacity="0.75"/>
-  <rect x="330" y="188" width="140" height="78" fill="#c69f57" stroke="#17150f" stroke-width="7"/>
-  <path d="M344 227h44m-22-22v44" stroke="#17150f" stroke-width="8" fill="none"/>
-  <path d="M406 211h50M406 245h50" stroke="#17150f" stroke-width="7"/>
-  <path d="M740 46v358" stroke="#b45436" stroke-width="20"/>
-  <circle cx="400" cy="226" r="13" fill="#17150f" stroke="#f6eedd" stroke-width="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="180 0 1240 620" role="img" aria-labelledby="title desc">
+<title id="title">The neighbourhood around its amenity</title>
+<desc id="desc">A circular neighbourhood plan with twelve residential blocks around a tree-lined shared amenity, a walking catchment and a transit corridor.</desc>
+<rect x="0" y="0" width="1600" height="620" fill="#17150f" />
+<g transform="translate(800 310)">
+<circle cx="0" cy="0" r="244" fill="#e7d7ad" />
+<circle cx="0" cy="0" r="214" fill="#17150f" />
+<circle cx="0" cy="0" r="172" fill="#f6eedd" />
+<circle cx="0" cy="0" r="122" fill="#e7d7ad" />
+<g transform="rotate(0)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(30)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(60)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(90)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(120)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(150)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(180)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(210)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(240)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(270)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(300)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<g transform="rotate(330)">
+<rect x="-22" y="-205" width="44" height="42" fill="#c69f57" />
+<rect x="-16" y="-198" width="32" height="28" fill="#f6eedd" />
+<path d="M0 -162L0 -124" fill="none" stroke="#17150f" stroke-width="5" />
+</g>
+<path d="M-125 0H125M0-125V125" fill="none" stroke="#f6eedd" stroke-width="20" />
+<g transform="translate(76.6820011984368 31.76272488630245) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(31.762724886302458 76.6820011984368) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-31.762724886302447 76.6820011984368) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-76.6820011984368 31.76272488630246) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-76.68200119843681 -31.762724886302443) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-31.762724886302497 -76.68200119843678) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(31.762724886302472 -76.6820011984368) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(76.68200119843678 -31.762724886302504) scale(0.8)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<rect x="-38" y="-31" width="76" height="62" fill="#c69f57" />
+<rect x="-27" y="-22" width="54" height="44" fill="#f6eedd" />
+<rect x="-12" y="7" width="24" height="24" fill="#b45436" />
+<circle cx="0" cy="0" r="267" fill="none" stroke="#c69f57" stroke-width="2" stroke-dasharray="8 10"/>
+<path d="M-360 218H360" fill="none" stroke="#b45436" stroke-width="12" />
+<circle cx="-170" cy="218" r="10" fill="#f6eedd" />
+<circle cx="170" cy="218" r="10" fill="#f6eedd" />
+</g>
 </svg>

@@ -1,37 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
   <title id="title">The jury table</title>
-  <desc id="desc">Five figures in silhouette around a long studio table on a dark board, a plan sheet open between them, with a sixth figure seated apart at the far end where the visiting critic sits.</desc>
-  <rect width="1600" height="620" fill="#17150f"/>
-  <g stroke="#3a3427" stroke-width="2">
-    <path d="M0 110h1600M0 250h1600M0 390h1600M0 530h1600M200 0v620M400 0v620M600 0v620M800 0v620M1000 0v620M1200 0v620M1400 0v620"/>
-  </g>
-  <g fill="#3a3327">
-    <path d="M540 250a44 44 0 1 1 88 0 44 44 0 0 1-88 0M498 400v-48c0-46 34-72 86-72s86 26 86 72v48Z"/>
-    <path d="M756 234a46 46 0 1 1 92 0 46 46 0 0 1-92 0M710 392v-52c0-48 36-76 92-76s92 28 92 76v52Z"/>
-    <path d="M972 250a44 44 0 1 1 88 0 44 44 0 0 1-88 0M930 400v-48c0-46 34-72 86-72s86 26 86 72v48Z"/>
-  </g>
-  <g fill="#2b2619">
-    <path d="M372 288a40 40 0 1 1 80 0 40 40 0 0 1-80 0M334 420v-44c0-42 31-66 78-66s78 24 78 66v44Z"/>
-    <path d="M1148 288a40 40 0 1 1 80 0 40 40 0 0 1-80 0M1110 420v-44c0-42 31-66 78-66s78 24 78 66v44Z"/>
-  </g>
-  <g fill="#241f15" stroke="#c69f57" stroke-width="4">
-    <path d="M1332 296a38 38 0 1 1 76 0 38 38 0 0 1-76 0M1296 424v-42c0-40 30-64 74-64s74 24 74 64v42Z"/>
-  </g>
-  <rect x="240" y="404" width="1120" height="34" fill="#5a5039"/>
-  <rect x="240" y="438" width="1120" height="18" fill="#2b2619"/>
-  <g transform="rotate(-2 700 380)">
-    <rect x="560" y="326" width="300" height="90" fill="#e7d7ad"/>
-    <g stroke="#17150f" stroke-width="6">
-      <path d="M560 372h300M660 326v90M760 326v90"/>
-    </g>
-    <path d="M576 404 844 338" fill="none" stroke="#b45436" stroke-width="8"/>
-  </g>
-  <g transform="rotate(3 1020 372)">
-    <rect x="940" y="342" width="200" height="70" fill="#c69f57"/>
-    <g stroke="#17150f" stroke-width="5"><path d="M940 378h200M1040 342v70"/></g>
-  </g>
-  <g font-family="monospace" fill="#e7d7ad" font-size="17" letter-spacing="2">
-    <text x="1296" y="212">VISITING</text>
-    <text x="1296" y="238">CRITIC</text>
-  </g>
+  <desc id="desc">Five illustrated planners gather around a gold drafting table and a shared street plan.</desc>
+<rect x="0" y="0" width="1600" height="620" fill="#17150f" />
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0H0V40" fill="none" stroke="#c69f57" stroke-opacity=".10" stroke-width="1"/>
+</pattern>
+</defs>
+<rect x="0" y="0" width="1600" height="620" fill="url(#grid)" />
+<g transform="translate(500 145) scale(0.9)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g transform="translate(730 120) scale(0.9)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g transform="translate(970 140) scale(0.9)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+<path d="M390 315 1020 245 1270 395 640 490Z" fill="#8b713e" />
+<path d="M390 300 1020 230 1270 380 640 475Z" fill="#c69f57" />
+<g transform="translate(655 270) rotate(8)">
+<rect x="8" y="10" width="290" height="150" fill="#8b713e" opacity=".3"/>
+<rect x="0" y="0" width="290" height="150" fill="#f6eedd" />
+<rect x="22.0" y="22.0" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="22.0" y="55.333333333333336" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="22.0" y="88.66666666666667" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="84.5" y="22.0" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="84.5" y="55.333333333333336" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="84.5" y="88.66666666666667" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="147.0" y="22.0" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="147.0" y="55.333333333333336" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="147.0" y="88.66666666666667" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="209.5" y="22.0" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="209.5" y="55.333333333333336" width="56.25" height="25.0" fill="#e7d7ad" />
+<rect x="209.5" y="88.66666666666667" width="56.25" height="25.0" fill="#e7d7ad" />
+<path d="M15 105.0L116.0 105.0 188.5 30.0 275 30.0" fill="none" stroke="#b45436" stroke-width="4" />
+</g>
+<g transform="translate(535 380) scale(1.1)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g transform="translate(1040 385) scale(1.1)">
+<circle cx="0" cy="0" r="19" fill="#c69f57" />
+<path d="M-13-10q10-22 28 1l-1 7-29-2Z" fill="#17150f" />
+<path d="M-32 74v-28q0-27 32-27t32 27v28Z" fill="#f6eedd" />
+<path d="M-30 40-47 75-20 89M28 40 47 70 20 88" fill="none" stroke="#c69f57" stroke-width="12" stroke-linecap="round"/>
+</g>
 </svg>

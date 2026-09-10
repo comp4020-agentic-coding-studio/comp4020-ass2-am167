@@ -1,34 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
-  <title id="title">A district and the networks beneath it</title>
-  <desc id="desc">A district of plazas, parks and streets drawn on a dark board above a cutaway of the water and sewage lines running beneath them.</desc>
-  <rect width="1600" height="620" fill="#17150f"/>
-  <g fill="#2b2619">
-    <rect x="60" y="150" width="300" height="140"/><rect x="430" y="132" width="250" height="158"/>
-    <rect x="760" y="150" width="330" height="140"/><rect x="1160" y="140" width="300" height="150"/>
-  </g>
-  <g fill="#c69f57">
-    <rect x="470" y="168" width="170" height="86"/><rect x="800" y="182" width="180" height="72"/>
-    <rect x="1200" y="176" width="170" height="80"/>
-  </g>
-  <g fill="#e7d7ad">
-    <rect x="90" y="196" width="72" height="94"/><rect x="196" y="216" width="60" height="74"/>
-    <rect x="284" y="184" width="62" height="106"/>
-    <rect x="1010" y="212" width="66" height="78"/>
-    <rect x="1400" y="200" width="58" height="90"/>
-  </g>
-  <path d="M0 310h1600" stroke="#e7d7ad" stroke-width="8"/>
-  <g stroke="#5a4f36" stroke-width="3">
-    <path d="M0 344h1600M0 376h1600"/>
-  </g>
-  <path d="M40 404h1520" fill="none" stroke="#c69f57" stroke-width="16"/>
-  <path d="M40 462h1520" fill="none" stroke="#b45436" stroke-width="16"/>
-  <g stroke="#c69f57" stroke-width="12" fill="none">
-    <path d="M470 404v-94M800 404v-94M1200 404v-94"/>
-  </g>
-  <g fill="#f6eedd">
-    <circle cx="470" cy="404" r="17"/><circle cx="800" cy="404" r="17"/><circle cx="1200" cy="404" r="17"/>
-  </g>
-  <g fill="#b45436">
-    <rect x="470" y="450" width="24" height="24"/><rect x="800" y="450" width="24" height="24"/><rect x="1200" y="450" width="24" height="24"/>
-  </g>
+<title id="title">The city beneath the street</title>
+<desc id="desc">An exploded infrastructure drawing separates a planted street level from two exposed utility networks, joined by vertical service connections.</desc>
+<rect x="0" y="0" width="1600" height="620" fill="#17150f" />
+<g transform="translate(800 300)">
+<path d="M-315 140 0 35 315 140 0 245Z" fill="#17150f" stroke="#c69f57" stroke-width="2" />
+<path d="M-315 140v13L0 258 315 153v-13" fill="none" stroke="#8b713e" stroke-width="3" />
+<path d="M-315 20 0 -85 315 20 0 125Z" fill="#17150f" stroke="#c69f57" stroke-width="2" />
+<path d="M-315 20v13L0 138 315 33v-13" fill="none" stroke="#8b713e" stroke-width="3" />
+<path d="M-315 -110 0 -215 315 -110 0 -5Z" fill="#e7d7ad" stroke="#c69f57" stroke-width="2" />
+<path d="M-315 -110v13L0 8 315 -97v-13" fill="none" stroke="#8b713e" stroke-width="3" />
+<path d="M-245 -85L-245 175" fill="none" stroke="#c69f57" stroke-width="1" stroke-dasharray="5 7" opacity=".6"/>
+<path d="M245 -85L245 175" fill="none" stroke="#c69f57" stroke-width="1" stroke-dasharray="5 7" opacity=".6"/>
+<path d="M0 -195L0 65" fill="none" stroke="#c69f57" stroke-width="1" stroke-dasharray="5 7" opacity=".6"/>
+<path d="M0 -20L0 240" fill="none" stroke="#c69f57" stroke-width="1" stroke-dasharray="5 7" opacity=".6"/>
+<path d="M-260 140 0 56 260 140M-160 109 95 195M-20 62 195 132" fill="none" stroke="#b45436" stroke-width="11" stroke-linejoin="round"/>
+<circle cx="-160" cy="109" r="9" fill="#f6eedd" stroke="#b45436" stroke-width="4"/>
+<circle cx="0" cy="56" r="9" fill="#f6eedd" stroke="#b45436" stroke-width="4"/>
+<circle cx="95" cy="195" r="9" fill="#f6eedd" stroke="#b45436" stroke-width="4"/>
+<path d="M-260 20 0 -64 260 20M-160 -11 95 75M-20 -58 195 12" fill="none" stroke="#c69f57" stroke-width="11" stroke-linejoin="round"/>
+<circle cx="-160" cy="-11" r="9" fill="#f6eedd" stroke="#c69f57" stroke-width="4"/>
+<circle cx="0" cy="-64" r="9" fill="#f6eedd" stroke="#c69f57" stroke-width="4"/>
+<circle cx="95" cy="75" r="9" fill="#f6eedd" stroke="#c69f57" stroke-width="4"/>
+<path d="M-260-110 0-195 260-110M-160-142 80-60" fill="none" stroke="#f6eedd" stroke-width="18" />
+<path d="M-135 -166l73 -30.66 44 18.48 -73 30.66Z" fill="#c69f57" />
+<path d="M-135 -166v44l44 18.48v-44Z" fill="#8b713e" />
+<path d="M-91 -147.52l73 -30.66v44l-73 30.66Z" fill="#c69f57" />
+<path d="M-135 -166l73 -30.66 44 18.48 -73 30.66Z" fill="#f6eedd" stroke="#17150f" stroke-width="1.4" />
+<path d="M-72.75 -147.185L-72.75 -116.185" fill="none" stroke="#17150f" stroke-width="1" opacity=".35"/>
+<path d="M-54.5 -154.85000000000002L-54.5 -123.85000000000002" fill="none" stroke="#17150f" stroke-width="1" opacity=".35"/>
+<path d="M-36.25 -162.51500000000001L-36.25 -131.51500000000001" fill="none" stroke="#17150f" stroke-width="1" opacity=".35"/>
+<path d="M48 -156l47 -19.74 38 15.959999999999999 -47 19.74Z" fill="#c69f57" />
+<path d="M48 -156v27l38 15.959999999999999v-27Z" fill="#8b713e" />
+<path d="M86 -140.04l47 -19.74v27l-47 19.74Z" fill="#c69f57" />
+<path d="M48 -156l47 -19.74 38 15.959999999999999 -47 19.74Z" fill="#f6eedd" stroke="#17150f" stroke-width="1.4" />
+<path d="M97.75 -136.975L97.75 -122.975" fill="none" stroke="#17150f" stroke-width="1" opacity=".35"/>
+<path d="M109.5 -141.91L109.5 -127.91" fill="none" stroke="#17150f" stroke-width="1" opacity=".35"/>
+<path d="M121.25 -146.845L121.25 -132.845" fill="none" stroke="#17150f" stroke-width="1" opacity=".35"/>
+<g transform="translate(-55 -119) scale(0.85)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(-25 -130) scale(0.85)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(13 -110) scale(0.85)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+<g transform="translate(48 -98) scale(0.85)">
+<path d="M0 0v23" fill="none" stroke="#8b713e" stroke-width="3" />
+<circle cx="4" cy="-3" r="14" fill="#8b713e" />
+<circle cx="-3" cy="-7" r="12" fill="#c69f57" />
+<path d="M-3 -14v16m0-8 6-4" fill="none" stroke="#f6eedd" stroke-width="1" />
+</g>
+</g>
 </svg>

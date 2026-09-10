@@ -1561,3 +1561,49 @@ pages, no broken links, no accessibility violations. Read the page in Chrome at
 1920×1080 and 390×844 on preview port 4401, entering by `#anchor` rather than
 scrolling so the jump offset got exercised too; the routing table stays inside
 the theme's `.at-table-wrap` at 354px on mobile, no horizontal overflow.
+
+### 2026-09-10 — Architectural SVG artwork
+
+Remade all 17 course illustration assets as a coordinated set of architectural
+models and drafting-table scenes. Kept the Slop palette, used shaded building
+faces and planted streets to give the city imagery depth, and gave resources,
+policies, teaching and assessments their own compositions. Updated image
+alternatives to describe the replacement scenes. No curriculum changes; visual
+verification applies rather than a content adversarial review. User requested
+no commit and a dev server left running for review.
+
+Final validation: `pnpm check` passed with 38 tests, 52 built pages, zero
+warnings/errors, and clean link/accessibility checks. The first sandboxed build
+could not resolve Google Fonts; reran with network access and confirmed clean
+output. Checked the illustration set in Chrome and eight page types at
+1920×1080 and 390×844 on confirmed preview port 4322; headings fit both widths.
+Corrected streets protruding beyond the model base. Left the requested dev
+server on 4321; stopped the separate verification preview. Nothing committed.
+
+### 2026-09-10 — Distinguish the three assessment illustrations
+
+User found A1–A3 too similar. Replaced the shared city-model composition with
+three different visual structures in both heroes and cards: A1 is a circular
+neighbourhood around a shared amenity; A2 is an exploded street/utility stack;
+A3 is a dense city-wide river-and-transit map. Updated their image alternatives.
+
+Validation: 38 tests pass, zero build/typecheck warnings or errors. Viewed the
+assessment cards together and the three individual heroes in Chrome at both
+1920×1080 and 390×844, using confirmed preview port 4322. The distinct circle,
+exploded layers and river map remain recognisable at card size. No commit;
+review dev server remains on 4321.
+
+### 2026-09-10 — Refresh development image metadata
+
+The review server returned HTTP 500 with a raw assessment image path reaching
+Astro's image renderer. Restarting our dev process restored HTTP 200 and resolved
+image metadata without source changes. Likely caused by production builds
+rewriting Astro's shared content state while dev remained active. After future
+build/preview checks, restart dev before handing its URL back for review.
+
+Follow-up verification caught a separate image-endpoint failure: Astro reported
+MissingSharp although importing the installed Sharp package directly succeeded.
+Explicitly externalised Sharp in Vite SSR so Node loads its native module.
+Confirmed all three assessment SVGs decode successfully in the live browser
+(they failed decoding before this configuration change). This is an image
+runtime fix, not a visual/layout change.

@@ -6,12 +6,10 @@ description: >-
   the semester.
 heroImage: ../../assets/images/assessment-01-hero.svg
 heroImageAlt: >-
-  One residential cell drawn at block scale, its amenity core marked in gold
-  inside a dashed walking radius, with the corridor running down one edge.
+  A circular neighbourhood plan with twelve residential blocks around a tree-lined shared amenity, a walking catchment and a transit corridor.
 cardImage: ../../assets/images/assessment-01-card.svg
 cardImageAlt: >-
-  A single neighbourhood cell: block frontages around a gold amenity core,
-  ringed by a dashed walking radius.
+  A circular neighbourhood plan with twelve residential blocks around a tree-lined shared amenity, a walking catchment and a transit corridor.
 week: 4
 due: 2027-03-15T12:00:00+11:00
 weight: 25
