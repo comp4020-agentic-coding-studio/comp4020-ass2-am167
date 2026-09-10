@@ -1530,3 +1530,34 @@ pages, no broken links, no accessibility violations --- and
 port 4399 at 1920×1080 and 390×844 (viewport by emulation, `reduced-motion` set
 so the hero fade could not skew a contrast read), plus 1024 and 700 to see the
 nav row hold at one line and hand overflow to the scrolling links row.
+
+## Policies page: cards out, prose in
+
+The ten policy sections were `PolicyCard`s in a two-column `CardGrid`, so the
+page read as a wall of boxes rather than as the one continuous document it is.
+Unwrapped them into ordinary `##` sections and deleted `PolicyCard.astro`,
+which had no other caller.
+
+The thing to preserve was the anchors. `PolicyCard` set its heading `id` by
+hand precisely so other pages could deep-link into it, and six of those links
+are live --- `#marking-bands`, `#extensions`, `#enrolment-dates`,
+`#save-files-and-version-discipline`, `#equipment-access-and-adjustments` and
+`#where-to-ask-what`, from the three briefs, the semester timeline and the
+people page. The theme runs `remark-custom-heading-id`, so each heading pins
+its old id with `{#...}` rather than trusting slug generation to land on the
+same string. `spec/policies.test.ts` is the guard that made this cheap to do:
+it already checked that every `/policies/#anchor` on the site resolves to a
+heading id on this page, and that the required policy areas are still covered
+by heading text. All 11 ids are in the built output.
+
+Left the frontmatter alone. A concurrent session is redrawing the
+illustrations and has an uncommitted `heroImageAlt` edit on this file; that
+line is theirs, so this commit touches only the body. The two edits are
+different hunks and will merge, but the file overlaps, so whoever commits
+second reconciles.
+
+Validation: `pnpm check` green --- 0 errors, 0 warnings, 0 hints, 38 tests, 52
+pages, no broken links, no accessibility violations. Read the page in Chrome at
+1920×1080 and 390×844 on preview port 4401, entering by `#anchor` rather than
+scrolling so the jump offset got exercised too; the routing table stays inside
+the theme's `.at-table-wrap` at 354px on mobile, no horizontal overflow.
