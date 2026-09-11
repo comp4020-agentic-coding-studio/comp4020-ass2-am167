@@ -74,10 +74,13 @@ volume ÷ capacity and frontage land value before and after on both streets.
 ## The argument round
 
 Four groups take one hypothesis each, put its figure and source view on the
-board, and re-read any contested row live. Then choose one instrument: signal
-retiming, reallocating a lane to transit, shorter trips through mixed use, or
-peak pricing. The model cannot implement the last one; record that limitation
-instead of simulating it.
+board, and re-read any contested row live. Then choose one instrument:
+converting Wickstead to a roundabout, reallocating a lane to transit, shorter
+trips through mixed use, or peak pricing. The first three are road-tool moves
+you can make in the unmodded build; the last one the model has no mechanism
+for, and signal phasing is not an instrument here either — the build exposes no
+timing control, and the mod that adds one is outside this studio's settings.
+Record both limitations instead of simulating them.
 
 Leave a position statement of no more than 150 words on the wall. Name the
 instrument, the number that would show it worked, and the trade: a temporary

@@ -1616,3 +1616,88 @@ SLOP2418 studio: course thesis, what's shipped (12+12 weeks, decks, three
 briefs, cast, policies/resources, spec suite), quick start, working rules,
 coherence harness pointer, and a shortened platform section that still
 documents collections, base path, decks and checks.
+
+## 2026-09-11 — Deep audit of the whole site against the published spec
+
+Pulled the Assignment 2 brief, spec lines and band descriptors live from the
+course API rather than working from PLAN.md, then fanned out fourteen fresh
+Sonnet reviewers: four on the lectures (weeks 1-3, 4-6, 7-9, 10-12), four on
+the studios (sessions 1-3, 4-6, 7-9, 10-12), and six page-level (home + course
+record, assessments, policies + resources + 404, people + listing pages, decks,
+process evidence + harness). Each got the published spec and an explicit
+instruction to report nothing if its slice held up. Collated into `AUDIT.md`.
+
+No spec line fails. `pnpm check` 38/38, `check:evidence` green, build pristine.
+Swept all 52 pages at 390x844 in real Chrome under device emulation, measuring
+children against their clipping box rather than trusting `scrollWidth` — no
+visible element escapes outside a sanctioned `overflow-x: auto` wrapper; six
+marker-path pages also clean at 1920x1080.
+
+Nine factual/evidence-chain breaks worth fixing, verified against source
+individually rather than taken on the reviewers' word: week 10 lists five
+overlays then calls them four; "arterial" presented as a CS2 road tier
+(week-02 lecture and deck only — the planning-language uses elsewhere are
+correct); session 6 offers signal retiming, which vanilla CS2 has no tool for
+and the studio's own mod ban forecloses; session 5's spec demands an issued
+address sample the resources page reserves for week 11; session 1 requires an
+economy-panel baseline no room step produces on a save with nothing built;
+session 2 requires a named dwelling address nothing establishes, which session
+3's assessed commute reading then depends on; session 10 requires the personal
+save "at the recovered state" when the session only ever branches it untouched,
+which session 11 then demands; "wind" treated as a first-class info view (three
+reviewers found this independently, five or six sites); and week 9's lecture
+page cites deck slides off by one from slide 14 onward, with the fiscal figures
+attributed to three slides that carry no monetary figure at all.
+
+Two reviewer claims were checked and rejected: PLAN.md has seven commits, not
+one, and week 12's "slide 6" is ambiguous rather than contradictory. Recorded
+as such in AUDIT.md so a future agent does not act on them.
+
+What the reviewers tried hardest to break and could not: ~40 real-world
+citations across twelve lectures (zero invented, zero misattributed, including
+several probed specifically as likely fabrications); the cross-page arithmetic
+(one worksheet slip, 4,800 vs 4,600); prose voice (no generated cadence found
+anywhere in the lectures, studios, briefs or policies — the only voice finding
+is three staff bios sharing one rhetorical move); session duplication; and
+register discipline. Nothing has been fixed; AUDIT.md is a review artefact.
+
+## 2026-09-11 — Acted on the audit: everything except PROCESS.md
+
+Fixed all AUDIT.md findings bar §4.8's dropped verb in `PROCESS.md`, which is
+the author's own writing to repair; its word count and the one half-supported
+citation are left with it for the same reason.
+
+Nine wrong-fact or broken-chain repairs. The wind-as-info-view error turned out
+to be nine sites across seven files, not the two the first reviewer saw —
+checked against the CS2 wiki rather than taking three reviewers' word for it.
+Three reviewer claims did not survive re-reading and were left alone, recorded
+in AUDIT.md §9 so the next agent does not "fix" them: `decks/week-02` line 112
+is Alexander's tree vocabulary, not a claim about the game's road tiers;
+`sessions/05`'s ₡4,800 is the canonical worksheet figure that the resources page
+and the stated ₡3,700 subsidy both depend on, so it was reconciled against the
+deck's ₡1,150 line rate with a named depot component instead of being changed;
+and `PLAN.md` has seven commits, not one.
+
+Two fixes turned a defect into teaching content rather than deleting it. Session
+6 now says why signal phasing is not an available instrument (no timing control
+in the build, and the mod is outside the studio's settings), and session 1's
+economy step makes the flat monthly line on an unbuilt save the point — Week 1
+is the zero. Session 12's changeover went outside the fifteen minutes, not
+inside: putting it inside would have broken both the "Your fifteen minutes"
+protocol and `spec/lectures.test.ts`'s 280-second capstone check.
+
+Three harness changes, each verified by mutation rather than by passing.
+Replaced `lectures.test.ts`'s `lectureHtml.length > 8_000` proxy with a check
+that every lecture carries its six standing sections, four theory-to-mechanic
+rows and two named metrics in its decision section — confirmed it fails for its
+own reason under three separate mutations. Dropped the dead `|plan` token from
+`weeklyAnchors[12]`. Added a `save-file chain` block asserting that no week
+opens a save a later week produces, that every week names its own save and
+joins the chain, and that a `kerrow-ref-wNN` checkpoint is only read in week NN
+— the class of defect that produced four of the audit's findings and that the
+previous harness could not see.
+
+`pnpm check` 41/41 across 9 files (was 38), build pristine, `check:evidence`
+green. Re-swept the twenty changed pages at 390x844 and six at 1920x1080 under
+device emulation: no overflow, no clipping. Lectures-index screenshots at both
+viewports in `notes/audit-2/`.

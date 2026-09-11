@@ -60,7 +60,7 @@ studio's own network.
 | --- | --- | --- |
 | Hippodamian equal division | The road tool's grid mode and its snapping increments | The block dimension chosen once at the start propagates across the whole quarter, because the tool makes repeating it cheaper than varying it |
 | Jacobs on short blocks | Zoning cell depth against road frontage | Short blocks put almost every cell on a frontage; long blocks leave a dead core the zoning tool cannot reach |
-| Radburn's superblock and cul-de-sac | Road hierarchy — small road, medium road, arterial — and the traffic AI's pathfinding cost | Every trip from a cul-de-sac is forced onto one collector, and the collector's mouth is where the queue forms |
+| Radburn's superblock and cul-de-sac | Road hierarchy — small road, medium road, large road, highway — and the traffic AI's pathfinding cost | Every trip from a cul-de-sac is forced onto one collector, and the collector's mouth is where the queue forms |
 | Alexander's tree versus semilattice | Following a single citizen's chosen path, and the lane-selection behaviour approaching a junction | In a tree there is one path and the vehicle takes it; in a semilattice the same origin and destination produce different paths at different hours |
 | Space syntax integration | Paper path counts on the unzoned street graph | Count alternative paths between fixed endpoints; this is a network measure, not observed traffic |
 | Network cost | Road upkeep in the economy panel, charged by length | Two layouts housing the same population differ in the monthly upkeep line, and the difference is permanent |

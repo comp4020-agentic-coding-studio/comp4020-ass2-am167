@@ -65,8 +65,11 @@ land value 31. The land-value sheet carries two further rows: **48 at Pelling
 Cross** and **19 at the cell edge**.
 
 **Livability moved the wrong way.** Happiness fell from 72% to 69%, even as
-land value rose from 24 to 31. Both are livability readings; quoting either one
-alone reports half a metric. The 48/19 gradient is not noise in the evidence.
+land value rose from 24 to 31. Land value is not a livability reading — the
+studio reads it on the fiscal side, and Week 8 spends it — so the two numbers
+are not halves of one metric. They are the trade itself, showing up in two
+places at once: quoting the rising one alone is how a plan claims an
+improvement it did not make. The 48/19 gradient is not noise in the evidence.
 It is the spatial result the plan must explain.
 
 ## The tradeoff

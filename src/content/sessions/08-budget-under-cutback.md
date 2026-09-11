@@ -80,7 +80,8 @@ continuous and receives no comment.
 Keep `<student ID>-w08` and the named reference branch as separate files. Leave
 with the branch-labelled readings, signed unfunded list, your corridor budget
 column, the opened prediction annotated where it was wrong, and three captioned
-screenshots. Upload by 21:00. Next Monday’s public-realm plan must fund every
+screenshots: the fiscal view, the land-value view, and your branch's 08:00
+reading. Upload by 21:00. Next Monday’s public-realm plan must fund every
 monthly line from this column and keep the ₡5,100 treatment increment funded and visible as a protected line.
 
 Any monthly surplus left after the cut accrues toward an uncommitted capital

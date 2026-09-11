@@ -26,11 +26,17 @@ spec:
 The capstone brief is the sole authority for the artefact. Its jury copy of the
 memo is due Friday 21 May at 12:00 for both chairs to pre-read. The artefact is
 due Monday at 12:00. Hang from 12:15, draw the running order at 12:50, begin the
-jury at **13:00** and remain for the joint close through 16:00.
+jury at **13:00** and remain for the joint close, which runs from 15:24
+through 16:00.
 
 Each defence is **fifteen minutes**, not twenty, and the two rooms start at
-13:00, not 14:00. A missed jury is marked from the memo and boards without a
-live defence.
+13:00, not 14:00. Slots are eighteen minutes apart: fifteen are yours and three
+are changeover, because eight semester-deep saves have to load in turn on the
+one presenting machine in each room, and a defence that begins late because the
+previous file was still loading would otherwise lose that time out of its own
+fifteen. Eight slots at eighteen minutes run 13:00 to 15:24, leaving the rest
+of the hour for the joint close. A missed jury is marked from the memo and
+boards without a live defence.
 
 ## Hanging and the running order
 

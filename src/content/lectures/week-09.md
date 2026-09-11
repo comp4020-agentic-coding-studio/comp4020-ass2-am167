@@ -86,11 +86,15 @@ Monday is the assessed jury. Complete the public-realm build and memo beforehand
 ## Assessment connection
 
 Feeds **Assessment 2 — Public Realm & Infrastructure Plan** directly and
-completely: it is due this week, and slides 3, 14, 15 and 16 are the brief, the
-central decision, the tradeoff and the jury's questions respectively.
-**Livability 45** is carried by slides 5 to 13; **fiscal 30** by the upkeep
-figures on slides 8, 13 and 14 and by Deliverable C; **mobility 25** by the
-footpath-connection argument on slide 15 and by the plaza's relation to the
-transit stop. Also the last assessed work before the **Week 12 capstone**, which
+completely: it is due this week, and four slides carry it — *Assessment 2,
+walked* is the brief, *One plaza, or eleven squares* is the central decision,
+*Livability against fiscal performance* is the tradeoff, and *Five things the
+jury will ask* is what you will be asked. **Livability 45** is carried by the
+Jacobs, Whyte, Oldenburg and Gehl run from *Jacobs's three conditions* to *The
+19:00 test*; **fiscal 30** by the build and upkeep columns on *One plaza, or
+eleven squares* and the ₡310 figure on the tradeoff slide, and by the costed
+budget line the brief asks for; **mobility 25** by the footpath-connection
+argument on the tradeoff slide and by the plaza's relation to the transit
+stop. Also the last assessed work before the **Week 12 capstone**, which
 expects the public realm argument to be made once at corridor scale.
 

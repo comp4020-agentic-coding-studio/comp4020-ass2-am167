@@ -16,8 +16,9 @@ photoAlt: >-
   gold panel
 ---
 
-Tobias spent six years modelling municipal budgets and now mostly thinks about
-benches, which they maintain is a shorter journey than it sounds. They teach
+Tobias modelled municipal budgets for six years. They now mostly think about
+benches. It is a shorter journey than it sounds: a bench is a line item with a
+frontage. They teach
 Weeks 8 and 9: the fiscal week, where a service cutback is imposed on your
 district and you decide what it costs, and the public realm week, where you find
 out how little of a convincing street is actually expensive.

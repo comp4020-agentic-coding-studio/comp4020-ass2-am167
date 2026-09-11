@@ -53,16 +53,17 @@ unfunded without its author explaining the layout.
 
 From 13:25, the cohort and jurors read the whole wall in silence for twenty
 minutes. Do not stand beside your own sheets. At 14:00 the jury walks the first
-eight plans in roster order, then the second eight after a recess. Each plan has
-**four minutes**, with changeover inside the clock: ninety seconds for one claim
-and the remainder for questions.
+eight plans in roster order, breaks for ten minutes, then walks the second
+eight. Each plan has **four minutes**, with changeover inside the clock: ninety
+seconds for one claim and the remainder for questions.
 
-During the recess, Tobias Wren and Sunniva Marek choose three plans they
-disagree about. Those return for six minutes each before the whole room. Marek
-then gives fifteen uninterrupted minutes to the wall as a whole. The visiting
-critic has not seen the Week 8 charrette or the explanations that made the work
-seem settled at the desk. That distance is the point of their place in the
-room.
+After the second eight, Tobias Wren and Sunniva Marek take five minutes to
+choose three plans they disagree about — drawn from all sixteen, which is why
+the choice happens at the end and not in the mid-afternoon break. Those three
+return for six minutes each before the whole room. Marek then gives fifteen
+uninterrupted minutes to the wall as a whole. The visiting critic has not seen
+the Week 8 charrette or the explanations that made the work seem settled at
+the desk. That distance is the point of their place in the room.
 
 ## The question
 

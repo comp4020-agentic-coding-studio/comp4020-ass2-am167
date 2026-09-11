@@ -85,8 +85,8 @@ Both are defensible and the plan's argument changes depending on which is
 taken, because the surplus is the only uncommitted money left. What is not
 defensible is presenting the link as costless, or presenting the reserve as
 prudence without naming the mobility gap it declines to close. Whichever is
-chosen becomes the plan's headline claim on slide 6, and the jury will test it
-against the qualifier.
+chosen becomes the plan's headline claim — first sentence of the memo, slide one
+of the pin-up — and the jury will test it against the qualifier.
 
 ## Into the studio
 

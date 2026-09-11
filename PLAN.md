@@ -1,8 +1,14 @@
 # PLAN: SLOP2418 — Urban Design Studio: Foundations of the Good City
 
-Status: partly built. The teaching calendar, the cast and the assessment
-structure are in place; every page body is still a placeholder. See §11 for
-what is outstanding.
+> **Superseded planning snapshot.** This file records the plan as it stood
+> mid-build, and its status notes below describe the repo at that point, not as
+> it ships. Everything §11 lists as outstanding has since been built. For the
+> account of how the work actually went, read `PROCESS.md`; for the current
+> state, `README.md` and `notes/log.md`.
+
+Status at the time of writing: partly built. The teaching calendar, the cast
+and the assessment structure are in place; every page body is still a
+placeholder. See §11 for what was outstanding then.
 
 ## 1. Concept
 
