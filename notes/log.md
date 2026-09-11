@@ -1701,3 +1701,50 @@ previous harness could not see.
 green. Re-swept the twenty changed pages at 390x844 and six at 1920x1080 under
 device emulation: no overflow, no clipping. Lectures-index screenshots at both
 viewports in `notes/audit-2/`.
+
+## 2026-09-11 — Reviewed the audit repairs; three defects in the repairs themselves
+
+Re-verified the audit's findings against source rather than trusting AUDIT.md:
+counted the week-9 deck headings (title is slide 1, so the central decision,
+tradeoff and jury questions really are 15/16/17, not 14/15/16), checked the
+CS2 wind claim against the paradox wiki (no standalone Wind view; it is a
+terrain overlay in Air Pollution, Electricity and Industrial, so all nine edits
+are right and week 10's choice of the electricity view fits that week's power
+and fire task), and mutation-tested both harness changes independently — each
+fails for its own reason with an actionable message. The two reviewer claims the
+repairs declined to act on are correctly declined: `decks/week-02:112` really is
+Alexander's tree vocabulary in speaker notes, and session 5's ₡4,800 really is
+load-bearing for the resources worksheet and the ₡3,700 subsidy.
+
+Three defects in the repairs, now fixed.
+
+The §3.7 repair took the audit's first option and swapped the issued reference
+district in for the student's own at the Week 10 hinge: `<student ID>-w10` was a
+save-out of `kerrow-ref-w10-recovered`, session 11 opened it and created `w11`
+from it, session 12 continued `w11` as `w12`, and Assessment 3 marks `w12` — so
+all sixteen capstones would have descended from one shared file while each
+student's own work stopped at `w09`, against a course whose whole claim is that
+the district is yours. Took the second option instead: `<student ID>-w10` is the
+personal district branched before any checkpoint opens, the issued checkpoints
+are read against each other and closed without saving, and what Week 10 produces
+is the paper. Retired `-w10-pre`, which named the same file twice once there was
+no live run on the personal save.
+
+Second, the same repair introduced a contradiction 27 lines from its own
+correction of one: "Week 11 plots its land-value row" against the same file's
+"Keep the land-value row blank this week" and session 11's "Leave Week 10 as a
+gap". Removed with the rewritten paragraph.
+
+Third, the §3.5 repair was incomplete. `decks/week-12.deck.mdx` still cited
+"Week 1 −₡2,400/month" as the capstone fiscal baseline — the figure session 1
+had just stopped producing, and the audit's claim that it appeared nowhere else
+in `src/` was simply wrong (a grep that missed the glyph). The deck now cites
+the ₡75,000 grant against the flat line.
+
+No harness check added for the first defect, deliberately. The chain block
+checks that save *names* form a chain and they did in both versions; provenance
+is semantic, and a prose regex for it would be brittle enough to fail on correct
+content later. Recorded in AUDIT.md §9 so the next agent does not mistake the
+gap for an oversight. `pnpm check` 41/41, `check:evidence` green, build pristine.
+No viewport sweep: three prose edits inside existing paragraphs, no layout or
+CSS change.

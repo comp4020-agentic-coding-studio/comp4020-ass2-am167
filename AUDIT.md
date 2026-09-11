@@ -966,15 +966,36 @@ repair actually was, because the shape of the fix says more than the list.
   and records the opening grant, and the exit baseline now reads "a ₡75,000
   opening grant against a flat monthly line" instead of inventing a
   −₡2,400/month deficit on a save with nothing built. The flatness is now the
-  teaching point: Week 1 is the zero.
+  teaching point: Week 1 is the zero. A review of this repair caught that the
+  first pass missed `decks/week-12.deck.mdx`, which still cited "Week 1
+  −₡2,400/month" as the fiscal baseline for the capstone series — the audit's
+  claim that the figure appeared nowhere else in `src/` was wrong. The deck now
+  cites the grant against the flat line.
 - **§3.6** `sessions/02`: added the step that produces the named dwelling
   address, said out loud at the desk so the room witnesses it, with the reason
   it cannot be re-chosen later. Week 3's assessed commute reading now has a
   defined origin.
-- **§3.7** `sessions/10`: the 14:40 step now saves the issued `-recovered`
-  checkpoint out as the student's own `<student ID>-w10`, and says why — their
-  district was never run through the fire. `sessions/11`'s prerequisite now
-  names that same file.
+- **§3.7** `sessions/10`: the audit's first option — save the issued
+  `-recovered` checkpoint out as the student's own `<student ID>-w10` — was
+  drafted, reviewed and rejected, because it substituted the issued reference
+  district for the personal one at the Week 10 hinge: `sessions/11` opens
+  `-w10` and creates `w11` from it, `sessions/12` continues `w11` as `w12`, and
+  Assessment 3 marks `w12`, so all sixteen capstones would have descended from
+  one shared file while each student's own eleven weeks stopped at `w09`. The
+  shipped repair is the audit's second option instead. `<student ID>-w10` is the
+  student's own district, branched before any checkpoint is opened; the issued
+  checkpoints are read against each other and closed without saving; what Week
+  10 produces is the paper — fault sheet, screenshots, costed exposure
+  statement — not a changed district. `-w10-pre` is retired, since with no live
+  run on the personal save it named the same file twice, and the weekly
+  convention `<student ID>-wNN` now holds unbroken from `w01` to `w12`.
+  `sessions/11` says which district it is opening and why it is unchanged.
+
+  Worth recording for the next agent: the new `save-file chain` block below
+  cannot see this defect. It checks that save *names* form a chain, and they did
+  in both versions. Provenance — whose district a file actually is — is semantic,
+  and the regex that would catch it in prose would be brittle enough to fail on
+  correct content later. It was left to review rather than faked as a check.
 
 ### Promises one page made that another could not keep
 
