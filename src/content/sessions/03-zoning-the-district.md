@@ -11,7 +11,7 @@ related:
   - lectures/week-03
 spec:
   - "Your Week 2 save opens with the Brayhurst quarter built at a committed block dimension and zoned low-density residential."
-  - "You can open the wind info view and state the map's prevailing wind direction without looking it up."
+  - "You can turn on the wind arrows inside the air pollution view and state the map's prevailing wind direction without looking it up."
   - "You have chosen one dwelling by address in your quarter, and every commute distance you quote this week is measured from it."
   - "You build Scheme A (separated, the assessed branch) in the assessed save and Scheme B (adjacent, a counterfactual) in a sandbox, then read ground, air, water and noise pollution plus traffic volume on each at in-game 08:00."
   - "You bring a sandbox save you are willing to build a second, uncommitted zoning scheme in."
@@ -22,8 +22,9 @@ spec:
 Open `<student ID>-w02` with the Brayhurst quarter zoned low-density
 residential, its block dimension written in the save notes, and one dwelling
 chosen by address. Bring last week’s readings, the 38%/24% Hessel Row pair and
-the ₡310/month upkeep difference. Know the prevailing wind — WNW — and have the
-wind view findable in seconds. Bring a sandbox for the comparison branch.
+the ₡310/month upkeep difference. Know the prevailing wind — WNW — and be able
+to turn its arrows on inside the air pollution view in seconds. Bring a sandbox
+for the comparison branch.
 
 ## What happens in the room
 

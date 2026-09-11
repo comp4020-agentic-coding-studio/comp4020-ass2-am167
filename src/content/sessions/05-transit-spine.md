@@ -14,7 +14,7 @@ spec:
   - "You bring the canonical straight bus alignment and one loop comparator, each with its manually timed round trip and stop count; the straight alignment is the line every student builds."
   - "The headway you set is stated together with the arithmetic that produced it: round-trip time divided by headway, rounded up to whole vehicles."
   - "You record allocated operating cost and fare revenue as separate worksheet figures alongside the live line-panel fields, without describing worksheet values as native readouts."
-  - "You calculate which issued sample addresses fall within 400 m walking distance along the street network, and name those that do not."
+  - "You measure the 400 m network catchment around each of your six stops and name the parts of the district your alignment leaves outside it, stated against the reference alignment's 62%."
 ---
 
 ## What the spine has to do
@@ -63,8 +63,11 @@ removes every stop has asked the wrong question of the line.
 The manually timed round trip is 24 minutes. A **6-minute calculated headway**
 requires four vehicles: 24 ÷ 6 = 4. The issued worksheet allocates
 **₡4,800/month** to the service and **₡1,100/month** in fares, leaving a net
-subsidy of ₡3,700. These are worksheet allocations, not fields in the line
-detail. The line panel supplies vehicles, passengers and usage.
+subsidy of ₡3,700. That ₡4,800 is four vehicles at the lecture deck's ₡1,150
+line rate plus ₡200 of depot overhead the line rate does not carry; quote the
+worksheet total, not the per-vehicle multiple. These are worksheet
+allocations, not fields in the line detail. The line panel supplies vehicles,
+passengers and usage.
 
 Inside 600 m straight-line distance of Pelling Cross and Halstead, step mixed
 housing and medium density down towards the edge. This zoning band is not the

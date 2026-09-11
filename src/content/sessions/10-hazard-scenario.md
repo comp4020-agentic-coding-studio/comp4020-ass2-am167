@@ -10,9 +10,9 @@ teachers:
 related:
   - lectures/week-10
 spec:
-  - "You arrive with the Week 9 save and the fire-hazard, wind and electricity views already checked over your own district."
-  - "You take a pre-event branch save before any checkpoint is loaded."
-  - "You read the issued d0, d3, d6 and recovered checkpoints rather than simulating a 19-day live run."
+  - "You arrive with the Week 9 save and the fire-hazard and electricity views already checked over your own district, wind read from the arrows inside the electricity view."
+  - "You branch your own district as your Week 10 save before any checkpoint is loaded, and nothing you load this afternoon alters it."
+  - "You read the issued d0, d3, d6 and recovered checkpoints rather than simulating a 19-day live run, and you close them without saving any of them as your own."
   - "Your fault sheet separates what broke from what recovered, and every entry names its checkpoint."
   - "Every Week 10 figure you quote afterwards names the checkpoint it was taken on."
 ---
@@ -20,13 +20,15 @@ spec:
 ## Before you come
 
 Bring `<student ID>-w09` exactly as submitted, together with last week’s trend
-readings. Check the fire-hazard, wind and electricity views over your district.
-Bring the Week 3 zoning drawing with the **Pellow cells still industrial**, the
-Week 7 reverse-salient card and the unfunded treatment line.
+readings. Check the fire-hazard and electricity views over your district, and
+read wind off the arrows inside the electricity view — there is no wind view to
+open on its own. Bring the Week 3 zoning drawing with the **Pellow cells still
+industrial**, the Week 7 reverse-salient card and the unfunded treatment line.
 
 Have the issued `kerrow-ref-w10-d0`, `-d3`, `-d6` and `-recovered` checkpoints
 available. Before opening any of them, branch the personal district as
-`<student ID>-w10-pre`. There is no 19-day live run.
+`<student ID>-w10`. That branch is your Week 10 record and the file Week 11
+opens; nothing you load this afternoon becomes it. There is no 19-day live run.
 
 ## The load case
 
@@ -43,10 +45,10 @@ not a replacement for the common scenario.
 
 ## The three hours
 
-Begin by stacking the fire-hazard, wind, power-transmission and Thackray Cut
-geometry. Draw the fire-exposed land and count what sits inside and outside the
-response radius. Then load d0, d3 and d6 in order and use the same 08:00
-observation protocol on each.
+Begin by stacking the fire-hazard view, the electricity view's transmission
+lines and wind arrows, and the Thackray Cut geometry. Draw the fire-exposed
+land and count what sits inside and outside the response radius. Then load d0,
+d3 and d6 in order and use the same 08:00 observation protocol on each.
 
 In the reference sequence, Thackray Cut is closed for **four in-game days** and
 peak travel reaches **13.6 minutes** against Week 9’s 11.1-minute trend. The d3
@@ -56,9 +58,14 @@ happiness troughs at **41% on d3**, including in blocks that did not burn. The
 event month closes at **−₡14,200**, not a continuing monthly rate.
 
 At 14:40, load `-recovered`. No intervention is inserted between d6 and the
-recovery trace. Finish with two board columns and then cost, in writing, whether
-to withdraw fire-exposed land or defend it with access, power and response
-capacity. Do not build that choice this afternoon.
+recovery trace. Read it against d3, then close it without saving. The fire ran
+on the issued district, not on yours, so your own save leaves this afternoon
+exactly as it arrived: what Week 10 produces is the paper, not a changed
+district.
+
+Finish with two board columns and then cost, in writing, whether to withdraw
+fire-exposed land or defend it with access, power and response capacity. Do not
+build that choice this afternoon.
 
 ## Broke, or looked alarming
 
@@ -82,6 +89,7 @@ says “41% on `kerrow-ref-w10-d3`” and sets that against `-recovered`. Keep t
 land-value row blank this week; Week 11 plots Week 9 to Week 11 with the gap
 dashed.
 
-Leave with `<student ID>-w10` at the recovered state, `-w10-pre`, the two-column
-fault sheet, three named screenshots and the costed exposure statement. Copy
-both saves off-machine and upload the record by 21:00.
+Leave with `<student ID>-w10`, branched from your own district before any
+checkpoint was opened, the two-column fault sheet, three named screenshots and
+the costed exposure statement. Copy the save off-machine and upload the record
+by 21:00.

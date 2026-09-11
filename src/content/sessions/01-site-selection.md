@@ -30,17 +30,23 @@ the one-page site report and somewhere off the machine to copy the save.
 
 ## What happens in the room
 
-The first two hours are survey. Open five views in this fixed order: natural
-resources, water, wind, terrain, outside connections. Keep one view open at a
-time, close it before opening the next, and take one screenshot per view. Under
-each screenshot, write one sentence saying what the layer **rules out**. A
-description is not yet a finding.
+The first two hours are survey. Open five layers in this fixed order: natural
+resources, water, wind — the arrows inside the air pollution view, since there
+is no wind view of its own — terrain, outside connections. Keep one open at a
+time, close it before opening the next, and take one screenshot per layer.
+Under each screenshot, write one sentence saying what the layer **rules out**.
+A description is not yet a finding.
 
 The land value overlay stays closed until 14:55. At hour zero it is nearly flat;
 opening it first would make the ground look less structured than it is. At
 15:00 the road tool opens only for its length and gradient readouts. Drag the
 two candidate routes, record the figures, then cancel the tool. No road is
 confirmed.
+
+At 15:30 open the economy panel and write down the opening grant before anyone
+has spent any of it. On an untouched map there is nothing built to charge
+upkeep against, so the monthly line reads flat: this is the zero, and every
+figure the studio quotes after today is a movement away from it.
 
 At 15:40, state one sentence to the room: “I am siting on X. I am buying Y and
 paying with Z.” Written or recorded equivalents can be arranged with Marisol
@@ -85,7 +91,7 @@ read.
 
 ## What you leave with
 
-Leave with the untouched save, the one-page report, and these baselines:
-−₡2,400/month against a ₡75,000 opening grant; 1.2 km at 1.8%; 4.1 km at 6.2%;
-land value 14 on the Reach and 22 on the Ridge. Put the settlement sentence on
-the report and bring it to the Week 2 desk.
+Leave with the untouched save, the one-page report, and these baselines: a
+₡75,000 opening grant against a flat monthly line; 1.2 km at 1.8%; 4.1 km at
+6.2%; land value 14 on the Reach and 22 on the Ridge. Put the settlement
+sentence on the report and bring it to the Week 2 desk.

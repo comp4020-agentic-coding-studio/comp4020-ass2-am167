@@ -20,8 +20,10 @@ spec:
 
 ## Before you come
 
-Bring `<student ID>-w10` at the recovered state and all ten weekly saves from
-`w01` to `w10`. They are a recovery path, not the default extraction method.
+Bring `<student ID>-w10` — your own district, which Week 10 branched and did
+not alter, because the fire ran on the issued checkpoints and not on yours —
+and all ten weekly saves from `w01` to `w10`. They are a recovery path, not the
+default extraction method.
 Bring the evidence pack’s pre-extracted land-value series, the issued Week 4
 Pelling Cross checkpoint or your `w04` save, Week 6’s Wickstead file, and Week
 10’s fault sheet and exposure statement. Bring squared paper and a pencil.

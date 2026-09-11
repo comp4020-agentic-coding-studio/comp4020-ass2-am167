@@ -13,9 +13,12 @@ that trade-off.
 
 **Code / session:** `SLOP2418` · Semester 1 · 2027 (`2027-02-22`–`2027-05-28`)
 
-The design argument, how it was built, and the agent harness are in
-[`PROCESS.md`](PROCESS.md), [`PLAN.md`](PLAN.md) and [`CLAUDE.md`](CLAUDE.md)
-respectively. The brief and marking environment live on the
+The design argument and how it was built are in [`PROCESS.md`](PROCESS.md), and
+the agent harness is [`CLAUDE.md`](CLAUDE.md) plus the checks in `spec/`.
+[`PLAN.md`](PLAN.md) is the original planning snapshot, kept as a record of what
+was intended before the content existed — its status notes describe the repo as
+it was mid-build, not as it ships. `notes/log.md` is the running build log and
+`AUDIT.md` the most recent adversarial review. The brief and marking environment live on the
 [course website](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/).
 
 ## What's built

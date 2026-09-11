@@ -21,7 +21,7 @@ spec:
 ## What to bring
 
 Bring the untouched `<student ID>-w01` archive and a working copy with the
-1.2 km Sallow Head–Dunthorpe spur and an unzoned **Brayhurst quarter**. Lay the
+1.2 km Halstead Reach–Dunthorpe spur and an unzoned **Brayhurst quarter**. Lay the
 quarter out at either 80 m or 160 m spacing and be able to state that dimension.
 Bring the Hessel Row path-count table, frontage inventory, road-length reading,
 and the close-one-link before-and-after route counts. There is no unzoned
@@ -48,6 +48,12 @@ Four small groups rotate through the walkability desk crit. The final board
 records each committed dimension, the matching reference walk share and road
 metres per dwelling. Before leaving, zone the personal quarter low-density
 residential and commit one dimension in the save notes.
+
+Then pick one dwelling in that quarter, write its address in the save notes
+beside the dimension, and say it out loud at the desk so the room has a
+witness. This is the fixed point every commute figure you quote for the rest of
+the semester is measured from — Week 3 starts by measuring from it — so it has
+to be one address, chosen now, and not re-chosen later to flatter a number.
 
 ## The paired test
 

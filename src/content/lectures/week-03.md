@@ -14,8 +14,11 @@ slides: /decks/week-03/
 
 Use separation was invented to solve a real problem — industrial nuisance
 landing on housing — and it solves that problem completely, at the price of
-making every trip in the district longer, so the zoning scheme students choose
-this week is a decision about which of those two costs they would rather carry.
+making every trip in the district longer. The studio commits the separated
+scheme this week, as a cohort, so that everyone carries the same cost and can
+be held to it; the work is not choosing which cost to carry but being able to
+name the one you were handed, in figures, against the alternative you built in
+a sandbox and did not keep.
 
 ## What you will learn
 
@@ -60,7 +63,7 @@ Halstead Reach's own zoning choice.
 | --- | --- | --- |
 | Euclidean use districts | The zoning palette — residential by density, mixed housing, row housing, low and high density commercial, industry, office — painted onto road frontage | The palette is itself a use-based code; there is no cell you can paint that does not name a use |
 | Howard's nuisance ring | Ground, air, water and noise pollution overlays, and industry's ground pollution footprint | Industry's pollution has a radius, and the radius is smaller than students expect and does not respect the zoning boundary |
-| Prevailing wind and river flow | The wind info view, WNW on this map; the Kerrow flowing north-west to south-east | Air pollution from Ombersley Flats leaves the map; the same industry sited upwind of Halstead Reach does not |
+| Prevailing wind and river flow | The wind arrows inside the air pollution view, WNW on this map; the Kerrow flowing north-west to south-east | Air pollution from Ombersley Flats leaves the map; the same industry sited upwind of Halstead Reach does not |
 | Perry's quarter-mile cell | Service coverage areas and their falloff with distance; the district painting tool for scoping policy and tax | One well-placed elementary school covers most of a Perry-sized cell, and covers very little of a dispersed one |
 | Jacobs on mixed primary uses | Commercial demand, and the distance a citizen will path to reach a shop before the commercial building fails | Separated commercial that is too far away shows up as an abandoned building, not as a long trip |
 | Separation as trip generation | The traffic volume overlay on the collector serving the residential quarter at 08:00 | Every trip a resident makes to work or to a shop crosses the same one or two links, because the code left them nowhere else to go |
@@ -73,8 +76,9 @@ Halstead Reach's own zoning choice.
 industry goes: downwind and downstream on Ombersley Flats, clean but a long,
 bridged commute, against the eastern edge of the Reach, close but exposed to
 its own pollution footprint. The deck works both schemes' figures side by
-side. Both are buildable this week; only one can be defended without naming
-what it cost.
+side. Both get built this week; only the separated one is committed, and it
+cannot be defended at the jury without the sandbox figures that say what it
+cost.
 
 ## Into the studio
 
@@ -84,9 +88,10 @@ what it cost.
 - The session runs both schemes side by side — the assessed save for one, a
   sandbox save for the other — and reads ground pollution, air pollution and
   traffic volume on each at 08:00.
-- The session assumes students can find the wind info view and know the map's
-  prevailing direction from Week 1; if they cannot, the pollution comparison is
-  meaningless and the first fifteen minutes go on recovering it.
+- The session assumes students can turn on the wind arrows inside the air
+  pollution view and know the map's prevailing direction from Week 1; if they
+  cannot, the pollution comparison is meaningless and the first fifteen minutes
+  go on recovering it.
 - Students leave having committed one scheme to the assessed save, and having
   read the Assessment 1 brief, which is issued in the session.
 

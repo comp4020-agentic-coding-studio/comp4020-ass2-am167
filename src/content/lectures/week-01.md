@@ -57,7 +57,7 @@ studio's own site.
 
 | Theory move | Cities: Skylines II mechanic | What students should watch happen |
 | --- | --- | --- |
-| McHarg's single-factor layers | The info views, read one at a time — natural resources, water, wind, land value, ground pollution | The same 4 km of riverbank scores differently under each overlay, and no single overlay picks the site |
+| McHarg's single-factor layers | The info views, read one at a time — natural resources, water, land value, ground pollution, and the wind arrows inside air pollution | The same 4 km of riverbank scores differently under each overlay, and no single overlay picks the site |
 | Geddes's survey before plan | The map at hour zero, with the road tool not yet opened | Fertile soil, ore and forest are already priced into the ground before any spending decision is made |
 | Lynch's paths, edges, districts, nodes, landmarks | The terrain and outside connections on the standard map — the River Kerrow, the Dunthorpe interchange, the rail line entering from the east | The site has a structure before it has a plan, and the structure is legible from the map alone |
 | Lynch's performance dimensions | Well-being and health readouts, the land value overlay, the economy panel's monthly balance | Three different panels are needed to answer one question about quality, which is why the studio names three metrics rather than one |

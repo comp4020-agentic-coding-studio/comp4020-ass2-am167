@@ -26,7 +26,40 @@ describe("lecture delivery", () => {
       expect(lecture.meta?.slides, lecture.id).toBe("/decks/" + slug + "/");
       const lectureHtml = readFileSync(resolve("dist/lectures/" + slug + "/index.html"), "utf8");
       expect(lectureHtml, lecture.id).not.toMatch(/STARTER_CONTENT|Scheduled but not yet written/);
-      expect(lectureHtml.length, lecture.id + " lecture page is too thin").toBeGreaterThan(8_000);
+
+      // A lecture is thin when it is missing the work, not when it is short.
+      // Every lecture owes the reader the same four things: the standing
+      // sections, theory mapped onto named simulation mechanics, and a week
+      // whose decision is stated as a trade between two of the three metrics.
+      // Padding a page cannot satisfy any of these; a page-length threshold
+      // would have been satisfied by all of them.
+      for (const section of [
+        "The argument",
+        "What you will learn",
+        "Theory into practice",
+        "The decision this week",
+        "Into the studio",
+        "Assessment connection",
+      ]) {
+        expect(lectureHtml, lecture.id + " is missing its " + section + " section").toContain(
+          ">" + section + "<",
+        );
+      }
+
+      const simulationRows = [...lectureHtml.matchAll(/<tr>/g)].length;
+      expect(
+        simulationRows,
+        lecture.id + " maps too little theory onto simulation mechanics",
+      ).toBeGreaterThanOrEqual(4);
+
+      const decision = lectureHtml.slice(lectureHtml.indexOf(">The decision this week<"));
+      const traded = ["fiscal performance", "mobility performance", "livability"].filter((metric) =>
+        decision.toLowerCase().includes(metric),
+      );
+      expect(
+        traded.length,
+        lecture.id + " does not name two metrics its decision trades between",
+      ).toBeGreaterThanOrEqual(2);
       expect(
         existsSync(resolve("dist/decks/" + slug + "/index.html")),
         slug + " deck is missing",

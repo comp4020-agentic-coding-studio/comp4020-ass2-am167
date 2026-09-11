@@ -22,8 +22,9 @@ somewhere else.
 
 - Distinguish a hazard from an event: name, for one district, the human use
   system whose exposure turns a rainfall figure into a loss.
-- Read the pollution, water, wind and fire-risk info views as a layered
-  suitability analysis rather than as four separate warnings.
+- Read the ground pollution, air pollution, noise, water and fire-hazard info
+  views as a layered suitability analysis rather than as five separate
+  warnings.
 - Size a network for its worst week rather than its median week, and state the
   annual cost of the difference.
 - Argue the case for withdrawing land from development, in rate-base
@@ -57,8 +58,8 @@ Thackray corridor's fire load case.
 
 | Theory move | Cities: Skylines II mechanic | What students should watch happen |
 | --- | --- | --- |
-| McHarg's stacked constraint layers before siting | The ground pollution, air pollution, noise, water and fire-hazard info views, read in sequence over the same district | The four overlays disagree about where the good land is; the intersection of all four is much smaller than any one of them |
-| Hazard as interaction, not event | The fire-hazard, wind and power-transmission info views read together against the Thackray corridor | Losses appear where the exposed corridor and zoning coincide, not just where the forest itself is densest |
+| McHarg's stacked constraint layers before siting | The ground pollution, air pollution, noise, water and fire-hazard info views, read in sequence over the same district | The five overlays disagree about where the good land is; the intersection of all five is much smaller than any one of them |
+| Hazard as interaction, not event | The fire-hazard and electricity info views, with the wind overlay turned on inside the electricity view, read together against the Thackray corridor | Losses appear where the exposed corridor and zoning coincide, not just where the forest itself is densest |
 | Downstream externality | Sewage outfall placement versus water-pumping-station intake placement on the same watercourse | Water pollution reaching the intake, health falling district-wide, and the outfall reading as "working" in its own tooltip throughout |
 | Pollution as a decade-long condition | Ground pollution accumulation and its slow decay after the source is removed | The overlay stays stained for years after the industry closes, and the land value overlay stays low with it |
 | Climate as a seasonal load case | Seasons and weather driving heating demand, water freezing, and solar and wind generation output | The same network passing in October and browning out in the second week of the coldest month |
@@ -94,14 +95,15 @@ a line in the capstone memo, and the jury will ask for the arithmetic.
 
 ## Into the studio
 
-- Arrive with the Week 9 save and the fire-hazard, wind and electricity views
-  already checked over your own district, plus the Week 3 zoning drawing with
-  the Pellow cells still industrial and the Week 7 reverse-salient card.
+- Arrive with the Week 9 save and the fire-hazard and electricity views already
+  checked over your own district, with the wind overlay on inside the
+  electricity view, plus the Week 3 zoning drawing with the Pellow cells still
+  industrial and the Week 7 reverse-salient card.
 - The session reads the issued `d0`, `d3` and `d6` checkpoints in order under
   the same 08:00 observation protocol — there is no 19-day live run.
-- Stack the fire-hazard, wind, power-transmission and Thackray Cut geometry
-  first, and draw what sits inside and outside the fire-response radius
-  before opening any checkpoint.
+- Stack the fire-hazard view, the electricity view's transmission lines and
+  wind arrows, and the Thackray Cut geometry first, and draw what sits inside
+  and outside the fire-response radius before opening any checkpoint.
 - Finish by costing, in writing, whether to withdraw the ridge-flank land or
   defend it with access, power and response capacity. The build itself
   happens after this session, not during it.

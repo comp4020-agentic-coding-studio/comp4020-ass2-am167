@@ -73,7 +73,7 @@ The imposed cut is 22% of eligible allocated monthly outlay. The deck’s separa
 
 ## Into the studio
 
-Monday is the budget charrette. Bring the unchanged Week 7 personal save and total the district allocation worksheet. Remove 22% of eligible monthly outlay once, protecting both funded utility increments. Compare the paper closure with the nearest issued branch, label mismatches, and sign the unfunded list. No fixed deficit is applied to the personal save. Upload the save and worksheet by 21:00; follow the [studio brief](../../sessions/08-budget-under-cutback/).
+Monday is the budget charrette. Bring the unchanged Week 7 personal save and total the district allocation worksheet. Remove 22% of eligible monthly outlay once, protecting both utility increments once the room funds them as Line zero. Compare the paper closure with the nearest issued branch, label mismatches, and sign the unfunded list. No fixed deficit is applied to the personal save. Upload the save and worksheet by 21:00; follow the [studio brief](../../sessions/08-budget-under-cutback/).
 
 ## Assessment connection
 

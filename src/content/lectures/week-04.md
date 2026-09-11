@@ -77,7 +77,7 @@ one and say which metric they paid with.
 
 ## Into the studio
 
-Monday is the assessed jury. Complete both twelve-month clinic branches as homework before arrival. Upload the finished plan by 12:00, hang from 13:00, and defend the chosen branch at the jury. The lecture helps you articulate the evidence you have already prepared; it is not time to start the comparison. Follow [Assessment 1](../../assessments/01-neighbourhood-unit-plan/) and the [studio clock](../../sessions/04-upzoning-the-amenity-core/).
+Monday is the assessed jury. Complete both three-cell clinic branches as homework before arrival. Upload the finished plan by 12:00, hang from 13:00, and defend the chosen branch at the jury. The lecture helps you articulate the evidence you have already prepared; it is not time to start the comparison. Follow [Assessment 1](../../assessments/01-neighbourhood-unit-plan/) and the [studio clock](../../sessions/04-upzoning-the-amenity-core/).
 
 ## Assessment connection
 
