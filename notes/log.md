@@ -1748,3 +1748,39 @@ content later. Recorded in AUDIT.md §9 so the next agent does not mistake the
 gap for an oversight. `pnpm check` 41/41, `check:evidence` green, build pristine.
 No viewport sweep: three prose edits inside existing paragraphs, no layout or
 CSS change.
+
+## 2026-09-14 — Five people, five faces
+
+The people grid handed the convenor and a tutor the same head. `make-portraits.ts`
+built every portrait from one shared face and varied only hair silhouette,
+facing and backdrop position, which is not enough variation to survive two
+people with short hair: Idris and Tobias differed by 3.7 mean-absolute-grey over
+the head region (0 is identical), and Marisol/Nadia, Idris/Sunniva and
+Tobias/Sunniva were each other mirrored.
+
+Test first, in `spec/people.test.ts`. Whole-image comparison cannot see this —
+flipping the gold backdrop block moves enough pixels to hide an identical head —
+so the check crops to the head, and compares each portrait against every other
+one upright *and* mirrored, taking the smaller. Confirmed it failed naming a
+real pair before touching the generator.
+
+Then made the face itself per-person rather than the frame around it. The head
+is now struck from four skull numbers (crown, chin, temple/cheek/jaw
+half-widths) instead of one fixed polygon, and brow, eye, nose, mouth, glasses,
+garment, beard and earring all vary. Same construction language throughout ---
+cut paper, two inks, halftone in the shadow plane --- so the grid still reads as
+one set.
+
+Three things only the rendered image showed, all invisible to the test:
+spectacled brows drew *inside* the lens; the beard swallowed Idris's mouth (ink
+on ink), fixed by cutting the mouth out in paper; and every new neckline read as
+a bowtie because a quadratic's control point is not a point on the curve --- the
+collars landed ~35px below where the numbers implied, leaving the neck poking
+out above the band. Worth remembering: `Q x y` at the midpoint gives
+`0.25·P0 + 0.5·C + 0.25·P2`, not `C`.
+
+Closest pair now 34.6, was 3.7. `pnpm check` 42/42 across 9 files, pristine.
+Alt text rewritten to describe the new artwork. Verified in Chrome at 1920x1080
+and 390x844 under device emulation: no overflow, cards inside bounds, and the
+card crop is landscape so the grid shows heads while the person pages carry the
+full square.

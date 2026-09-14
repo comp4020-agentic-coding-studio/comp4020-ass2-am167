@@ -11,9 +11,10 @@ contact:
   save file, not a screenshot of the save file.
 photo: ./idris-fenn.avif
 photoAlt: >-
-  A two-ink portrait in flat gold and black on cream: an angular bust with
-  closely cropped hair, one side of the face in a halftone gold shadow,
-  against a gold panel
+  A two-ink portrait in flat gold and black on cream: an angular bust with a
+  broad jaw, closely cropped hair, heavy brows and a full beard, the collar of
+  a pale shirt open at the throat, one side of the face in a halftone gold
+  shadow, against a gold panel
 ---
 
 Idris came out of transport modelling: six years at a consultancy building

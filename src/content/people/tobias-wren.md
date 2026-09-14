@@ -11,9 +11,9 @@ contact:
   readout already open.
 photo: ./tobias-wren.avif
 photoAlt: >-
-  A two-ink portrait in flat gold and black on cream: an angular bust with
-  side-swept hair, one side of the face in a halftone gold shadow, against a
-  gold panel
+  A two-ink portrait in flat gold and black on cream: a long, narrow angular
+  bust with a deep side part and a scarf wound at the throat, one side of the
+  face in a halftone gold shadow, against a gold panel
 ---
 
 Tobias modelled municipal budgets for six years. They now mostly think about
