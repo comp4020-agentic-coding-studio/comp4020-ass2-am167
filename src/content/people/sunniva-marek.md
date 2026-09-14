@@ -11,8 +11,9 @@ contact:
 photo: ./sunniva-marek.avif
 photoAlt: >-
   A two-ink portrait in flat gold and black on cream: an angular bust with
-  hair tied back in a low bun, one side of the face in a halftone gold
-  shadow, against a gold panel
+  hard cheekbones, hair drawn back into a low bun, a single drop earring and a
+  buttoned band collar, one side of the face in a halftone gold shadow,
+  against a gold panel
 ---
 
 Sunniva is a principal at Kesselring & Marek, where they have spent fifteen
