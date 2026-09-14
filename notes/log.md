@@ -1784,3 +1784,40 @@ Alt text rewritten to describe the new artwork. Verified in Chrome at 1920x1080
 and 390x844 under device emulation: no overflow, cards inside bounds, and the
 card crop is landscape so the grid shows heads while the person pages carry the
 full square.
+
+## 2026-09-14 — Broke the shared armature on the portraits
+
+Five distinguishable faces still read as one icon at a glance, because the
+frame around them never varied: identical head size, identical head-on angle,
+and the halftone splitting every face on the same vertical centre seam.
+Distinguishable is not the same as distinct.
+
+Five levers, all per-person: bust scale 0.92--1.07 anchored at the bottom edge
+(camera distance), head tilt -3 to +5 degrees about the top of the neck, an
+angled shadow split from -21 to +17 degrees, a second skin tone (Idris and
+Tobias in flat gold, with the denser halftone answering), and backdrop blocks
+in gold or ink. The shadow plane stopped being a polygon split down the seam
+and became a rotated half-plane clipped to the head, which is what lets it
+lean; `shadowPolygon` went with it.
+
+Measured the card crop instead of assuming it, which changed the brief.
+`object-fit: cover` into 417x234 from a square source shows y 175--625 --- not
+the y 90--500 band I had been cropping contact sheets to. The crown and most
+of the hair never reach the card, so hair silhouette, which the last pass
+treated as a main differentiator, does almost nothing in the grid; tone, tilt,
+split angle, glasses, beard and jaw do the work, and the collar is visible
+after all.
+
+First cut of the ink blocks was wrong: they sat behind ink hair, so Marisol's
+volume and Sunniva's bun merged into the block and both heads read as shoved
+sideways against a black mass. Ink blocks now clear the widest hair (roughly
+x 255--545); anyone whose hair reaches into that zone keeps a gold one.
+
+Closest pair 34.6 -> 38.6. `pnpm check` 42/42, pristine. Alt text rewritten
+again --- two portraits now have black panels and gold skin, which the previous
+text denied. Verified at 1920x1080 and 390x844: no overflow, cards in bounds.
+
+Note for next time: the dev image endpoint serves a URL that does not change
+when the source bytes do, so the browser happily shows stale art across a
+regeneration. Cost me two wrong diagnoses this session. Hard-reload, or refetch
+with `cache: 'reload'`, before believing what the page shows.

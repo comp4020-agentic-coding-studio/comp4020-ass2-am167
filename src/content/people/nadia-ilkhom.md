@@ -11,9 +11,10 @@ contact:
   genuinely cannot see why.
 photo: ./nadia-ilkhom.avif
 photoAlt: >-
-  A two-ink portrait in flat gold and black on cream: a round-faced angular
-  bust with a chin-length bob, round glasses and a high roll-neck, one side of
-  the face in a halftone gold shadow, against a gold panel
+  A two-ink portrait in flat gold and black: a round, cream-toned angular bust
+  with a chin-length bob, round glasses and a high roll-neck, the head tipped
+  to one side and half the face in a halftone gold shadow, against a gold
+  panel
 ---
 
 Nadia is a water engineer by training and still thinks like one: everything in

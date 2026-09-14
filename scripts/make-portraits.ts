@@ -55,9 +55,18 @@ interface Person {
   earring: boolean;
   /** Which side of the face carries the gold shadow plane. */
   facing: "left" | "right";
-  /** Backdrop block: left edge and height, as fractions of the canvas. */
+  /** Skin as flat paper or flat gold; the shadow plane answers in kind. */
+  tone: "paper" | "gold";
+  /** Degrees the shadow plane leans off the vertical centre seam. */
+  split: number;
+  /** Degrees of head tilt, about the top of the neck. */
+  tilt: number;
+  /** Size of the whole bust, anchored at the bottom edge: camera distance. */
+  scale: number;
+  /** Backdrop block: left edge, height (fractions of the canvas) and colour. */
   block: number;
   blockHeight: number;
+  blockTone: "gold" | "ink";
 }
 
 const people: Person[] = [
@@ -74,9 +83,14 @@ const people: Person[] = [
     garment: "lapels",
     beard: false,
     earring: false,
+    tone: "paper",
+    split: -13,
+    tilt: -3,
+    scale: 1.02,
     facing: "right",
     block: 0.62,
     blockHeight: 0.54,
+    blockTone: "gold",
   },
   {
     // Broad square jaw, cropped hair, a beard plane --- nothing else here has
@@ -92,9 +106,14 @@ const people: Person[] = [
     garment: "openShirt",
     beard: true,
     earring: false,
+    tone: "gold",
+    split: 9,
+    tilt: 2,
+    scale: 1.0,
     facing: "left",
-    block: 0.12,
+    block: 0.03,
     blockHeight: 0.5,
+    blockTone: "ink",
   },
   {
     // Round face, round glasses, a roll-neck that eats the jawline.
@@ -109,9 +128,14 @@ const people: Person[] = [
     garment: "rollneck",
     beard: false,
     earring: false,
+    tone: "paper",
+    split: -5,
+    tilt: 5,
+    scale: 0.93,
     facing: "right",
     block: 0.56,
     blockHeight: 0.42,
+    blockTone: "gold",
   },
   {
     // Long narrow head and a deep side part: the tallest forehead in the set.
@@ -126,9 +150,14 @@ const people: Person[] = [
     garment: "scarf",
     beard: false,
     earring: false,
+    tone: "gold",
+    split: 17,
+    tilt: -2,
+    scale: 0.97,
     facing: "left",
-    block: 0.2,
+    block: 0.7,
     blockHeight: 0.62,
+    blockTone: "ink",
   },
   {
     // The visiting critic, and the only one not dressed as staff: hard
@@ -144,9 +173,14 @@ const people: Person[] = [
     garment: "bandCollar",
     beard: false,
     earring: true,
+    tone: "paper",
+    split: -21,
+    tilt: 4,
+    scale: 0.92,
     facing: "right",
     block: 0.68,
     blockHeight: 0.46,
+    blockTone: "gold",
   },
 ];
 
@@ -170,12 +204,6 @@ const headPolygon = (f: Face): [number, number][] => [
   [400 + f.temple, at(f, 0.36)],
   [400 + f.temple * 0.78, at(f, 0.08)],
 ];
-
-/** The half of the head that carries the gold plane, split down the centre. */
-const shadowPolygon = (f: Face, flip: boolean): [number, number][] => {
-  const head = headPolygon(f);
-  return flip ? [head[0], ...head.slice(1, 6)] : [head[0], ...head.slice(6).reverse(), head[5]];
-};
 
 const hairMarkup = (person: Person): string => {
   const f = person.face;
@@ -362,8 +390,7 @@ const glassesMarkup = (person: Person): string => {
 const beardMarkup = (person: Person): string => {
   if (!person.beard) return "";
   const f = person.face;
-  return `<clipPath id="headClip"><polygon points="${pts(headPolygon(f))}"/></clipPath>
-  <g clip-path="url(#headClip)">
+  return `<g clip-path="url(#headClip)">
     <polygon points="${pts([
       [400 - f.cheek - 8, at(f, 0.6)],
       [400 - f.cheek + 14, at(f, 0.95)],
@@ -448,6 +475,14 @@ const portrait = (person: Person): string => {
   const earsShown = person.hair === "cropped" || person.hair === "bun" || person.hair === "parted";
   const earX = flip ? 400 - f.cheek : 400 + f.cheek;
   const earOut = flip ? -1 : 1;
+
+  // Skin is flat paper or flat gold, and the shadow plane answers in kind:
+  // light dots over a paper face, heavy dots over a gold one. Two tones rather
+  // than five keeps the grid one set while stopping it reading as one face.
+  const skin = person.tone === "gold" ? GOLD : PAPER;
+  const shadowFill = person.tone === "gold" ? "url(#halftone)" : "url(#halftoneLight)";
+  const blockFill = person.blockTone === "ink" ? INK : GOLD;
+
   const neck = `<polygon points="${pts([
     [400 - f.jaw * 0.56, at(f, 0.87)],
     [400 + f.jaw * 0.56, at(f, 0.87)],
@@ -455,6 +490,46 @@ const portrait = (person: Person): string => {
     [400, 596],
     [400 - f.jaw * 0.62, 566],
   ])}" fill="${GOLD_DARK}"/>`;
+
+  // The shadow plane is a half-plane clipped to the head rather than a polygon
+  // split down the centre seam, so it can lean. Every face splitting on the
+  // same vertical line was most of what made five people read as one.
+  const shadow = `<g clip-path="url(#headClip)">
+    <rect x="${flip ? -400 : 400}" y="-300" width="800" height="1400" fill="${shadowFill}" transform="rotate(${person.split} 400 ${Math.round(at(f, 0.5))})"/>
+  </g>`;
+
+  const head = `<g transform="rotate(${person.tilt} 400 ${Math.round(at(f, 0.9))})">
+    ${
+      person.hair === "bun"
+        ? `<circle cx="${flip ? 400 - f.temple - 32 : 400 + f.temple + 32}" cy="${Math.round(at(f, 0.3))}" r="54" fill="${INK}"/>`
+        : ""
+    }
+    <polygon points="${pts(headPolygon(f))}" fill="${skin}"/>
+    ${shadow}
+    ${beardMarkup(person)}
+    <polygon points="${pts(headPolygon(f))}" fill="none" stroke="${INK}" stroke-width="7" stroke-linejoin="round"/>
+    ${
+      earsShown
+        ? `<polygon points="${pts([
+            [earX - earOut * 4, at(f, 0.47)],
+            [earX + earOut * 26, at(f, 0.52)],
+            [earX + earOut * 22, at(f, 0.6)],
+            [earX - earOut * 2, at(f, 0.62)],
+          ])}" fill="${GOLD}" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>`
+        : ""
+    }
+    ${
+      person.earring
+        ? `<circle cx="${earX + earOut * 16}" cy="${Math.round(at(f, 0.66))}" r="13" fill="${INK}"/>`
+        : ""
+    }
+    ${browMarkup(person)}
+    ${glassesMarkup(person)}
+    ${eyeMarkup(person)}
+    ${noseMarkup(person)}
+    ${mouthMarkup(person)}
+    ${hairMarkup(person)}
+  </g>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${SIZE}" height="${SIZE}" viewBox="0 0 ${SIZE} ${SIZE}">
   <defs>
@@ -466,57 +541,21 @@ const portrait = (person: Person): string => {
       <rect width="11" height="11" fill="${GOLD}"/>
       <circle cx="5.5" cy="5.5" r="1.7" fill="${INK}" fill-opacity="0.35"/>
     </pattern>
+    <clipPath id="headClip"><polygon points="${pts(headPolygon(f))}"/></clipPath>
   </defs>
 
   <rect width="${SIZE}" height="${SIZE}" fill="${PAPER}"/>
 
   <!-- backdrop block -->
-  <rect x="${blockX}" y="${Math.round(600 - blockH)}" width="212" height="${blockH}" fill="${GOLD}"/>
+  <rect x="${blockX}" y="${Math.round(600 - blockH)}" width="212" height="${blockH}" fill="${blockFill}"/>
 
-  <!-- neck and whatever they wear at the neck, in the order the garment implies -->
-  ${coversNeck(person.garment) ? neck : ""}
-  ${garmentMarkup(person)}
-  ${coversNeck(person.garment) ? "" : neck}
-
-  <!-- bun, behind the head so it reads as being at the back -->
-  ${
-    person.hair === "bun"
-      ? `<circle cx="${flip ? 400 - f.temple - 32 : 400 + f.temple + 32}" cy="${Math.round(at(f, 0.3))}" r="54" fill="${INK}"/>`
-      : ""
-  }
-
-  <!-- head -->
-  <polygon points="${pts(headPolygon(f))}" fill="${PAPER}"/>
-  <polygon points="${pts(shadowPolygon(f, flip))}" fill="url(#halftoneLight)"/>
-  ${beardMarkup(person)}
-  <polygon points="${pts(headPolygon(f))}" fill="none" stroke="${INK}" stroke-width="7" stroke-linejoin="round"/>
-
-  <!-- ear, on the shadow side so it reads against the gold plane -->
-  ${
-    earsShown
-      ? `<polygon points="${pts([
-          [earX - earOut * 4, at(f, 0.47)],
-          [earX + earOut * 26, at(f, 0.52)],
-          [earX + earOut * 22, at(f, 0.6)],
-          [earX - earOut * 2, at(f, 0.62)],
-        ])}" fill="${GOLD}" stroke="${INK}" stroke-width="6" stroke-linejoin="round"/>`
-      : ""
-  }
-  ${
-    person.earring
-      ? `<circle cx="${earX + earOut * 16}" cy="${Math.round(at(f, 0.66))}" r="13" fill="${INK}"/>`
-      : ""
-  }
-
-  <!-- face -->
-  ${browMarkup(person)}
-  ${glassesMarkup(person)}
-  ${eyeMarkup(person)}
-  ${noseMarkup(person)}
-  ${mouthMarkup(person)}
-
-  <!-- hair, last, so it sits over the skull outline -->
-  ${hairMarkup(person)}
+  <!-- the bust, scaled about the bottom edge so some sit nearer than others -->
+  <g transform="translate(400 800) scale(${person.scale}) translate(-400 -800)">
+    ${coversNeck(person.garment) ? neck : ""}
+    ${garmentMarkup(person)}
+    ${coversNeck(person.garment) ? "" : neck}
+    ${head}
+  </g>
 </svg>`;
 };
 

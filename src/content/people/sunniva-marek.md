@@ -10,10 +10,10 @@ contact:
   12.
 photo: ./sunniva-marek.avif
 photoAlt: >-
-  A two-ink portrait in flat gold and black on cream: an angular bust with
+  A two-ink portrait in flat gold and black: a cream-toned angular bust with
   hard cheekbones, hair drawn back into a low bun, a single drop earring and a
-  buttoned band collar, one side of the face in a halftone gold shadow,
-  against a gold panel
+  buttoned band collar, the shadow cutting diagonally across the face, against
+  a gold panel
 ---
 
 Sunniva is a principal at Kesselring & Marek, where they have spent fifteen

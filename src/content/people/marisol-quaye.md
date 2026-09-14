@@ -12,9 +12,10 @@ contact:
   and adjustments come to me and to nobody else.
 photo: ./marisol-quaye.avif
 photoAlt: >-
-  A two-ink portrait in flat gold and black on cream: an angular bust with
-  full swept-back hair, rectangular glasses and a notched lapel, one side of
-  the face in a halftone gold shadow, against a gold panel
+  A two-ink portrait in flat gold and black: a cream-toned angular bust with
+  full swept-back hair, rectangular glasses and a notched lapel, the head
+  tipped slightly left and one side of the face in a halftone gold shadow,
+  against a gold panel
 ---
 
 Marisol spent eight years in the strategic planning unit of a regional authority
