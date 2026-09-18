@@ -30,9 +30,9 @@ changing the course's direction
 ([`fe9b9b93`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/fe9b9b93)).
 
 The assessments had to follow the same argument: if students were learning to
-make trade-offs, the marking criteria had to assess those decisions. The agent
-`spec/assessment.test.ts` to fail first, and it did. The starter briefs
-marked "response to the brief" and "quality of execution", so the
+make trade-offs, the marking criteria had to assess those decisions. I had the
+agent write `spec/assessment.test.ts` to fail first, and it did. The starter
+briefs marked "response to the brief" and "quality of execution", so the
 three briefs were revised around the three metrics
 ([`be5bc71a`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/be5bc71a)).
 A check that the weights added up to 100 would still have passed criteria that

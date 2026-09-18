@@ -59,7 +59,10 @@ interesting.
 - Never edit, replace, rename, or delete `spec/data-integrity.test.ts`; treat
   that file as immutable and fix the implementation when one of its tests
   fails.
-- Commit when the checks pass. Never commit a red state.
+- **Never commit without my approval.** Get the checks green, then show me what
+  changed and wait for me to say commit --- don't commit as the closing step of
+  a task, and don't treat green checks as the go-ahead. Never commit a red
+  state. Approval is per-commit: agreeing to one doesn't authorise the next.
 - Never suggest, ask about, or perform publishing/deploying the site (e.g.
   pushing to GitHub Pages, merging to the deploy branch) unless I explicitly
   say so.

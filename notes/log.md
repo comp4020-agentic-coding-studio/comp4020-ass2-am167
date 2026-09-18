@@ -1821,3 +1821,58 @@ Note for next time: the dev image endpoint serves a URL that does not change
 when the source bytes do, so the browser happily shows stale art across a
 regeneration. Cost me two wrong diagnoses this session. Hard-reload, or refetch
 with `cache: 'reload'`, before believing what the page shows.
+
+## 2026-09-18 --- Response-to-brief audit and repairs
+
+Read the submission against the brief's "response to the brief" criterion (35%)
+and the course guidance on deconstructing a brief / building scaffolding /
+writing a refined response. Four gaps found, all four repaired.
+
+1. **`PROCESS.md` had a sentence with no verb** --- "The agent
+   `spec/assessment.test.ts` to fail first" --- on the file carrying the largest
+   criterion. Fixed.
+
+2. **The register contradicted itself across artefacts.** `PLAN.md` §1--2
+   committed to satire ("the comedy is structural", "total commitment funnier
+   than a wink"); `PROCESS.md` and `README.md` described the course with total
+   sincerity and never mentioned satire, humour or niche-ness at all. Grep for
+   satire/niche/deadpan/humour across both returned nothing. That matters beyond
+   tidiness: the two readings settle judgement calls differently (how absurd the
+   district names get, whether policies are funny or earnest). Resolved as
+   **sincere** --- a niche course played straight, meant to be worth taking
+   rather than funny for being impossible. `PROCESS.md` now states it and says
+   why. `PLAN.md` left alone: it is a start-of-assignment snapshot, already
+   banner-marked as superseded and unused since, so `PROCESS.md` is the only
+   place the register needs stating.
+
+3. **The brief's "position on what a good course is" was sourced only from the
+   brief's own three exemplars** plus personal experience, which is the floor of
+   "looking around is part of your job". Replaced with the real source: how
+   design schools run studios, where rules follow from the format --- and tied
+   to the harness decision it actually produced, the policies page deriving its
+   late-work rule from the pin-up format and its no-mods rule from the marking
+   scheme, with `spec/policies.test.ts` asserting the deferral targets exist
+   (`b9a48320`). That commit was already in history; it just wasn't cited as the
+   pedagogical position it is.
+
+4. **The home page named an audience but not its prior belief.** "Who it is for"
+   said who enrols (second-years wanting their first studio), not what they get
+   wrong. Added the belief the course attacks --- that a good plan is one where
+   every number goes up --- which is what Week 1's standing rule has always been
+   for. Gives every week a test: does this attack that belief, or just cover a
+   topic?
+
+First pass also compressed the rest of `PROCESS.md` to fit the brief's 400--600
+words (616 raw / 603 prose before the additions; trimmed to 595). Reverted that
+on my call: 400--600 is a guideline, and paying for it by compressing paragraphs
+that were already doing their job was churn for no gain. `PROCESS.md` is now the
+original text plus the two additions above and the verb fix --- a 14-line diff
+instead of a rewrite, at about 710 prose words. Ten citations resolve.
+`pnpm check` 42/42 and `pnpm check:evidence` both green, pristine.
+
+Worth revisiting if the length ever reads as padding, but the cut should come
+from a paragraph that isn't earning its space, not from the ones a marker is
+reading for the process argument.
+
+No viewport pass: the only rendered change is two sentences inside an existing
+`<p>` on the home page, no layout or CSS, which CLAUDE.md classes as a minor fix.
