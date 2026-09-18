@@ -38,11 +38,14 @@ three briefs were revised around the three metrics
 A check that the weights added up to 100 would still have passed criteria that
 assessed something the course never promised to teach.
 
-One question remained outside those checks: would anyone enrol? I could not
-turn that into a meaningful assertion, so the harness requires a reviewer with
-none of the drafting agent's context to approach the site as a sceptical
-student
-([`85e50545`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/85e50545)).
+Two questions remained outside those checks: does the argument actually build
+across the twelve weeks, and would anyone enrol? Neither is assertable. A test
+can confirm each week declares a distinct anchor, not that Week 11 pays off what
+Week 1 set up. I added a harness rule requiring an adversarial reviewer with
+none of the drafting agent's context to read the site as a sceptical student,
+and to attack the through-line first
+([`85e50545`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/85e50545),
+[`fe9b9b93`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-am167/commit/fe9b9b93)).
 
 I was less successful with parallel agents. Splitting twelve lecture plans
 across four agents produced four drafts in roughly the time it took to write
