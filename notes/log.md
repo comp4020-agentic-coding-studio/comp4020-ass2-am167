@@ -1876,3 +1876,58 @@ reading for the process argument.
 
 No viewport pass: the only rendered change is two sentences inside an existing
 `<p>` on the home page, no layout or CSS, which CLAUDE.md classes as a minor fix.
+
+## Live countdown on the brief pages
+
+Replaced the flat `Due: 15 March 2027 · Weight: 25%` line on each assessment
+brief with a ticking countdown to the artefact deadline: four monospace cells
+(days / hrs / min / sec) over a caption that is the deadline of record. Brief
+detail pages only — the `/assessments/` grid keeps its plain text.
+
+The front matter has always carried a precise instant
+(`due: 2027-03-15T12:00:00+11:00`) and the page threw the time away —
+`formatCourseDate` is date-only, UTC. So the widget is partly an excuse to
+state what the policies page already argues matters: noon sharp, in the
+studio's own timezone. New `formatCourseDateTime` pins `Australia/Sydney` and
+names the zone ("15 March 2027 at 12:00 AEDT"); `formatCourseDate` is
+untouched for the grids' week dates.
+
+- `src/lib/countdown.ts` — the arithmetic, framework-free, TDD'd via
+  `spec/countdown.test.ts` (7 cases). The deadline *instant* is already
+  `passed`, not "0 seconds left": the artefact clock stops at 12:00, so a page
+  reading zero at 12:00:00 claims a door the policies page says is shut.
+- `src/components/DueCountdown.astro` — clock rendered `hidden` with `—`
+  placeholders and filled in by the client script, because build-time figures
+  are stale on arrival and a no-JS reader should get the caption, not dashes.
+  `aria-hidden` on the clock with no live region: the deadline is already in
+  the caption's `<time>` verbatim, and a region changing once a second is a
+  screen reader read out of control, so the ticker is honestly decorative.
+  Under `prefers-reduced-motion: reduce` the seconds cell is removed and the
+  rest tick every 30s. Past the deadline it swaps to "Deadline passed … what
+  late work costs" linking `policies/#the-pin-up-deadline`, and stops.
+- `spec/assessment.test.ts` gained one dist-level case: each page's `data-due`
+  must be the same instant as its front matter, and the caption `<time>` must
+  agree and name 12:00. Guards the two failure modes structure alone misses —
+  a clock wired to a plausible wrong field, which would tick convincingly for
+  a semester, and the caption being dropped, which leaves a no-JS visitor with
+  no deadline at all.
+
+**The screenshot caught what the DOM measurement missed.** `clock.hidden` read
+`true` while the clock was plainly still on screen: `[hidden]` is only a
+UA-stylesheet rule, and `.dc-clock { display: flex }` is an author declaration,
+so it won. Reading `el.hidden` back said the attribute was set and told me
+nothing about whether anything was hidden — exactly the no-JS-sees-four-dashes
+bug the `hidden` attribute was there to prevent. Fixed with an explicit
+`.dc-clock[hidden] { display: none }`; verified afterwards on
+`getComputedStyle(...).display`, not the attribute.
+
+No adversarial review: a UI widget, not course prose — the brief's argument is
+untouched.
+
+Verified in Chrome at 1920×1080 and 390×844 (device emulation, `innerWidth`
+asserted): digits tick and agree with the caption; four cells fit inside the
+clip box at 390px with no page overflow; the passed state reached by setting
+`data-due` to a past instant (the script re-reads the attribute each tick,
+which is what makes that possible); reduced-motion drops to three cells;
+tokens carry dark mode. `pnpm check` 50/50 and `pnpm check:evidence` green,
+pristine.

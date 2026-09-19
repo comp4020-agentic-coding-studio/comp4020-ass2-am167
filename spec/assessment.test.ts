@@ -33,6 +33,7 @@ const assessments = api.nodes
     id: node.id,
     week: Number(node.meta?.week),
     weight: Number(node.meta?.weight),
+    due: String(node.meta?.due),
     marking: node.meta?.marking as
       | { mode: "weighted"; criteria: WeightedCriterion[] }
       | { mode: "holistic"; description: string }
@@ -124,5 +125,35 @@ describe("assessment", () => {
     }
     expect(new Set(cardAlts).size, "two briefs share a card illustration").toBe(cardAlts.length);
     expect(new Set(heroAlts).size, "two briefs share a page illustration").toBe(heroAlts.length);
+  });
+
+  // The clock above each brief is drawn in the browser from a `data-due`
+  // attribute, which is the kind of wiring that can be pointed at a
+  // plausible-looking wrong field and still tick convincingly for a semester.
+  // The caption beside it is the deadline of record --- it is what a reader
+  // without JavaScript, or on a screen reader, is given instead of the clock,
+  // so if it goes the page stops saying when the work is due.
+  it("counts down to the deadline its own front matter names", () => {
+    for (const assessment of assessments) {
+      const page = readFileSync(resolve(`dist/${assessment.id}/index.html`), "utf8");
+      const target = page.match(/data-due="([^"]+)"/)?.[1];
+      expect(target, `${assessment.id} renders no countdown target`).toBeTruthy();
+      expect(
+        Date.parse(target as string),
+        `${assessment.id} counts down to ${target}, not its stated due date ${assessment.due}`,
+      ).toBe(Date.parse(assessment.due));
+
+      const caption = page.match(/<p class="[^"]*\bdc-caption\b[^"]*"[^>]*>([\s\S]*?)<\/p>/)?.[1];
+      expect(caption, `${assessment.id} states no deadline outside the clock`).toBeTruthy();
+      const stated = caption?.match(/<time datetime="([^"]+)"/)?.[1];
+      expect(
+        Date.parse(stated ?? ""),
+        `${assessment.id} shows a deadline that is not the one it counts down to`,
+      ).toBe(Date.parse(assessment.due));
+      expect(
+        (caption as string).replace(/<[^>]+>/g, " "),
+        `${assessment.id} does not name the hour the artefact clock stops`,
+      ).toContain("12:00");
+    }
   });
 });

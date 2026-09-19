@@ -1,0 +1,169 @@
+---
+import { formatCourseDateTime } from "../lib/dates";
+
+interface Props {
+  /** The artefact deadline, as the brief's front matter states it. */
+  due: Date;
+  weight: number;
+  /** Where a reader goes to find out what missing it costs. */
+  policyHref: string;
+}
+
+const { due, weight, policyHref } = Astro.props;
+const iso = due.toISOString();
+
+// The clock is rendered empty and `hidden`, and the script fills it in and
+// reveals it. Two reasons not to put numbers here: they would be the figures
+// at *build* time, wrong by however long ago the site was deployed; and
+// `[hidden]` needs no stylesheet, so a reader without JavaScript gets the
+// caption below rather than four dashes in boxes.
+const UNITS = [
+  { key: "days", label: "days" },
+  { key: "hours", label: "hrs" },
+  { key: "minutes", label: "min" },
+  { key: "seconds", label: "sec" },
+] as const;
+---
+
+<div class="due-countdown" data-due={iso}>
+  {/* aria-hidden throughout: the deadline is stated verbatim in the caption
+      below, and a region that changes once a second is a screen reader read
+      out of control. This is the decorative copy. */}
+  <div class="dc-clock" data-clock hidden aria-hidden="true">
+    {
+      UNITS.map((unit) => (
+        <div class="dc-cell" data-unit={unit.key}>
+          <span class="dc-value">—</span>
+          <span class="dc-unit">{unit.label}</span>
+        </div>
+      ))
+    }
+  </div>
+
+  <p class="dc-caption">
+    <strong>Artefact deadline:</strong> <time datetime={iso}>{formatCourseDateTime(due)}</time> ·{" "}
+    <strong>Weight:</strong> {weight}%
+  </p>
+
+  <p class="dc-closed" data-closed hidden>
+    <strong>Deadline passed.</strong> The artefact clock has stopped —{" "}
+    <a href={policyHref}>what late work costs</a>.
+  </p>
+</div>
+
+<script>
+  import { countdownTo } from "../lib/countdown";
+
+  const UNIT_KEYS = ["days", "hours", "minutes", "seconds"] as const;
+
+  for (const root of document.querySelectorAll<HTMLElement>(".due-countdown")) {
+    const clock = root.querySelector<HTMLElement>("[data-clock]");
+    const closed = root.querySelector<HTMLElement>("[data-closed]");
+    if (!clock || !closed || !root.dataset.due) continue;
+
+    // Digits changing sixty times a minute is motion, and a countdown is
+    // decoration. Under a reduced-motion preference the seconds cell goes
+    // away and the remaining three tick over on the half minute.
+    const calm = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (calm) clock.querySelector('[data-unit="seconds"]')?.remove();
+
+    const cells = UNIT_KEYS.map((key) => ({
+      key,
+      value: clock.querySelector<HTMLElement>(`[data-unit="${key}"] .dc-value`),
+    })).filter((cell): cell is { key: (typeof UNIT_KEYS)[number]; value: HTMLElement } =>
+      cell.value !== null,
+    );
+
+    let timer = 0;
+
+    // Re-reads `data-due` every tick rather than closing over the parsed
+    // instant, which costs nothing and makes the passed state reachable in a
+    // browser: set the attribute to a past date and watch the clock shut.
+    const tick = () => {
+      const state = countdownTo(root.dataset.due ?? "", Date.now());
+      if (state.status === "passed") {
+        clock.hidden = true;
+        closed.hidden = false;
+        window.clearInterval(timer);
+        return;
+      }
+      for (const cell of cells) {
+        const part = state.parts[cell.key];
+        // Days are however many they are; the rest are two-digit places, so
+        // the row stops reflowing every time an hour rolls past ten.
+        cell.value.textContent = cell.key === "days" ? String(part) : String(part).padStart(2, "0");
+      }
+      closed.hidden = true;
+      clock.hidden = false;
+    };
+
+    tick();
+    timer = window.setInterval(tick, calm ? 30_000 : 1000);
+  }
+</script>
+
+<style>
+  .due-countdown {
+    margin-block: 1.5rem 2rem;
+  }
+
+  .dc-clock {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid var(--at-divider);
+    border-radius: var(--at-border-radius);
+    background: var(--at-bg-alt);
+    overflow: hidden;
+  }
+
+  /* Equal columns that give way by shrinking their type rather than by
+     wrapping the row: a wrapped row loses the dividers that make this read
+     as one instrument. The `clamp` keeps a three-figure day count inside a
+     ~89px cell at the 390px viewport. */
+  .dc-cell {
+    flex: 1 1 0;
+    min-inline-size: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    padding-block: var(--at-spacing-sm);
+    padding-inline: 0.25rem;
+  }
+
+  /* `display: flex` above is an author declaration and the `[hidden]`
+     attribute is only a UA-stylesheet rule, so without this the clock renders
+     regardless --- which is precisely the no-JS reader seeing four dashes in
+     boxes that rendering it `hidden` was supposed to prevent. */
+  .dc-clock[hidden] {
+    display: none;
+  }
+
+  .dc-cell + .dc-cell {
+    border-inline-start: 1px solid var(--at-divider);
+  }
+
+  .dc-value {
+    font-family: var(--at-font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: clamp(1.5rem, 7vw, 2.25rem);
+    line-height: 1.1;
+    color: var(--at-text);
+  }
+
+  .dc-unit {
+    font-size: var(--at-font-size-xs);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--at-text-muted);
+  }
+
+  .dc-caption {
+    margin-block: 0.75rem 0;
+  }
+
+  .dc-closed {
+    margin-block: 0.25rem 0;
+    color: var(--at-text-muted);
+  }
+</style>
